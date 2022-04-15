@@ -1,0 +1,7 @@
+LIBRARY "batmeter.dll"
+EXPORTS
+"BatMeterCapabilities" ; batmeter.dll
+"CreateBatMeter" ; batmeter.dll
+"DestroyBatMeter" ; batmeter.dll
+"PowerCapabilities" ; batmeter.dll
+"UpdateBatMeter" ; batmeter.dll

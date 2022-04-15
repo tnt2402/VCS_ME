@@ -1,0 +1,6 @@
+LIBRARY "compatui.dll"
+EXPORTS
+"DllCanUnloadNow" ; compatui.dll
+"DllGetClassObject" ; compatui.dll
+"DllRegisterServer" ; compatui.dll
+"DllUnregisterServer" ; compatui.dll

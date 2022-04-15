@@ -1,0 +1,12 @@
+LIBRARY "wshisn.dll"
+EXPORTS
+"WSHAddressToString" ; wshisn.dll
+"WSHEnumProtocols" ; wshisn.dll
+"WSHGetProviderGuid" ; wshisn.dll
+"WSHGetSockaddrType" ; wshisn.dll
+"WSHGetSocketInformation" ; wshisn.dll
+"WSHGetWildcardSockaddr" ; wshisn.dll
+"WSHGetWinsockMapping" ; wshisn.dll
+"WSHNotify" ; wshisn.dll
+"WSHOpenSocket" ; wshisn.dll
+"WSHSetSocketInformation" ; wshisn.dll

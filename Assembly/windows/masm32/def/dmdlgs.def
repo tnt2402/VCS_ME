@@ -1,0 +1,14 @@
+LIBRARY "dmdlgs.dll"
+EXPORTS
+"?AddLDMObjMapEntry@CDataCache@@QEAAXPEAU_LDM_OBJ_MAP_ENTRY@@@Z" ; dmdlgs.dll
+"?FreeArrayOfStrings@@YAXPEAUarrayOfStrings@@@Z" ; dmdlgs.dll
+"?GetDiskCount@CDataCache@@QEAAKXZ" ; dmdlgs.dll
+"?GetLdmObjectId@CDMNodeObj@@QEAA_JXZ" ; dmdlgs.dll
+"?GetNumMembers@CDMNodeObj@@QEAAKXZ" ; dmdlgs.dll
+"?GetOcxFrameCWndPtr@CTaskData@@QEAAPEAVCWnd@@XZ" ; dmdlgs.dll
+"?GetRegionColorStructPtr@CTaskData@@QEAAXPEAPEAU_REGION_COLORS@@AEAH@Z" ; dmdlgs.dll
+"?GetServerName@CDataCache@@QEAA?AVCString@@XZ" ; dmdlgs.dll
+"?GetVolumeCount@CDataCache@@QEAAKXZ" ; dmdlgs.dll
+"DllCanUnloadNow" ; dmdlgs.dll
+"DllGetClassObject" ; dmdlgs.dll
+"DllRegisterServer" ; dmdlgs.dll

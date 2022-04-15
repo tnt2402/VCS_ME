@@ -1,0 +1,5 @@
+LIBRARY "iprtprio.dll"
+EXPORTS
+"ComputeRouteMetric" ; iprtprio.dll
+"GetPriorityInfo" ; iprtprio.dll
+"SetPriorityInfo" ; iprtprio.dll

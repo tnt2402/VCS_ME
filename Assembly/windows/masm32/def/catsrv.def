@@ -1,0 +1,14 @@
+LIBRARY "catsrv.dll"
+EXPORTS
+"?CancelWriteICR@@YAJPEAPEAUIComponentRecords@@@Z" ; catsrv.dll
+"?GetReadICR@@YAJHPEAPEAUIComponentRecords@@@Z" ; catsrv.dll
+"?GetWriteICR@@YAJPEAPEAUIComponentRecords@@@Z" ; catsrv.dll
+"?ReleaseReadICR@@YAXPEAPEAUIComponentRecords@@@Z" ; catsrv.dll
+"?SaveWriteICR@@YAJPEAPEAUIComponentRecords@@@Z" ; catsrv.dll
+"CreateComponentLibraryTS" ; catsrv.dll
+"DllCanUnloadNow" ; catsrv.dll
+"DllGetClassObject" ; catsrv.dll
+"DllRegisterServer" ; catsrv.dll
+"DllUnregisterServer" ; catsrv.dll
+"GetCatalogCRMClerk" ; catsrv.dll
+"OpenComponentLibraryTS" ; catsrv.dll

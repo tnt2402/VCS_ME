@@ -1,0 +1,40 @@
+LIBRARY "browseui.dll"
+EXPORTS
+"DllCanUnloadNow" ; browseui.dll
+"DllGetClassObject" ; browseui.dll
+"DllGetVersion" ; browseui.dll
+"DllInstall" ; browseui.dll
+"DllRegisterServer" ; browseui.dll
+"DllUnregisterServer" ; browseui.dll
+"browseui_ordinal101" @101 ; browseui.dll
+"browseui_ordinal102" @102 ; browseui.dll
+"browseui_ordinal103" @103 ; browseui.dll
+"browseui_ordinal105" @105 ; browseui.dll
+"browseui_ordinal106" @106 ; browseui.dll
+"browseui_ordinal107" @107 ; browseui.dll
+"browseui_ordinal113" @113 ; browseui.dll
+"browseui_ordinal114" @114 ; browseui.dll
+"browseui_ordinal115" @115 ; browseui.dll
+"browseui_ordinal116" @116 ; browseui.dll
+"browseui_ordinal117" @117 ; browseui.dll
+"browseui_ordinal118" @118 ; browseui.dll
+"browseui_ordinal119" @119 ; browseui.dll
+"browseui_ordinal120" @120 ; browseui.dll
+"browseui_ordinal121" @121 ; browseui.dll
+"browseui_ordinal122" @122 ; browseui.dll
+"browseui_ordinal123" @123 ; browseui.dll
+"browseui_ordinal124" @124 ; browseui.dll
+"browseui_ordinal125" @125 ; browseui.dll
+"browseui_ordinal126" @126 ; browseui.dll
+"browseui_ordinal127" @127 ; browseui.dll
+"browseui_ordinal128" @128 ; browseui.dll
+"browseui_ordinal129" @129 ; browseui.dll
+"browseui_ordinal130" @130 ; browseui.dll
+"browseui_ordinal131" @131 ; browseui.dll
+"browseui_ordinal132" @132 ; browseui.dll
+"browseui_ordinal133" @133 ; browseui.dll
+"browseui_ordinal134" @134 ; browseui.dll
+"browseui_ordinal135" @135 ; browseui.dll
+"browseui_ordinal136" @136 ; browseui.dll
+"browseui_ordinal137" @137 ; browseui.dll
+"browseui_ordinal138" @138 ; browseui.dll

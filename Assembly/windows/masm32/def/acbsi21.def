@@ -1,0 +1,31 @@
+LIBRARY "acbsi21.dll"
+EXPORTS
+"gscBsiGcDataCreate" ; acbsi21.dll
+"gscBsiGcDataDelete" ; acbsi21.dll
+"gscBsiGcGetContainerProperties" ; acbsi21.dll
+"gscBsiGcReadTagList" ; acbsi21.dll
+"gscBsiGcReadValue" ; acbsi21.dll
+"gscBsiGcUpdateValue" ; acbsi21.dll
+"gscBsiGetChallenge" ; acbsi21.dll
+"gscBsiGetCryptoProperties" ; acbsi21.dll
+"gscBsiPkiCompute" ; acbsi21.dll
+"gscBsiPkiGetCertificate" ; acbsi21.dll
+"gscBsiSkiInternalAuthenticate" ; acbsi21.dll
+"gscBsiUtilAcquireContext" ; acbsi21.dll
+"gscBsiUtilBeginTransaction" ; acbsi21.dll
+"gscBsiUtilConnect" ; acbsi21.dll
+"gscBsiUtilDisconnect" ; acbsi21.dll
+"gscBsiUtilEndTransaction" ; acbsi21.dll
+"gscBsiUtilGetCardProperties" ; acbsi21.dll
+"gscBsiUtilGetCardStatus" ; acbsi21.dll
+"gscBsiUtilGetExtendedErrorText" ; acbsi21.dll
+"gscBsiUtilGetReaderList" ; acbsi21.dll
+"gscBsiUtilGetVersion" ; acbsi21.dll
+"gscBsiUtilPassthru" ; acbsi21.dll
+"gscBsiUtilReleaseContext" ; acbsi21.dll
+"gscXsiUtilChangePIN" ; acbsi21.dll
+"gscXsiUtilGetCardATR" ; acbsi21.dll
+"gscXsiUtilGetCardManagerState" ; acbsi21.dll
+"gscXsiUtilGetCuid" ; acbsi21.dll
+"gscXsiUtilGetIdentifier" ; acbsi21.dll
+"gscXsiUtilIsPINVerified" ; acbsi21.dll

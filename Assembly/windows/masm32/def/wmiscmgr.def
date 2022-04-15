@@ -1,0 +1,6 @@
+LIBRARY "wmiscmgr.dll"
+EXPORTS
+"DllCanUnloadNow" ; wmiscmgr.dll
+"DllGetClassObject" ; wmiscmgr.dll
+"DllRegisterServer" ; wmiscmgr.dll
+"DllUnregisterServer" ; wmiscmgr.dll

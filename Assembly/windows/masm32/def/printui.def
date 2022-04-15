@@ -1,0 +1,202 @@
+LIBRARY "printui.dll"
+EXPORTS
+"ConnectToPrinterDlg" ; printui.dll
+"ConnectToPrinterPropertyPage" ; printui.dll
+"ConstructPrinterFriendlyName" ; printui.dll
+"DllCanUnloadNow" ; printui.dll
+"DllGetClassObject" ; printui.dll
+"DllMain" ; printui.dll
+"DocumentPropertiesWrap" ; printui.dll
+"GetLegacyPrintUI" ; printui.dll
+"PnPInterface" ; printui.dll
+"PrintNotifyTray_Exit" ; printui.dll
+"PrintNotifyTray_Init" ; printui.dll
+"PrintUIEntryW" ; printui.dll
+"PrinterPropPageProvider" ; printui.dll
+"RegisterPrintNotify" ; printui.dll
+"ShowErrorMessageHR" ; printui.dll
+"ShowErrorMessageSC" ; printui.dll
+"UnregisterPrintNotify" ; printui.dll
+"bFolderEnumPrinters" ; printui.dll
+"bFolderGetPrinter" ; printui.dll
+"bFolderRefresh" ; printui.dll
+"bPrinterSetup" ; printui.dll
+"printui_ordinal100" @100 ; printui.dll
+"printui_ordinal101" @101 ; printui.dll
+"printui_ordinal102" @102 ; printui.dll
+"printui_ordinal103" @103 ; printui.dll
+"printui_ordinal104" @104 ; printui.dll
+"printui_ordinal105" @105 ; printui.dll
+"printui_ordinal106" @106 ; printui.dll
+"printui_ordinal107" @107 ; printui.dll
+"printui_ordinal108" @108 ; printui.dll
+"printui_ordinal109" @109 ; printui.dll
+"printui_ordinal110" @110 ; printui.dll
+"printui_ordinal111" @111 ; printui.dll
+"printui_ordinal112" @112 ; printui.dll
+"printui_ordinal113" @113 ; printui.dll
+"printui_ordinal114" @114 ; printui.dll
+"printui_ordinal115" @115 ; printui.dll
+"printui_ordinal116" @116 ; printui.dll
+"printui_ordinal117" @117 ; printui.dll
+"printui_ordinal118" @118 ; printui.dll
+"printui_ordinal119" @119 ; printui.dll
+"printui_ordinal120" @120 ; printui.dll
+"printui_ordinal121" @121 ; printui.dll
+"printui_ordinal122" @122 ; printui.dll
+"printui_ordinal123" @123 ; printui.dll
+"printui_ordinal124" @124 ; printui.dll
+"printui_ordinal125" @125 ; printui.dll
+"printui_ordinal126" @126 ; printui.dll
+"printui_ordinal127" @127 ; printui.dll
+"printui_ordinal128" @128 ; printui.dll
+"printui_ordinal129" @129 ; printui.dll
+"printui_ordinal130" @130 ; printui.dll
+"printui_ordinal131" @131 ; printui.dll
+"printui_ordinal132" @132 ; printui.dll
+"printui_ordinal133" @133 ; printui.dll
+"printui_ordinal134" @134 ; printui.dll
+"printui_ordinal135" @135 ; printui.dll
+"printui_ordinal136" @136 ; printui.dll
+"printui_ordinal137" @137 ; printui.dll
+"printui_ordinal138" @138 ; printui.dll
+"printui_ordinal139" @139 ; printui.dll
+"printui_ordinal140" @140 ; printui.dll
+"printui_ordinal141" @141 ; printui.dll
+"printui_ordinal142" @142 ; printui.dll
+"printui_ordinal143" @143 ; printui.dll
+"printui_ordinal144" @144 ; printui.dll
+"printui_ordinal145" @145 ; printui.dll
+"printui_ordinal146" @146 ; printui.dll
+"printui_ordinal147" @147 ; printui.dll
+"printui_ordinal148" @148 ; printui.dll
+"printui_ordinal149" @149 ; printui.dll
+"printui_ordinal150" @150 ; printui.dll
+"printui_ordinal151" @151 ; printui.dll
+"printui_ordinal152" @152 ; printui.dll
+"printui_ordinal153" @153 ; printui.dll
+"printui_ordinal154" @154 ; printui.dll
+"printui_ordinal155" @155 ; printui.dll
+"printui_ordinal156" @156 ; printui.dll
+"printui_ordinal157" @157 ; printui.dll
+"printui_ordinal158" @158 ; printui.dll
+"printui_ordinal159" @159 ; printui.dll
+"printui_ordinal160" @160 ; printui.dll
+"printui_ordinal161" @161 ; printui.dll
+"printui_ordinal162" @162 ; printui.dll
+"printui_ordinal163" @163 ; printui.dll
+"printui_ordinal164" @164 ; printui.dll
+"printui_ordinal165" @165 ; printui.dll
+"printui_ordinal166" @166 ; printui.dll
+"printui_ordinal167" @167 ; printui.dll
+"printui_ordinal168" @168 ; printui.dll
+"printui_ordinal169" @169 ; printui.dll
+"printui_ordinal170" @170 ; printui.dll
+"printui_ordinal171" @171 ; printui.dll
+"printui_ordinal172" @172 ; printui.dll
+"printui_ordinal173" @173 ; printui.dll
+"printui_ordinal174" @174 ; printui.dll
+"printui_ordinal175" @175 ; printui.dll
+"printui_ordinal176" @176 ; printui.dll
+"printui_ordinal177" @177 ; printui.dll
+"printui_ordinal178" @178 ; printui.dll
+"printui_ordinal179" @179 ; printui.dll
+"printui_ordinal180" @180 ; printui.dll
+"printui_ordinal181" @181 ; printui.dll
+"printui_ordinal182" @182 ; printui.dll
+"printui_ordinal183" @183 ; printui.dll
+"printui_ordinal184" @184 ; printui.dll
+"printui_ordinal185" @185 ; printui.dll
+"printui_ordinal186" @186 ; printui.dll
+"printui_ordinal187" @187 ; printui.dll
+"printui_ordinal188" @188 ; printui.dll
+"printui_ordinal189" @189 ; printui.dll
+"printui_ordinal190" @190 ; printui.dll
+"printui_ordinal191" @191 ; printui.dll
+"printui_ordinal192" @192 ; printui.dll
+"printui_ordinal193" @193 ; printui.dll
+"printui_ordinal194" @194 ; printui.dll
+"printui_ordinal195" @195 ; printui.dll
+"printui_ordinal196" @196 ; printui.dll
+"printui_ordinal197" @197 ; printui.dll
+"printui_ordinal198" @198 ; printui.dll
+"printui_ordinal199" @199 ; printui.dll
+"printui_ordinal200" @200 ; printui.dll
+"printui_ordinal26" @26 ; printui.dll
+"printui_ordinal27" @27 ; printui.dll
+"printui_ordinal28" @28 ; printui.dll
+"printui_ordinal29" @29 ; printui.dll
+"printui_ordinal30" @30 ; printui.dll
+"printui_ordinal31" @31 ; printui.dll
+"printui_ordinal32" @32 ; printui.dll
+"printui_ordinal33" @33 ; printui.dll
+"printui_ordinal34" @34 ; printui.dll
+"printui_ordinal35" @35 ; printui.dll
+"printui_ordinal36" @36 ; printui.dll
+"printui_ordinal37" @37 ; printui.dll
+"printui_ordinal38" @38 ; printui.dll
+"printui_ordinal39" @39 ; printui.dll
+"printui_ordinal40" @40 ; printui.dll
+"printui_ordinal41" @41 ; printui.dll
+"printui_ordinal42" @42 ; printui.dll
+"printui_ordinal43" @43 ; printui.dll
+"printui_ordinal44" @44 ; printui.dll
+"printui_ordinal45" @45 ; printui.dll
+"printui_ordinal46" @46 ; printui.dll
+"printui_ordinal47" @47 ; printui.dll
+"printui_ordinal48" @48 ; printui.dll
+"printui_ordinal49" @49 ; printui.dll
+"printui_ordinal50" @50 ; printui.dll
+"printui_ordinal51" @51 ; printui.dll
+"printui_ordinal52" @52 ; printui.dll
+"printui_ordinal53" @53 ; printui.dll
+"printui_ordinal54" @54 ; printui.dll
+"printui_ordinal55" @55 ; printui.dll
+"printui_ordinal56" @56 ; printui.dll
+"printui_ordinal57" @57 ; printui.dll
+"printui_ordinal58" @58 ; printui.dll
+"printui_ordinal59" @59 ; printui.dll
+"printui_ordinal60" @60 ; printui.dll
+"printui_ordinal61" @61 ; printui.dll
+"printui_ordinal62" @62 ; printui.dll
+"printui_ordinal63" @63 ; printui.dll
+"printui_ordinal64" @64 ; printui.dll
+"printui_ordinal65" @65 ; printui.dll
+"printui_ordinal66" @66 ; printui.dll
+"printui_ordinal67" @67 ; printui.dll
+"printui_ordinal68" @68 ; printui.dll
+"printui_ordinal69" @69 ; printui.dll
+"printui_ordinal70" @70 ; printui.dll
+"printui_ordinal71" @71 ; printui.dll
+"printui_ordinal72" @72 ; printui.dll
+"printui_ordinal73" @73 ; printui.dll
+"printui_ordinal74" @74 ; printui.dll
+"printui_ordinal75" @75 ; printui.dll
+"printui_ordinal76" @76 ; printui.dll
+"printui_ordinal77" @77 ; printui.dll
+"printui_ordinal78" @78 ; printui.dll
+"printui_ordinal79" @79 ; printui.dll
+"printui_ordinal80" @80 ; printui.dll
+"printui_ordinal81" @81 ; printui.dll
+"printui_ordinal82" @82 ; printui.dll
+"printui_ordinal83" @83 ; printui.dll
+"printui_ordinal84" @84 ; printui.dll
+"printui_ordinal85" @85 ; printui.dll
+"printui_ordinal86" @86 ; printui.dll
+"printui_ordinal87" @87 ; printui.dll
+"printui_ordinal88" @88 ; printui.dll
+"printui_ordinal89" @89 ; printui.dll
+"printui_ordinal90" @90 ; printui.dll
+"printui_ordinal91" @91 ; printui.dll
+"printui_ordinal92" @92 ; printui.dll
+"printui_ordinal93" @93 ; printui.dll
+"printui_ordinal94" @94 ; printui.dll
+"printui_ordinal95" @95 ; printui.dll
+"printui_ordinal96" @96 ; printui.dll
+"printui_ordinal97" @97 ; printui.dll
+"printui_ordinal98" @98 ; printui.dll
+"printui_ordinal99" @99 ; printui.dll
+"vDocumentDefaults" ; printui.dll
+"vPrinterPropPages" ; printui.dll
+"vQueueCreate" ; printui.dll
+"vServerPropPages" ; printui.dll

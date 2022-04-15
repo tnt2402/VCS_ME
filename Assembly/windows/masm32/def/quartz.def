@@ -1,0 +1,11 @@
+LIBRARY "quartz.dll"
+EXPORTS
+"AMGetErrorTextA" ; quartz.dll
+"AMGetErrorTextW" ; quartz.dll
+"AmpFactorToDB" ; quartz.dll
+"DBToAmpFactor" ; quartz.dll
+"DllCanUnloadNow" ; quartz.dll
+"DllGetClassObject" ; quartz.dll
+"DllRegisterServer" ; quartz.dll
+"DllUnregisterServer" ; quartz.dll
+"GetProxyDllInfo" ; quartz.dll

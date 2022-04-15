@@ -1,0 +1,3 @@
+LIBRARY "ersvc.dll"
+EXPORTS
+"ServiceMain" ; ersvc.dll

@@ -1,0 +1,3 @@
+LIBRARY "msrle32.dll"
+EXPORTS
+"DriverProc" ; msrle32.dll

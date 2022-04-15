@@ -1,0 +1,6 @@
+LIBRARY "msaatext.dll"
+EXPORTS
+"DllCanUnloadNow" ; msaatext.dll
+"DllGetClassObject" ; msaatext.dll
+"DllRegisterServer" ; msaatext.dll
+"DllUnregisterServer" ; msaatext.dll

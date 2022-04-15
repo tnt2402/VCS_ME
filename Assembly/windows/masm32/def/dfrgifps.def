@@ -1,0 +1,7 @@
+LIBRARY "dfrgifps.dll"
+EXPORTS
+"DllCanUnloadNow" ; dfrgifps.dll
+"DllGetClassObject" ; dfrgifps.dll
+"DllRegisterServer" ; dfrgifps.dll
+"DllUnregisterServer" ; dfrgifps.dll
+"GetProxyDllInfo" ; dfrgifps.dll

@@ -1,0 +1,7 @@
+LIBRARY "itss.dll"
+EXPORTS
+"DllCanUnloadNow" ; itss.dll
+"DllGetClassObject" ; itss.dll
+"DllMain" ; itss.dll
+"DllRegisterServer" ; itss.dll
+"DllUnregisterServer" ; itss.dll

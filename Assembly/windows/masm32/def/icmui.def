@@ -1,0 +1,6 @@
+LIBRARY "icmui.dll"
+EXPORTS
+"DllCanUnloadNow" ; icmui.dll
+"DllGetClassObject" ; icmui.dll
+"SetupColorMatchingA" ; icmui.dll
+"SetupColorMatchingW" ; icmui.dll

@@ -1,0 +1,5 @@
+LIBRARY "perfts.dll"
+EXPORTS
+"CloseTSObject" ; perfts.dll
+"CollectTSObjectData" ; perfts.dll
+"OpenTSObject" ; perfts.dll

@@ -1,0 +1,3 @@
+LIBRARY "kbdit142.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdit142.dll

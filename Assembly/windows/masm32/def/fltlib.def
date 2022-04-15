@@ -1,0 +1,31 @@
+LIBRARY "fltlib.dll"
+EXPORTS
+"FilterAttach" ; fltlib.dll
+"FilterAttachAtAltitude" ; fltlib.dll
+"FilterClose" ; fltlib.dll
+"FilterConnectCommunicationPort" ; fltlib.dll
+"FilterCreate" ; fltlib.dll
+"FilterDetach" ; fltlib.dll
+"FilterFindClose" ; fltlib.dll
+"FilterFindFirst" ; fltlib.dll
+"FilterFindNext" ; fltlib.dll
+"FilterGetDosName" ; fltlib.dll
+"FilterGetInformation" ; fltlib.dll
+"FilterGetMessage" ; fltlib.dll
+"FilterInstanceClose" ; fltlib.dll
+"FilterInstanceCreate" ; fltlib.dll
+"FilterInstanceFindClose" ; fltlib.dll
+"FilterInstanceFindFirst" ; fltlib.dll
+"FilterInstanceFindNext" ; fltlib.dll
+"FilterInstanceGetInformation" ; fltlib.dll
+"FilterLoad" ; fltlib.dll
+"FilterReplyMessage" ; fltlib.dll
+"FilterSendMessage" ; fltlib.dll
+"FilterUnload" ; fltlib.dll
+"FilterVolumeClose" ; fltlib.dll
+"FilterVolumeFindClose" ; fltlib.dll
+"FilterVolumeFindFirst" ; fltlib.dll
+"FilterVolumeFindNext" ; fltlib.dll
+"FilterVolumeInstanceFindClose" ; fltlib.dll
+"FilterVolumeInstanceFindFirst" ; fltlib.dll
+"FilterVolumeInstanceFindNext" ; fltlib.dll

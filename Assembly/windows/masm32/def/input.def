@@ -1,0 +1,7 @@
+LIBRARY "input.dll"
+EXPORTS
+"CPlApplet" ; input.dll
+"input_ordinal101" @101 ; input.dll
+"input_ordinal102" @102 ; input.dll
+"input_ordinal103" @103 ; input.dll
+"input_ordinal104" @104 ; input.dll

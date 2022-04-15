@@ -1,0 +1,6 @@
+LIBRARY "ntmsmgr.dll"
+EXPORTS
+"DllCanUnloadNow" ; ntmsmgr.dll
+"DllGetClassObject" ; ntmsmgr.dll
+"DllRegisterServer" ; ntmsmgr.dll
+"DllUnregisterServer" ; ntmsmgr.dll

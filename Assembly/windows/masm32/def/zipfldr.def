@@ -1,0 +1,8 @@
+LIBRARY "zipfldr.dll"
+EXPORTS
+"DllCanUnloadNow" ; zipfldr.dll
+"DllGetClassObject" ; zipfldr.dll
+"DllRegisterServer" ; zipfldr.dll
+"DllUnregisterServer" ; zipfldr.dll
+"RegisterSendto" ; zipfldr.dll
+"RouteTheCall" ; zipfldr.dll

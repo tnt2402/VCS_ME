@@ -1,0 +1,6 @@
+LIBRARY "dfrgui.dll"
+EXPORTS
+"DllCanUnloadNow" ; dfrgui.dll
+"DllGetClassObject" ; dfrgui.dll
+"DllRegisterServer" ; dfrgui.dll
+"DllUnregisterServer" ; dfrgui.dll

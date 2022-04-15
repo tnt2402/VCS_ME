@@ -1,0 +1,8 @@
+LIBRARY "msimtf.dll"
+EXPORTS
+"DllCanUnloadNow" ; msimtf.dll
+"DllGetClassObject" ; msimtf.dll
+"DllRegisterServer" ; msimtf.dll
+"DllUnregisterServer" ; msimtf.dll
+"MsimtfIsGuidMapEnable" ; msimtf.dll
+"MsimtfIsWindowFiltered" ; msimtf.dll

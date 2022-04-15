@@ -1,0 +1,9 @@
+LIBRARY "atrace.dll"
+EXPORTS
+"INTERNAL__AsyncBinaryTrace" ; atrace.dll
+"INTERNAL__AsyncStringTrace" ; atrace.dll
+"INTERNAL__DebugAssert" ; atrace.dll
+"INTERNAL__FlushAsyncTrace" ; atrace.dll
+"INTERNAL__InitAsyncTrace" ; atrace.dll
+"INTERNAL__SetAsyncTraceParams" ; atrace.dll
+"INTERNAL__TermAsyncTrace" ; atrace.dll

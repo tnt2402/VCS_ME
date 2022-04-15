@@ -1,0 +1,16 @@
+LIBRARY "d3d9.dll"
+EXPORTS
+"CheckFullscreen" ; d3d9.dll
+"D3DPERF_BeginEvent" ; d3d9.dll
+"D3DPERF_EndEvent" ; d3d9.dll
+"D3DPERF_GetStatus" ; d3d9.dll
+"D3DPERF_QueryRepeatFrame" ; d3d9.dll
+"D3DPERF_SetMarker" ; d3d9.dll
+"D3DPERF_SetOptions" ; d3d9.dll
+"D3DPERF_SetRegion" ; d3d9.dll
+"DebugSetLevel" ; d3d9.dll
+"DebugSetMute" ; d3d9.dll
+"Direct3DCreate9" ; d3d9.dll
+"Direct3DShaderValidatorCreate9" ; d3d9.dll
+"PSGPError" ; d3d9.dll
+"PSGPSampleTexture" ; d3d9.dll

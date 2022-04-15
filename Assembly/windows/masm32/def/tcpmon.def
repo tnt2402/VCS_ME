@@ -1,0 +1,14 @@
+LIBRARY "tcpmon.dll"
+EXPORTS
+"??0CPortABC@@QEAA@AEBV0@@Z" ; tcpmon.dll
+"??0CPortABC@@QEAA@XZ" ; tcpmon.dll
+"??0CTcpMibABC@@QEAA@AEBV0@@Z" ; tcpmon.dll
+"??0CTcpMibABC@@QEAA@XZ" ; tcpmon.dll
+"??1CPortABC@@UEAA@XZ" ; tcpmon.dll
+"??1CTcpMibABC@@UEAA@XZ" ; tcpmon.dll
+"??4CPortABC@@QEAAAEAV0@AEBV0@@Z" ; tcpmon.dll
+"??4CTcpMibABC@@QEAAAEAV0@AEBV0@@Z" ; tcpmon.dll
+"??_7CPortABC@@6B@" ; tcpmon.dll
+"??_7CTcpMibABC@@6B@" ; tcpmon.dll
+"?Read@CPortABC@@UEAAKQEAXPEAEKPEAK@Z" ; tcpmon.dll
+"InitializePrintMonitor2" ; tcpmon.dll

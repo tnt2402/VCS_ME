@@ -1,0 +1,11 @@
+LIBRARY "umpnpmgr.dll"
+EXPORTS
+"DeleteServicePlugPlayRegKeys" ; umpnpmgr.dll
+"PNP_GetDeviceList" ; umpnpmgr.dll
+"PNP_GetDeviceListSize" ; umpnpmgr.dll
+"PNP_GetDeviceRegProp" ; umpnpmgr.dll
+"PNP_HwProfFlags" ; umpnpmgr.dll
+"PNP_SetActiveService" ; umpnpmgr.dll
+"RegisterScmCallback" ; umpnpmgr.dll
+"RegisterServiceNotification" ; umpnpmgr.dll
+"SvcEntry_PlugPlay" ; umpnpmgr.dll

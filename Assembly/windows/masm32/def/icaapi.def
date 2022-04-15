@@ -1,0 +1,36 @@
+LIBRARY "icaapi.dll"
+EXPORTS
+"IcaCdCreateThread" ; icaapi.dll
+"IcaCdIoControl" ; icaapi.dll
+"IcaCdWaitForMultipleObjects" ; icaapi.dll
+"IcaCdWaitForSingleObject" ; icaapi.dll
+"IcaChannelClose" ; icaapi.dll
+"IcaChannelIoControl" ; icaapi.dll
+"IcaChannelOpen" ; icaapi.dll
+"IcaChannelTrace" ; icaapi.dll
+"IcaClose" ; icaapi.dll
+"IcaIoControl" ; icaapi.dll
+"IcaMemoryAllocate" ; icaapi.dll
+"IcaMemoryFree" ; icaapi.dll
+"IcaOpen" ; icaapi.dll
+"IcaPushConsoleStack" ; icaapi.dll
+"IcaStackCallback" ; icaapi.dll
+"IcaStackClose" ; icaapi.dll
+"IcaStackConnectionAccept" ; icaapi.dll
+"IcaStackConnectionClose" ; icaapi.dll
+"IcaStackConnectionRequest" ; icaapi.dll
+"IcaStackConnectionWait" ; icaapi.dll
+"IcaStackCreateShadowEndpoint" ; icaapi.dll
+"IcaStackDisconnect" ; icaapi.dll
+"IcaStackIoControl" ; icaapi.dll
+"IcaStackIoControlNoConnLock" ; icaapi.dll
+"IcaStackOpen" ; icaapi.dll
+"IcaStackQueryLocalAddress" ; icaapi.dll
+"IcaStackQueryState" ; icaapi.dll
+"IcaStackReconnect" ; icaapi.dll
+"IcaStackTerminate" ; icaapi.dll
+"IcaStackTrace" ; icaapi.dll
+"IcaStackUnlock" ; icaapi.dll
+"IcaSystemTrace" ; icaapi.dll
+"IcaTrace" ; icaapi.dll
+"_IcaStackIoControl" ; icaapi.dll

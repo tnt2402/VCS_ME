@@ -1,0 +1,30 @@
+LIBRARY "narrhook.dll"
+EXPORTS
+"?BackToApplication@@YAXXZ" ; narrhook.dll
+"?GetAnnounceMenu@@YAHXZ" ; narrhook.dll
+"?GetAnnouncePopup@@YAHXZ" ; narrhook.dll
+"?GetAnnounceToolTips@@YAHXZ" ; narrhook.dll
+"?GetAnnounceWindow@@YAHXZ" ; narrhook.dll
+"?GetCurrentText@@YAXPEAGH@Z" ; narrhook.dll
+"?GetEchoChars@@YAHXZ" ; narrhook.dll
+"?GetReviewLevel@@YAHXZ" ; narrhook.dll
+"?GetReviewStyle@@YAHXZ" ; narrhook.dll
+"?GetTrackCaret@@YAHXZ" ; narrhook.dll
+"?GetTrackInputFocus@@YAHXZ" ; narrhook.dll
+"?GetTrackSecondary@@YAHXZ" ; narrhook.dll
+"?InitKeys@@YAHPEAUHWND__@@@Z" ; narrhook.dll
+"?InitMSAA@@YAHXZ" ; narrhook.dll
+"?SetAnnounceMenu@@YAXH@Z" ; narrhook.dll
+"?SetAnnouncePopup@@YAXH@Z" ; narrhook.dll
+"?SetAnnounceToolTips@@YAXH@Z" ; narrhook.dll
+"?SetAnnounceWindow@@YAXH@Z" ; narrhook.dll
+"?SetCurrentText@@YAXPEBG@Z" ; narrhook.dll
+"?SetEchoChars@@YAXH@Z" ; narrhook.dll
+"?SetReviewLevel@@YAXH@Z" ; narrhook.dll
+"?SetReviewStyle@@YAXH@Z" ; narrhook.dll
+"?SetTrackCaret@@YAXH@Z" ; narrhook.dll
+"?SetTrackInputFocus@@YAXH@Z" ; narrhook.dll
+"?SetTrackSecondary@@YAXH@Z" ; narrhook.dll
+"?UnInitMSAA@@YAHXZ" ; narrhook.dll
+"?UninitKeys@@YAHXZ" ; narrhook.dll
+"?lstrcatn@@YAPEAGPEAG0H@Z" ; narrhook.dll

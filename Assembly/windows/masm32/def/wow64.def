@@ -1,0 +1,26 @@
+LIBRARY "wow64.dll"
+EXPORTS
+"Wow64AllocateHeap" ; wow64.dll
+"Wow64AllocateTemp" ; wow64.dll
+"Wow64ApcRoutine" ; wow64.dll
+"Wow64Assert" ; wow64.dll
+"Wow64CheckIfNXEnabled" ; wow64.dll
+"Wow64EmulateAtlThunk" ; wow64.dll
+"Wow64ExecuteFlags" ; wow64.dll
+"Wow64FreeHeap" ; wow64.dll
+"Wow64GetWow64ImageOption" ; wow64.dll
+"Wow64KiUserCallbackDispatcher" ; wow64.dll
+"Wow64LdrpInitialize" ; wow64.dll
+"Wow64LogPrint" ; wow64.dll
+"Wow64OpenConfigKey" ; wow64.dll
+"Wow64PrepareForDebuggerAttach" ; wow64.dll
+"Wow64PrepareForException" ; wow64.dll
+"Wow64RaiseException" ; wow64.dll
+"Wow64ShallowThunkAllocObjectAttributes32TO64_FNC" ; wow64.dll
+"Wow64ShallowThunkAllocSecurityQualityOfService32TO64_FNC" ; wow64.dll
+"Wow64ShallowThunkSIZE_T32TO64" ; wow64.dll
+"Wow64ShallowThunkSIZE_T64TO32" ; wow64.dll
+"Wow64StartupContextToContextX86" ; wow64.dll
+"Wow64SystemService" ; wow64.dll
+"Wow64SystemServiceEx" ; wow64.dll
+"pfnWow64PerfMonitorCall" ; wow64.dll

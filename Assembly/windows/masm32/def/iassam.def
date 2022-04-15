@@ -1,0 +1,11 @@
+LIBRARY "iassam.dll"
+EXPORTS
+"DllCanUnloadNow" ; iassam.dll
+"DllGetClassObject" ; iassam.dll
+"DllRegisterServer" ; iassam.dll
+"DllUnregisterServer" ; iassam.dll
+"IASParmsFreeUserParms" ; iassam.dll
+"IASParmsQueryRasUser0" ; iassam.dll
+"IASParmsQueryUserProperty" ; iassam.dll
+"IASParmsSetRasUser0" ; iassam.dll
+"IASParmsSetUserProperty" ; iassam.dll

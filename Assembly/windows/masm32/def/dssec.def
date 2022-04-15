@@ -1,0 +1,8 @@
+LIBRARY "dssec.dll"
+EXPORTS
+"DSCreateISecurityInfoObject" ; dssec.dll
+"DSCreateISecurityInfoObjectEx" ; dssec.dll
+"DSCreateSecurityPage" ; dssec.dll
+"DSEditSecurity" ; dssec.dll
+"DllCanUnloadNow" ; dssec.dll
+"DllGetClassObject" ; dssec.dll

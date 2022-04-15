@@ -1,0 +1,4 @@
+LIBRARY "msw3prt.dll"
+EXPORTS
+"GetExtensionVersion" ; msw3prt.dll
+"HttpExtensionProc" ; msw3prt.dll

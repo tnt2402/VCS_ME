@@ -1,0 +1,4 @@
+LIBRARY "ipv6mon.dll"
+EXPORTS
+"GetResourceString" ; ipv6mon.dll
+"InitHelperDll" ; ipv6mon.dll

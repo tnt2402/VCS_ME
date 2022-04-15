@@ -1,0 +1,6 @@
+LIBRARY "scripto.dll"
+EXPORTS
+"DllCanUnloadNow" ; scripto.dll
+"DllGetClassObject" ; scripto.dll
+"DllRegisterServer" ; scripto.dll
+"DllUnregisterServer" ; scripto.dll

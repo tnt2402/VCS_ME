@@ -1,0 +1,10 @@
+LIBRARY "hypertrm.dll"
+EXPORTS
+"DllCanUnloadNow" ; hypertrm.dll
+"DllGetClassObject" ; hypertrm.dll
+"InitInstance" ; hypertrm.dll
+"MessageLoop" ; hypertrm.dll
+"sessQuerySysFileHdl" ; hypertrm.dll
+"sessQueryTranslateHdl" ; hypertrm.dll
+"sfGetSessionItem" ; hypertrm.dll
+"sfPutSessionItem" ; hypertrm.dll

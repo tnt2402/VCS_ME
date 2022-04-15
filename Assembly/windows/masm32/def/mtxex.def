@@ -1,0 +1,6 @@
+LIBRARY "mtxex.dll"
+EXPORTS
+"DllGetClassObject" ; mtxex.dll
+"GetObjectContext" ; mtxex.dll
+"MTSCreateActivity" ; mtxex.dll
+"SafeRef" ; mtxex.dll

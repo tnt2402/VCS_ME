@@ -1,0 +1,12 @@
+LIBRARY "rdpcfgex.dll"
+EXPORTS
+"ExGetCfgVersionInfo" ; rdpcfgex.dll
+"ExtEncryptionLevels" ; rdpcfgex.dll
+"ExtEnd" ; rdpcfgex.dll
+"ExtGetCapabilities" ; rdpcfgex.dll
+"ExtGetEncryptionLevelAndDescrEx" ; rdpcfgex.dll
+"ExtGetEncryptionLevelDescr" ; rdpcfgex.dll
+"ExtGetSecurityLayerDescrString" ; rdpcfgex.dll
+"ExtGetSecurityLayerName" ; rdpcfgex.dll
+"ExtSecurityLayers" ; rdpcfgex.dll
+"ExtStart" ; rdpcfgex.dll

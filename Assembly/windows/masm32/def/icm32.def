@@ -1,0 +1,23 @@
+LIBRARY "icm32.dll"
+EXPORTS
+"CMCheckColors" ; icm32.dll
+"CMCheckColorsInGamut" ; icm32.dll
+"CMCheckRGBs" ; icm32.dll
+"CMConvertColorNameToIndex" ; icm32.dll
+"CMConvertIndexToColorName" ; icm32.dll
+"CMCreateDeviceLinkProfile" ; icm32.dll
+"CMCreateMultiProfileTransform" ; icm32.dll
+"CMCreateProfile" ; icm32.dll
+"CMCreateProfileW" ; icm32.dll
+"CMCreateTransform" ; icm32.dll
+"CMCreateTransformExt" ; icm32.dll
+"CMCreateTransformExtW" ; icm32.dll
+"CMCreateTransformW" ; icm32.dll
+"CMDeleteTransform" ; icm32.dll
+"CMGetInfo" ; icm32.dll
+"CMGetNamedProfileInfo" ; icm32.dll
+"CMIsProfileValid" ; icm32.dll
+"CMTranslateColors" ; icm32.dll
+"CMTranslateRGB" ; icm32.dll
+"CMTranslateRGBs" ; icm32.dll
+"CMTranslateRGBsExt" ; icm32.dll

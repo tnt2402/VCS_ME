@@ -1,0 +1,16 @@
+LIBRARY "cscui.dll"
+EXPORTS
+"CSCOptions_RunDLL" ; cscui.dll
+"CSCOptions_RunDLLA" ; cscui.dll
+"CSCOptions_RunDLLW" ; cscui.dll
+"CSCUIInitialize" ; cscui.dll
+"CSCUIMsgProcess" ; cscui.dll
+"CSCUIOptionsPropertySheet" ; cscui.dll
+"CSCUIRemoveFolderFromCache" ; cscui.dll
+"CSCUISetState" ; cscui.dll
+"CscPolicyProcessing_RunDLLW" ; cscui.dll
+"DllCanUnloadNow" ; cscui.dll
+"DllGetClassObject" ; cscui.dll
+"DllRegisterServer" ; cscui.dll
+"DllUnregisterServer" ; cscui.dll
+"ProcessGroupPolicy" ; cscui.dll

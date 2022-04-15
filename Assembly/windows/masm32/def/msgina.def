@@ -1,0 +1,52 @@
+LIBRARY "msgina.dll"
+EXPORTS
+"ShellShutdownDialog" ; msgina.dll
+"WlxActivateUserShell" ; msgina.dll
+"WlxDisconnectNotify" ; msgina.dll
+"WlxDisplayLockedNotice" ; msgina.dll
+"WlxDisplaySASNotice" ; msgina.dll
+"WlxDisplayStatusMessage" ; msgina.dll
+"WlxGetConsoleSwitchCredentials" ; msgina.dll
+"WlxGetStatusMessage" ; msgina.dll
+"WlxInitialize" ; msgina.dll
+"WlxIsLockOk" ; msgina.dll
+"WlxIsLogoffOk" ; msgina.dll
+"WlxLoggedOnSAS" ; msgina.dll
+"WlxLoggedOutSAS" ; msgina.dll
+"WlxLogoff" ; msgina.dll
+"WlxNegotiate" ; msgina.dll
+"WlxNetworkProviderLoad" ; msgina.dll
+"WlxReconnectNotify" ; msgina.dll
+"WlxRemoveStatusMessage" ; msgina.dll
+"WlxScreenSaverNotify" ; msgina.dll
+"WlxShutdown" ; msgina.dll
+"WlxStartApplication" ; msgina.dll
+"WlxWkstaLockedSAS" ; msgina.dll
+"msgina_ordinal1" @1 ; msgina.dll
+"msgina_ordinal10" @10 ; msgina.dll
+"msgina_ordinal11" @11 ; msgina.dll
+"msgina_ordinal12" @12 ; msgina.dll
+"msgina_ordinal13" @13 ; msgina.dll
+"msgina_ordinal14" @14 ; msgina.dll
+"msgina_ordinal15" @15 ; msgina.dll
+"msgina_ordinal16" @16 ; msgina.dll
+"msgina_ordinal17" @17 ; msgina.dll
+"msgina_ordinal18" @18 ; msgina.dll
+"msgina_ordinal19" @19 ; msgina.dll
+"msgina_ordinal2" @2 ; msgina.dll
+"msgina_ordinal20" @20 ; msgina.dll
+"msgina_ordinal21" @21 ; msgina.dll
+"msgina_ordinal22" @22 ; msgina.dll
+"msgina_ordinal23" @23 ; msgina.dll
+"msgina_ordinal24" @24 ; msgina.dll
+"msgina_ordinal25" @25 ; msgina.dll
+"msgina_ordinal26" @26 ; msgina.dll
+"msgina_ordinal27" @27 ; msgina.dll
+"msgina_ordinal28" @28 ; msgina.dll
+"msgina_ordinal3" @3 ; msgina.dll
+"msgina_ordinal4" @4 ; msgina.dll
+"msgina_ordinal5" @5 ; msgina.dll
+"msgina_ordinal6" @6 ; msgina.dll
+"msgina_ordinal7" @7 ; msgina.dll
+"msgina_ordinal8" @8 ; msgina.dll
+"msgina_ordinal9" @9 ; msgina.dll

@@ -1,0 +1,6 @@
+LIBRARY "shmedia.dll"
+EXPORTS
+"DllCanUnloadNow" ; shmedia.dll
+"DllGetClassObject" ; shmedia.dll
+"DllRegisterServer" ; shmedia.dll
+"DllUnregisterServer" ; shmedia.dll

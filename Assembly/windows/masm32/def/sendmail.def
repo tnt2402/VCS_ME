@@ -1,0 +1,6 @@
+LIBRARY "sendmail.dll"
+EXPORTS
+"DllCanUnloadNow" ; sendmail.dll
+"DllGetClassObject" ; sendmail.dll
+"DllRegisterServer" ; sendmail.dll
+"DllUnregisterServer" ; sendmail.dll

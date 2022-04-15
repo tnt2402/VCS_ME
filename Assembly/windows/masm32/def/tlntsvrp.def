@@ -1,0 +1,7 @@
+LIBRARY "tlntsvrp.dll"
+EXPORTS
+"DllCanUnloadNow" ; tlntsvrp.dll
+"DllGetClassObject" ; tlntsvrp.dll
+"DllRegisterServer" ; tlntsvrp.dll
+"DllUnregisterServer" ; tlntsvrp.dll
+"GetProxyDllInfo" ; tlntsvrp.dll

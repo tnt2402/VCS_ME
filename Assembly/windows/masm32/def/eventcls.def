@@ -1,0 +1,7 @@
+LIBRARY "eventcls.dll"
+EXPORTS
+"DllCanUnloadNow" ; eventcls.dll
+"DllGetClassObject" ; eventcls.dll
+"DllInstall" ; eventcls.dll
+"DllRegisterServer" ; eventcls.dll
+"DllUnregisterServer" ; eventcls.dll

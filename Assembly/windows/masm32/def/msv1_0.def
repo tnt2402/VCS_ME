@@ -1,0 +1,34 @@
+LIBRARY "msv1_0.dll"
+EXPORTS
+"LsaApCallPackage" ; msv1_0.dll
+"LsaApCallPackagePassthrough" ; msv1_0.dll
+"LsaApCallPackageUntrusted" ; msv1_0.dll
+"LsaApInitializePackage" ; msv1_0.dll
+"LsaApLogonTerminated" ; msv1_0.dll
+"LsaApLogonUserEx2" ; msv1_0.dll
+"Msv1_0ExportSubAuthenticationRoutine" ; msv1_0.dll
+"Msv1_0SubAuthenticationPresent" ; msv1_0.dll
+"MsvGetLogonAttemptCount" ; msv1_0.dll
+"MsvSamLogoff" ; msv1_0.dll
+"MsvSamValidate" ; msv1_0.dll
+"MsvValidateTarget" ; msv1_0.dll
+"SpInitialize" ; msv1_0.dll
+"SpInstanceInit" ; msv1_0.dll
+"SpLsaModeInitialize" ; msv1_0.dll
+"SpUserModeInitialize" ; msv1_0.dll
+"msv1_0_ordinal16" @16 ; msv1_0.dll
+"msv1_0_ordinal17" @17 ; msv1_0.dll
+"msv1_0_ordinal18" @18 ; msv1_0.dll
+"msv1_0_ordinal19" @19 ; msv1_0.dll
+"msv1_0_ordinal20" @20 ; msv1_0.dll
+"msv1_0_ordinal21" @21 ; msv1_0.dll
+"msv1_0_ordinal22" @22 ; msv1_0.dll
+"msv1_0_ordinal23" @23 ; msv1_0.dll
+"msv1_0_ordinal24" @24 ; msv1_0.dll
+"msv1_0_ordinal25" @25 ; msv1_0.dll
+"msv1_0_ordinal26" @26 ; msv1_0.dll
+"msv1_0_ordinal27" @27 ; msv1_0.dll
+"msv1_0_ordinal28" @28 ; msv1_0.dll
+"msv1_0_ordinal29" @29 ; msv1_0.dll
+"msv1_0_ordinal30" @30 ; msv1_0.dll
+"msv1_0_ordinal31" @31 ; msv1_0.dll

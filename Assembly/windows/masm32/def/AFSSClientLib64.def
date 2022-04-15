@@ -1,0 +1,3 @@
+LIBRARY "AFSSClientLib64.dll"
+EXPORTS
+"GetAFSSClientInterface" ; AFSSClientLib64.dll

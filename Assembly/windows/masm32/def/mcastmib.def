@@ -1,0 +1,5 @@
+LIBRARY "mcastmib.dll"
+EXPORTS
+"SnmpExtensionInit" ; mcastmib.dll
+"SnmpExtensionQuery" ; mcastmib.dll
+"SnmpExtensionTrap" ; mcastmib.dll

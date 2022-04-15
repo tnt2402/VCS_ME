@@ -1,0 +1,6 @@
+LIBRARY "objsel.dll"
+EXPORTS
+"DllCanUnloadNow" ; objsel.dll
+"DllGetClassObject" ; objsel.dll
+"DllRegisterServer" ; objsel.dll
+"DllUnregisterServer" ; objsel.dll

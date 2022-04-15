@@ -1,0 +1,9 @@
+LIBRARY "dimsntfy.dll"
+EXPORTS
+"WlDimsLock" ; dimsntfy.dll
+"WlDimsLogoff" ; dimsntfy.dll
+"WlDimsLogon" ; dimsntfy.dll
+"WlDimsShutdown" ; dimsntfy.dll
+"WlDimsStartShell" ; dimsntfy.dll
+"WlDimsStartup" ; dimsntfy.dll
+"WlDimsUnlock" ; dimsntfy.dll

@@ -1,0 +1,125 @@
+LIBRARY "userenv.dll"
+EXPORTS
+"CreateEnvironmentBlock" ; userenv.dll
+"DeleteProfileA" ; userenv.dll
+"DeleteProfileW" ; userenv.dll
+"DestroyEnvironmentBlock" ; userenv.dll
+"DllCanUnloadNow" ; userenv.dll
+"DllGetClassObject" ; userenv.dll
+"DllInstall" ; userenv.dll
+"DllRegisterServer" ; userenv.dll
+"DllUnregisterServer" ; userenv.dll
+"EnterCriticalPolicySection" ; userenv.dll
+"ExpandEnvironmentStringsForUserA" ; userenv.dll
+"ExpandEnvironmentStringsForUserW" ; userenv.dll
+"ForceSyncFgPolicy" ; userenv.dll
+"FreeGPOListA" ; userenv.dll
+"FreeGPOListW" ; userenv.dll
+"GenerateRsopPolicy" ; userenv.dll
+"GetAllUsersProfileDirectoryA" ; userenv.dll
+"GetAllUsersProfileDirectoryW" ; userenv.dll
+"GetAppliedGPOListA" ; userenv.dll
+"GetAppliedGPOListW" ; userenv.dll
+"GetDefaultUserProfileDirectoryA" ; userenv.dll
+"GetDefaultUserProfileDirectoryW" ; userenv.dll
+"GetGPOListA" ; userenv.dll
+"GetGPOListW" ; userenv.dll
+"GetNextFgPolicyRefreshInfo" ; userenv.dll
+"GetPreviousFgPolicyRefreshInfo" ; userenv.dll
+"GetProfileType" ; userenv.dll
+"GetProfilesDirectoryA" ; userenv.dll
+"GetProfilesDirectoryW" ; userenv.dll
+"GetUserProfileDirectoryA" ; userenv.dll
+"GetUserProfileDirectoryW" ; userenv.dll
+"LeaveCriticalPolicySection" ; userenv.dll
+"LoadUserProfileA" ; userenv.dll
+"LoadUserProfileW" ; userenv.dll
+"ProcessGroupPolicyCompleted" ; userenv.dll
+"ProcessGroupPolicyCompletedEx" ; userenv.dll
+"RefreshPolicy" ; userenv.dll
+"RefreshPolicyEx" ; userenv.dll
+"RegisterGPNotification" ; userenv.dll
+"RsopAccessCheckByType" ; userenv.dll
+"RsopFileAccessCheck" ; userenv.dll
+"RsopLoggingEnabled" ; userenv.dll
+"RsopResetPolicySettingStatus" ; userenv.dll
+"RsopSetPolicySettingStatus" ; userenv.dll
+"UnloadUserProfile" ; userenv.dll
+"UnregisterGPNotification" ; userenv.dll
+"WaitForMachinePolicyForegroundProcessing" ; userenv.dll
+"WaitForUserPolicyForegroundProcessing" ; userenv.dll
+"userenv_ordinal100" @100 ; userenv.dll
+"userenv_ordinal101" @101 ; userenv.dll
+"userenv_ordinal102" @102 ; userenv.dll
+"userenv_ordinal103" @103 ; userenv.dll
+"userenv_ordinal104" @104 ; userenv.dll
+"userenv_ordinal105" @105 ; userenv.dll
+"userenv_ordinal106" @106 ; userenv.dll
+"userenv_ordinal107" @107 ; userenv.dll
+"userenv_ordinal108" @108 ; userenv.dll
+"userenv_ordinal109" @109 ; userenv.dll
+"userenv_ordinal110" @110 ; userenv.dll
+"userenv_ordinal111" @111 ; userenv.dll
+"userenv_ordinal112" @112 ; userenv.dll
+"userenv_ordinal113" @113 ; userenv.dll
+"userenv_ordinal114" @114 ; userenv.dll
+"userenv_ordinal115" @115 ; userenv.dll
+"userenv_ordinal116" @116 ; userenv.dll
+"userenv_ordinal117" @117 ; userenv.dll
+"userenv_ordinal118" @118 ; userenv.dll
+"userenv_ordinal119" @119 ; userenv.dll
+"userenv_ordinal120" @120 ; userenv.dll
+"userenv_ordinal121" @121 ; userenv.dll
+"userenv_ordinal122" @122 ; userenv.dll
+"userenv_ordinal123" @123 ; userenv.dll
+"userenv_ordinal124" @124 ; userenv.dll
+"userenv_ordinal125" @125 ; userenv.dll
+"userenv_ordinal126" @126 ; userenv.dll
+"userenv_ordinal127" @127 ; userenv.dll
+"userenv_ordinal128" @128 ; userenv.dll
+"userenv_ordinal129" @129 ; userenv.dll
+"userenv_ordinal130" @130 ; userenv.dll
+"userenv_ordinal131" @131 ; userenv.dll
+"userenv_ordinal135" @135 ; userenv.dll
+"userenv_ordinal136" @136 ; userenv.dll
+"userenv_ordinal137" @137 ; userenv.dll
+"userenv_ordinal138" @138 ; userenv.dll
+"userenv_ordinal139" @139 ; userenv.dll
+"userenv_ordinal140" @140 ; userenv.dll
+"userenv_ordinal141" @141 ; userenv.dll
+"userenv_ordinal142" @142 ; userenv.dll
+"userenv_ordinal143" @143 ; userenv.dll
+"userenv_ordinal144" @144 ; userenv.dll
+"userenv_ordinal145" @145 ; userenv.dll
+"userenv_ordinal146" @146 ; userenv.dll
+"userenv_ordinal147" @147 ; userenv.dll
+"userenv_ordinal148" @148 ; userenv.dll
+"userenv_ordinal149" @149 ; userenv.dll
+"userenv_ordinal150" @150 ; userenv.dll
+"userenv_ordinal151" @151 ; userenv.dll
+"userenv_ordinal152" @152 ; userenv.dll
+"userenv_ordinal153" @153 ; userenv.dll
+"userenv_ordinal154" @154 ; userenv.dll
+"userenv_ordinal155" @155 ; userenv.dll
+"userenv_ordinal156" @156 ; userenv.dll
+"userenv_ordinal157" @157 ; userenv.dll
+"userenv_ordinal158" @158 ; userenv.dll
+"userenv_ordinal159" @159 ; userenv.dll
+"userenv_ordinal160" @160 ; userenv.dll
+"userenv_ordinal161" @161 ; userenv.dll
+"userenv_ordinal162" @162 ; userenv.dll
+"userenv_ordinal163" @163 ; userenv.dll
+"userenv_ordinal164" @164 ; userenv.dll
+"userenv_ordinal165" @165 ; userenv.dll
+"userenv_ordinal166" @166 ; userenv.dll
+"userenv_ordinal167" @167 ; userenv.dll
+"userenv_ordinal168" @168 ; userenv.dll
+"userenv_ordinal169" @169 ; userenv.dll
+"userenv_ordinal170" @170 ; userenv.dll
+"userenv_ordinal171" @171 ; userenv.dll
+"userenv_ordinal172" @172 ; userenv.dll
+"userenv_ordinal173" @173 ; userenv.dll
+"userenv_ordinal174" @174 ; userenv.dll
+"userenv_ordinal175" @175 ; userenv.dll
+"userenv_ordinal200" @200 ; userenv.dll
+"userenv_ordinal201" @201 ; userenv.dll

@@ -1,0 +1,7 @@
+LIBRARY "mqoa.dll"
+EXPORTS
+"DLLGetDocumentation" ; mqoa.dll
+"DllCanUnloadNow" ; mqoa.dll
+"DllGetClassObject" ; mqoa.dll
+"DllRegisterServer" ; mqoa.dll
+"DllUnregisterServer" ; mqoa.dll

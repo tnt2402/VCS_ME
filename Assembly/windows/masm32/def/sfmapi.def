@@ -1,0 +1,34 @@
+LIBRARY "sfmapi.dll"
+EXPORTS
+"AfpAdminBufferFree" ; sfmapi.dll
+"AfpAdminConnect" ; sfmapi.dll
+"AfpAdminConnectionClose" ; sfmapi.dll
+"AfpAdminConnectionEnum" ; sfmapi.dll
+"AfpAdminDirectoryGetInfo" ; sfmapi.dll
+"AfpAdminDirectorySetInfo" ; sfmapi.dll
+"AfpAdminDisconnect" ; sfmapi.dll
+"AfpAdminETCMapAdd" ; sfmapi.dll
+"AfpAdminETCMapAssociate" ; sfmapi.dll
+"AfpAdminETCMapDelete" ; sfmapi.dll
+"AfpAdminETCMapGetInfo" ; sfmapi.dll
+"AfpAdminETCMapSetInfo" ; sfmapi.dll
+"AfpAdminFileClose" ; sfmapi.dll
+"AfpAdminFileEnum" ; sfmapi.dll
+"AfpAdminFinderSetInfo" ; sfmapi.dll
+"AfpAdminInvalidVolumeDelete" ; sfmapi.dll
+"AfpAdminInvalidVolumeEnum" ; sfmapi.dll
+"AfpAdminMessageSend" ; sfmapi.dll
+"AfpAdminProfileClear" ; sfmapi.dll
+"AfpAdminProfileGet" ; sfmapi.dll
+"AfpAdminServerGetInfo" ; sfmapi.dll
+"AfpAdminServerSetInfo" ; sfmapi.dll
+"AfpAdminSessionClose" ; sfmapi.dll
+"AfpAdminSessionEnum" ; sfmapi.dll
+"AfpAdminStatisticsClear" ; sfmapi.dll
+"AfpAdminStatisticsGet" ; sfmapi.dll
+"AfpAdminStatisticsGetEx" ; sfmapi.dll
+"AfpAdminVolumeAdd" ; sfmapi.dll
+"AfpAdminVolumeDelete" ; sfmapi.dll
+"AfpAdminVolumeEnum" ; sfmapi.dll
+"AfpAdminVolumeGetInfo" ; sfmapi.dll
+"AfpAdminVolumeSetInfo" ; sfmapi.dll

@@ -1,0 +1,6 @@
+LIBRARY "rpcss.dll"
+EXPORTS
+"CoGetComCatalog" ; rpcss.dll
+"GetRPCSSInfo" ; rpcss.dll
+"ServiceMain" ; rpcss.dll
+"WhichService" ; rpcss.dll

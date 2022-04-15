@@ -1,0 +1,5 @@
+LIBRARY "sensapi.dll"
+EXPORTS
+"IsDestinationReachableA" ; sensapi.dll
+"IsDestinationReachableW" ; sensapi.dll
+"IsNetworkAlive" ; sensapi.dll

@@ -1,0 +1,7 @@
+LIBRARY "ld32.dll"
+EXPORTS
+"CallFN32" ; ld32.dll
+"FreeLibraryX" ; ld32.dll
+"GetModuleHandleX" ; ld32.dll
+"GetProcAddressX" ; ld32.dll
+"LoadLibraryX" ; ld32.dll

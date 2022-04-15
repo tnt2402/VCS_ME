@@ -1,0 +1,4 @@
+LIBRARY "ifmon.dll"
+EXPORTS
+"GetResourceString" ; ifmon.dll
+"InitHelperDll" ; ifmon.dll

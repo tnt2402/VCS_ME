@@ -1,0 +1,7 @@
+LIBRARY "cabview.dll"
+EXPORTS
+"DllCanUnloadNow" ; cabview.dll
+"DllGetClassObject" ; cabview.dll
+"DllRegisterServer" ; cabview.dll
+"DllUnregisterServer" ; cabview.dll
+"Uninstall" ; cabview.dll

@@ -1,0 +1,23 @@
+LIBRARY "w32time.dll"
+EXPORTS
+"DllInstall" ; w32time.dll
+"DllRegisterServer" ; w32time.dll
+"DllUnregisterServer" ; w32time.dll
+"SvchostEntry_W32Time" ; w32time.dll
+"SvchostPushServiceGlobals" ; w32time.dll
+"TimeProvClose" ; w32time.dll
+"TimeProvCommand" ; w32time.dll
+"TimeProvOpen" ; w32time.dll
+"W32TimeBufferFree" ; w32time.dll
+"W32TimeDcPromo" ; w32time.dll
+"W32TimeGetNetlogonServiceBits" ; w32time.dll
+"W32TimeQueryConfig" ; w32time.dll
+"W32TimeQueryHardwareProviderStatus" ; w32time.dll
+"W32TimeQueryNTPProviderStatus" ; w32time.dll
+"W32TimeSetConfig" ; w32time.dll
+"W32TimeSyncNow" ; w32time.dll
+"W32TimeVerifyJoinConfig" ; w32time.dll
+"W32TimeVerifyUnjoinConfig" ; w32time.dll
+"W32TmServiceMain" ; w32time.dll
+"fnW32TmRegisterServiceCtrlHandlerEx" ; w32time.dll
+"fnW32TmSetServiceStatus" ; w32time.dll

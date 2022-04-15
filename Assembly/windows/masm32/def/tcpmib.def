@@ -1,0 +1,35 @@
+LIBRARY "tcpmib.dll"
+EXPORTS
+"??0CTcpMib@@QEAA@AEBV0@@Z" ; tcpmib.dll
+"??0CTcpMib@@QEAA@XZ" ; tcpmib.dll
+"??0CTcpMibABC@@QEAA@AEBV0@@Z" ; tcpmib.dll
+"??0CTcpMibABC@@QEAA@XZ" ; tcpmib.dll
+"??1CTcpMib@@UEAA@XZ" ; tcpmib.dll
+"??1CTcpMibABC@@UEAA@XZ" ; tcpmib.dll
+"??4CTcpMib@@QEAAAEAV0@AEBV0@@Z" ; tcpmib.dll
+"??4CTcpMibABC@@QEAAAEAV0@AEBV0@@Z" ; tcpmib.dll
+"??_7CTcpMib@@6B@" ; tcpmib.dll
+"??_7CTcpMibABC@@6B@" ; tcpmib.dll
+"?EnterCSection@CTcpMib@@AEAAXXZ" ; tcpmib.dll
+"?ExitCSection@CTcpMib@@AEAAXXZ" ; tcpmib.dll
+"?GetDeviceDescription@CTcpMib@@UEAAKPEBD0KPEAGK@Z" ; tcpmib.dll
+"?GetDeviceHWAddress@CTcpMib@@UEAAKPEBD0KKPEAG@Z" ; tcpmib.dll
+"?GetDeviceName@CTcpMib@@UEAAKPEBD0KKPEAG@Z" ; tcpmib.dll
+"?GetNextRequestId@CTcpMib@@UEAAKPEAK@Z" ; tcpmib.dll
+"?GetStatusFromVBL@CTcpMib@@CAKPEAXPEAUsmiVALUE@@11@Z" ; tcpmib.dll
+"?InitSnmp@CTcpMib@@UEAAKXZ" ; tcpmib.dll
+"?IsValid@CTcpMib@@QEBAHXZ" ; tcpmib.dll
+"?MapAsynchToPortStatus@CTcpMib@@CAHKPEAU_PORT_INFO_3W@@@Z" ; tcpmib.dll
+"?RegisterDeviceStatusCallback@CTcpMib@@UEAAKP6AKHPEBD0KKK@ZPEAPEAX@Z" ; tcpmib.dll
+"?RequestDeviceStatus@CTcpMib@@UEAAKPEAXKPEBG1K@Z" ; tcpmib.dll
+"?SnmpCallback@CTcpMib@@CAKPEAX0I_K_J0@Z" ; tcpmib.dll
+"?SnmpGet@CTcpMib@@QEAAKPEBD0KPEAUSnmpVarBindList@@@Z" ; tcpmib.dll
+"?SnmpGet@CTcpMib@@UEAAKPEBD0KPEAUAsnObjectIdentifier@@PEAUSnmpVarBindList@@@Z" ; tcpmib.dll
+"?SnmpGetNext@CTcpMib@@QEAAKPEBD0KPEAUSnmpVarBindList@@@Z" ; tcpmib.dll
+"?SnmpGetNext@CTcpMib@@UEAAKPEBD0KPEAUAsnObjectIdentifier@@PEAUSnmpVarBindList@@@Z" ; tcpmib.dll
+"?SnmpWalk@CTcpMib@@QEAAKPEBD0KPEAUSnmpVarBindList@@@Z" ; tcpmib.dll
+"?SnmpWalk@CTcpMib@@UEAAKPEBD0KPEAUAsnObjectIdentifier@@PEAUSnmpVarBindList@@@Z" ; tcpmib.dll
+"?SupportsPrinterMib@CTcpMib@@UEAAHPEBD0KPEAH@Z" ; tcpmib.dll
+"?UnInitSnmp@CTcpMib@@UEAAXXZ" ; tcpmib.dll
+"GetTcpMibPtr" ; tcpmib.dll
+"Ping" ; tcpmib.dll

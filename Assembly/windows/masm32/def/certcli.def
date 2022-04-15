@@ -1,0 +1,150 @@
+LIBRARY "certcli.dll"
+EXPORTS
+"CAAccessCheck" ; certcli.dll
+"CAAccessCheckEx" ; certcli.dll
+"CAAddCACertificateType" ; certcli.dll
+"CACertTypeAccessCheck" ; certcli.dll
+"CACertTypeAccessCheckEx" ; certcli.dll
+"CACertTypeGetSecurity" ; certcli.dll
+"CACertTypeQuery" ; certcli.dll
+"CACertTypeRegisterQuery" ; certcli.dll
+"CACertTypeSetSecurity" ; certcli.dll
+"CACertTypeUnregisterQuery" ; certcli.dll
+"CACloneCertType" ; certcli.dll
+"CACloseCA" ; certcli.dll
+"CACloseCertType" ; certcli.dll
+"CACountCAs" ; certcli.dll
+"CACountCertTypes" ; certcli.dll
+"CACreateAutoEnrollmentObjectEx" ; certcli.dll
+"CACreateCertType" ; certcli.dll
+"CACreateLocalAutoEnrollmentObject" ; certcli.dll
+"CACreateNewCA" ; certcli.dll
+"CADeleteCA" ; certcli.dll
+"CADeleteCertType" ; certcli.dll
+"CADeleteLocalAutoEnrollmentObject" ; certcli.dll
+"CAEnumCertTypes" ; certcli.dll
+"CAEnumCertTypesEx" ; certcli.dll
+"CAEnumCertTypesForCA" ; certcli.dll
+"CAEnumCertTypesForCAEx" ; certcli.dll
+"CAEnumFirstCA" ; certcli.dll
+"CAEnumNextCA" ; certcli.dll
+"CAEnumNextCertType" ; certcli.dll
+"CAFindByCertType" ; certcli.dll
+"CAFindByIssuerDN" ; certcli.dll
+"CAFindByName" ; certcli.dll
+"CAFindCertTypeByName" ; certcli.dll
+"CAFreeCAProperty" ; certcli.dll
+"CAFreeCertTypeExtensions" ; certcli.dll
+"CAFreeCertTypeProperty" ; certcli.dll
+"CAGetCACertificate" ; certcli.dll
+"CAGetCAExpiration" ; certcli.dll
+"CAGetCAFlags" ; certcli.dll
+"CAGetCAProperty" ; certcli.dll
+"CAGetCASecurity" ; certcli.dll
+"CAGetCertTypeExpiration" ; certcli.dll
+"CAGetCertTypeExtensions" ; certcli.dll
+"CAGetCertTypeExtensionsEx" ; certcli.dll
+"CAGetCertTypeFlags" ; certcli.dll
+"CAGetCertTypeFlagsEx" ; certcli.dll
+"CAGetCertTypeKeySpec" ; certcli.dll
+"CAGetCertTypeProperty" ; certcli.dll
+"CAGetCertTypePropertyEx" ; certcli.dll
+"CAGetDN" ; certcli.dll
+"CAInstallDefaultCertType" ; certcli.dll
+"CAIsCertTypeCurrent" ; certcli.dll
+"CAOIDAdd" ; certcli.dll
+"CAOIDCreateNew" ; certcli.dll
+"CAOIDDelete" ; certcli.dll
+"CAOIDFreeLdapURL" ; certcli.dll
+"CAOIDFreeProperty" ; certcli.dll
+"CAOIDGetLdapURL" ; certcli.dll
+"CAOIDGetProperty" ; certcli.dll
+"CAOIDSetProperty" ; certcli.dll
+"CARemoveCACertificateType" ; certcli.dll
+"CASetCACertificate" ; certcli.dll
+"CASetCAExpiration" ; certcli.dll
+"CASetCAFlags" ; certcli.dll
+"CASetCAProperty" ; certcli.dll
+"CASetCASecurity" ; certcli.dll
+"CASetCertTypeExpiration" ; certcli.dll
+"CASetCertTypeExtension" ; certcli.dll
+"CASetCertTypeFlags" ; certcli.dll
+"CASetCertTypeFlagsEx" ; certcli.dll
+"CASetCertTypeKeySpec" ; certcli.dll
+"CASetCertTypeProperty" ; certcli.dll
+"CASetCertTypePropertyEx" ; certcli.dll
+"CAUpdateCA" ; certcli.dll
+"CAUpdateCertType" ; certcli.dll
+"DllCanUnloadNow" ; certcli.dll
+"DllGetClassObject" ; certcli.dll
+"DllInstall" ; certcli.dll
+"DllRegisterServer" ; certcli.dll
+"DllUnregisterServer" ; certcli.dll
+"GetProxyDllInfo" ; certcli.dll
+"certcli_ordinal201" @201 ; certcli.dll
+"certcli_ordinal202" @202 ; certcli.dll
+"certcli_ordinal203" @203 ; certcli.dll
+"certcli_ordinal204" @204 ; certcli.dll
+"certcli_ordinal205" @205 ; certcli.dll
+"certcli_ordinal206" @206 ; certcli.dll
+"certcli_ordinal207" @207 ; certcli.dll
+"certcli_ordinal208" @208 ; certcli.dll
+"certcli_ordinal209" @209 ; certcli.dll
+"certcli_ordinal210" @210 ; certcli.dll
+"certcli_ordinal211" @211 ; certcli.dll
+"certcli_ordinal212" @212 ; certcli.dll
+"certcli_ordinal213" @213 ; certcli.dll
+"certcli_ordinal214" @214 ; certcli.dll
+"certcli_ordinal215" @215 ; certcli.dll
+"certcli_ordinal216" @216 ; certcli.dll
+"certcli_ordinal217" @217 ; certcli.dll
+"certcli_ordinal218" @218 ; certcli.dll
+"certcli_ordinal219" @219 ; certcli.dll
+"certcli_ordinal220" @220 ; certcli.dll
+"certcli_ordinal221" @221 ; certcli.dll
+"certcli_ordinal222" @222 ; certcli.dll
+"certcli_ordinal223" @223 ; certcli.dll
+"certcli_ordinal224" @224 ; certcli.dll
+"certcli_ordinal225" @225 ; certcli.dll
+"certcli_ordinal226" @226 ; certcli.dll
+"certcli_ordinal227" @227 ; certcli.dll
+"certcli_ordinal228" @228 ; certcli.dll
+"certcli_ordinal229" @229 ; certcli.dll
+"certcli_ordinal230" @230 ; certcli.dll
+"certcli_ordinal231" @231 ; certcli.dll
+"certcli_ordinal232" @232 ; certcli.dll
+"certcli_ordinal233" @233 ; certcli.dll
+"certcli_ordinal234" @234 ; certcli.dll
+"certcli_ordinal235" @235 ; certcli.dll
+"certcli_ordinal236" @236 ; certcli.dll
+"certcli_ordinal237" @237 ; certcli.dll
+"certcli_ordinal238" @238 ; certcli.dll
+"certcli_ordinal239" @239 ; certcli.dll
+"certcli_ordinal240" @240 ; certcli.dll
+"certcli_ordinal241" @241 ; certcli.dll
+"certcli_ordinal242" @242 ; certcli.dll
+"certcli_ordinal243" @243 ; certcli.dll
+"certcli_ordinal244" @244 ; certcli.dll
+"certcli_ordinal245" @245 ; certcli.dll
+"certcli_ordinal246" @246 ; certcli.dll
+"certcli_ordinal247" @247 ; certcli.dll
+"certcli_ordinal248" @248 ; certcli.dll
+"certcli_ordinal249" @249 ; certcli.dll
+"certcli_ordinal250" @250 ; certcli.dll
+"certcli_ordinal251" @251 ; certcli.dll
+"certcli_ordinal252" @252 ; certcli.dll
+"certcli_ordinal253" @253 ; certcli.dll
+"certcli_ordinal254" @254 ; certcli.dll
+"certcli_ordinal255" @255 ; certcli.dll
+"certcli_ordinal256" @256 ; certcli.dll
+"certcli_ordinal257" @257 ; certcli.dll
+"certcli_ordinal258" @258 ; certcli.dll
+"certcli_ordinal259" @259 ; certcli.dll
+"certcli_ordinal260" @260 ; certcli.dll
+"certcli_ordinal261" @261 ; certcli.dll
+"certcli_ordinal262" @262 ; certcli.dll
+"certcli_ordinal263" @263 ; certcli.dll
+"certcli_ordinal264" @264 ; certcli.dll
+"certcli_ordinal265" @265 ; certcli.dll
+"certcli_ordinal266" @266 ; certcli.dll
+"certcli_ordinal267" @267 ; certcli.dll

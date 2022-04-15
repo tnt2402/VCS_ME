@@ -1,0 +1,13 @@
+LIBRARY "strmfilt.dll"
+EXPORTS
+"DllMain" ; strmfilt.dll
+"IsapiFilterInitialize" ; strmfilt.dll
+"IsapiFilterTerminate" ; strmfilt.dll
+"StreamFilterClientInitialize" ; strmfilt.dll
+"StreamFilterClientStart" ; strmfilt.dll
+"StreamFilterClientStop" ; strmfilt.dll
+"StreamFilterClientTerminate" ; strmfilt.dll
+"StreamFilterInitialize" ; strmfilt.dll
+"StreamFilterStart" ; strmfilt.dll
+"StreamFilterStop" ; strmfilt.dll
+"StreamFilterTerminate" ; strmfilt.dll

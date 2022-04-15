@@ -1,0 +1,6 @@
+LIBRARY "docprop2.dll"
+EXPORTS
+"DllCanUnloadNow" ; docprop2.dll
+"DllGetClassObject" ; docprop2.dll
+"DllRegisterServer" ; docprop2.dll
+"DllUnregisterServer" ; docprop2.dll

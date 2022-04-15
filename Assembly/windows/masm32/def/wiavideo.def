@@ -1,0 +1,6 @@
+LIBRARY "wiavideo.dll"
+EXPORTS
+"DllCanUnloadNow" ; wiavideo.dll
+"DllGetClassObject" ; wiavideo.dll
+"DllRegisterServer" ; wiavideo.dll
+"DllUnregisterServer" ; wiavideo.dll

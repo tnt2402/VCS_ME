@@ -1,0 +1,8 @@
+LIBRARY "avicap32.dll"
+EXPORTS
+"AppCleanup" ; avicap32.dll
+"capCreateCaptureWindowA" ; avicap32.dll
+"capCreateCaptureWindowW" ; avicap32.dll
+"capGetDriverDescriptionA" ; avicap32.dll
+"capGetDriverDescriptionW" ; avicap32.dll
+"videoThunk32" ; avicap32.dll

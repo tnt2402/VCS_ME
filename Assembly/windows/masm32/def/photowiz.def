@@ -1,0 +1,9 @@
+LIBRARY "photowiz.dll"
+EXPORTS
+"DllCanUnloadNow" ; photowiz.dll
+"DllGetClassObject" ; photowiz.dll
+"DllInstall" ; photowiz.dll
+"DllMain" ; photowiz.dll
+"DllRegisterServer" ; photowiz.dll
+"DllUnregisterServer" ; photowiz.dll
+"UsePPWForPrintTo" ; photowiz.dll

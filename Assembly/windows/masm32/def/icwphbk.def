@@ -1,0 +1,10 @@
+LIBRARY "icwphbk.dll"
+EXPORTS
+"GetSupportNumbers" ; icwphbk.dll
+"PhbkGenericDlgProc" ; icwphbk.dll
+"PhoneBookDisplaySignUpNumbers" ; icwphbk.dll
+"PhoneBookGetCanonical" ; icwphbk.dll
+"PhoneBookLoad" ; icwphbk.dll
+"PhoneBookMergeChanges" ; icwphbk.dll
+"PhoneBookSuggestNumbers" ; icwphbk.dll
+"PhoneBookUnload" ; icwphbk.dll

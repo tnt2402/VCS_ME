@@ -1,0 +1,6 @@
+LIBRARY "confmsp.dll"
+EXPORTS
+"DllCanUnloadNow" ; confmsp.dll
+"DllGetClassObject" ; confmsp.dll
+"DllRegisterServer" ; confmsp.dll
+"DllUnregisterServer" ; confmsp.dll

@@ -1,0 +1,326 @@
+LIBRARY "wldap32.dll"
+EXPORTS
+"LdapGetLastError" ; wldap32.dll
+"LdapMapErrorToWin32" ; wldap32.dll
+"LdapUTF8ToUnicode" ; wldap32.dll
+"LdapUnicodeToUTF8" ; wldap32.dll
+"ber_alloc_t" ; wldap32.dll
+"ber_bvdup" ; wldap32.dll
+"ber_bvecfree" ; wldap32.dll
+"ber_bvfree" ; wldap32.dll
+"ber_first_element" ; wldap32.dll
+"ber_flatten" ; wldap32.dll
+"ber_free" ; wldap32.dll
+"ber_init" ; wldap32.dll
+"ber_next_element" ; wldap32.dll
+"ber_peek_tag" ; wldap32.dll
+"ber_printf" ; wldap32.dll
+"ber_scanf" ; wldap32.dll
+"ber_skip_tag" ; wldap32.dll
+"cldap_open" ; wldap32.dll
+"cldap_openA" ; wldap32.dll
+"cldap_openW" ; wldap32.dll
+"ldap_abandon" ; wldap32.dll
+"ldap_add" ; wldap32.dll
+"ldap_addA" ; wldap32.dll
+"ldap_addW" ; wldap32.dll
+"ldap_add_ext" ; wldap32.dll
+"ldap_add_extA" ; wldap32.dll
+"ldap_add_extW" ; wldap32.dll
+"ldap_add_ext_s" ; wldap32.dll
+"ldap_add_ext_sA" ; wldap32.dll
+"ldap_add_ext_sW" ; wldap32.dll
+"ldap_add_s" ; wldap32.dll
+"ldap_add_sA" ; wldap32.dll
+"ldap_add_sW" ; wldap32.dll
+"ldap_bind" ; wldap32.dll
+"ldap_bindA" ; wldap32.dll
+"ldap_bindW" ; wldap32.dll
+"ldap_bind_s" ; wldap32.dll
+"ldap_bind_sA" ; wldap32.dll
+"ldap_bind_sW" ; wldap32.dll
+"ldap_check_filterA" ; wldap32.dll
+"ldap_check_filterW" ; wldap32.dll
+"ldap_cleanup" ; wldap32.dll
+"ldap_close_extended_op" ; wldap32.dll
+"ldap_compare" ; wldap32.dll
+"ldap_compareA" ; wldap32.dll
+"ldap_compareW" ; wldap32.dll
+"ldap_compare_ext" ; wldap32.dll
+"ldap_compare_extA" ; wldap32.dll
+"ldap_compare_extW" ; wldap32.dll
+"ldap_compare_ext_s" ; wldap32.dll
+"ldap_compare_ext_sA" ; wldap32.dll
+"ldap_compare_ext_sW" ; wldap32.dll
+"ldap_compare_s" ; wldap32.dll
+"ldap_compare_sA" ; wldap32.dll
+"ldap_compare_sW" ; wldap32.dll
+"ldap_conn_from_msg" ; wldap32.dll
+"ldap_connect" ; wldap32.dll
+"ldap_control_free" ; wldap32.dll
+"ldap_control_freeA" ; wldap32.dll
+"ldap_control_freeW" ; wldap32.dll
+"ldap_controls_free" ; wldap32.dll
+"ldap_controls_freeA" ; wldap32.dll
+"ldap_controls_freeW" ; wldap32.dll
+"ldap_count_entries" ; wldap32.dll
+"ldap_count_references" ; wldap32.dll
+"ldap_count_values" ; wldap32.dll
+"ldap_count_valuesA" ; wldap32.dll
+"ldap_count_valuesW" ; wldap32.dll
+"ldap_count_values_len" ; wldap32.dll
+"ldap_create_page_control" ; wldap32.dll
+"ldap_create_page_controlA" ; wldap32.dll
+"ldap_create_page_controlW" ; wldap32.dll
+"ldap_create_sort_control" ; wldap32.dll
+"ldap_create_sort_controlA" ; wldap32.dll
+"ldap_create_sort_controlW" ; wldap32.dll
+"ldap_create_vlv_controlA" ; wldap32.dll
+"ldap_create_vlv_controlW" ; wldap32.dll
+"ldap_delete" ; wldap32.dll
+"ldap_deleteA" ; wldap32.dll
+"ldap_deleteW" ; wldap32.dll
+"ldap_delete_ext" ; wldap32.dll
+"ldap_delete_extA" ; wldap32.dll
+"ldap_delete_extW" ; wldap32.dll
+"ldap_delete_ext_s" ; wldap32.dll
+"ldap_delete_ext_sA" ; wldap32.dll
+"ldap_delete_ext_sW" ; wldap32.dll
+"ldap_delete_s" ; wldap32.dll
+"ldap_delete_sA" ; wldap32.dll
+"ldap_delete_sW" ; wldap32.dll
+"ldap_dn2ufn" ; wldap32.dll
+"ldap_dn2ufnA" ; wldap32.dll
+"ldap_dn2ufnW" ; wldap32.dll
+"ldap_encode_sort_controlA" ; wldap32.dll
+"ldap_encode_sort_controlW" ; wldap32.dll
+"ldap_err2string" ; wldap32.dll
+"ldap_err2stringA" ; wldap32.dll
+"ldap_err2stringW" ; wldap32.dll
+"ldap_escape_filter_element" ; wldap32.dll
+"ldap_escape_filter_elementA" ; wldap32.dll
+"ldap_escape_filter_elementW" ; wldap32.dll
+"ldap_explode_dn" ; wldap32.dll
+"ldap_explode_dnA" ; wldap32.dll
+"ldap_explode_dnW" ; wldap32.dll
+"ldap_extended_operation" ; wldap32.dll
+"ldap_extended_operationA" ; wldap32.dll
+"ldap_extended_operationW" ; wldap32.dll
+"ldap_extended_operation_sA" ; wldap32.dll
+"ldap_extended_operation_sW" ; wldap32.dll
+"ldap_first_attribute" ; wldap32.dll
+"ldap_first_attributeA" ; wldap32.dll
+"ldap_first_attributeW" ; wldap32.dll
+"ldap_first_entry" ; wldap32.dll
+"ldap_first_reference" ; wldap32.dll
+"ldap_free_controls" ; wldap32.dll
+"ldap_free_controlsA" ; wldap32.dll
+"ldap_free_controlsW" ; wldap32.dll
+"ldap_get_dn" ; wldap32.dll
+"ldap_get_dnA" ; wldap32.dll
+"ldap_get_dnW" ; wldap32.dll
+"ldap_get_next_page" ; wldap32.dll
+"ldap_get_next_page_s" ; wldap32.dll
+"ldap_get_option" ; wldap32.dll
+"ldap_get_optionA" ; wldap32.dll
+"ldap_get_optionW" ; wldap32.dll
+"ldap_get_paged_count" ; wldap32.dll
+"ldap_get_values" ; wldap32.dll
+"ldap_get_valuesA" ; wldap32.dll
+"ldap_get_valuesW" ; wldap32.dll
+"ldap_get_values_len" ; wldap32.dll
+"ldap_get_values_lenA" ; wldap32.dll
+"ldap_get_values_lenW" ; wldap32.dll
+"ldap_init" ; wldap32.dll
+"ldap_initA" ; wldap32.dll
+"ldap_initW" ; wldap32.dll
+"ldap_memfree" ; wldap32.dll
+"ldap_memfreeA" ; wldap32.dll
+"ldap_memfreeW" ; wldap32.dll
+"ldap_modify" ; wldap32.dll
+"ldap_modifyA" ; wldap32.dll
+"ldap_modifyW" ; wldap32.dll
+"ldap_modify_ext" ; wldap32.dll
+"ldap_modify_extA" ; wldap32.dll
+"ldap_modify_extW" ; wldap32.dll
+"ldap_modify_ext_s" ; wldap32.dll
+"ldap_modify_ext_sA" ; wldap32.dll
+"ldap_modify_ext_sW" ; wldap32.dll
+"ldap_modify_s" ; wldap32.dll
+"ldap_modify_sA" ; wldap32.dll
+"ldap_modify_sW" ; wldap32.dll
+"ldap_modrdn" ; wldap32.dll
+"ldap_modrdn2" ; wldap32.dll
+"ldap_modrdn2A" ; wldap32.dll
+"ldap_modrdn2W" ; wldap32.dll
+"ldap_modrdn2_s" ; wldap32.dll
+"ldap_modrdn2_sA" ; wldap32.dll
+"ldap_modrdn2_sW" ; wldap32.dll
+"ldap_modrdnA" ; wldap32.dll
+"ldap_modrdnW" ; wldap32.dll
+"ldap_modrdn_s" ; wldap32.dll
+"ldap_modrdn_sA" ; wldap32.dll
+"ldap_modrdn_sW" ; wldap32.dll
+"ldap_msgfree" ; wldap32.dll
+"ldap_next_attribute" ; wldap32.dll
+"ldap_next_attributeA" ; wldap32.dll
+"ldap_next_attributeW" ; wldap32.dll
+"ldap_next_entry" ; wldap32.dll
+"ldap_next_reference" ; wldap32.dll
+"ldap_open" ; wldap32.dll
+"ldap_openA" ; wldap32.dll
+"ldap_openW" ; wldap32.dll
+"ldap_parse_extended_resultA" ; wldap32.dll
+"ldap_parse_extended_resultW" ; wldap32.dll
+"ldap_parse_page_control" ; wldap32.dll
+"ldap_parse_page_controlA" ; wldap32.dll
+"ldap_parse_page_controlW" ; wldap32.dll
+"ldap_parse_reference" ; wldap32.dll
+"ldap_parse_referenceA" ; wldap32.dll
+"ldap_parse_referenceW" ; wldap32.dll
+"ldap_parse_result" ; wldap32.dll
+"ldap_parse_resultA" ; wldap32.dll
+"ldap_parse_resultW" ; wldap32.dll
+"ldap_parse_sort_control" ; wldap32.dll
+"ldap_parse_sort_controlA" ; wldap32.dll
+"ldap_parse_sort_controlW" ; wldap32.dll
+"ldap_parse_vlv_controlA" ; wldap32.dll
+"ldap_parse_vlv_controlW" ; wldap32.dll
+"ldap_perror" ; wldap32.dll
+"ldap_rename_ext" ; wldap32.dll
+"ldap_rename_extA" ; wldap32.dll
+"ldap_rename_extW" ; wldap32.dll
+"ldap_rename_ext_s" ; wldap32.dll
+"ldap_rename_ext_sA" ; wldap32.dll
+"ldap_rename_ext_sW" ; wldap32.dll
+"ldap_result" ; wldap32.dll
+"ldap_result2error" ; wldap32.dll
+"ldap_sasl_bindA" ; wldap32.dll
+"ldap_sasl_bindW" ; wldap32.dll
+"ldap_sasl_bind_sA" ; wldap32.dll
+"ldap_sasl_bind_sW" ; wldap32.dll
+"ldap_search" ; wldap32.dll
+"ldap_searchA" ; wldap32.dll
+"ldap_searchW" ; wldap32.dll
+"ldap_search_abandon_page" ; wldap32.dll
+"ldap_search_ext" ; wldap32.dll
+"ldap_search_extA" ; wldap32.dll
+"ldap_search_extW" ; wldap32.dll
+"ldap_search_ext_s" ; wldap32.dll
+"ldap_search_ext_sA" ; wldap32.dll
+"ldap_search_ext_sW" ; wldap32.dll
+"ldap_search_init_page" ; wldap32.dll
+"ldap_search_init_pageA" ; wldap32.dll
+"ldap_search_init_pageW" ; wldap32.dll
+"ldap_search_s" ; wldap32.dll
+"ldap_search_sA" ; wldap32.dll
+"ldap_search_sW" ; wldap32.dll
+"ldap_search_st" ; wldap32.dll
+"ldap_search_stA" ; wldap32.dll
+"ldap_search_stW" ; wldap32.dll
+"ldap_set_dbg_flags" ; wldap32.dll
+"ldap_set_dbg_routine" ; wldap32.dll
+"ldap_set_option" ; wldap32.dll
+"ldap_set_optionA" ; wldap32.dll
+"ldap_set_optionW" ; wldap32.dll
+"ldap_simple_bind" ; wldap32.dll
+"ldap_simple_bindA" ; wldap32.dll
+"ldap_simple_bindW" ; wldap32.dll
+"ldap_simple_bind_s" ; wldap32.dll
+"ldap_simple_bind_sA" ; wldap32.dll
+"ldap_simple_bind_sW" ; wldap32.dll
+"ldap_sslinit" ; wldap32.dll
+"ldap_sslinitA" ; wldap32.dll
+"ldap_sslinitW" ; wldap32.dll
+"ldap_start_tls_sA" ; wldap32.dll
+"ldap_start_tls_sW" ; wldap32.dll
+"ldap_startup" ; wldap32.dll
+"ldap_stop_tls_s" ; wldap32.dll
+"ldap_ufn2dn" ; wldap32.dll
+"ldap_ufn2dnA" ; wldap32.dll
+"ldap_ufn2dnW" ; wldap32.dll
+"ldap_unbind" ; wldap32.dll
+"ldap_unbind_s" ; wldap32.dll
+"ldap_value_free" ; wldap32.dll
+"ldap_value_freeA" ; wldap32.dll
+"ldap_value_freeW" ; wldap32.dll
+"ldap_value_free_len" ; wldap32.dll
+"wldap32_ordinal15" @15 ; wldap32.dll
+"wldap32_ordinal225" @225 ; wldap32.dll
+"wldap32_ordinal226" @226 ; wldap32.dll
+"wldap32_ordinal227" @227 ; wldap32.dll
+"wldap32_ordinal228" @228 ; wldap32.dll
+"wldap32_ordinal229" @229 ; wldap32.dll
+"wldap32_ordinal233" @233 ; wldap32.dll
+"wldap32_ordinal234" @234 ; wldap32.dll
+"wldap32_ordinal235" @235 ; wldap32.dll
+"wldap32_ordinal236" @236 ; wldap32.dll
+"wldap32_ordinal237" @237 ; wldap32.dll
+"wldap32_ordinal238" @238 ; wldap32.dll
+"wldap32_ordinal239" @239 ; wldap32.dll
+"wldap32_ordinal240" @240 ; wldap32.dll
+"wldap32_ordinal241" @241 ; wldap32.dll
+"wldap32_ordinal242" @242 ; wldap32.dll
+"wldap32_ordinal243" @243 ; wldap32.dll
+"wldap32_ordinal244" @244 ; wldap32.dll
+"wldap32_ordinal245" @245 ; wldap32.dll
+"wldap32_ordinal246" @246 ; wldap32.dll
+"wldap32_ordinal247" @247 ; wldap32.dll
+"wldap32_ordinal248" @248 ; wldap32.dll
+"wldap32_ordinal249" @249 ; wldap32.dll
+"wldap32_ordinal250" @250 ; wldap32.dll
+"wldap32_ordinal251" @251 ; wldap32.dll
+"wldap32_ordinal252" @252 ; wldap32.dll
+"wldap32_ordinal253" @253 ; wldap32.dll
+"wldap32_ordinal254" @254 ; wldap32.dll
+"wldap32_ordinal255" @255 ; wldap32.dll
+"wldap32_ordinal256" @256 ; wldap32.dll
+"wldap32_ordinal257" @257 ; wldap32.dll
+"wldap32_ordinal258" @258 ; wldap32.dll
+"wldap32_ordinal259" @259 ; wldap32.dll
+"wldap32_ordinal260" @260 ; wldap32.dll
+"wldap32_ordinal261" @261 ; wldap32.dll
+"wldap32_ordinal262" @262 ; wldap32.dll
+"wldap32_ordinal263" @263 ; wldap32.dll
+"wldap32_ordinal264" @264 ; wldap32.dll
+"wldap32_ordinal265" @265 ; wldap32.dll
+"wldap32_ordinal266" @266 ; wldap32.dll
+"wldap32_ordinal267" @267 ; wldap32.dll
+"wldap32_ordinal268" @268 ; wldap32.dll
+"wldap32_ordinal269" @269 ; wldap32.dll
+"wldap32_ordinal270" @270 ; wldap32.dll
+"wldap32_ordinal271" @271 ; wldap32.dll
+"wldap32_ordinal272" @272 ; wldap32.dll
+"wldap32_ordinal273" @273 ; wldap32.dll
+"wldap32_ordinal274" @274 ; wldap32.dll
+"wldap32_ordinal275" @275 ; wldap32.dll
+"wldap32_ordinal276" @276 ; wldap32.dll
+"wldap32_ordinal277" @277 ; wldap32.dll
+"wldap32_ordinal278" @278 ; wldap32.dll
+"wldap32_ordinal279" @279 ; wldap32.dll
+"wldap32_ordinal280" @280 ; wldap32.dll
+"wldap32_ordinal281" @281 ; wldap32.dll
+"wldap32_ordinal282" @282 ; wldap32.dll
+"wldap32_ordinal283" @283 ; wldap32.dll
+"wldap32_ordinal284" @284 ; wldap32.dll
+"wldap32_ordinal285" @285 ; wldap32.dll
+"wldap32_ordinal286" @286 ; wldap32.dll
+"wldap32_ordinal287" @287 ; wldap32.dll
+"wldap32_ordinal288" @288 ; wldap32.dll
+"wldap32_ordinal289" @289 ; wldap32.dll
+"wldap32_ordinal290" @290 ; wldap32.dll
+"wldap32_ordinal291" @291 ; wldap32.dll
+"wldap32_ordinal292" @292 ; wldap32.dll
+"wldap32_ordinal293" @293 ; wldap32.dll
+"wldap32_ordinal294" @294 ; wldap32.dll
+"wldap32_ordinal295" @295 ; wldap32.dll
+"wldap32_ordinal296" @296 ; wldap32.dll
+"wldap32_ordinal297" @297 ; wldap32.dll
+"wldap32_ordinal298" @298 ; wldap32.dll
+"wldap32_ordinal299" @299 ; wldap32.dll
+"wldap32_ordinal323" @323 ; wldap32.dll
+"wldap32_ordinal324" @324 ; wldap32.dll
+"wldap32_ordinal325" @325 ; wldap32.dll
+"wldap32_ordinal326" @326 ; wldap32.dll
+"wldap32_ordinal327" @327 ; wldap32.dll
+"wldap32_ordinal328" @328 ; wldap32.dll

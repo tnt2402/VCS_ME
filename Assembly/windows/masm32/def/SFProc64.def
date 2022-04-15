@@ -1,0 +1,3 @@
+LIBRARY "SFProc64.dll"
+EXPORTS
+"CreateSFProc" ; SFProc64.dll

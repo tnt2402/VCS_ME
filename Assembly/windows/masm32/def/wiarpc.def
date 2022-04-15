@@ -1,0 +1,16 @@
+LIBRARY "wiarpc.dll"
+EXPORTS
+"??0BUFFER@@QEAA@I@Z" ; wiarpc.dll
+"??0BUFFER_CHAIN@@QEAA@XZ" ; wiarpc.dll
+"??0BUFFER_CHAIN_ITEM@@QEAA@I@Z" ; wiarpc.dll
+"??1BUFFER@@QEAA@XZ" ; wiarpc.dll
+"??1BUFFER_CHAIN@@QEAA@XZ" ; wiarpc.dll
+"??1BUFFER_CHAIN_ITEM@@QEAA@XZ" ; wiarpc.dll
+"??_FBUFFER@@QEAAXXZ" ; wiarpc.dll
+"??_FBUFFER_CHAIN_ITEM@@QEAAXXZ" ; wiarpc.dll
+"?QueryPtr@BUFFER@@QEBAPEAXXZ" ; wiarpc.dll
+"?QuerySize@BUFFER@@QEBAIXZ" ; wiarpc.dll
+"?QueryUsed@BUFFER_CHAIN_ITEM@@QEBAKXZ" ; wiarpc.dll
+"?SetUsed@BUFFER_CHAIN_ITEM@@QEAAXK@Z" ; wiarpc.dll
+"WiaEventsInitialize" ; wiarpc.dll
+"WiaEventsTerminate" ; wiarpc.dll

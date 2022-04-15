@@ -1,0 +1,5 @@
+LIBRARY "hirich.dll"
+EXPORTS
+"RegisterXstatic" ; hirich.dll
+"SetRichHilite" ; hirich.dll
+"UnregisterXstatic" ; hirich.dll

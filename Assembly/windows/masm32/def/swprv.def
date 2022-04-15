@@ -1,0 +1,9 @@
+LIBRARY "swprv.dll"
+EXPORTS
+"?VssFreeSnapshotProperties@@YAXPEAU_VSS_SNAPSHOT_PROP@@@Z" ; swprv.dll
+"DllCanUnloadNow" ; swprv.dll
+"DllGetClassObject" ; swprv.dll
+"DllInstall" ; swprv.dll
+"DllRegisterServer" ; swprv.dll
+"DllUnregisterServer" ; swprv.dll
+"ServiceMain" ; swprv.dll

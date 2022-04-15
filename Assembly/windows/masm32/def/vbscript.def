@@ -1,0 +1,6 @@
+LIBRARY "vbscript.dll"
+EXPORTS
+"DllCanUnloadNow" ; vbscript.dll
+"DllGetClassObject" ; vbscript.dll
+"DllRegisterServer" ; vbscript.dll
+"DllUnregisterServer" ; vbscript.dll

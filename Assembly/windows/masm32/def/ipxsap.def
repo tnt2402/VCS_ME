@@ -1,0 +1,4 @@
+LIBRARY "ipxsap.dll"
+EXPORTS
+"RegisterProtocol" ; ipxsap.dll
+"ServiceMain" ; ipxsap.dll

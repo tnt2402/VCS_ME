@@ -1,0 +1,3 @@
+LIBRARY "kbdazel.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdazel.dll

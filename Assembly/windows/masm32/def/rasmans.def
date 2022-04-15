@@ -1,0 +1,7 @@
+LIBRARY "rasmans.dll"
+EXPORTS
+"ServiceMain" ; rasmans.dll
+"ServiceRequestInProcess" ; rasmans.dll
+"SetEntryDialParams" ; rasmans.dll
+"_RasmanEngine" ; rasmans.dll
+"_RasmanInit" ; rasmans.dll

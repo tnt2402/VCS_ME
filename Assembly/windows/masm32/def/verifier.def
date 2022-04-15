@@ -1,0 +1,19 @@
+LIBRARY "verifier.dll"
+EXPORTS
+"VerifierAddFreeMemoryCallback" ; verifier.dll
+"VerifierCreateRpcPageHeap" ; verifier.dll
+"VerifierDeleteFreeMemoryCallback" ; verifier.dll
+"VerifierDestroyRpcPageHeap" ; verifier.dll
+"VerifierDisableFaultInjectionExclusionRange" ; verifier.dll
+"VerifierDisableFaultInjectionTargetRange" ; verifier.dll
+"VerifierEnableFaultInjectionExclusionRange" ; verifier.dll
+"VerifierEnableFaultInjectionTargetRange" ; verifier.dll
+"VerifierEnumerateResource" ; verifier.dll
+"VerifierIsCurrentThreadHoldingLocks" ; verifier.dll
+"VerifierIsDllEntryActive" ; verifier.dll
+"VerifierLogMessage" ; verifier.dll
+"VerifierQueryRuntimeFlags" ; verifier.dll
+"VerifierSetFaultInjectionProbability" ; verifier.dll
+"VerifierSetFlags" ; verifier.dll
+"VerifierSetRuntimeFlags" ; verifier.dll
+"VerifierStopMessage" ; verifier.dll

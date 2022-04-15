@@ -1,0 +1,6 @@
+LIBRARY "bitsprx2.dll"
+EXPORTS
+"DllCanUnloadNow" ; bitsprx2.dll
+"DllGetClassObject" ; bitsprx2.dll
+"DllRegisterServer" ; bitsprx2.dll
+"DllUnregisterServer" ; bitsprx2.dll

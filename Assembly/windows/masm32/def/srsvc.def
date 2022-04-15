@@ -1,0 +1,4 @@
+LIBRARY "srsvc.dll"
+EXPORTS
+"DllMain" ; srsvc.dll
+"ServiceMain" ; srsvc.dll

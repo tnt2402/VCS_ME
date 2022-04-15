@@ -1,0 +1,24 @@
+LIBRARY "sti.dll"
+EXPORTS
+"??0BUFFER@@QEAA@I@Z" ; sti.dll
+"??0BUFFER_CHAIN@@QEAA@XZ" ; sti.dll
+"??0BUFFER_CHAIN_ITEM@@QEAA@I@Z" ; sti.dll
+"??1BUFFER@@QEAA@XZ" ; sti.dll
+"??1BUFFER_CHAIN@@QEAA@XZ" ; sti.dll
+"??1BUFFER_CHAIN_ITEM@@QEAA@XZ" ; sti.dll
+"??_FBUFFER@@QEAAXXZ" ; sti.dll
+"??_FBUFFER_CHAIN_ITEM@@QEAAXXZ" ; sti.dll
+"?QueryPtr@BUFFER@@QEBAPEAXXZ" ; sti.dll
+"?QuerySize@BUFFER@@QEBAIXZ" ; sti.dll
+"?QueryUsed@BUFFER_CHAIN_ITEM@@QEBAKXZ" ; sti.dll
+"?SetUsed@BUFFER_CHAIN_ITEM@@QEAAXK@Z" ; sti.dll
+"DllCanUnloadNow" ; sti.dll
+"DllGetClassObject" ; sti.dll
+"DllRegisterServer" ; sti.dll
+"DllUnregisterServer" ; sti.dll
+"GetProxyDllInfo" ; sti.dll
+"MigrateRegisteredSTIAppsForWIAEvents" ; sti.dll
+"RegSTIforWia" ; sti.dll
+"StiCreateInstance" ; sti.dll
+"StiCreateInstanceA" ; sti.dll
+"StiCreateInstanceW" ; sti.dll

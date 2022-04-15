@@ -1,0 +1,21 @@
+LIBRARY "admparse.dll"
+EXPORTS
+"AdmClose" ; admparse.dll
+"AdmFinishedA" ; admparse.dll
+"AdmFinishedW" ; admparse.dll
+"AdmInitA" ; admparse.dll
+"AdmInitW" ; admparse.dll
+"AdmResetA" ; admparse.dll
+"AdmResetW" ; admparse.dll
+"AdmSaveData" ; admparse.dll
+"CheckDuplicateKeysA" ; admparse.dll
+"CheckDuplicateKeysW" ; admparse.dll
+"CreateAdmUiA" ; admparse.dll
+"CreateAdmUiW" ; admparse.dll
+"DllMain" ; admparse.dll
+"GetAdmCategoriesA" ; admparse.dll
+"GetAdmCategoriesW" ; admparse.dll
+"GetFontInfoA" ; admparse.dll
+"GetFontInfoW" ; admparse.dll
+"IsAdmDirty" ; admparse.dll
+"ResetAdmDirtyFlag" ; admparse.dll

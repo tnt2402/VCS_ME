@@ -1,0 +1,29 @@
+LIBRARY "slbcsp.dll"
+EXPORTS
+"CPAcquireContext" ; slbcsp.dll
+"CPCreateHash" ; slbcsp.dll
+"CPDecrypt" ; slbcsp.dll
+"CPDeriveKey" ; slbcsp.dll
+"CPDestroyHash" ; slbcsp.dll
+"CPDestroyKey" ; slbcsp.dll
+"CPDuplicateHash" ; slbcsp.dll
+"CPDuplicateKey" ; slbcsp.dll
+"CPEncrypt" ; slbcsp.dll
+"CPExportKey" ; slbcsp.dll
+"CPGenKey" ; slbcsp.dll
+"CPGenRandom" ; slbcsp.dll
+"CPGetHashParam" ; slbcsp.dll
+"CPGetKeyParam" ; slbcsp.dll
+"CPGetProvParam" ; slbcsp.dll
+"CPGetUserKey" ; slbcsp.dll
+"CPHashData" ; slbcsp.dll
+"CPHashSessionKey" ; slbcsp.dll
+"CPImportKey" ; slbcsp.dll
+"CPReleaseContext" ; slbcsp.dll
+"CPSetHashParam" ; slbcsp.dll
+"CPSetKeyParam" ; slbcsp.dll
+"CPSetProvParam" ; slbcsp.dll
+"CPSignHash" ; slbcsp.dll
+"CPVerifySignature" ; slbcsp.dll
+"DllRegisterServer" ; slbcsp.dll
+"DllUnregisterServer" ; slbcsp.dll

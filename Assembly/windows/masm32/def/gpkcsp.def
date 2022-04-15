@@ -1,0 +1,28 @@
+LIBRARY "gpkcsp.dll"
+EXPORTS
+"CPAcquireContext" ; gpkcsp.dll
+"CPCreateHash" ; gpkcsp.dll
+"CPDecrypt" ; gpkcsp.dll
+"CPDeriveKey" ; gpkcsp.dll
+"CPDestroyHash" ; gpkcsp.dll
+"CPDestroyKey" ; gpkcsp.dll
+"CPEncrypt" ; gpkcsp.dll
+"CPExportKey" ; gpkcsp.dll
+"CPGenKey" ; gpkcsp.dll
+"CPGenRandom" ; gpkcsp.dll
+"CPGetHashParam" ; gpkcsp.dll
+"CPGetKeyParam" ; gpkcsp.dll
+"CPGetProvParam" ; gpkcsp.dll
+"CPGetUserKey" ; gpkcsp.dll
+"CPHashData" ; gpkcsp.dll
+"CPHashSessionKey" ; gpkcsp.dll
+"CPImportKey" ; gpkcsp.dll
+"CPReleaseContext" ; gpkcsp.dll
+"CPSetHashParam" ; gpkcsp.dll
+"CPSetKeyParam" ; gpkcsp.dll
+"CPSetProvParam" ; gpkcsp.dll
+"CPSignHash" ; gpkcsp.dll
+"CPVerifySignature" ; gpkcsp.dll
+"DllMain" ; gpkcsp.dll
+"DllRegisterServer" ; gpkcsp.dll
+"DllUnregisterServer" ; gpkcsp.dll

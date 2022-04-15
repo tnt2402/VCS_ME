@@ -1,0 +1,6 @@
+LIBRARY "stclient.dll"
+EXPORTS
+"DllCanUnloadNow" ; stclient.dll
+"DllGetClassObject" ; stclient.dll
+"DllRegisterServer" ; stclient.dll
+"DllUnregisterServer" ; stclient.dll

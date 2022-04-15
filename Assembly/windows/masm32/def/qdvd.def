@@ -1,0 +1,6 @@
+LIBRARY "qdvd.dll"
+EXPORTS
+"DllCanUnloadNow" ; qdvd.dll
+"DllGetClassObject" ; qdvd.dll
+"DllRegisterServer" ; qdvd.dll
+"DllUnregisterServer" ; qdvd.dll

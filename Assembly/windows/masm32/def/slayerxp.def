@@ -1,0 +1,6 @@
+LIBRARY "slayerxp.dll"
+EXPORTS
+"DllCanUnloadNow" ; slayerxp.dll
+"DllGetClassObject" ; slayerxp.dll
+"DllRegisterServer" ; slayerxp.dll
+"DllUnregisterServer" ; slayerxp.dll

@@ -1,0 +1,6 @@
+LIBRARY "winsrv.dll"
+EXPORTS
+"ConServerDllInitialization" ; winsrv.dll
+"UserServerDllInitialization" ; winsrv.dll
+"_UserSoundSentry" ; winsrv.dll
+"_UserTestTokenForInteractive" ; winsrv.dll

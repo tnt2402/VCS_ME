@@ -1,0 +1,15 @@
+LIBRARY "accelerometerdll.dll"
+EXPORTS
+"?ClearLogFile@@YAKPEAX@Z" ; accelerometerdll.dll
+"?FindAccelerometerDevice@@YAEPEAPEAX@Z" ; accelerometerdll.dll
+"?GetAccelerometerProperty@@YAKPEAXW4_ACCELEROMETER_PROPERTY_FLAGS@@0@Z" ; accelerometerdll.dll
+"?GetRealTimeXYZ@@YAKPEAXPEAGPEAU_OVERLAPPED@@@Z" ; accelerometerdll.dll
+"?IsSoftwareEnabled@@YAKPEAXPEAE@Z" ; accelerometerdll.dll
+"?NotifyAccelerometerAboutPower@@YAKPEAXK@Z" ; accelerometerdll.dll
+"?RegisterForAccelerometerDisabledEvent@@YAPEAXPEAUHWND__@@PEAX@Z" ; accelerometerdll.dll
+"?RegisterForAccelerometerDiskCountChangeEvent@@YAPEAXPEAUHWND__@@PEAX@Z" ; accelerometerdll.dll
+"?RegisterForAccelerometerEnabledEvent@@YAPEAXPEAUHWND__@@PEAX@Z" ; accelerometerdll.dll
+"?RegisterForAccelerometerParameterChangeEvent@@YAPEAXPEAUHWND__@@PEAX@Z" ; accelerometerdll.dll
+"?RegisterForAccelerometerShockEndEvent@@YAPEAXPEAUHWND__@@PEAX@Z" ; accelerometerdll.dll
+"?RegisterForAccelerometerShockSignaledEvent@@YAPEAXPEAUHWND__@@PEAX@Z" ; accelerometerdll.dll
+"?SetAccelerometerProperty@@YAKPEAXW4_ACCELEROMETER_PROPERTY_FLAGS@@0@Z" ; accelerometerdll.dll

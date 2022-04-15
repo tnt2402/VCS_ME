@@ -1,0 +1,9 @@
+LIBRARY "rasmxs.dll"
+EXPORTS
+"DeviceConnect" ; rasmxs.dll
+"DeviceDone" ; rasmxs.dll
+"DeviceEnum" ; rasmxs.dll
+"DeviceGetInfo" ; rasmxs.dll
+"DeviceListen" ; rasmxs.dll
+"DeviceSetInfo" ; rasmxs.dll
+"DeviceWork" ; rasmxs.dll

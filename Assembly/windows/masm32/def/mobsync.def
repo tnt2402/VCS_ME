@@ -1,0 +1,25 @@
+LIBRARY "mobsync.dll"
+EXPORTS
+"DisplayOptions" ; mobsync.dll
+"DllCanUnloadNow" ; mobsync.dll
+"DllGetClassObject" ; mobsync.dll
+"DllRegisterServer" ; mobsync.dll
+"DllUnregisterServer" ; mobsync.dll
+"MobsyncGetClassObject" ; mobsync.dll
+"RegGetHandlerRegistrationInfo" ; mobsync.dll
+"RegGetHandlerTopLevelKey" ; mobsync.dll
+"RegGetProgressDetailsState" ; mobsync.dll
+"RegGetSchedConnectionName" ; mobsync.dll
+"RegGetSchedSyncSettings" ; mobsync.dll
+"RegGetSyncItemSettings" ; mobsync.dll
+"RegGetSyncSettings" ; mobsync.dll
+"RegQueryLoadHandlerOnEvent" ; mobsync.dll
+"RegRemoveManualSyncSettings" ; mobsync.dll
+"RegSchedHandlerItemsChecked" ; mobsync.dll
+"RegSetProgressDetailsState" ; mobsync.dll
+"RegSetSyncItemSettings" ; mobsync.dll
+"RegSetUserDefaults" ; mobsync.dll
+"RunDllRegister" ; mobsync.dll
+"SyncMgrRasProc" ; mobsync.dll
+"SyncMgrResolveConflictA" ; mobsync.dll
+"SyncMgrResolveConflictW" ; mobsync.dll

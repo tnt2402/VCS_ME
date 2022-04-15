@@ -1,0 +1,5 @@
+LIBRARY "mqperf.dll"
+EXPORTS
+"PerfClose" ; mqperf.dll
+"PerfCollect" ; mqperf.dll
+"PerfOpen" ; mqperf.dll

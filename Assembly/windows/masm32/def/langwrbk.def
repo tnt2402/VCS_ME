@@ -1,0 +1,6 @@
+LIBRARY "langwrbk.dll"
+EXPORTS
+"DllCanUnloadNow" ; langwrbk.dll
+"DllGetClassObject" ; langwrbk.dll
+"DllRegisterServer" ; langwrbk.dll
+"DllUnregisterServer" ; langwrbk.dll

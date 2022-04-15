@@ -1,0 +1,4 @@
+LIBRARY "atiumd6a.dll"
+EXPORTS
+"DllMain" ; atiumd6a.dll
+"mmdllInitUMDFuncs" ; atiumd6a.dll

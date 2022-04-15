@@ -1,0 +1,9 @@
+LIBRARY "rdpsnd.dll"
+EXPORTS
+"DriverProc" ; rdpsnd.dll
+"auxMessage" ; rdpsnd.dll
+"midMessage" ; rdpsnd.dll
+"modMessage" ; rdpsnd.dll
+"mxdMessage" ; rdpsnd.dll
+"widMessage" ; rdpsnd.dll
+"wodMessage" ; rdpsnd.dll

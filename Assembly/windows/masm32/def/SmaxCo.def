@@ -1,0 +1,3 @@
+LIBRARY "SmaxCo.dll"
+EXPORTS
+"PostProc" ; SmaxCo.dll

@@ -1,0 +1,15 @@
+LIBRARY "mprui.dll"
+EXPORTS
+"BrowseDialogA0" ; mprui.dll
+"MPRUI_DoPasswordDialog" ; mprui.dll
+"MPRUI_DoProfileErrorDialog" ; mprui.dll
+"MPRUI_ShowReconnectDialog" ; mprui.dll
+"MPRUI_WNetClearConnections" ; mprui.dll
+"MPRUI_WNetConnectionDialog" ; mprui.dll
+"MPRUI_WNetConnectionDialog1A" ; mprui.dll
+"MPRUI_WNetConnectionDialog1W" ; mprui.dll
+"MPRUI_WNetDisconnectDialog" ; mprui.dll
+"MPRUI_WNetDisconnectDialog1A" ; mprui.dll
+"MPRUI_WNetDisconnectDialog1W" ; mprui.dll
+"WNetBrowseDialog" ; mprui.dll
+"WNetBrowsePrinterDialog" ; mprui.dll

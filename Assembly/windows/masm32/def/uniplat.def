@@ -1,0 +1,119 @@
+LIBRARY "uniplat.dll"
+EXPORTS
+"AllocateOverStructEx" ; uniplat.dll
+"CallBeginning" ; uniplat.dll
+"CallEnding" ; uniplat.dll
+"CancelUnimodemTimer" ; uniplat.dll
+"CreateOverStructPool" ; uniplat.dll
+"CreateUnimodemTimer" ; uniplat.dll
+"DestroyOverStructPool" ; uniplat.dll
+"FreeOverStruct" ; uniplat.dll
+"FreeUnimodemTimer" ; uniplat.dll
+"MonitorHandle" ; uniplat.dll
+"ReinitOverStruct" ; uniplat.dll
+"ResetCallCount" ; uniplat.dll
+"SetUnimodemTimer" ; uniplat.dll
+"StartMonitorThread" ; uniplat.dll
+"StopMonitorThread" ; uniplat.dll
+"StopMonitoringHandle" ; uniplat.dll
+"SyncDeviceIoControl" ; uniplat.dll
+"UmPlatformDeinitialize" ; uniplat.dll
+"UmPlatformInitialize" ; uniplat.dll
+"UnimodemDeviceIoControlEx" ; uniplat.dll
+"UnimodemNotifyTSP" ; uniplat.dll
+"UnimodemQueueUserAPC" ; uniplat.dll
+"UnimodemReadFileEx" ; uniplat.dll
+"UnimodemWaitCommEventEx" ; uniplat.dll
+"UnimodemWriteFileEx" ; uniplat.dll
+"WinntIsWorkstation" ; uniplat.dll
+"uniplat_ordinal118" @118 ; uniplat.dll
+"uniplat_ordinal119" @119 ; uniplat.dll
+"uniplat_ordinal120" @120 ; uniplat.dll
+"uniplat_ordinal121" @121 ; uniplat.dll
+"uniplat_ordinal122" @122 ; uniplat.dll
+"uniplat_ordinal123" @123 ; uniplat.dll
+"uniplat_ordinal124" @124 ; uniplat.dll
+"uniplat_ordinal125" @125 ; uniplat.dll
+"uniplat_ordinal126" @126 ; uniplat.dll
+"uniplat_ordinal127" @127 ; uniplat.dll
+"uniplat_ordinal128" @128 ; uniplat.dll
+"uniplat_ordinal129" @129 ; uniplat.dll
+"uniplat_ordinal130" @130 ; uniplat.dll
+"uniplat_ordinal131" @131 ; uniplat.dll
+"uniplat_ordinal132" @132 ; uniplat.dll
+"uniplat_ordinal133" @133 ; uniplat.dll
+"uniplat_ordinal134" @134 ; uniplat.dll
+"uniplat_ordinal135" @135 ; uniplat.dll
+"uniplat_ordinal136" @136 ; uniplat.dll
+"uniplat_ordinal137" @137 ; uniplat.dll
+"uniplat_ordinal138" @138 ; uniplat.dll
+"uniplat_ordinal139" @139 ; uniplat.dll
+"uniplat_ordinal140" @140 ; uniplat.dll
+"uniplat_ordinal141" @141 ; uniplat.dll
+"uniplat_ordinal142" @142 ; uniplat.dll
+"uniplat_ordinal143" @143 ; uniplat.dll
+"uniplat_ordinal144" @144 ; uniplat.dll
+"uniplat_ordinal145" @145 ; uniplat.dll
+"uniplat_ordinal146" @146 ; uniplat.dll
+"uniplat_ordinal147" @147 ; uniplat.dll
+"uniplat_ordinal148" @148 ; uniplat.dll
+"uniplat_ordinal149" @149 ; uniplat.dll
+"uniplat_ordinal150" @150 ; uniplat.dll
+"uniplat_ordinal151" @151 ; uniplat.dll
+"uniplat_ordinal152" @152 ; uniplat.dll
+"uniplat_ordinal153" @153 ; uniplat.dll
+"uniplat_ordinal154" @154 ; uniplat.dll
+"uniplat_ordinal155" @155 ; uniplat.dll
+"uniplat_ordinal156" @156 ; uniplat.dll
+"uniplat_ordinal157" @157 ; uniplat.dll
+"uniplat_ordinal158" @158 ; uniplat.dll
+"uniplat_ordinal159" @159 ; uniplat.dll
+"uniplat_ordinal160" @160 ; uniplat.dll
+"uniplat_ordinal161" @161 ; uniplat.dll
+"uniplat_ordinal162" @162 ; uniplat.dll
+"uniplat_ordinal163" @163 ; uniplat.dll
+"uniplat_ordinal164" @164 ; uniplat.dll
+"uniplat_ordinal165" @165 ; uniplat.dll
+"uniplat_ordinal166" @166 ; uniplat.dll
+"uniplat_ordinal167" @167 ; uniplat.dll
+"uniplat_ordinal168" @168 ; uniplat.dll
+"uniplat_ordinal169" @169 ; uniplat.dll
+"uniplat_ordinal170" @170 ; uniplat.dll
+"uniplat_ordinal171" @171 ; uniplat.dll
+"uniplat_ordinal172" @172 ; uniplat.dll
+"uniplat_ordinal173" @173 ; uniplat.dll
+"uniplat_ordinal174" @174 ; uniplat.dll
+"uniplat_ordinal175" @175 ; uniplat.dll
+"uniplat_ordinal176" @176 ; uniplat.dll
+"uniplat_ordinal177" @177 ; uniplat.dll
+"uniplat_ordinal178" @178 ; uniplat.dll
+"uniplat_ordinal179" @179 ; uniplat.dll
+"uniplat_ordinal180" @180 ; uniplat.dll
+"uniplat_ordinal181" @181 ; uniplat.dll
+"uniplat_ordinal182" @182 ; uniplat.dll
+"uniplat_ordinal183" @183 ; uniplat.dll
+"uniplat_ordinal184" @184 ; uniplat.dll
+"uniplat_ordinal185" @185 ; uniplat.dll
+"uniplat_ordinal186" @186 ; uniplat.dll
+"uniplat_ordinal187" @187 ; uniplat.dll
+"uniplat_ordinal188" @188 ; uniplat.dll
+"uniplat_ordinal189" @189 ; uniplat.dll
+"uniplat_ordinal190" @190 ; uniplat.dll
+"uniplat_ordinal191" @191 ; uniplat.dll
+"uniplat_ordinal192" @192 ; uniplat.dll
+"uniplat_ordinal193" @193 ; uniplat.dll
+"uniplat_ordinal194" @194 ; uniplat.dll
+"uniplat_ordinal195" @195 ; uniplat.dll
+"uniplat_ordinal196" @196 ; uniplat.dll
+"uniplat_ordinal197" @197 ; uniplat.dll
+"uniplat_ordinal198" @198 ; uniplat.dll
+"uniplat_ordinal199" @199 ; uniplat.dll
+"uniplat_ordinal200" @200 ; uniplat.dll
+"uniplat_ordinal201" @201 ; uniplat.dll
+"uniplat_ordinal202" @202 ; uniplat.dll
+"uniplat_ordinal203" @203 ; uniplat.dll
+"uniplat_ordinal204" @204 ; uniplat.dll
+"uniplat_ordinal205" @205 ; uniplat.dll
+"uniplat_ordinal206" @206 ; uniplat.dll
+"uniplat_ordinal208" @208 ; uniplat.dll
+"uniplat_ordinal209" @209 ; uniplat.dll

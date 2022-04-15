@@ -1,0 +1,6 @@
+LIBRARY "wavemsp.dll"
+EXPORTS
+"DllCanUnloadNow" ; wavemsp.dll
+"DllGetClassObject" ; wavemsp.dll
+"DllRegisterServer" ; wavemsp.dll
+"DllUnregisterServer" ; wavemsp.dll

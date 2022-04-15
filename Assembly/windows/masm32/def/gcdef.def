@@ -1,0 +1,4 @@
+LIBRARY "gcdef.dll"
+EXPORTS
+"DllCanUnloadNow" ; gcdef.dll
+"DllGetClassObject" ; gcdef.dll

@@ -1,0 +1,11 @@
+LIBRARY "iaspolcy.dll"
+EXPORTS
+"DllCanUnloadNow" ; iaspolcy.dll
+"DllGetClassObject" ; iaspolcy.dll
+"DllRegisterServer" ; iaspolcy.dll
+"DllUnregisterServer" ; iaspolcy.dll
+"IASAttributeAddRef" ; iaspolcy.dll
+"IASAttributeAlloc" ; iaspolcy.dll
+"IASAttributeAnsiAlloc" ; iaspolcy.dll
+"IASAttributeRelease" ; iaspolcy.dll
+"IASAttributeUnicodeAlloc" ; iaspolcy.dll

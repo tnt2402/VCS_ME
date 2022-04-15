@@ -1,0 +1,97 @@
+LIBRARY "uxtheme.dll"
+EXPORTS
+"CloseThemeData" ; uxtheme.dll
+"DrawThemeBackground" ; uxtheme.dll
+"DrawThemeBackgroundEx" ; uxtheme.dll
+"DrawThemeEdge" ; uxtheme.dll
+"DrawThemeIcon" ; uxtheme.dll
+"DrawThemeParentBackground" ; uxtheme.dll
+"DrawThemeText" ; uxtheme.dll
+"EnableThemeDialogTexture" ; uxtheme.dll
+"EnableTheming" ; uxtheme.dll
+"GetCurrentThemeName" ; uxtheme.dll
+"GetThemeAppProperties" ; uxtheme.dll
+"GetThemeBackgroundContentRect" ; uxtheme.dll
+"GetThemeBackgroundExtent" ; uxtheme.dll
+"GetThemeBackgroundRegion" ; uxtheme.dll
+"GetThemeBool" ; uxtheme.dll
+"GetThemeColor" ; uxtheme.dll
+"GetThemeDocumentationProperty" ; uxtheme.dll
+"GetThemeEnumValue" ; uxtheme.dll
+"GetThemeFilename" ; uxtheme.dll
+"GetThemeFont" ; uxtheme.dll
+"GetThemeInt" ; uxtheme.dll
+"GetThemeIntList" ; uxtheme.dll
+"GetThemeMargins" ; uxtheme.dll
+"GetThemeMetric" ; uxtheme.dll
+"GetThemePartSize" ; uxtheme.dll
+"GetThemePosition" ; uxtheme.dll
+"GetThemePropertyOrigin" ; uxtheme.dll
+"GetThemeRect" ; uxtheme.dll
+"GetThemeString" ; uxtheme.dll
+"GetThemeSysBool" ; uxtheme.dll
+"GetThemeSysColor" ; uxtheme.dll
+"GetThemeSysColorBrush" ; uxtheme.dll
+"GetThemeSysFont" ; uxtheme.dll
+"GetThemeSysInt" ; uxtheme.dll
+"GetThemeSysSize" ; uxtheme.dll
+"GetThemeSysString" ; uxtheme.dll
+"GetThemeTextExtent" ; uxtheme.dll
+"GetThemeTextMetrics" ; uxtheme.dll
+"GetWindowTheme" ; uxtheme.dll
+"HitTestThemeBackground" ; uxtheme.dll
+"IsAppThemed" ; uxtheme.dll
+"IsThemeActive" ; uxtheme.dll
+"IsThemeBackgroundPartiallyTransparent" ; uxtheme.dll
+"IsThemeDialogTextureEnabled" ; uxtheme.dll
+"IsThemePartDefined" ; uxtheme.dll
+"OpenThemeData" ; uxtheme.dll
+"SetThemeAppProperties" ; uxtheme.dll
+"SetWindowTheme" ; uxtheme.dll
+"ThemeInitApiHook" ; uxtheme.dll
+"uxtheme_ordinal1" @1 ; uxtheme.dll
+"uxtheme_ordinal10" @10 ; uxtheme.dll
+"uxtheme_ordinal11" @11 ; uxtheme.dll
+"uxtheme_ordinal13" @13 ; uxtheme.dll
+"uxtheme_ordinal14" @14 ; uxtheme.dll
+"uxtheme_ordinal15" @15 ; uxtheme.dll
+"uxtheme_ordinal16" @16 ; uxtheme.dll
+"uxtheme_ordinal17" @17 ; uxtheme.dll
+"uxtheme_ordinal18" @18 ; uxtheme.dll
+"uxtheme_ordinal19" @19 ; uxtheme.dll
+"uxtheme_ordinal2" @2 ; uxtheme.dll
+"uxtheme_ordinal20" @20 ; uxtheme.dll
+"uxtheme_ordinal21" @21 ; uxtheme.dll
+"uxtheme_ordinal22" @22 ; uxtheme.dll
+"uxtheme_ordinal23" @23 ; uxtheme.dll
+"uxtheme_ordinal24" @24 ; uxtheme.dll
+"uxtheme_ordinal25" @25 ; uxtheme.dll
+"uxtheme_ordinal26" @26 ; uxtheme.dll
+"uxtheme_ordinal27" @27 ; uxtheme.dll
+"uxtheme_ordinal28" @28 ; uxtheme.dll
+"uxtheme_ordinal29" @29 ; uxtheme.dll
+"uxtheme_ordinal3" @3 ; uxtheme.dll
+"uxtheme_ordinal30" @30 ; uxtheme.dll
+"uxtheme_ordinal31" @31 ; uxtheme.dll
+"uxtheme_ordinal32" @32 ; uxtheme.dll
+"uxtheme_ordinal33" @33 ; uxtheme.dll
+"uxtheme_ordinal34" @34 ; uxtheme.dll
+"uxtheme_ordinal35" @35 ; uxtheme.dll
+"uxtheme_ordinal36" @36 ; uxtheme.dll
+"uxtheme_ordinal4" @4 ; uxtheme.dll
+"uxtheme_ordinal43" @43 ; uxtheme.dll
+"uxtheme_ordinal44" @44 ; uxtheme.dll
+"uxtheme_ordinal45" @45 ; uxtheme.dll
+"uxtheme_ordinal46" @46 ; uxtheme.dll
+"uxtheme_ordinal48" @48 ; uxtheme.dll
+"uxtheme_ordinal60" @60 ; uxtheme.dll
+"uxtheme_ordinal61" @61 ; uxtheme.dll
+"uxtheme_ordinal62" @62 ; uxtheme.dll
+"uxtheme_ordinal63" @63 ; uxtheme.dll
+"uxtheme_ordinal64" @64 ; uxtheme.dll
+"uxtheme_ordinal65" @65 ; uxtheme.dll
+"uxtheme_ordinal66" @66 ; uxtheme.dll
+"uxtheme_ordinal7" @7 ; uxtheme.dll
+"uxtheme_ordinal73" @73 ; uxtheme.dll
+"uxtheme_ordinal8" @8 ; uxtheme.dll
+"uxtheme_ordinal9" @9 ; uxtheme.dll

@@ -1,0 +1,28 @@
+LIBRARY "sccbase.dll"
+EXPORTS
+"CPAcquireContext" ; sccbase.dll
+"CPAcquireContextW" ; sccbase.dll
+"CPCreateHash" ; sccbase.dll
+"CPDecrypt" ; sccbase.dll
+"CPDeriveKey" ; sccbase.dll
+"CPDestroyHash" ; sccbase.dll
+"CPDestroyKey" ; sccbase.dll
+"CPEncrypt" ; sccbase.dll
+"CPExportKey" ; sccbase.dll
+"CPGenKey" ; sccbase.dll
+"CPGenRandom" ; sccbase.dll
+"CPGetHashParam" ; sccbase.dll
+"CPGetKeyParam" ; sccbase.dll
+"CPGetProvParam" ; sccbase.dll
+"CPGetUserKey" ; sccbase.dll
+"CPHashData" ; sccbase.dll
+"CPHashSessionKey" ; sccbase.dll
+"CPImportKey" ; sccbase.dll
+"CPReleaseContext" ; sccbase.dll
+"CPSetHashParam" ; sccbase.dll
+"CPSetKeyParam" ; sccbase.dll
+"CPSetProvParam" ; sccbase.dll
+"CPSignHash" ; sccbase.dll
+"CPVerifySignature" ; sccbase.dll
+"DllRegisterServer" ; sccbase.dll
+"DllUnregisterServer" ; sccbase.dll

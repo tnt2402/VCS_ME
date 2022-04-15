@@ -1,0 +1,31 @@
+LIBRARY "dmutil.dll"
+EXPORTS
+"AddEntryBootFileGpt" ; dmutil.dll
+"AddEntryBootFileMbr" ; dmutil.dll
+"CoDisableDynamicVolumes" ; dmutil.dll
+"DisplayError" ; dmutil.dll
+"DisplayErrorRgszw" ; dmutil.dll
+"DllMain" ; dmutil.dll
+"DmCommonNtOpenFile" ; dmutil.dll
+"DynamicSupport" ; dmutil.dll
+"FTrace" ; dmutil.dll
+"FTraceValist" ; dmutil.dll
+"FreeRgszw" ; dmutil.dll
+"GetErrorData" ; dmutil.dll
+"GetInstallDirectoryPath" ; dmutil.dll
+"GetSystemVolume" ; dmutil.dll
+"IsPersonalSKU" ; dmutil.dll
+"LowAcquirePrivilege" ; dmutil.dll
+"LowGetPartitionInfo" ; dmutil.dll
+"LowNtAddBootEntry" ; dmutil.dll
+"LowNtReadFile" ; dmutil.dll
+"LowNtReadOnlyAttributeOff" ; dmutil.dll
+"LowNtWriteFile" ; dmutil.dll
+"RgszwDupRgszw" ; dmutil.dll
+"RgszwFromArgs" ; dmutil.dll
+"RgszwFromValist" ; dmutil.dll
+"ShowMessage" ; dmutil.dll
+"ShowMessageValist" ; dmutil.dll
+"SzwDupSzw" ; dmutil.dll
+"SzwFromSza" ; dmutil.dll
+"TranslateError" ; dmutil.dll

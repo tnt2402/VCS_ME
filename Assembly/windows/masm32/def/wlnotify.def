@@ -1,0 +1,32 @@
+LIBRARY "wlnotify.dll"
+EXPORTS
+"RegisterTicketExpiredNotificationEvent" ; wlnotify.dll
+"SCardResumeCertProp" ; wlnotify.dll
+"SCardStartCertProp" ; wlnotify.dll
+"SCardStopCertProp" ; wlnotify.dll
+"SCardSuspendCertProp" ; wlnotify.dll
+"SchedEventLogOff" ; wlnotify.dll
+"SchedStartShell" ; wlnotify.dll
+"SensDisconnectEvent" ; wlnotify.dll
+"SensLockEvent" ; wlnotify.dll
+"SensLogoffEvent" ; wlnotify.dll
+"SensLogonEvent" ; wlnotify.dll
+"SensPostShellEvent" ; wlnotify.dll
+"SensReconnectEvent" ; wlnotify.dll
+"SensShutdownEvent" ; wlnotify.dll
+"SensStartScreenSaverEvent" ; wlnotify.dll
+"SensStartShellEvent" ; wlnotify.dll
+"SensStartupEvent" ; wlnotify.dll
+"SensStopScreenSaverEvent" ; wlnotify.dll
+"SensUnlockEvent" ; wlnotify.dll
+"ShowNotificationBalloonW" ; wlnotify.dll
+"TSEventDisconnect" ; wlnotify.dll
+"TSEventLogoff" ; wlnotify.dll
+"TSEventLogon" ; wlnotify.dll
+"TSEventPostShell" ; wlnotify.dll
+"TSEventReconnect" ; wlnotify.dll
+"TSEventShutdown" ; wlnotify.dll
+"TSEventStartShell" ; wlnotify.dll
+"TSEventStartup" ; wlnotify.dll
+"TermsrvCreateTempDir" ; wlnotify.dll
+"UnregisterTicketExpiredNotificationEvent" ; wlnotify.dll

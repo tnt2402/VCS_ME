@@ -1,0 +1,5 @@
+LIBRARY "ntlsapi.dll"
+EXPORTS
+"NtLSFreeHandle" ; ntlsapi.dll
+"NtLicenseRequestA" ; ntlsapi.dll
+"NtLicenseRequestW" ; ntlsapi.dll

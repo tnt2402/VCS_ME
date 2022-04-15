@@ -1,0 +1,33 @@
+LIBRARY "activeds.dll"
+EXPORTS
+"ADsBuildEnumerator" ; activeds.dll
+"ADsBuildVarArrayInt" ; activeds.dll
+"ADsBuildVarArrayStr" ; activeds.dll
+"ADsDecodeBinaryData" ; activeds.dll
+"ADsEncodeBinaryData" ; activeds.dll
+"ADsEnumerateNext" ; activeds.dll
+"ADsFreeEnumerator" ; activeds.dll
+"ADsGetLastError" ; activeds.dll
+"ADsGetObject" ; activeds.dll
+"ADsOpenObject" ; activeds.dll
+"ADsSetLastError" ; activeds.dll
+"AdsFreeAdsValues" ; activeds.dll
+"AdsTypeToPropVariant" ; activeds.dll
+"AdsTypeToPropVariant2" ; activeds.dll
+"AllocADsMem" ; activeds.dll
+"AllocADsStr" ; activeds.dll
+"BinarySDToSecurityDescriptor" ; activeds.dll
+"ConvertSecDescriptorToVariant" ; activeds.dll
+"ConvertSecurityDescriptorToSecDes" ; activeds.dll
+"ConvertTrusteeToSid" ; activeds.dll
+"DllCanUnloadNow" ; activeds.dll
+"DllGetClassObject" ; activeds.dll
+"DllRegisterServer" ; activeds.dll
+"DllUnregisterServer" ; activeds.dll
+"FreeADsMem" ; activeds.dll
+"FreeADsStr" ; activeds.dll
+"PropVariantToAdsType" ; activeds.dll
+"PropVariantToAdsType2" ; activeds.dll
+"ReallocADsMem" ; activeds.dll
+"ReallocADsStr" ; activeds.dll
+"SecurityDescriptorToBinarySD" ; activeds.dll

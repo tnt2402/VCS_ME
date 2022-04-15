@@ -1,0 +1,6 @@
+LIBRARY "ddrawex.dll"
+EXPORTS
+"DllCanUnloadNow" ; ddrawex.dll
+"DllGetClassObject" ; ddrawex.dll
+"DllRegisterServer" ; ddrawex.dll
+"DllUnregisterServer" ; ddrawex.dll

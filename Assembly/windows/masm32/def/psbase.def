@@ -1,0 +1,23 @@
+LIBRARY "psbase.dll"
+EXPORTS
+"FPasswordChangeNotify" ; psbase.dll
+"SPAcquireContext" ; psbase.dll
+"SPCloseItem" ; psbase.dll
+"SPCreateSubtype" ; psbase.dll
+"SPCreateType" ; psbase.dll
+"SPDeleteItem" ; psbase.dll
+"SPDeleteSubtype" ; psbase.dll
+"SPDeleteType" ; psbase.dll
+"SPEnumItems" ; psbase.dll
+"SPEnumSubtypes" ; psbase.dll
+"SPEnumTypes" ; psbase.dll
+"SPGetProvInfo" ; psbase.dll
+"SPGetProvParam" ; psbase.dll
+"SPGetSubtypeInfo" ; psbase.dll
+"SPGetTypeInfo" ; psbase.dll
+"SPOpenItem" ; psbase.dll
+"SPProviderInitialize" ; psbase.dll
+"SPReadItem" ; psbase.dll
+"SPReleaseContext" ; psbase.dll
+"SPSetProvParam" ; psbase.dll
+"SPWriteItem" ; psbase.dll

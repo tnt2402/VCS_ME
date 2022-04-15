@@ -1,0 +1,8 @@
+LIBRARY "xolehlp.dll"
+EXPORTS
+"DtcGetTransactionManager" ; xolehlp.dll
+"DtcGetTransactionManagerC" ; xolehlp.dll
+"DtcGetTransactionManagerEx" ; xolehlp.dll
+"DtcGetTransactionManagerExA" ; xolehlp.dll
+"DtcGetTransactionManagerExW" ; xolehlp.dll
+"GetDtcLocaleResourceHandle" ; xolehlp.dll

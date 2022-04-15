@@ -1,0 +1,8 @@
+LIBRARY "pstorec.dll"
+EXPORTS
+"DllCanUnloadNow" ; pstorec.dll
+"DllGetClassObject" ; pstorec.dll
+"DllRegisterServer" ; pstorec.dll
+"DllUnregisterServer" ; pstorec.dll
+"PStoreCreateInstance" ; pstorec.dll
+"PStoreEnumProviders" ; pstorec.dll

@@ -1,0 +1,5 @@
+LIBRARY "dpcdll.dll"
+EXPORTS
+"dpcdll_ordinal123" @123 ; dpcdll.dll
+"dpcdll_ordinal124" @124 ; dpcdll.dll
+"dpcdll_ordinal125" @125 ; dpcdll.dll

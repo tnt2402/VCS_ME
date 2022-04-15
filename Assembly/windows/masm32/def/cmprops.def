@@ -1,0 +1,6 @@
+LIBRARY "cmprops.dll"
+EXPORTS
+"DllCanUnloadNow" ; cmprops.dll
+"DllGetClassObject" ; cmprops.dll
+"DllRegisterServer" ; cmprops.dll
+"DllUnregisterServer" ; cmprops.dll

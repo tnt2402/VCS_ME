@@ -1,0 +1,11 @@
+LIBRARY "riched20.dll"
+EXPORTS
+"CreateTextServices" ; riched20.dll
+"IID_IRichEditOle" ; riched20.dll
+"IID_IRichEditOleCallback" ; riched20.dll
+"IID_ITextHost" ; riched20.dll
+"IID_ITextHost2" ; riched20.dll
+"IID_ITextServices" ; riched20.dll
+"REExtendedRegisterClass" ; riched20.dll
+"RichEdit10ANSIWndProc" ; riched20.dll
+"RichEditANSIWndProc" ; riched20.dll

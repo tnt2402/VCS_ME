@@ -1,0 +1,6 @@
+LIBRARY "tscfgwmi.dll"
+EXPORTS
+"DllCanUnloadNow" ; tscfgwmi.dll
+"DllGetClassObject" ; tscfgwmi.dll
+"DllRegisterServer" ; tscfgwmi.dll
+"DllUnregisterServer" ; tscfgwmi.dll

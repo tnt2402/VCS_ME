@@ -1,0 +1,5 @@
+LIBRARY "efsadu.dll"
+EXPORTS
+"AddUserToObjectW" ; efsadu.dll
+"BackCurrentEfsCert" ; efsadu.dll
+"EfsDetail" ; efsadu.dll

@@ -1,0 +1,7 @@
+LIBRARY "wuweb.dll"
+EXPORTS
+"DllCanUnloadNow" ; wuweb.dll
+"DllGetClassObject" ; wuweb.dll
+"DllRegisterServer" ; wuweb.dll
+"DllUnregisterServer" ; wuweb.dll
+"IsWUClientUpdateNeeded" ; wuweb.dll

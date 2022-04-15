@@ -1,0 +1,5 @@
+LIBRARY "ntvdm64.dll"
+EXPORTS
+"DllInstall" ; ntvdm64.dll
+"NtVdm64CreateProcess" ; ntvdm64.dll
+"NtVdm64RaiseInvalid16BitError" ; ntvdm64.dll

@@ -1,0 +1,12 @@
+LIBRARY "atikvmag.dll"
+EXPORTS
+"GsDrvEnableDriver" ; atikvmag.dll
+"VCAMInitEntryPoints" ; atikvmag.dll
+"bDestroyVCAM" ; atikvmag.dll
+"bDisableVCAMByHDevice" ; atikvmag.dll
+"bVCAMInitialize" ; atikvmag.dll
+"bVCAMSetDriverCallsEx" ; atikvmag.dll
+"ulVCAMEscape" ; atikvmag.dll
+"ulVCAMGetHeaderVersion" ; atikvmag.dll
+"vNotifyVCAMCALLink" ; atikvmag.dll
+"vNotifyVCAMCALLink_WA" ; atikvmag.dll

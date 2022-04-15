@@ -1,0 +1,6 @@
+LIBRARY "twext.dll"
+EXPORTS
+"DllCanUnloadNow" ; twext.dll
+"DllGetClassObject" ; twext.dll
+"DllRegisterServer" ; twext.dll
+"DllUnregisterServer" ; twext.dll

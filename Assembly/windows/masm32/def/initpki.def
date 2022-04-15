@@ -1,0 +1,6 @@
+LIBRARY "initpki.dll"
+EXPORTS
+"DllInstall" ; initpki.dll
+"DllRegisterServer" ; initpki.dll
+"DllUnregisterServer" ; initpki.dll
+"InitializePKI" ; initpki.dll

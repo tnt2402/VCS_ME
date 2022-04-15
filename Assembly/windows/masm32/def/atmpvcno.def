@@ -1,0 +1,6 @@
+LIBRARY "atmpvcno.dll"
+EXPORTS
+"DllCanUnloadNow" ; atmpvcno.dll
+"DllGetClassObject" ; atmpvcno.dll
+"DllRegisterServer" ; atmpvcno.dll
+"DllUnregisterServer" ; atmpvcno.dll

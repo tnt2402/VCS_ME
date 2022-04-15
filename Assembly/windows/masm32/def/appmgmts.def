@@ -1,0 +1,19 @@
+LIBRARY "appmgmts.dll"
+EXPORTS
+"CsCreateClassStore" ; appmgmts.dll
+"CsEnumApps" ; appmgmts.dll
+"CsGetAppCategories" ; appmgmts.dll
+"CsGetClassAccess" ; appmgmts.dll
+"CsGetClassStore" ; appmgmts.dll
+"CsGetClassStorePath" ; appmgmts.dll
+"CsRegisterAppCategory" ; appmgmts.dll
+"CsServerGetClassStore" ; appmgmts.dll
+"CsSetOptions" ; appmgmts.dll
+"CsUnregisterAppCategory" ; appmgmts.dll
+"GenerateGroupPolicy" ; appmgmts.dll
+"IID_IClassAdmin" ; appmgmts.dll
+"ProcessGroupPolicyObjectsEx" ; appmgmts.dll
+"ReleaseAppCategoryInfoList" ; appmgmts.dll
+"ReleasePackageDetail" ; appmgmts.dll
+"ReleasePackageInfo" ; appmgmts.dll
+"ServiceMain" ; appmgmts.dll

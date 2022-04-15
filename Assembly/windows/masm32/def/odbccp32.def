@@ -1,0 +1,233 @@
+LIBRARY "odbccp32.dll"
+EXPORTS
+"ODBCCPlApplet" ; odbccp32.dll
+"SQLConfigDataSource" ; odbccp32.dll
+"SQLConfigDataSourceW" ; odbccp32.dll
+"SQLConfigDriver" ; odbccp32.dll
+"SQLConfigDriverW" ; odbccp32.dll
+"SQLCreateDataSource" ; odbccp32.dll
+"SQLCreateDataSourceEx" ; odbccp32.dll
+"SQLCreateDataSourceExW" ; odbccp32.dll
+"SQLCreateDataSourceW" ; odbccp32.dll
+"SQLGetAvailableDrivers" ; odbccp32.dll
+"SQLGetAvailableDriversW" ; odbccp32.dll
+"SQLGetConfigMode" ; odbccp32.dll
+"SQLGetInstalledDrivers" ; odbccp32.dll
+"SQLGetInstalledDriversW" ; odbccp32.dll
+"SQLGetPrivateProfileString" ; odbccp32.dll
+"SQLGetPrivateProfileStringW" ; odbccp32.dll
+"SQLGetTranslator" ; odbccp32.dll
+"SQLGetTranslatorW" ; odbccp32.dll
+"SQLInstallDriver" ; odbccp32.dll
+"SQLInstallDriverEx" ; odbccp32.dll
+"SQLInstallDriverExW" ; odbccp32.dll
+"SQLInstallDriverManager" ; odbccp32.dll
+"SQLInstallDriverManagerW" ; odbccp32.dll
+"SQLInstallDriverW" ; odbccp32.dll
+"SQLInstallODBC" ; odbccp32.dll
+"SQLInstallODBCW" ; odbccp32.dll
+"SQLInstallTranslator" ; odbccp32.dll
+"SQLInstallTranslatorEx" ; odbccp32.dll
+"SQLInstallTranslatorExW" ; odbccp32.dll
+"SQLInstallTranslatorW" ; odbccp32.dll
+"SQLInstallerError" ; odbccp32.dll
+"SQLInstallerErrorW" ; odbccp32.dll
+"SQLLoadDataSourcesListBox" ; odbccp32.dll
+"SQLLoadDriverListBox" ; odbccp32.dll
+"SQLManageDataSources" ; odbccp32.dll
+"SQLPostInstallerError" ; odbccp32.dll
+"SQLPostInstallerErrorW" ; odbccp32.dll
+"SQLReadFileDSN" ; odbccp32.dll
+"SQLReadFileDSNW" ; odbccp32.dll
+"SQLRemoveDSNFromIni" ; odbccp32.dll
+"SQLRemoveDSNFromIniW" ; odbccp32.dll
+"SQLRemoveDefaultDataSource" ; odbccp32.dll
+"SQLRemoveDriver" ; odbccp32.dll
+"SQLRemoveDriverManager" ; odbccp32.dll
+"SQLRemoveDriverW" ; odbccp32.dll
+"SQLRemoveTranslator" ; odbccp32.dll
+"SQLRemoveTranslatorW" ; odbccp32.dll
+"SQLSetConfigMode" ; odbccp32.dll
+"SQLValidDSN" ; odbccp32.dll
+"SQLValidDSNW" ; odbccp32.dll
+"SQLWriteDSNToIni" ; odbccp32.dll
+"SQLWriteDSNToIniW" ; odbccp32.dll
+"SQLWriteFileDSN" ; odbccp32.dll
+"SQLWriteFileDSNW" ; odbccp32.dll
+"SQLWritePrivateProfileString" ; odbccp32.dll
+"SQLWritePrivateProfileStringW" ; odbccp32.dll
+"SelectTransDlg" ; odbccp32.dll
+"odbccp32_ordinal100" @100 ; odbccp32.dll
+"odbccp32_ordinal102" @102 ; odbccp32.dll
+"odbccp32_ordinal103" @103 ; odbccp32.dll
+"odbccp32_ordinal104" @104 ; odbccp32.dll
+"odbccp32_ordinal105" @105 ; odbccp32.dll
+"odbccp32_ordinal106" @106 ; odbccp32.dll
+"odbccp32_ordinal107" @107 ; odbccp32.dll
+"odbccp32_ordinal108" @108 ; odbccp32.dll
+"odbccp32_ordinal109" @109 ; odbccp32.dll
+"odbccp32_ordinal110" @110 ; odbccp32.dll
+"odbccp32_ordinal111" @111 ; odbccp32.dll
+"odbccp32_ordinal113" @113 ; odbccp32.dll
+"odbccp32_ordinal114" @114 ; odbccp32.dll
+"odbccp32_ordinal115" @115 ; odbccp32.dll
+"odbccp32_ordinal116" @116 ; odbccp32.dll
+"odbccp32_ordinal117" @117 ; odbccp32.dll
+"odbccp32_ordinal118" @118 ; odbccp32.dll
+"odbccp32_ordinal119" @119 ; odbccp32.dll
+"odbccp32_ordinal120" @120 ; odbccp32.dll
+"odbccp32_ordinal121" @121 ; odbccp32.dll
+"odbccp32_ordinal122" @122 ; odbccp32.dll
+"odbccp32_ordinal123" @123 ; odbccp32.dll
+"odbccp32_ordinal124" @124 ; odbccp32.dll
+"odbccp32_ordinal125" @125 ; odbccp32.dll
+"odbccp32_ordinal126" @126 ; odbccp32.dll
+"odbccp32_ordinal127" @127 ; odbccp32.dll
+"odbccp32_ordinal128" @128 ; odbccp32.dll
+"odbccp32_ordinal129" @129 ; odbccp32.dll
+"odbccp32_ordinal130" @130 ; odbccp32.dll
+"odbccp32_ordinal131" @131 ; odbccp32.dll
+"odbccp32_ordinal132" @132 ; odbccp32.dll
+"odbccp32_ordinal133" @133 ; odbccp32.dll
+"odbccp32_ordinal134" @134 ; odbccp32.dll
+"odbccp32_ordinal135" @135 ; odbccp32.dll
+"odbccp32_ordinal136" @136 ; odbccp32.dll
+"odbccp32_ordinal137" @137 ; odbccp32.dll
+"odbccp32_ordinal138" @138 ; odbccp32.dll
+"odbccp32_ordinal139" @139 ; odbccp32.dll
+"odbccp32_ordinal140" @140 ; odbccp32.dll
+"odbccp32_ordinal141" @141 ; odbccp32.dll
+"odbccp32_ordinal142" @142 ; odbccp32.dll
+"odbccp32_ordinal143" @143 ; odbccp32.dll
+"odbccp32_ordinal144" @144 ; odbccp32.dll
+"odbccp32_ordinal145" @145 ; odbccp32.dll
+"odbccp32_ordinal146" @146 ; odbccp32.dll
+"odbccp32_ordinal147" @147 ; odbccp32.dll
+"odbccp32_ordinal148" @148 ; odbccp32.dll
+"odbccp32_ordinal149" @149 ; odbccp32.dll
+"odbccp32_ordinal150" @150 ; odbccp32.dll
+"odbccp32_ordinal151" @151 ; odbccp32.dll
+"odbccp32_ordinal152" @152 ; odbccp32.dll
+"odbccp32_ordinal153" @153 ; odbccp32.dll
+"odbccp32_ordinal154" @154 ; odbccp32.dll
+"odbccp32_ordinal155" @155 ; odbccp32.dll
+"odbccp32_ordinal156" @156 ; odbccp32.dll
+"odbccp32_ordinal157" @157 ; odbccp32.dll
+"odbccp32_ordinal158" @158 ; odbccp32.dll
+"odbccp32_ordinal159" @159 ; odbccp32.dll
+"odbccp32_ordinal160" @160 ; odbccp32.dll
+"odbccp32_ordinal161" @161 ; odbccp32.dll
+"odbccp32_ordinal162" @162 ; odbccp32.dll
+"odbccp32_ordinal163" @163 ; odbccp32.dll
+"odbccp32_ordinal164" @164 ; odbccp32.dll
+"odbccp32_ordinal165" @165 ; odbccp32.dll
+"odbccp32_ordinal166" @166 ; odbccp32.dll
+"odbccp32_ordinal167" @167 ; odbccp32.dll
+"odbccp32_ordinal168" @168 ; odbccp32.dll
+"odbccp32_ordinal169" @169 ; odbccp32.dll
+"odbccp32_ordinal170" @170 ; odbccp32.dll
+"odbccp32_ordinal171" @171 ; odbccp32.dll
+"odbccp32_ordinal172" @172 ; odbccp32.dll
+"odbccp32_ordinal173" @173 ; odbccp32.dll
+"odbccp32_ordinal174" @174 ; odbccp32.dll
+"odbccp32_ordinal175" @175 ; odbccp32.dll
+"odbccp32_ordinal176" @176 ; odbccp32.dll
+"odbccp32_ordinal177" @177 ; odbccp32.dll
+"odbccp32_ordinal178" @178 ; odbccp32.dll
+"odbccp32_ordinal179" @179 ; odbccp32.dll
+"odbccp32_ordinal180" @180 ; odbccp32.dll
+"odbccp32_ordinal181" @181 ; odbccp32.dll
+"odbccp32_ordinal182" @182 ; odbccp32.dll
+"odbccp32_ordinal183" @183 ; odbccp32.dll
+"odbccp32_ordinal184" @184 ; odbccp32.dll
+"odbccp32_ordinal185" @185 ; odbccp32.dll
+"odbccp32_ordinal186" @186 ; odbccp32.dll
+"odbccp32_ordinal187" @187 ; odbccp32.dll
+"odbccp32_ordinal188" @188 ; odbccp32.dll
+"odbccp32_ordinal189" @189 ; odbccp32.dll
+"odbccp32_ordinal190" @190 ; odbccp32.dll
+"odbccp32_ordinal191" @191 ; odbccp32.dll
+"odbccp32_ordinal192" @192 ; odbccp32.dll
+"odbccp32_ordinal193" @193 ; odbccp32.dll
+"odbccp32_ordinal194" @194 ; odbccp32.dll
+"odbccp32_ordinal195" @195 ; odbccp32.dll
+"odbccp32_ordinal196" @196 ; odbccp32.dll
+"odbccp32_ordinal197" @197 ; odbccp32.dll
+"odbccp32_ordinal198" @198 ; odbccp32.dll
+"odbccp32_ordinal199" @199 ; odbccp32.dll
+"odbccp32_ordinal200" @200 ; odbccp32.dll
+"odbccp32_ordinal201" @201 ; odbccp32.dll
+"odbccp32_ordinal207" @207 ; odbccp32.dll
+"odbccp32_ordinal211" @211 ; odbccp32.dll
+"odbccp32_ordinal217" @217 ; odbccp32.dll
+"odbccp32_ordinal227" @227 ; odbccp32.dll
+"odbccp32_ordinal228" @228 ; odbccp32.dll
+"odbccp32_ordinal31" @31 ; odbccp32.dll
+"odbccp32_ordinal32" @32 ; odbccp32.dll
+"odbccp32_ordinal33" @33 ; odbccp32.dll
+"odbccp32_ordinal34" @34 ; odbccp32.dll
+"odbccp32_ordinal35" @35 ; odbccp32.dll
+"odbccp32_ordinal36" @36 ; odbccp32.dll
+"odbccp32_ordinal37" @37 ; odbccp32.dll
+"odbccp32_ordinal38" @38 ; odbccp32.dll
+"odbccp32_ordinal39" @39 ; odbccp32.dll
+"odbccp32_ordinal40" @40 ; odbccp32.dll
+"odbccp32_ordinal41" @41 ; odbccp32.dll
+"odbccp32_ordinal42" @42 ; odbccp32.dll
+"odbccp32_ordinal43" @43 ; odbccp32.dll
+"odbccp32_ordinal44" @44 ; odbccp32.dll
+"odbccp32_ordinal45" @45 ; odbccp32.dll
+"odbccp32_ordinal46" @46 ; odbccp32.dll
+"odbccp32_ordinal47" @47 ; odbccp32.dll
+"odbccp32_ordinal48" @48 ; odbccp32.dll
+"odbccp32_ordinal49" @49 ; odbccp32.dll
+"odbccp32_ordinal50" @50 ; odbccp32.dll
+"odbccp32_ordinal51" @51 ; odbccp32.dll
+"odbccp32_ordinal52" @52 ; odbccp32.dll
+"odbccp32_ordinal53" @53 ; odbccp32.dll
+"odbccp32_ordinal54" @54 ; odbccp32.dll
+"odbccp32_ordinal55" @55 ; odbccp32.dll
+"odbccp32_ordinal56" @56 ; odbccp32.dll
+"odbccp32_ordinal57" @57 ; odbccp32.dll
+"odbccp32_ordinal58" @58 ; odbccp32.dll
+"odbccp32_ordinal59" @59 ; odbccp32.dll
+"odbccp32_ordinal60" @60 ; odbccp32.dll
+"odbccp32_ordinal61" @61 ; odbccp32.dll
+"odbccp32_ordinal62" @62 ; odbccp32.dll
+"odbccp32_ordinal63" @63 ; odbccp32.dll
+"odbccp32_ordinal64" @64 ; odbccp32.dll
+"odbccp32_ordinal65" @65 ; odbccp32.dll
+"odbccp32_ordinal66" @66 ; odbccp32.dll
+"odbccp32_ordinal67" @67 ; odbccp32.dll
+"odbccp32_ordinal68" @68 ; odbccp32.dll
+"odbccp32_ordinal69" @69 ; odbccp32.dll
+"odbccp32_ordinal70" @70 ; odbccp32.dll
+"odbccp32_ordinal71" @71 ; odbccp32.dll
+"odbccp32_ordinal72" @72 ; odbccp32.dll
+"odbccp32_ordinal73" @73 ; odbccp32.dll
+"odbccp32_ordinal74" @74 ; odbccp32.dll
+"odbccp32_ordinal75" @75 ; odbccp32.dll
+"odbccp32_ordinal76" @76 ; odbccp32.dll
+"odbccp32_ordinal77" @77 ; odbccp32.dll
+"odbccp32_ordinal78" @78 ; odbccp32.dll
+"odbccp32_ordinal79" @79 ; odbccp32.dll
+"odbccp32_ordinal80" @80 ; odbccp32.dll
+"odbccp32_ordinal81" @81 ; odbccp32.dll
+"odbccp32_ordinal82" @82 ; odbccp32.dll
+"odbccp32_ordinal83" @83 ; odbccp32.dll
+"odbccp32_ordinal84" @84 ; odbccp32.dll
+"odbccp32_ordinal85" @85 ; odbccp32.dll
+"odbccp32_ordinal86" @86 ; odbccp32.dll
+"odbccp32_ordinal87" @87 ; odbccp32.dll
+"odbccp32_ordinal88" @88 ; odbccp32.dll
+"odbccp32_ordinal89" @89 ; odbccp32.dll
+"odbccp32_ordinal90" @90 ; odbccp32.dll
+"odbccp32_ordinal91" @91 ; odbccp32.dll
+"odbccp32_ordinal92" @92 ; odbccp32.dll
+"odbccp32_ordinal93" @93 ; odbccp32.dll
+"odbccp32_ordinal94" @94 ; odbccp32.dll
+"odbccp32_ordinal95" @95 ; odbccp32.dll
+"odbccp32_ordinal96" @96 ; odbccp32.dll
+"odbccp32_ordinal97" @97 ; odbccp32.dll
+"odbccp32_ordinal98" @98 ; odbccp32.dll
+"odbccp32_ordinal99" @99 ; odbccp32.dll

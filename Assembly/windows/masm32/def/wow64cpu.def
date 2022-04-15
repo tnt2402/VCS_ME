@@ -1,0 +1,23 @@
+LIBRARY "wow64cpu.dll"
+EXPORTS
+"CpuFlushInstructionCache" ; wow64cpu.dll
+"CpuGetContext" ; wow64cpu.dll
+"CpuGetStackPointer" ; wow64cpu.dll
+"CpuInitializeStartupContext" ; wow64cpu.dll
+"CpuNotifyDllLoad" ; wow64cpu.dll
+"CpuNotifyDllUnload" ; wow64cpu.dll
+"CpuPrepareForDebuggerAttach" ; wow64cpu.dll
+"CpuProcessDebugEvent" ; wow64cpu.dll
+"CpuProcessInit" ; wow64cpu.dll
+"CpuProcessTerm" ; wow64cpu.dll
+"CpuResetFloatingPoint" ; wow64cpu.dll
+"CpuResetToConsistentState" ; wow64cpu.dll
+"CpuSetContext" ; wow64cpu.dll
+"CpuSetInstructionPointer" ; wow64cpu.dll
+"CpuSetStackPointer" ; wow64cpu.dll
+"CpuSimulate" ; wow64cpu.dll
+"CpuSuspendThread" ; wow64cpu.dll
+"CpuThreadInit" ; wow64cpu.dll
+"CpuThreadTerm" ; wow64cpu.dll
+"TurboDispatchJumpAddressEnd" ; wow64cpu.dll
+"TurboDispatchJumpAddressStart" ; wow64cpu.dll

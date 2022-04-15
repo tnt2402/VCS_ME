@@ -1,0 +1,6 @@
+LIBRARY "wiadefui.dll"
+EXPORTS
+"DllCanUnloadNow" ; wiadefui.dll
+"DllGetClassObject" ; wiadefui.dll
+"DllRegisterServer" ; wiadefui.dll
+"DllUnregisterServer" ; wiadefui.dll

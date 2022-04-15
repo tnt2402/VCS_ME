@@ -1,0 +1,10 @@
+LIBRARY "icmp.dll"
+EXPORTS
+"IcmpCloseHandle" ; icmp.dll
+"IcmpCreateFile" ; icmp.dll
+"IcmpParseReplies" ; icmp.dll
+"IcmpSendEcho" ; icmp.dll
+"IcmpSendEcho2" ; icmp.dll
+"do_echo_rep" ; icmp.dll
+"do_echo_req" ; icmp.dll
+"register_icmp" ; icmp.dll

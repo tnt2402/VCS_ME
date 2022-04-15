@@ -1,0 +1,33 @@
+LIBRARY "sxs.dll"
+EXPORTS
+"CreateAssemblyCache" ; sxs.dll
+"CreateAssemblyNameObject" ; sxs.dll
+"DllInstall" ; sxs.dll
+"SxsBeginAssemblyInstall" ; sxs.dll
+"SxsEndAssemblyInstall" ; sxs.dll
+"SxsFindClrClassInformation" ; sxs.dll
+"SxsFindClrSurrogateInformation" ; sxs.dll
+"SxsGenerateActivationContext" ; sxs.dll
+"SxsInstallW" ; sxs.dll
+"SxsLookupClrGuid" ; sxs.dll
+"SxsOleAut32MapConfiguredClsidToReferenceClsid" ; sxs.dll
+"SxsOleAut32MapIIDOrCLSIDToTypeLibrary" ; sxs.dll
+"SxsOleAut32MapIIDToProxyStubCLSID" ; sxs.dll
+"SxsOleAut32MapIIDToTLBPath" ; sxs.dll
+"SxsOleAut32MapReferenceClsidToConfiguredClsid" ; sxs.dll
+"SxsOleAut32RedirectTypeLibrary" ; sxs.dll
+"SxsProbeAssemblyInstallation" ; sxs.dll
+"SxsProtectionGatherEntriesW" ; sxs.dll
+"SxsProtectionNotifyW" ; sxs.dll
+"SxsProtectionPerformScanNow" ; sxs.dll
+"SxsProtectionUserLogoffEvent" ; sxs.dll
+"SxsProtectionUserLogonEvent" ; sxs.dll
+"SxsQueryManifestInformation" ; sxs.dll
+"SxsRunDllInstallAssembly" ; sxs.dll
+"SxsRunDllInstallAssemblyW" ; sxs.dll
+"SxsUninstallW" ; sxs.dll
+"SxspGenerateManifestPathOnAssemblyIdentity" ; sxs.dll
+"SxspGeneratePolicyPathOnAssemblyIdentity" ; sxs.dll
+"SxspRunDllDeleteDirectory" ; sxs.dll
+"SxspRunDllDeleteDirectoryW" ; sxs.dll
+"sxs_ordinal1" @1 ; sxs.dll

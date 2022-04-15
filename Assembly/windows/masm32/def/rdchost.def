@@ -1,0 +1,6 @@
+LIBRARY "rdchost.dll"
+EXPORTS
+"DllCanUnloadNow" ; rdchost.dll
+"DllGetClassObject" ; rdchost.dll
+"DllRegisterServer" ; rdchost.dll
+"DllUnregisterServer" ; rdchost.dll

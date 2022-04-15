@@ -1,0 +1,3 @@
+LIBRARY "hccoin.dll"
+EXPORTS
+"HCCOIN_Entry" ; hccoin.dll

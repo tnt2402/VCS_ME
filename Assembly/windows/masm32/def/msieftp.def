@@ -1,0 +1,7 @@
+LIBRARY "msieftp.dll"
+EXPORTS
+"DllCanUnloadNow" ; msieftp.dll
+"DllGetClassObject" ; msieftp.dll
+"DllInstall" ; msieftp.dll
+"DllRegisterServer" ; msieftp.dll
+"DllUnregisterServer" ; msieftp.dll

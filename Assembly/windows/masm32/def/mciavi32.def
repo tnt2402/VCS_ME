@@ -1,0 +1,4 @@
+LIBRARY "mciavi32.dll"
+EXPORTS
+"DriverProc" ; mciavi32.dll
+"KeyboardHookProc" ; mciavi32.dll

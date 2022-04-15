@@ -1,0 +1,6 @@
+LIBRARY "safrslv.dll"
+EXPORTS
+"DllCanUnloadNow" ; safrslv.dll
+"DllGetClassObject" ; safrslv.dll
+"DllRegisterServer" ; safrslv.dll
+"DllUnregisterServer" ; safrslv.dll

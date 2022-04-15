@@ -1,0 +1,36 @@
+LIBRARY "mqad.dll"
+EXPORTS
+"MQADBeginDeleteNotification" ; mqad.dll
+"MQADCreateObject" ; mqad.dll
+"MQADDeleteObject" ; mqad.dll
+"MQADDeleteObjectGuid" ; mqad.dll
+"MQADDeleteObjectGuidSid" ; mqad.dll
+"MQADEndDeleteNotification" ; mqad.dll
+"MQADEndQuery" ; mqad.dll
+"MQADFreeMemory" ; mqad.dll
+"MQADGetADsPathInfo" ; mqad.dll
+"MQADGetComputerSites" ; mqad.dll
+"MQADGetComputerVersion" ; mqad.dll
+"MQADGetGenObjectProperties" ; mqad.dll
+"MQADGetObjectProperties" ; mqad.dll
+"MQADGetObjectPropertiesGuid" ; mqad.dll
+"MQADGetObjectSecurity" ; mqad.dll
+"MQADGetObjectSecurityGuid" ; mqad.dll
+"MQADInit" ; mqad.dll
+"MQADNotifyDelete" ; mqad.dll
+"MQADQMGetObjectSecurity" ; mqad.dll
+"MQADQueryAllLinks" ; mqad.dll
+"MQADQueryAllSites" ; mqad.dll
+"MQADQueryConnectors" ; mqad.dll
+"MQADQueryForeignSites" ; mqad.dll
+"MQADQueryLinks" ; mqad.dll
+"MQADQueryMachineQueues" ; mqad.dll
+"MQADQueryNT4MQISServers" ; mqad.dll
+"MQADQueryQueues" ; mqad.dll
+"MQADQueryResults" ; mqad.dll
+"MQADQuerySiteServers" ; mqad.dll
+"MQADQueryUserCert" ; mqad.dll
+"MQADSetObjectProperties" ; mqad.dll
+"MQADSetObjectPropertiesGuid" ; mqad.dll
+"MQADSetObjectSecurity" ; mqad.dll
+"MQADSetObjectSecurityGuid" ; mqad.dll

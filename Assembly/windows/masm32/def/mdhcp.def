@@ -1,0 +1,6 @@
+LIBRARY "mdhcp.dll"
+EXPORTS
+"DllCanUnloadNow" ; mdhcp.dll
+"DllGetClassObject" ; mdhcp.dll
+"DllRegisterServer" ; mdhcp.dll
+"DllUnregisterServer" ; mdhcp.dll

@@ -1,0 +1,4 @@
+LIBRARY "kbdnec.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdnec.dll
+"KbdNlsLayerDescriptor" ; kbdnec.dll

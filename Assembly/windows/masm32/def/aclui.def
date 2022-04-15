@@ -1,0 +1,18 @@
+LIBRARY "aclui.dll"
+EXPORTS
+"CreateSecurityPage" ; aclui.dll
+"EditSecurity" ; aclui.dll
+"IID_ISecurityInformation" ; aclui.dll
+"aclui_ordinal10" @10 ; aclui.dll
+"aclui_ordinal11" @11 ; aclui.dll
+"aclui_ordinal12" @12 ; aclui.dll
+"aclui_ordinal13" @13 ; aclui.dll
+"aclui_ordinal14" @14 ; aclui.dll
+"aclui_ordinal15" @15 ; aclui.dll
+"aclui_ordinal3" @3 ; aclui.dll
+"aclui_ordinal4" @4 ; aclui.dll
+"aclui_ordinal5" @5 ; aclui.dll
+"aclui_ordinal6" @6 ; aclui.dll
+"aclui_ordinal7" @7 ; aclui.dll
+"aclui_ordinal8" @8 ; aclui.dll
+"aclui_ordinal9" @9 ; aclui.dll

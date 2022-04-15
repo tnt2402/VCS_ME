@@ -1,0 +1,6 @@
+LIBRARY "fldrclnr.dll"
+EXPORTS
+"DllInstall" ; fldrclnr.dll
+"DllMain" ; fldrclnr.dll
+"DllRegisterServer" ; fldrclnr.dll
+"Wizard_RunDLL" ; fldrclnr.dll

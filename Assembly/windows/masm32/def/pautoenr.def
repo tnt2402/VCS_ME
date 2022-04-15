@@ -1,0 +1,5 @@
+LIBRARY "pautoenr.dll"
+EXPORTS
+"CertAutoEnrollment" ; pautoenr.dll
+"CertAutoRemove" ; pautoenr.dll
+"ProvAutoEnrollment" ; pautoenr.dll

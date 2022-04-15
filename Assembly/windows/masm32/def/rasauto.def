@@ -1,0 +1,4 @@
+LIBRARY "rasauto.dll"
+EXPORTS
+"ServiceMain" ; rasauto.dll
+"SetAddressDisabledEx" ; rasauto.dll

@@ -1,0 +1,5 @@
+LIBRARY "xmlprov.dll"
+EXPORTS
+"DllRegisterServer" ; xmlprov.dll
+"DllUnregisterServer" ; xmlprov.dll
+"ServiceMain" ; xmlprov.dll

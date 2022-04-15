@@ -1,0 +1,3 @@
+LIBRARY "feclient.dll"
+EXPORTS
+"FeClientInitialize" ; feclient.dll

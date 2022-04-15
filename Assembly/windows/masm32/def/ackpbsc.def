@@ -1,0 +1,24 @@
+LIBRARY "ackpbsc.dll"
+EXPORTS
+"CreateAuthenticationMethod" ; ackpbsc.dll
+"CreateServiceLocation" ; ackpbsc.dll
+"DestroyAuthenticationMethodObject" ; ackpbsc.dll
+"DestroyServiceLocationObject" ; ackpbsc.dll
+"KPBAuthAuthenticate" ; ackpbsc.dll
+"KPBAuthCreatePreferenceObject" ; ackpbsc.dll
+"KPBAuthDestroyPreferenceObject" ; ackpbsc.dll
+"KPBAuthFlushCache" ; ackpbsc.dll
+"KPBAuthGetPreferenceBOOL" ; ackpbsc.dll
+"KPBAuthGetPreferenceDWORD" ; ackpbsc.dll
+"KPBAuthGetPreferencePVOID" ; ackpbsc.dll
+"KPBAuthGetPreferenceSTR" ; ackpbsc.dll
+"KPBAuthIsCached" ; ackpbsc.dll
+"KPBAuthSetPinPromptString" ; ackpbsc.dll
+"KPBAuthSetPreferenceBOOL" ; ackpbsc.dll
+"KPBAuthSetPreferenceDWORD" ; ackpbsc.dll
+"KPBAuthSetPreferencePVOID" ; ackpbsc.dll
+"KPBAuthSetPreferenceSTR" ; ackpbsc.dll
+"KPBAuthSystemEvent" ; ackpbsc.dll
+"KPBAuthUpdateCache" ; ackpbsc.dll
+"KPBChangePIN" ; ackpbsc.dll
+"StartAuthClient" ; ackpbsc.dll

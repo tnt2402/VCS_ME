@@ -1,0 +1,6 @@
+LIBRARY "comaddin.dll"
+EXPORTS
+"DllCanUnloadNow" ; comaddin.dll
+"DllGetClassObject" ; comaddin.dll
+"DllRegisterServer" ; comaddin.dll
+"DllUnregisterServer" ; comaddin.dll

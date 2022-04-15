@@ -1,0 +1,8 @@
+LIBRARY "syncui.dll"
+EXPORTS
+"Briefcase_Create" ; syncui.dll
+"Briefcase_CreateA" ; syncui.dll
+"Briefcase_CreateW" ; syncui.dll
+"Briefcase_Intro" ; syncui.dll
+"DllCanUnloadNow" ; syncui.dll
+"DllGetClassObject" ; syncui.dll

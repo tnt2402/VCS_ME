@@ -1,0 +1,45 @@
+LIBRARY "ntlanman.dll"
+EXPORTS
+"DllMain" ; ntlanman.dll
+"I_SystemFocusDialog" ; ntlanman.dll
+"IsDfsPathEx" ; ntlanman.dll
+"NPAddConnection" ; ntlanman.dll
+"NPAddConnection3" ; ntlanman.dll
+"NPAddConnection3ForCSCAgent" ; ntlanman.dll
+"NPCancelConnection" ; ntlanman.dll
+"NPCancelConnectionForCSCAgent" ; ntlanman.dll
+"NPCloseEnum" ; ntlanman.dll
+"NPDirectoryNotify" ; ntlanman.dll
+"NPEnumResource" ; ntlanman.dll
+"NPFormatNetworkName" ; ntlanman.dll
+"NPGetCaps" ; ntlanman.dll
+"NPGetConnection" ; ntlanman.dll
+"NPGetConnection3" ; ntlanman.dll
+"NPGetConnectionPerformance" ; ntlanman.dll
+"NPGetDirectoryType" ; ntlanman.dll
+"NPGetPropertyText" ; ntlanman.dll
+"NPGetReconnectFlags" ; ntlanman.dll
+"NPGetResourceInformation" ; ntlanman.dll
+"NPGetResourceParent" ; ntlanman.dll
+"NPGetUniversalName" ; ntlanman.dll
+"NPGetUser" ; ntlanman.dll
+"NPOpenEnum" ; ntlanman.dll
+"NPPropertyDialog" ; ntlanman.dll
+"ServerBrowseDialogA0" ; ntlanman.dll
+"ShareAsDialogA0" ; ntlanman.dll
+"ShareCreate" ; ntlanman.dll
+"ShareManage" ; ntlanman.dll
+"ShareStop" ; ntlanman.dll
+"StopShareDialogA0" ; ntlanman.dll
+"ntlanman_ordinal28" @28 ; ntlanman.dll
+"ntlanman_ordinal37" @37 ; ntlanman.dll
+"ntlanman_ordinal39" @39 ; ntlanman.dll
+"ntlanman_ordinal42" @42 ; ntlanman.dll
+"ntlanman_ordinal43" @43 ; ntlanman.dll
+"ntlanman_ordinal44" @44 ; ntlanman.dll
+"ntlanman_ordinal45" @45 ; ntlanman.dll
+"ntlanman_ordinal46" @46 ; ntlanman.dll
+"ntlanman_ordinal47" @47 ; ntlanman.dll
+"ntlanman_ordinal48" @48 ; ntlanman.dll
+"ntlanman_ordinal50" @50 ; ntlanman.dll
+"ntlanman_ordinal51" @51 ; ntlanman.dll

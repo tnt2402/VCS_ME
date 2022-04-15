@@ -1,0 +1,3 @@
+LIBRARY "agrsco64.dll"
+EXPORTS
+"AgereSoftModemCoInstaller" ; agrsco64.dll

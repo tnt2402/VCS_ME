@@ -1,0 +1,5 @@
+LIBRARY "jsproxy.dll"
+EXPORTS
+"InternetDeInitializeAutoProxyDll" ; jsproxy.dll
+"InternetGetProxyInfo" ; jsproxy.dll
+"InternetInitializeAutoProxyDll" ; jsproxy.dll

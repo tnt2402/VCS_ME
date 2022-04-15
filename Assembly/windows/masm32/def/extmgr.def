@@ -1,0 +1,6 @@
+LIBRARY "extmgr.dll"
+EXPORTS
+"DllCanUnloadNow" ; extmgr.dll
+"DllGetClassObject" ; extmgr.dll
+"DllRegisterServer" ; extmgr.dll
+"DllUnregisterServer" ; extmgr.dll

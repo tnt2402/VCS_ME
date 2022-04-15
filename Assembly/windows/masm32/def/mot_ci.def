@@ -1,0 +1,3 @@
+LIBRARY "mot_ci.dll"
+EXPORTS
+"MotorolaCI" ; mot_ci.dll

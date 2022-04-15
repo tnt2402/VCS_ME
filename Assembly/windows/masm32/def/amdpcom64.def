@@ -1,0 +1,4 @@
+LIBRARY "amdpcom64.dll"
+EXPORTS
+"amdpcom64_ordinal2007" @2007 ; amdpcom64.dll
+"amdpcom64_ordinal2008" @2008 ; amdpcom64.dll

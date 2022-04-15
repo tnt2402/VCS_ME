@@ -1,0 +1,11 @@
+LIBRARY "iesetup.dll"
+EXPORTS
+"DllInstall" ; iesetup.dll
+"DllRegisterServer" ; iesetup.dll
+"DllUnregisterServer" ; iesetup.dll
+"FixIE" ; iesetup.dll
+"IEHardenAdmin" ; iesetup.dll
+"IEHardenAdminNow" ; iesetup.dll
+"IEHardenMachineNow" ; iesetup.dll
+"IEHardenUser" ; iesetup.dll
+"SetFirstHomepage" ; iesetup.dll

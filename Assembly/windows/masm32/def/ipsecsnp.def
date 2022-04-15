@@ -1,0 +1,6 @@
+LIBRARY "ipsecsnp.dll"
+EXPORTS
+"DllCanUnloadNow" ; ipsecsnp.dll
+"DllGetClassObject" ; ipsecsnp.dll
+"DllRegisterServer" ; ipsecsnp.dll
+"DllUnregisterServer" ; ipsecsnp.dll

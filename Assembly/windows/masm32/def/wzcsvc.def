@@ -1,0 +1,6 @@
+LIBRARY "wzcsvc.dll"
+EXPORTS
+"SvchostPushServiceGlobals" ; wzcsvc.dll
+"WZCQueryGUIDNCSState" ; wzcsvc.dll
+"WZCSvcMain" ; wzcsvc.dll
+"WZCTrayIconReady" ; wzcsvc.dll

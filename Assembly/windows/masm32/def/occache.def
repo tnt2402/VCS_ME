@@ -1,0 +1,19 @@
+LIBRARY "occache.dll"
+EXPORTS
+"DllCanUnloadNow" ; occache.dll
+"DllGetClassObject" ; occache.dll
+"DllInstall" ; occache.dll
+"DllMain" ; occache.dll
+"DllRegisterServer" ; occache.dll
+"DllUnregisterServer" ; occache.dll
+"FindControlClose" ; occache.dll
+"FindFirstControl" ; occache.dll
+"FindNextControl" ; occache.dll
+"GetControlDependentFile" ; occache.dll
+"GetControlInfo" ; occache.dll
+"IsModuleRemovable" ; occache.dll
+"ReleaseControlHandle" ; occache.dll
+"RemoveControlByHandle" ; occache.dll
+"RemoveControlByName" ; occache.dll
+"RemoveExpiredControls" ; occache.dll
+"SweepControlsByLastAccessDate" ; occache.dll

@@ -1,0 +1,6 @@
+LIBRARY "mimefilt.dll"
+EXPORTS
+"DllCanUnloadNow" ; mimefilt.dll
+"DllGetClassObject" ; mimefilt.dll
+"DllRegisterServer" ; mimefilt.dll
+"DllUnregisterServer" ; mimefilt.dll

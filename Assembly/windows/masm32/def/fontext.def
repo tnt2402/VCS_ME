@@ -1,0 +1,6 @@
+LIBRARY "fontext.dll"
+EXPORTS
+"DllCanUnloadNow" ; fontext.dll
+"DllGetClassObject" ; fontext.dll
+"DllRegisterServer" ; fontext.dll
+"DllUnregisterServer" ; fontext.dll

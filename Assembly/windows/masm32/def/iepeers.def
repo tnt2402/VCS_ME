@@ -1,0 +1,7 @@
+LIBRARY "iepeers.dll"
+EXPORTS
+"DllCanUnloadNow" ; iepeers.dll
+"DllEnumClassObjects" ; iepeers.dll
+"DllGetClassObject" ; iepeers.dll
+"DllRegisterServer" ; iepeers.dll
+"DllUnregisterServer" ; iepeers.dll

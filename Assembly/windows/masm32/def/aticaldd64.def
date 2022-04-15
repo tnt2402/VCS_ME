@@ -1,0 +1,6 @@
+LIBRARY "aticaldd64.dll"
+EXPORTS
+"DllMain" ; aticaldd64.dll
+"calddiGetExport" ; aticaldd64.dll
+"calddiGetVersion" ; aticaldd64.dll
+"calddiInit" ; aticaldd64.dll

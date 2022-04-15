@@ -1,0 +1,6 @@
+LIBRARY "qdv.dll"
+EXPORTS
+"DllCanUnloadNow" ; qdv.dll
+"DllGetClassObject" ; qdv.dll
+"DllRegisterServer" ; qdv.dll
+"DllUnregisterServer" ; qdv.dll

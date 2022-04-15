@@ -1,0 +1,21 @@
+LIBRARY "rasser.dll"
+EXPORTS
+"PortChangeCallback" ; rasser.dll
+"PortClearStatistics" ; rasser.dll
+"PortClose" ; rasser.dll
+"PortCompressionSetInfo" ; rasser.dll
+"PortConnect" ; rasser.dll
+"PortDisconnect" ; rasser.dll
+"PortEnum" ; rasser.dll
+"PortGetInfo" ; rasser.dll
+"PortGetPortState" ; rasser.dll
+"PortGetStatistics" ; rasser.dll
+"PortInit" ; rasser.dll
+"PortOpen" ; rasser.dll
+"PortReceive" ; rasser.dll
+"PortReceiveComplete" ; rasser.dll
+"PortSend" ; rasser.dll
+"PortSetFraming" ; rasser.dll
+"PortSetINetCfg" ; rasser.dll
+"PortSetInfo" ; rasser.dll
+"PortTestSignalState" ; rasser.dll

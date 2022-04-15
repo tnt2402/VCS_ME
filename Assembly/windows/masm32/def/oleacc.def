@@ -1,0 +1,24 @@
+LIBRARY "oleacc.dll"
+EXPORTS
+"AccessibleChildren" ; oleacc.dll
+"AccessibleObjectFromEvent" ; oleacc.dll
+"AccessibleObjectFromPoint" ; oleacc.dll
+"AccessibleObjectFromWindow" ; oleacc.dll
+"CreateStdAccessibleObject" ; oleacc.dll
+"CreateStdAccessibleProxyA" ; oleacc.dll
+"CreateStdAccessibleProxyW" ; oleacc.dll
+"DllCanUnloadNow" ; oleacc.dll
+"DllGetClassObject" ; oleacc.dll
+"DllRegisterServer" ; oleacc.dll
+"DllUnregisterServer" ; oleacc.dll
+"GetOleaccVersionInfo" ; oleacc.dll
+"GetRoleTextA" ; oleacc.dll
+"GetRoleTextW" ; oleacc.dll
+"GetStateTextA" ; oleacc.dll
+"GetStateTextW" ; oleacc.dll
+"IID_IAccessible" ; oleacc.dll
+"IID_IAccessibleHandler" ; oleacc.dll
+"LIBID_Accessibility" ; oleacc.dll
+"LresultFromObject" ; oleacc.dll
+"ObjectFromLresult" ; oleacc.dll
+"WindowFromAccessibleObject" ; oleacc.dll

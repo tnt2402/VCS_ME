@@ -1,0 +1,4 @@
+LIBRARY "deskperf.dll"
+EXPORTS
+"DllCanUnloadNow" ; deskperf.dll
+"DllGetClassObject" ; deskperf.dll

@@ -1,0 +1,7 @@
+LIBRARY "dskquota.dll"
+EXPORTS
+"DllCanUnloadNow" ; dskquota.dll
+"DllGetClassObject" ; dskquota.dll
+"DllRegisterServer" ; dskquota.dll
+"DllUnregisterServer" ; dskquota.dll
+"ProcessGroupPolicy" ; dskquota.dll

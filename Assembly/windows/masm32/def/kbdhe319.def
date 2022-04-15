@@ -1,0 +1,3 @@
+LIBRARY "kbdhe319.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdhe319.dll

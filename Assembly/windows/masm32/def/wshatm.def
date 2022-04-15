@@ -1,0 +1,18 @@
+LIBRARY "wshatm.dll"
+EXPORTS
+"WSHAddressToString" ; wshatm.dll
+"WSHEnumProtocols" ; wshatm.dll
+"WSHGetBroadcastSockaddr" ; wshatm.dll
+"WSHGetProviderGuid" ; wshatm.dll
+"WSHGetSockaddrType" ; wshatm.dll
+"WSHGetSocketInformation" ; wshatm.dll
+"WSHGetWSAProtocolInfo" ; wshatm.dll
+"WSHGetWildcardSockaddr" ; wshatm.dll
+"WSHGetWinsockMapping" ; wshatm.dll
+"WSHIoctl" ; wshatm.dll
+"WSHJoinLeaf" ; wshatm.dll
+"WSHNotify" ; wshatm.dll
+"WSHOpenSocket" ; wshatm.dll
+"WSHOpenSocket2" ; wshatm.dll
+"WSHSetSocketInformation" ; wshatm.dll
+"WSHStringToAddress" ; wshatm.dll

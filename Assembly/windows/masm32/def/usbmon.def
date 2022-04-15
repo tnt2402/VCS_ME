@@ -1,0 +1,4 @@
+LIBRARY "usbmon.dll"
+EXPORTS
+"DllMain" ; usbmon.dll
+"InitializePrintMonitor" ; usbmon.dll

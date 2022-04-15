@@ -1,0 +1,16 @@
+LIBRARY "netplwiz.dll"
+EXPORTS
+"AddNetPlaceRunDll" ; netplwiz.dll
+"ClearAutoLogon" ; netplwiz.dll
+"DllCanUnloadNow" ; netplwiz.dll
+"DllGetClassObject" ; netplwiz.dll
+"DllInstall" ; netplwiz.dll
+"DllMain" ; netplwiz.dll
+"DllRegisterServer" ; netplwiz.dll
+"DllUnregisterServer" ; netplwiz.dll
+"NetAccessWizard" ; netplwiz.dll
+"NetPlacesWizardDoModal" ; netplwiz.dll
+"PassportWizardRunDll" ; netplwiz.dll
+"PublishRunDll" ; netplwiz.dll
+"SHDisconnectNetDrives" ; netplwiz.dll
+"UsersRunDll" ; netplwiz.dll

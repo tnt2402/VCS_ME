@@ -1,0 +1,5 @@
+LIBRARY "udhisapi.dll"
+EXPORTS
+"GetExtensionVersion" ; udhisapi.dll
+"HttpExtensionProc" ; udhisapi.dll
+"TerminateExtension" ; udhisapi.dll

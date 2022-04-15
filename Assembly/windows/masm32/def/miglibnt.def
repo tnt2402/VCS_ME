@@ -1,0 +1,13 @@
+LIBRARY "miglibnt.dll"
+EXPORTS
+"MigDllAddDllToListW" ; miglibnt.dll
+"MigDllApplySystemSettingsW" ; miglibnt.dll
+"MigDllCloseW" ; miglibnt.dll
+"MigDllCreateList" ; miglibnt.dll
+"MigDllEnumFirstW" ; miglibnt.dll
+"MigDllEnumNextW" ; miglibnt.dll
+"MigDllFreeList" ; miglibnt.dll
+"MigDllInit" ; miglibnt.dll
+"MigDllInitializeDstW" ; miglibnt.dll
+"MigDllOpenW" ; miglibnt.dll
+"MigDllShutdown" ; miglibnt.dll

@@ -1,0 +1,4 @@
+LIBRARY "wscsvc.dll"
+EXPORTS
+"ServiceMain" ; wscsvc.dll
+"SvchostPushServiceGlobals" ; wscsvc.dll

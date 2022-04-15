@@ -1,0 +1,25 @@
+LIBRARY "sti_ci.dll"
+EXPORTS
+"??0BUFFER@@QEAA@I@Z" ; sti_ci.dll
+"??0BUFFER_CHAIN@@QEAA@XZ" ; sti_ci.dll
+"??0BUFFER_CHAIN_ITEM@@QEAA@I@Z" ; sti_ci.dll
+"??1BUFFER@@QEAA@XZ" ; sti_ci.dll
+"??1BUFFER_CHAIN@@QEAA@XZ" ; sti_ci.dll
+"??1BUFFER_CHAIN_ITEM@@QEAA@XZ" ; sti_ci.dll
+"??_FBUFFER@@QEAAXXZ" ; sti_ci.dll
+"??_FBUFFER_CHAIN_ITEM@@QEAAXXZ" ; sti_ci.dll
+"?QueryPtr@BUFFER@@QEBAPEAXXZ" ; sti_ci.dll
+"?QuerySize@BUFFER@@QEBAIXZ" ; sti_ci.dll
+"?QueryUsed@BUFFER_CHAIN_ITEM@@QEBAKXZ" ; sti_ci.dll
+"?SetUsed@BUFFER_CHAIN_ITEM@@QEAAXK@Z" ; sti_ci.dll
+"AddDevice" ; sti_ci.dll
+"ClassInstall" ; sti_ci.dll
+"CoinstallerEntry" ; sti_ci.dll
+"InstallWiaService" ; sti_ci.dll
+"MigrateDevice" ; sti_ci.dll
+"PTPCoinstallerEntry" ; sti_ci.dll
+"WiaAddDevice" ; sti_ci.dll
+"WiaCreatePortList" ; sti_ci.dll
+"WiaCreateWizardMenu" ; sti_ci.dll
+"WiaDestroyPortList" ; sti_ci.dll
+"WiaRemoveDevice" ; sti_ci.dll

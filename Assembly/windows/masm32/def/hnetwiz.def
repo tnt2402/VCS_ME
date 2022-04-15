@@ -1,0 +1,8 @@
+LIBRARY "hnetwiz.dll"
+EXPORTS
+"DllCanUnloadNow" ; hnetwiz.dll
+"DllGetClassObject" ; hnetwiz.dll
+"DllMain" ; hnetwiz.dll
+"DllRegisterServer" ; hnetwiz.dll
+"DllUnregisterServer" ; hnetwiz.dll
+"HomeNetWizardRunDll" ; hnetwiz.dll

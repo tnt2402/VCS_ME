@@ -1,0 +1,32 @@
+LIBRARY "imeshare.dll"
+EXPORTS
+"CustomizeIMEShare" ; imeshare.dll
+"DllMain" ; imeshare.dll
+"EndIMEShare" ; imeshare.dll
+"FBoldIMEStyle" ; imeshare.dll
+"FFundamentalIMEColorStyle" ; imeshare.dll
+"FGetIMEStyleAttr" ; imeshare.dll
+"FInitIMEShare" ; imeshare.dll
+"FItalicIMEStyle" ; imeshare.dll
+"FRGBIMEColorStyle" ; imeshare.dll
+"FRefreshStyle" ; imeshare.dll
+"FSaveIMEShareSetting" ; imeshare.dll
+"FSetIMEColorStyle" ; imeshare.dll
+"FSetIMEStyle" ; imeshare.dll
+"FSetIMEStyleAttr" ; imeshare.dll
+"FSpecialIMEColorStyle" ; imeshare.dll
+"FSpecialTextIMEColorStyle" ; imeshare.dll
+"FSpecialWindowIMEColorStyle" ; imeshare.dll
+"FSupportSty" ; imeshare.dll
+"FUlIMEStyle" ; imeshare.dll
+"FWinIMEColorStyle" ; imeshare.dll
+"GrfStyIMEStyle" ; imeshare.dll
+"IdFundamentalFromIMEColorStyle" ; imeshare.dll
+"IdSpecialFromIMEColorStyle" ; imeshare.dll
+"IdUlIMEStyle" ; imeshare.dll
+"IdWinFromIMEColorStyle" ; imeshare.dll
+"PColorStyleBackFromIMEStyle" ; imeshare.dll
+"PColorStyleTextFromIMEStyle" ; imeshare.dll
+"PIMEShareCreate" ; imeshare.dll
+"PIMEStyleFromAttr" ; imeshare.dll
+"RGBFromIMEColorStyle" ; imeshare.dll

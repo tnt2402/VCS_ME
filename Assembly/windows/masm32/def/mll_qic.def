@@ -1,0 +1,4 @@
+LIBRARY "mll_qic.dll"
+EXPORTS
+"ClaimMediaLabel" ; mll_qic.dll
+"MaxMediaLabel" ; mll_qic.dll

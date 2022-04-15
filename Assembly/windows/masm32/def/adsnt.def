@@ -1,0 +1,4 @@
+LIBRARY "adsnt.dll"
+EXPORTS
+"DllCanUnloadNow" ; adsnt.dll
+"DllGetClassObject" ; adsnt.dll

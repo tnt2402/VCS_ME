@@ -1,0 +1,10 @@
+LIBRARY "kdcom.dll"
+EXPORTS
+"KdD0Transition" ; kdcom.dll
+"KdD3Transition" ; kdcom.dll
+"KdDebuggerInitialize0" ; kdcom.dll
+"KdDebuggerInitialize1" ; kdcom.dll
+"KdReceivePacket" ; kdcom.dll
+"KdRestore" ; kdcom.dll
+"KdSave" ; kdcom.dll
+"KdSendPacket" ; kdcom.dll

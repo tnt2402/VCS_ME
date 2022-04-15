@@ -1,0 +1,4 @@
+LIBRARY "atidxx64.dll"
+EXPORTS
+"OpenAdapter10" ; atidxx64.dll
+"OpenAdapter10_2" ; atidxx64.dll

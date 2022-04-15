@@ -1,0 +1,3 @@
+LIBRARY "tsbyuv.dll"
+EXPORTS
+"DriverProc" ; tsbyuv.dll

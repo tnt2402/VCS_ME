@@ -1,0 +1,9 @@
+LIBRARY "colbact.dll"
+EXPORTS
+"DllGetClassObject" ; colbact.dll
+"DllRegisterServer" ; colbact.dll
+"DllUnregisterServer" ; colbact.dll
+"GetClassInfoForCurrentUser" ; colbact.dll
+"GetDefaultPartitionForCurrentUser" ; colbact.dll
+"GetDefaultPartitionForSid" ; colbact.dll
+"PartitionAccessCheck" ; colbact.dll

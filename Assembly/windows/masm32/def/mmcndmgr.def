@@ -1,0 +1,8 @@
+LIBRARY "mmcndmgr.dll"
+EXPORTS
+"CreateExecutivePlatform" ; mmcndmgr.dll
+"DllCanUnloadNow" ; mmcndmgr.dll
+"DllGetClassObject" ; mmcndmgr.dll
+"DllRegisterServer" ; mmcndmgr.dll
+"DllUnregisterServer" ; mmcndmgr.dll
+"GetAllocCounters" ; mmcndmgr.dll

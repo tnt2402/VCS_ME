@@ -1,0 +1,6 @@
+LIBRARY "iassdo.dll"
+EXPORTS
+"DllCanUnloadNow" ; iassdo.dll
+"DllGetClassObject" ; iassdo.dll
+"DllRegisterServer" ; iassdo.dll
+"DllUnregisterServer" ; iassdo.dll

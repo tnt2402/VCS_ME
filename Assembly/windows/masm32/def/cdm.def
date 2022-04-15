@@ -1,0 +1,12 @@
+LIBRARY "cdm.dll"
+EXPORTS
+"CancelCDMOperation" ; cdm.dll
+"CloseCDMContext" ; cdm.dll
+"DetFilesDownloaded" ; cdm.dll
+"DownloadIsInternetAvailable" ; cdm.dll
+"DownloadUpdatedFiles" ; cdm.dll
+"FindMatchingDriver" ; cdm.dll
+"LogDriverNotFound" ; cdm.dll
+"OpenCDMContext" ; cdm.dll
+"OpenCDMContextEx" ; cdm.dll
+"QueryDetectionFiles" ; cdm.dll

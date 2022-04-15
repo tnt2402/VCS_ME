@@ -1,0 +1,3 @@
+LIBRARY "msafd.dll"
+EXPORTS
+"WSPStartup" ; msafd.dll

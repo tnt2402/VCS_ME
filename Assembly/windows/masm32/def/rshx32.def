@@ -1,0 +1,6 @@
+LIBRARY "rshx32.dll"
+EXPORTS
+"DllCanUnloadNow" ; rshx32.dll
+"DllGetClassObject" ; rshx32.dll
+"DllRegisterServer" ; rshx32.dll
+"DllUnregisterServer" ; rshx32.dll

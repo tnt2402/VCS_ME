@@ -1,0 +1,22 @@
+LIBRARY "dciman32.dll"
+EXPORTS
+"DCIBeginAccess" ; dciman32.dll
+"DCICloseProvider" ; dciman32.dll
+"DCICreateOffscreen" ; dciman32.dll
+"DCICreateOverlay" ; dciman32.dll
+"DCICreatePrimary" ; dciman32.dll
+"DCIDestroy" ; dciman32.dll
+"DCIDraw" ; dciman32.dll
+"DCIEndAccess" ; dciman32.dll
+"DCIEnum" ; dciman32.dll
+"DCIOpenProvider" ; dciman32.dll
+"DCISetClipList" ; dciman32.dll
+"DCISetDestination" ; dciman32.dll
+"DCISetSrcDestClip" ; dciman32.dll
+"GetDCRegionData" ; dciman32.dll
+"GetWindowRegionData" ; dciman32.dll
+"WinWatchClose" ; dciman32.dll
+"WinWatchDidStatusChange" ; dciman32.dll
+"WinWatchGetClipList" ; dciman32.dll
+"WinWatchNotify" ; dciman32.dll
+"WinWatchOpen" ; dciman32.dll

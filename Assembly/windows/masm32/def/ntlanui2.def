@@ -1,0 +1,4 @@
+LIBRARY "ntlanui2.dll"
+EXPORTS
+"DllCanUnloadNow" ; ntlanui2.dll
+"DllGetClassObject" ; ntlanui2.dll

@@ -1,0 +1,10 @@
+LIBRARY "corpol.dll"
+EXPORTS
+"CORLockDownProvider" ; corpol.dll
+"CORPolicyEE" ; corpol.dll
+"CORPolicyProvider" ; corpol.dll
+"DllCanUnloadNow" ; corpol.dll
+"DllRegisterServer" ; corpol.dll
+"DllUnregisterServer" ; corpol.dll
+"GetPublisher" ; corpol.dll
+"GetUnsignedPermissions" ; corpol.dll

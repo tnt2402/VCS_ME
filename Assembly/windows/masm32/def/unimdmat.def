@@ -1,0 +1,21 @@
+LIBRARY "unimdmat.dll"
+EXPORTS
+"UmAbortCurrentModemCommand" ; unimdmat.dll
+"UmAnswerModem" ; unimdmat.dll
+"UmCloseModem" ; unimdmat.dll
+"UmDeinitializeModemDriver" ; unimdmat.dll
+"UmDialModem" ; unimdmat.dll
+"UmDuplicateDeviceHandle" ; unimdmat.dll
+"UmGenerateDigit" ; unimdmat.dll
+"UmGetDiagnostics" ; unimdmat.dll
+"UmHangupModem" ; unimdmat.dll
+"UmInitModem" ; unimdmat.dll
+"UmInitializeModemDriver" ; unimdmat.dll
+"UmIssueCommand" ; unimdmat.dll
+"UmLogDiagnostics" ; unimdmat.dll
+"UmLogStringA" ; unimdmat.dll
+"UmMonitorModem" ; unimdmat.dll
+"UmOpenModem" ; unimdmat.dll
+"UmSetPassthroughMode" ; unimdmat.dll
+"UmSetSpeakerPhoneState" ; unimdmat.dll
+"UmWaveAction" ; unimdmat.dll

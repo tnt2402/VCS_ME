@@ -1,0 +1,7 @@
+LIBRARY "mshtmled.dll"
+EXPORTS
+"DllCanUnloadNow" ; mshtmled.dll
+"DllEnumClassObjects" ; mshtmled.dll
+"DllGetClassObject" ; mshtmled.dll
+"DllRegisterServer" ; mshtmled.dll
+"DllUnregisterServer" ; mshtmled.dll

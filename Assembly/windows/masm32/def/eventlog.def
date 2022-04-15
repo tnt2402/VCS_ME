@@ -1,0 +1,3 @@
+LIBRARY "eventlog.dll"
+EXPORTS
+"SvcEntry_Eventlog" ; eventlog.dll

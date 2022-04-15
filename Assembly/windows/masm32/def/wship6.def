@@ -1,0 +1,20 @@
+LIBRARY "wship6.dll"
+EXPORTS
+"WSHAddressToString" ; wship6.dll
+"WSHEnumProtocols" ; wship6.dll
+"WSHGetProviderGuid" ; wship6.dll
+"WSHGetSockaddrType" ; wship6.dll
+"WSHGetSocketInformation" ; wship6.dll
+"WSHGetWSAProtocolInfo" ; wship6.dll
+"WSHGetWildcardSockaddr" ; wship6.dll
+"WSHGetWinsockMapping" ; wship6.dll
+"WSHIoctl" ; wship6.dll
+"WSHJoinLeaf" ; wship6.dll
+"WSHNotify" ; wship6.dll
+"WSHOpenSocket" ; wship6.dll
+"WSHOpenSocket2" ; wship6.dll
+"WSHSetSocketInformation" ; wship6.dll
+"WSHStringToAddress" ; wship6.dll
+"freeaddrinfo" ; wship6.dll
+"getaddrinfo" ; wship6.dll
+"getnameinfo" ; wship6.dll

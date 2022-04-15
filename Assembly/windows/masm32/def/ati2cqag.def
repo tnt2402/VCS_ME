@@ -1,0 +1,4 @@
+LIBRARY "ati2cqag.dll"
+EXPORTS
+"CMMQS_GetProcAddress" ; ati2cqag.dll
+"GsDrvEnableDriver" ; ati2cqag.dll

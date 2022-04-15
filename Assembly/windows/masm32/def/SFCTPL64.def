@@ -1,0 +1,6 @@
+LIBRARY "SFCTPL64.dll"
+EXPORTS
+"DllCanUnloadNow" ; SFCTPL64.dll
+"DllGetClassObject" ; SFCTPL64.dll
+"DllRegisterServer" ; SFCTPL64.dll
+"DllUnregisterServer" ; SFCTPL64.dll

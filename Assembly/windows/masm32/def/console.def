@@ -1,0 +1,3 @@
+LIBRARY "console.dll"
+EXPORTS
+"CPlApplet" ; console.dll

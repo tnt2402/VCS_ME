@@ -1,0 +1,6 @@
+LIBRARY "rcbdyctl.dll"
+EXPORTS
+"DllCanUnloadNow" ; rcbdyctl.dll
+"DllGetClassObject" ; rcbdyctl.dll
+"DllRegisterServer" ; rcbdyctl.dll
+"DllUnregisterServer" ; rcbdyctl.dll

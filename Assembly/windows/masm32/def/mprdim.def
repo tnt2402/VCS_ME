@@ -1,0 +1,3 @@
+LIBRARY "mprdim.dll"
+EXPORTS
+"ServiceMain" ; mprdim.dll

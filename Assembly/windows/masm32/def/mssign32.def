@@ -1,0 +1,32 @@
+LIBRARY "mssign32.dll"
+EXPORTS
+"DllRegisterServer" ; mssign32.dll
+"DllUnregisterServer" ; mssign32.dll
+"FreeCryptProvFromCert" ; mssign32.dll
+"GetCryptProvFromCert" ; mssign32.dll
+"PvkFreeCryptProv" ; mssign32.dll
+"PvkGetCryptProv" ; mssign32.dll
+"PvkPrivateKeyAcquireContext" ; mssign32.dll
+"PvkPrivateKeyAcquireContextA" ; mssign32.dll
+"PvkPrivateKeyAcquireContextFromMemory" ; mssign32.dll
+"PvkPrivateKeyAcquireContextFromMemoryA" ; mssign32.dll
+"PvkPrivateKeyLoad" ; mssign32.dll
+"PvkPrivateKeyLoadA" ; mssign32.dll
+"PvkPrivateKeyLoadFromMemory" ; mssign32.dll
+"PvkPrivateKeyLoadFromMemoryA" ; mssign32.dll
+"PvkPrivateKeyReleaseContext" ; mssign32.dll
+"PvkPrivateKeyReleaseContextA" ; mssign32.dll
+"PvkPrivateKeySave" ; mssign32.dll
+"PvkPrivateKeySaveA" ; mssign32.dll
+"PvkPrivateKeySaveToMemory" ; mssign32.dll
+"PvkPrivateKeySaveToMemoryA" ; mssign32.dll
+"SignError" ; mssign32.dll
+"SignerAddTimeStampResponse" ; mssign32.dll
+"SignerAddTimeStampResponseEx" ; mssign32.dll
+"SignerCreateTimeStampRequest" ; mssign32.dll
+"SignerFreeSignerContext" ; mssign32.dll
+"SignerSign" ; mssign32.dll
+"SignerSignEx" ; mssign32.dll
+"SignerTimeStamp" ; mssign32.dll
+"SignerTimeStampEx" ; mssign32.dll
+"SpcGetCertFromKey" ; mssign32.dll

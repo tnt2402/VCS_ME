@@ -1,0 +1,13 @@
+LIBRARY "mciole32.dll"
+EXPORTS
+"DllCreate" ; mciole32.dll
+"DllCreateFromClip" ; mciole32.dll
+"DllCreateFromFile" ; mciole32.dll
+"DllCreateFromTemplate" ; mciole32.dll
+"DllCreateLinkFromClip" ; mciole32.dll
+"DllCreateLinkFromFile" ; mciole32.dll
+"DllLoadFromStream" ; mciole32.dll
+"GetMessageHook" ; mciole32.dll
+"InstallHook" ; mciole32.dll
+"OleQueryObjPos" ; mciole32.dll
+"RemoveHook" ; mciole32.dll

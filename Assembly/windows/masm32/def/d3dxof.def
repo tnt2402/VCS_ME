@@ -1,0 +1,5 @@
+LIBRARY "d3dxof.dll"
+EXPORTS
+"DirectXFileCreate" ; d3dxof.dll
+"DllCanUnloadNow" ; d3dxof.dll
+"DllGetClassObject" ; d3dxof.dll

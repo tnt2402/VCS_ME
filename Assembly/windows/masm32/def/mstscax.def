@@ -1,0 +1,7 @@
+LIBRARY "mstscax.dll"
+EXPORTS
+"DllCanUnloadNow" ; mstscax.dll
+"DllGetClassObject" ; mstscax.dll
+"DllGetTscCtlVer" ; mstscax.dll
+"DllRegisterServer" ; mstscax.dll
+"DllUnregisterServer" ; mstscax.dll

@@ -1,0 +1,3 @@
+LIBRARY "mqqm.dll"
+EXPORTS
+"?QMMain@@YAHHQEAPEBG@Z" ; mqqm.dll

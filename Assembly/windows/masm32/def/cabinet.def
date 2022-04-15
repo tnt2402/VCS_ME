@@ -1,0 +1,26 @@
+LIBRARY "cabinet.dll"
+EXPORTS
+"DeleteExtractedFiles" ; cabinet.dll
+"DllGetVersion" ; cabinet.dll
+"Extract" ; cabinet.dll
+"FCIAddFile" ; cabinet.dll
+"FCICreate" ; cabinet.dll
+"FCIDestroy" ; cabinet.dll
+"FCIFlushCabinet" ; cabinet.dll
+"FCIFlushFolder" ; cabinet.dll
+"FDICopy" ; cabinet.dll
+"FDICreate" ; cabinet.dll
+"FDIDestroy" ; cabinet.dll
+"FDIIsCabinet" ; cabinet.dll
+"FDITruncateCabinet" ; cabinet.dll
+"GetDllVersion" ; cabinet.dll
+"cabinet_ordinal15" @15 ; cabinet.dll
+"cabinet_ordinal16" @16 ; cabinet.dll
+"cabinet_ordinal17" @17 ; cabinet.dll
+"cabinet_ordinal18" @18 ; cabinet.dll
+"cabinet_ordinal19" @19 ; cabinet.dll
+"cabinet_ordinal5" @5 ; cabinet.dll
+"cabinet_ordinal6" @6 ; cabinet.dll
+"cabinet_ordinal7" @7 ; cabinet.dll
+"cabinet_ordinal8" @8 ; cabinet.dll
+"cabinet_ordinal9" @9 ; cabinet.dll

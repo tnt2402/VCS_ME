@@ -1,0 +1,15 @@
+LIBRARY "ipmontr.dll"
+EXPORTS
+"InitHelperDll" ; ipmontr.dll
+"IpmontrDeleteInfoBlockFromInterfaceInfo" ; ipmontr.dll
+"IpmontrDeleteProtocol" ; ipmontr.dll
+"IpmontrGetFriendlyNameFromIfIndex" ; ipmontr.dll
+"IpmontrGetFriendlyNameFromIfName" ; ipmontr.dll
+"IpmontrGetIfIndexFromFriendlyName" ; ipmontr.dll
+"IpmontrGetIfNameFromFriendlyName" ; ipmontr.dll
+"IpmontrGetInfoBlockFromGlobalInfo" ; ipmontr.dll
+"IpmontrGetInfoBlockFromInterfaceInfo" ; ipmontr.dll
+"IpmontrGetInterfaceType" ; ipmontr.dll
+"IpmontrInterfaceEnum" ; ipmontr.dll
+"IpmontrSetInfoBlockInGlobalInfo" ; ipmontr.dll
+"IpmontrSetInfoBlockInInterfaceInfo" ; ipmontr.dll

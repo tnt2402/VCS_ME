@@ -1,0 +1,19 @@
+LIBRARY "credui.dll"
+EXPORTS
+"CredUICmdLinePromptForCredentialsA" ; credui.dll
+"CredUICmdLinePromptForCredentialsW" ; credui.dll
+"CredUIConfirmCredentialsA" ; credui.dll
+"CredUIConfirmCredentialsW" ; credui.dll
+"CredUIInitControls" ; credui.dll
+"CredUIParseUserNameA" ; credui.dll
+"CredUIParseUserNameW" ; credui.dll
+"CredUIPromptForCredentialsA" ; credui.dll
+"CredUIPromptForCredentialsW" ; credui.dll
+"CredUIReadSSOCredA" ; credui.dll
+"CredUIReadSSOCredW" ; credui.dll
+"CredUIStoreSSOCredA" ; credui.dll
+"CredUIStoreSSOCredW" ; credui.dll
+"DllCanUnloadNow" ; credui.dll
+"DllGetClassObject" ; credui.dll
+"DllRegisterServer" ; credui.dll
+"DllUnregisterServer" ; credui.dll

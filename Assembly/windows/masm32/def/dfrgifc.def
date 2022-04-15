@@ -1,0 +1,19 @@
+LIBRARY "dfrgifc.exe"
+EXPORTS
+"??0CDbgCallTracer@@QEAA@KPEBD@Z" ; dfrgifc.exe
+"??0CDfrgAsyncObject@@QEAA@XZ" ; dfrgifc.exe
+"??1CDbgCallTracer@@QEAA@XZ" ; dfrgifc.exe
+"??1CDfrgAsyncObject@@QEAA@XZ" ; dfrgifc.exe
+"?AllowCancel@CDfrgAsyncObject@@QEAAXXZ" ; dfrgifc.exe
+"?Cancel@CDfrgAsyncObject@@UEAAJXZ" ; dfrgifc.exe
+"?DisallowCancel@CDfrgAsyncObject@@QEAAXXZ" ; dfrgifc.exe
+"?GetDefragReport@CDfrgAsyncObject@@UEAAJPEAU_DEFRAG_REPORT@@@Z" ; dfrgifc.exe
+"?Initialize@CDfrgAsyncObject@@SAKXZ" ; dfrgifc.exe
+"?IsCancelRequested@CDfrgAsyncObject@@QEAAHXZ" ; dfrgifc.exe
+"?IsFinished@CDfrgAsyncObject@@QEAAHXZ" ; dfrgifc.exe
+"?QueryStatus@CDfrgAsyncObject@@UEAAJPEAJPEAK@Z" ; dfrgifc.exe
+"?SetCompletionStatus@CDfrgAsyncObject@@QEAAXJK@Z" ; dfrgifc.exe
+"?Signal@CDfrgAsyncObject@@QEAAXXZ" ; dfrgifc.exe
+"?Uninitialize@CDfrgAsyncObject@@SAXXZ" ; dfrgifc.exe
+"?Wait@CDfrgAsyncObject@@UEAAJPEAJ@Z" ; dfrgifc.exe
+"?WaitImpl@CDfrgAsyncObject@@QEAAJPEAJ@Z" ; dfrgifc.exe

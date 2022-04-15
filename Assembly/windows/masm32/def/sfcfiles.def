@@ -1,0 +1,4 @@
+LIBRARY "sfcfiles.dll"
+EXPORTS
+"SfcGetFiles" ; sfcfiles.dll
+"sfcfiles_ordinal1" @1 ; sfcfiles.dll

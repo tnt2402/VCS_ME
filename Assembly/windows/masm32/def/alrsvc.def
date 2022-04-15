@@ -1,0 +1,4 @@
+LIBRARY "alrsvc.dll"
+EXPORTS
+"ServiceMain" ; alrsvc.dll
+"SvchostPushServiceGlobals" ; alrsvc.dll

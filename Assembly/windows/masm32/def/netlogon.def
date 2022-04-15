@@ -1,0 +1,27 @@
+LIBRARY "netlogon.dll"
+EXPORTS
+"DsrGetDcNameEx2" ; netlogon.dll
+"I_DsGetDcCache" ; netlogon.dll
+"I_NetLogonAddressToSiteName" ; netlogon.dll
+"I_NetLogonAppendChangeLog" ; netlogon.dll
+"I_NetLogonCloseChangeLog" ; netlogon.dll
+"I_NetLogonFree" ; netlogon.dll
+"I_NetLogonGetAuthDataEx" ; netlogon.dll
+"I_NetLogonGetIpAddresses" ; netlogon.dll
+"I_NetLogonGetSerialNumber" ; netlogon.dll
+"I_NetLogonLdapLookupEx" ; netlogon.dll
+"I_NetLogonMixedDomain" ; netlogon.dll
+"I_NetLogonNewChangeLog" ; netlogon.dll
+"I_NetLogonReadChangeLog" ; netlogon.dll
+"I_NetLogonSendToSamOnPdc" ; netlogon.dll
+"I_NetLogonSetServiceBits" ; netlogon.dll
+"I_NetNotifyDelta" ; netlogon.dll
+"I_NetNotifyDsChange" ; netlogon.dll
+"I_NetNotifyMachineAccount" ; netlogon.dll
+"I_NetNotifyNetlogonDllHandle" ; netlogon.dll
+"I_NetNotifyNtdsDsaDeletion" ; netlogon.dll
+"I_NetNotifyRole" ; netlogon.dll
+"I_NetNotifyTrustedDomain" ; netlogon.dll
+"InitSecurityInterfaceW" ; netlogon.dll
+"NetILogonSamLogon" ; netlogon.dll
+"NlNetlogonMain" ; netlogon.dll

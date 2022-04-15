@@ -1,0 +1,5 @@
+LIBRARY "fsusd.dll"
+EXPORTS
+"DllCanUnloadNow" ; fsusd.dll
+"DllGetClassObject" ; fsusd.dll
+"DllMain" ; fsusd.dll

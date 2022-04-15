@@ -1,0 +1,4 @@
+LIBRARY "adsmsext.dll"
+EXPORTS
+"DllCanUnloadNow" ; adsmsext.dll
+"DllGetClassObject" ; adsmsext.dll

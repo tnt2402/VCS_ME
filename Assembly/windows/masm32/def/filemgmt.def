@@ -1,0 +1,7 @@
+LIBRARY "filemgmt.dll"
+EXPORTS
+"CacheSettingsDlg" ; filemgmt.dll
+"DllCanUnloadNow" ; filemgmt.dll
+"DllGetClassObject" ; filemgmt.dll
+"DllRegisterServer" ; filemgmt.dll
+"DllUnregisterServer" ; filemgmt.dll

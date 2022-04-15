@@ -1,0 +1,26 @@
+LIBRARY "dsauth.dll"
+EXPORTS
+"DhcpAddServerDS" ; dsauth.dll
+"DhcpDeleteServerDS" ; dsauth.dll
+"DhcpDsAddServer" ; dsauth.dll
+"DhcpDsCleanupDS" ; dsauth.dll
+"DhcpDsDelServer" ; dsauth.dll
+"DhcpDsEnumServers" ; dsauth.dll
+"DhcpDsGetAttribs" ; dsauth.dll
+"DhcpDsGetLists" ; dsauth.dll
+"DhcpDsGetRoot" ; dsauth.dll
+"DhcpDsInitDS" ; dsauth.dll
+"DhcpDsSetLists" ; dsauth.dll
+"DhcpDsValidateService" ; dsauth.dll
+"DhcpEnumServersDS" ; dsauth.dll
+"StoreBeginSearch" ; dsauth.dll
+"StoreCleanupHandle" ; dsauth.dll
+"StoreCollectAttributes" ; dsauth.dll
+"StoreCreateObjectVA" ; dsauth.dll
+"StoreDeleteObject" ; dsauth.dll
+"StoreEndSearch" ; dsauth.dll
+"StoreGetHandle" ; dsauth.dll
+"StoreInitHandle" ; dsauth.dll
+"StoreSearchGetNext" ; dsauth.dll
+"StoreSetSearchOneLevel" ; dsauth.dll
+"StoreSetSearchSubTree" ; dsauth.dll

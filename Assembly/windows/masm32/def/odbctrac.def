@@ -1,0 +1,305 @@
+LIBRARY "odbctrac.dll"
+EXPORTS
+"FireVSDebugEvent" ; odbctrac.dll
+"TraceCloseLogFile" ; odbctrac.dll
+"TraceOpenLogFile" ; odbctrac.dll
+"TraceReturn" ; odbctrac.dll
+"TraceSQLAllocConnect" ; odbctrac.dll
+"TraceSQLAllocEnv" ; odbctrac.dll
+"TraceSQLAllocHandle" ; odbctrac.dll
+"TraceSQLAllocHandleStd" ; odbctrac.dll
+"TraceSQLAllocHandleStdW" ; odbctrac.dll
+"TraceSQLAllocStmt" ; odbctrac.dll
+"TraceSQLBindCol" ; odbctrac.dll
+"TraceSQLBindParam" ; odbctrac.dll
+"TraceSQLBindParameter" ; odbctrac.dll
+"TraceSQLBrowseConnect" ; odbctrac.dll
+"TraceSQLBrowseConnectW" ; odbctrac.dll
+"TraceSQLBulkOperations" ; odbctrac.dll
+"TraceSQLCancel" ; odbctrac.dll
+"TraceSQLCloseCursor" ; odbctrac.dll
+"TraceSQLColAttribute" ; odbctrac.dll
+"TraceSQLColAttributeW" ; odbctrac.dll
+"TraceSQLColAttributes" ; odbctrac.dll
+"TraceSQLColAttributesW" ; odbctrac.dll
+"TraceSQLColumnPrivileges" ; odbctrac.dll
+"TraceSQLColumnPrivilegesW" ; odbctrac.dll
+"TraceSQLColumns" ; odbctrac.dll
+"TraceSQLColumnsW" ; odbctrac.dll
+"TraceSQLConnect" ; odbctrac.dll
+"TraceSQLConnectW" ; odbctrac.dll
+"TraceSQLCopyDesc" ; odbctrac.dll
+"TraceSQLDataSources" ; odbctrac.dll
+"TraceSQLDataSourcesW" ; odbctrac.dll
+"TraceSQLDescribeCol" ; odbctrac.dll
+"TraceSQLDescribeColW" ; odbctrac.dll
+"TraceSQLDescribeParam" ; odbctrac.dll
+"TraceSQLDisconnect" ; odbctrac.dll
+"TraceSQLDriverConnect" ; odbctrac.dll
+"TraceSQLDriverConnectW" ; odbctrac.dll
+"TraceSQLDrivers" ; odbctrac.dll
+"TraceSQLDriversW" ; odbctrac.dll
+"TraceSQLEndTran" ; odbctrac.dll
+"TraceSQLError" ; odbctrac.dll
+"TraceSQLErrorW" ; odbctrac.dll
+"TraceSQLExecDirect" ; odbctrac.dll
+"TraceSQLExecDirectW" ; odbctrac.dll
+"TraceSQLExecute" ; odbctrac.dll
+"TraceSQLExtendedFetch" ; odbctrac.dll
+"TraceSQLFetch" ; odbctrac.dll
+"TraceSQLFetchScroll" ; odbctrac.dll
+"TraceSQLForeignKeys" ; odbctrac.dll
+"TraceSQLForeignKeysW" ; odbctrac.dll
+"TraceSQLFreeConnect" ; odbctrac.dll
+"TraceSQLFreeEnv" ; odbctrac.dll
+"TraceSQLFreeHandle" ; odbctrac.dll
+"TraceSQLFreeStmt" ; odbctrac.dll
+"TraceSQLGetConnectAttr" ; odbctrac.dll
+"TraceSQLGetConnectAttrW" ; odbctrac.dll
+"TraceSQLGetConnectOption" ; odbctrac.dll
+"TraceSQLGetConnectOptionW" ; odbctrac.dll
+"TraceSQLGetCursorName" ; odbctrac.dll
+"TraceSQLGetCursorNameW" ; odbctrac.dll
+"TraceSQLGetData" ; odbctrac.dll
+"TraceSQLGetDescField" ; odbctrac.dll
+"TraceSQLGetDescFieldW" ; odbctrac.dll
+"TraceSQLGetDescRec" ; odbctrac.dll
+"TraceSQLGetDescRecW" ; odbctrac.dll
+"TraceSQLGetDiagField" ; odbctrac.dll
+"TraceSQLGetDiagFieldW" ; odbctrac.dll
+"TraceSQLGetDiagRec" ; odbctrac.dll
+"TraceSQLGetDiagRecW" ; odbctrac.dll
+"TraceSQLGetEnvAttr" ; odbctrac.dll
+"TraceSQLGetFunctions" ; odbctrac.dll
+"TraceSQLGetInfo" ; odbctrac.dll
+"TraceSQLGetInfoW" ; odbctrac.dll
+"TraceSQLGetStmtAttr" ; odbctrac.dll
+"TraceSQLGetStmtAttrW" ; odbctrac.dll
+"TraceSQLGetStmtOption" ; odbctrac.dll
+"TraceSQLGetTypeInfo" ; odbctrac.dll
+"TraceSQLGetTypeInfoW" ; odbctrac.dll
+"TraceSQLMoreResults" ; odbctrac.dll
+"TraceSQLNativeSql" ; odbctrac.dll
+"TraceSQLNativeSqlW" ; odbctrac.dll
+"TraceSQLNumParams" ; odbctrac.dll
+"TraceSQLNumResultCols" ; odbctrac.dll
+"TraceSQLParamData" ; odbctrac.dll
+"TraceSQLParamOptions" ; odbctrac.dll
+"TraceSQLPrepare" ; odbctrac.dll
+"TraceSQLPrepareW" ; odbctrac.dll
+"TraceSQLPrimaryKeys" ; odbctrac.dll
+"TraceSQLPrimaryKeysW" ; odbctrac.dll
+"TraceSQLProcedureColumns" ; odbctrac.dll
+"TraceSQLProcedureColumnsW" ; odbctrac.dll
+"TraceSQLProcedures" ; odbctrac.dll
+"TraceSQLProceduresW" ; odbctrac.dll
+"TraceSQLPutData" ; odbctrac.dll
+"TraceSQLRowCount" ; odbctrac.dll
+"TraceSQLSetConnectAttr" ; odbctrac.dll
+"TraceSQLSetConnectAttrW" ; odbctrac.dll
+"TraceSQLSetConnectOption" ; odbctrac.dll
+"TraceSQLSetConnectOptionW" ; odbctrac.dll
+"TraceSQLSetCursorName" ; odbctrac.dll
+"TraceSQLSetCursorNameW" ; odbctrac.dll
+"TraceSQLSetDescField" ; odbctrac.dll
+"TraceSQLSetDescFieldW" ; odbctrac.dll
+"TraceSQLSetDescRec" ; odbctrac.dll
+"TraceSQLSetEnvAttr" ; odbctrac.dll
+"TraceSQLSetParam" ; odbctrac.dll
+"TraceSQLSetPos" ; odbctrac.dll
+"TraceSQLSetScrollOptions" ; odbctrac.dll
+"TraceSQLSetStmtAttr" ; odbctrac.dll
+"TraceSQLSetStmtAttrW" ; odbctrac.dll
+"TraceSQLSetStmtOption" ; odbctrac.dll
+"TraceSQLSpecialColumns" ; odbctrac.dll
+"TraceSQLSpecialColumnsW" ; odbctrac.dll
+"TraceSQLStatistics" ; odbctrac.dll
+"TraceSQLStatisticsW" ; odbctrac.dll
+"TraceSQLTablePrivileges" ; odbctrac.dll
+"TraceSQLTablePrivilegesW" ; odbctrac.dll
+"TraceSQLTables" ; odbctrac.dll
+"TraceSQLTablesW" ; odbctrac.dll
+"TraceSQLTransact" ; odbctrac.dll
+"TraceVSControl" ; odbctrac.dll
+"TraceVersion" ; odbctrac.dll
+"odbctrac_ordinal100" @100 ; odbctrac.dll
+"odbctrac_ordinal101" @101 ; odbctrac.dll
+"odbctrac_ordinal102" @102 ; odbctrac.dll
+"odbctrac_ordinal103" @103 ; odbctrac.dll
+"odbctrac_ordinal104" @104 ; odbctrac.dll
+"odbctrac_ordinal105" @105 ; odbctrac.dll
+"odbctrac_ordinal109" @109 ; odbctrac.dll
+"odbctrac_ordinal112" @112 ; odbctrac.dll
+"odbctrac_ordinal113" @113 ; odbctrac.dll
+"odbctrac_ordinal114" @114 ; odbctrac.dll
+"odbctrac_ordinal115" @115 ; odbctrac.dll
+"odbctrac_ordinal116" @116 ; odbctrac.dll
+"odbctrac_ordinal118" @118 ; odbctrac.dll
+"odbctrac_ordinal120" @120 ; odbctrac.dll
+"odbctrac_ordinal122" @122 ; odbctrac.dll
+"odbctrac_ordinal123" @123 ; odbctrac.dll
+"odbctrac_ordinal124" @124 ; odbctrac.dll
+"odbctrac_ordinal125" @125 ; odbctrac.dll
+"odbctrac_ordinal126" @126 ; odbctrac.dll
+"odbctrac_ordinal128" @128 ; odbctrac.dll
+"odbctrac_ordinal129" @129 ; odbctrac.dll
+"odbctrac_ordinal130" @130 ; odbctrac.dll
+"odbctrac_ordinal131" @131 ; odbctrac.dll
+"odbctrac_ordinal137" @137 ; odbctrac.dll
+"odbctrac_ordinal143" @143 ; odbctrac.dll
+"odbctrac_ordinal144" @144 ; odbctrac.dll
+"odbctrac_ordinal146" @146 ; odbctrac.dll
+"odbctrac_ordinal148" @148 ; odbctrac.dll
+"odbctrac_ordinal149" @149 ; odbctrac.dll
+"odbctrac_ordinal151" @151 ; odbctrac.dll
+"odbctrac_ordinal158" @158 ; odbctrac.dll
+"odbctrac_ordinal159" @159 ; odbctrac.dll
+"odbctrac_ordinal161" @161 ; odbctrac.dll
+"odbctrac_ordinal163" @163 ; odbctrac.dll
+"odbctrac_ordinal164" @164 ; odbctrac.dll
+"odbctrac_ordinal168" @168 ; odbctrac.dll
+"odbctrac_ordinal169" @169 ; odbctrac.dll
+"odbctrac_ordinal172" @172 ; odbctrac.dll
+"odbctrac_ordinal174" @174 ; odbctrac.dll
+"odbctrac_ordinal175" @175 ; odbctrac.dll
+"odbctrac_ordinal178" @178 ; odbctrac.dll
+"odbctrac_ordinal179" @179 ; odbctrac.dll
+"odbctrac_ordinal180" @180 ; odbctrac.dll
+"odbctrac_ordinal181" @181 ; odbctrac.dll
+"odbctrac_ordinal182" @182 ; odbctrac.dll
+"odbctrac_ordinal183" @183 ; odbctrac.dll
+"odbctrac_ordinal184" @184 ; odbctrac.dll
+"odbctrac_ordinal185" @185 ; odbctrac.dll
+"odbctrac_ordinal186" @186 ; odbctrac.dll
+"odbctrac_ordinal187" @187 ; odbctrac.dll
+"odbctrac_ordinal188" @188 ; odbctrac.dll
+"odbctrac_ordinal189" @189 ; odbctrac.dll
+"odbctrac_ordinal190" @190 ; odbctrac.dll
+"odbctrac_ordinal191" @191 ; odbctrac.dll
+"odbctrac_ordinal192" @192 ; odbctrac.dll
+"odbctrac_ordinal193" @193 ; odbctrac.dll
+"odbctrac_ordinal194" @194 ; odbctrac.dll
+"odbctrac_ordinal195" @195 ; odbctrac.dll
+"odbctrac_ordinal196" @196 ; odbctrac.dll
+"odbctrac_ordinal197" @197 ; odbctrac.dll
+"odbctrac_ordinal198" @198 ; odbctrac.dll
+"odbctrac_ordinal199" @199 ; odbctrac.dll
+"odbctrac_ordinal200" @200 ; odbctrac.dll
+"odbctrac_ordinal201" @201 ; odbctrac.dll
+"odbctrac_ordinal202" @202 ; odbctrac.dll
+"odbctrac_ordinal203" @203 ; odbctrac.dll
+"odbctrac_ordinal204" @204 ; odbctrac.dll
+"odbctrac_ordinal205" @205 ; odbctrac.dll
+"odbctrac_ordinal206" @206 ; odbctrac.dll
+"odbctrac_ordinal207" @207 ; odbctrac.dll
+"odbctrac_ordinal208" @208 ; odbctrac.dll
+"odbctrac_ordinal209" @209 ; odbctrac.dll
+"odbctrac_ordinal210" @210 ; odbctrac.dll
+"odbctrac_ordinal211" @211 ; odbctrac.dll
+"odbctrac_ordinal212" @212 ; odbctrac.dll
+"odbctrac_ordinal213" @213 ; odbctrac.dll
+"odbctrac_ordinal214" @214 ; odbctrac.dll
+"odbctrac_ordinal215" @215 ; odbctrac.dll
+"odbctrac_ordinal216" @216 ; odbctrac.dll
+"odbctrac_ordinal217" @217 ; odbctrac.dll
+"odbctrac_ordinal218" @218 ; odbctrac.dll
+"odbctrac_ordinal219" @219 ; odbctrac.dll
+"odbctrac_ordinal220" @220 ; odbctrac.dll
+"odbctrac_ordinal221" @221 ; odbctrac.dll
+"odbctrac_ordinal222" @222 ; odbctrac.dll
+"odbctrac_ordinal223" @223 ; odbctrac.dll
+"odbctrac_ordinal224" @224 ; odbctrac.dll
+"odbctrac_ordinal225" @225 ; odbctrac.dll
+"odbctrac_ordinal226" @226 ; odbctrac.dll
+"odbctrac_ordinal227" @227 ; odbctrac.dll
+"odbctrac_ordinal228" @228 ; odbctrac.dll
+"odbctrac_ordinal229" @229 ; odbctrac.dll
+"odbctrac_ordinal230" @230 ; odbctrac.dll
+"odbctrac_ordinal231" @231 ; odbctrac.dll
+"odbctrac_ordinal232" @232 ; odbctrac.dll
+"odbctrac_ordinal233" @233 ; odbctrac.dll
+"odbctrac_ordinal234" @234 ; odbctrac.dll
+"odbctrac_ordinal235" @235 ; odbctrac.dll
+"odbctrac_ordinal236" @236 ; odbctrac.dll
+"odbctrac_ordinal237" @237 ; odbctrac.dll
+"odbctrac_ordinal238" @238 ; odbctrac.dll
+"odbctrac_ordinal239" @239 ; odbctrac.dll
+"odbctrac_ordinal240" @240 ; odbctrac.dll
+"odbctrac_ordinal241" @241 ; odbctrac.dll
+"odbctrac_ordinal242" @242 ; odbctrac.dll
+"odbctrac_ordinal243" @243 ; odbctrac.dll
+"odbctrac_ordinal244" @244 ; odbctrac.dll
+"odbctrac_ordinal245" @245 ; odbctrac.dll
+"odbctrac_ordinal246" @246 ; odbctrac.dll
+"odbctrac_ordinal247" @247 ; odbctrac.dll
+"odbctrac_ordinal248" @248 ; odbctrac.dll
+"odbctrac_ordinal249" @249 ; odbctrac.dll
+"odbctrac_ordinal250" @250 ; odbctrac.dll
+"odbctrac_ordinal251" @251 ; odbctrac.dll
+"odbctrac_ordinal252" @252 ; odbctrac.dll
+"odbctrac_ordinal253" @253 ; odbctrac.dll
+"odbctrac_ordinal254" @254 ; odbctrac.dll
+"odbctrac_ordinal255" @255 ; odbctrac.dll
+"odbctrac_ordinal256" @256 ; odbctrac.dll
+"odbctrac_ordinal257" @257 ; odbctrac.dll
+"odbctrac_ordinal258" @258 ; odbctrac.dll
+"odbctrac_ordinal259" @259 ; odbctrac.dll
+"odbctrac_ordinal260" @260 ; odbctrac.dll
+"odbctrac_ordinal261" @261 ; odbctrac.dll
+"odbctrac_ordinal262" @262 ; odbctrac.dll
+"odbctrac_ordinal263" @263 ; odbctrac.dll
+"odbctrac_ordinal264" @264 ; odbctrac.dll
+"odbctrac_ordinal265" @265 ; odbctrac.dll
+"odbctrac_ordinal266" @266 ; odbctrac.dll
+"odbctrac_ordinal267" @267 ; odbctrac.dll
+"odbctrac_ordinal268" @268 ; odbctrac.dll
+"odbctrac_ordinal269" @269 ; odbctrac.dll
+"odbctrac_ordinal270" @270 ; odbctrac.dll
+"odbctrac_ordinal271" @271 ; odbctrac.dll
+"odbctrac_ordinal272" @272 ; odbctrac.dll
+"odbctrac_ordinal273" @273 ; odbctrac.dll
+"odbctrac_ordinal274" @274 ; odbctrac.dll
+"odbctrac_ordinal275" @275 ; odbctrac.dll
+"odbctrac_ordinal276" @276 ; odbctrac.dll
+"odbctrac_ordinal277" @277 ; odbctrac.dll
+"odbctrac_ordinal278" @278 ; odbctrac.dll
+"odbctrac_ordinal279" @279 ; odbctrac.dll
+"odbctrac_ordinal280" @280 ; odbctrac.dll
+"odbctrac_ordinal281" @281 ; odbctrac.dll
+"odbctrac_ordinal282" @282 ; odbctrac.dll
+"odbctrac_ordinal283" @283 ; odbctrac.dll
+"odbctrac_ordinal284" @284 ; odbctrac.dll
+"odbctrac_ordinal285" @285 ; odbctrac.dll
+"odbctrac_ordinal286" @286 ; odbctrac.dll
+"odbctrac_ordinal287" @287 ; odbctrac.dll
+"odbctrac_ordinal288" @288 ; odbctrac.dll
+"odbctrac_ordinal289" @289 ; odbctrac.dll
+"odbctrac_ordinal290" @290 ; odbctrac.dll
+"odbctrac_ordinal291" @291 ; odbctrac.dll
+"odbctrac_ordinal292" @292 ; odbctrac.dll
+"odbctrac_ordinal293" @293 ; odbctrac.dll
+"odbctrac_ordinal294" @294 ; odbctrac.dll
+"odbctrac_ordinal295" @295 ; odbctrac.dll
+"odbctrac_ordinal296" @296 ; odbctrac.dll
+"odbctrac_ordinal297" @297 ; odbctrac.dll
+"odbctrac_ordinal298" @298 ; odbctrac.dll
+"odbctrac_ordinal299" @299 ; odbctrac.dll
+"odbctrac_ordinal81" @81 ; odbctrac.dll
+"odbctrac_ordinal82" @82 ; odbctrac.dll
+"odbctrac_ordinal83" @83 ; odbctrac.dll
+"odbctrac_ordinal84" @84 ; odbctrac.dll
+"odbctrac_ordinal85" @85 ; odbctrac.dll
+"odbctrac_ordinal86" @86 ; odbctrac.dll
+"odbctrac_ordinal87" @87 ; odbctrac.dll
+"odbctrac_ordinal88" @88 ; odbctrac.dll
+"odbctrac_ordinal89" @89 ; odbctrac.dll
+"odbctrac_ordinal90" @90 ; odbctrac.dll
+"odbctrac_ordinal91" @91 ; odbctrac.dll
+"odbctrac_ordinal92" @92 ; odbctrac.dll
+"odbctrac_ordinal93" @93 ; odbctrac.dll
+"odbctrac_ordinal94" @94 ; odbctrac.dll
+"odbctrac_ordinal95" @95 ; odbctrac.dll
+"odbctrac_ordinal96" @96 ; odbctrac.dll
+"odbctrac_ordinal97" @97 ; odbctrac.dll
+"odbctrac_ordinal98" @98 ; odbctrac.dll
+"odbctrac_ordinal99" @99 ; odbctrac.dll

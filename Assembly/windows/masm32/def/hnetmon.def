@@ -1,0 +1,3 @@
+LIBRARY "hnetmon.dll"
+EXPORTS
+"InitHelperDll" ; hnetmon.dll

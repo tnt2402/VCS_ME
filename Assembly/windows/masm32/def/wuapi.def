@@ -1,0 +1,7 @@
+LIBRARY "wuapi.dll"
+EXPORTS
+"DllCanUnloadNow" ; wuapi.dll
+"DllGetClassObject" ; wuapi.dll
+"DllRegisterServer" ; wuapi.dll
+"DllUnregisterServer" ; wuapi.dll
+"wuapi_ordinal1" @1 ; wuapi.dll

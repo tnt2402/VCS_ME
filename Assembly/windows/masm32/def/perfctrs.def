@@ -1,0 +1,20 @@
+LIBRARY "perfctrs.dll"
+EXPORTS
+"CloseDhcpPerformanceData" ; perfctrs.dll
+"CloseIPXPerformanceData" ; perfctrs.dll
+"CloseNWNBPerformanceData" ; perfctrs.dll
+"CloseNbfPerformanceData" ; perfctrs.dll
+"CloseSPXPerformanceData" ; perfctrs.dll
+"CloseTcpIpPerformanceData" ; perfctrs.dll
+"CollectDhcpPerformanceData" ; perfctrs.dll
+"CollectIPXPerformanceData" ; perfctrs.dll
+"CollectNWNBPerformanceData" ; perfctrs.dll
+"CollectNbfPerformanceData" ; perfctrs.dll
+"CollectSPXPerformanceData" ; perfctrs.dll
+"CollectTcpIpPerformanceData" ; perfctrs.dll
+"OpenDhcpPerformanceData" ; perfctrs.dll
+"OpenIPXPerformanceData" ; perfctrs.dll
+"OpenNWNBPerformanceData" ; perfctrs.dll
+"OpenNbfPerformanceData" ; perfctrs.dll
+"OpenSPXPerformanceData" ; perfctrs.dll
+"OpenTcpIpPerformanceData" ; perfctrs.dll

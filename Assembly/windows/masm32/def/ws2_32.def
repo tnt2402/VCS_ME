@@ -1,0 +1,502 @@
+LIBRARY "ws2_32.dll"
+EXPORTS
+"FreeAddrInfoW" ; ws2_32.dll
+"GetAddrInfoW" ; ws2_32.dll
+"GetNameInfoW" ; ws2_32.dll
+"WEP" ; ws2_32.dll
+"WPUCompleteOverlappedRequest" ; ws2_32.dll
+"WSAAccept" ; ws2_32.dll
+"WSAAddressToStringA" ; ws2_32.dll
+"WSAAddressToStringW" ; ws2_32.dll
+"WSAAsyncGetHostByAddr" ; ws2_32.dll
+"WSAAsyncGetHostByName" ; ws2_32.dll
+"WSAAsyncGetProtoByName" ; ws2_32.dll
+"WSAAsyncGetProtoByNumber" ; ws2_32.dll
+"WSAAsyncGetServByName" ; ws2_32.dll
+"WSAAsyncGetServByPort" ; ws2_32.dll
+"WSAAsyncSelect" ; ws2_32.dll
+"WSACancelAsyncRequest" ; ws2_32.dll
+"WSACancelBlockingCall" ; ws2_32.dll
+"WSACleanup" ; ws2_32.dll
+"WSACloseEvent" ; ws2_32.dll
+"WSAConnect" ; ws2_32.dll
+"WSACreateEvent" ; ws2_32.dll
+"WSADuplicateSocketA" ; ws2_32.dll
+"WSADuplicateSocketW" ; ws2_32.dll
+"WSAEnumNameSpaceProvidersA" ; ws2_32.dll
+"WSAEnumNameSpaceProvidersW" ; ws2_32.dll
+"WSAEnumNetworkEvents" ; ws2_32.dll
+"WSAEnumProtocolsA" ; ws2_32.dll
+"WSAEnumProtocolsW" ; ws2_32.dll
+"WSAEventSelect" ; ws2_32.dll
+"WSAGetLastError" ; ws2_32.dll
+"WSAGetOverlappedResult" ; ws2_32.dll
+"WSAGetQOSByName" ; ws2_32.dll
+"WSAGetServiceClassInfoA" ; ws2_32.dll
+"WSAGetServiceClassInfoW" ; ws2_32.dll
+"WSAGetServiceClassNameByClassIdA" ; ws2_32.dll
+"WSAGetServiceClassNameByClassIdW" ; ws2_32.dll
+"WSAHtonl" ; ws2_32.dll
+"WSAHtons" ; ws2_32.dll
+"WSAInstallServiceClassA" ; ws2_32.dll
+"WSAInstallServiceClassW" ; ws2_32.dll
+"WSAIoctl" ; ws2_32.dll
+"WSAIsBlocking" ; ws2_32.dll
+"WSAJoinLeaf" ; ws2_32.dll
+"WSALookupServiceBeginA" ; ws2_32.dll
+"WSALookupServiceBeginW" ; ws2_32.dll
+"WSALookupServiceEnd" ; ws2_32.dll
+"WSALookupServiceNextA" ; ws2_32.dll
+"WSALookupServiceNextW" ; ws2_32.dll
+"WSANSPIoctl" ; ws2_32.dll
+"WSANtohl" ; ws2_32.dll
+"WSANtohs" ; ws2_32.dll
+"WSAProviderConfigChange" ; ws2_32.dll
+"WSARecv" ; ws2_32.dll
+"WSARecvDisconnect" ; ws2_32.dll
+"WSARecvFrom" ; ws2_32.dll
+"WSARemoveServiceClass" ; ws2_32.dll
+"WSAResetEvent" ; ws2_32.dll
+"WSASend" ; ws2_32.dll
+"WSASendDisconnect" ; ws2_32.dll
+"WSASendTo" ; ws2_32.dll
+"WSASetBlockingHook" ; ws2_32.dll
+"WSASetEvent" ; ws2_32.dll
+"WSASetLastError" ; ws2_32.dll
+"WSASetServiceA" ; ws2_32.dll
+"WSASetServiceW" ; ws2_32.dll
+"WSASocketA" ; ws2_32.dll
+"WSASocketW" ; ws2_32.dll
+"WSAStartup" ; ws2_32.dll
+"WSAStringToAddressA" ; ws2_32.dll
+"WSAStringToAddressW" ; ws2_32.dll
+"WSAUnhookBlockingHook" ; ws2_32.dll
+"WSAWaitForMultipleEvents" ; ws2_32.dll
+"WSApSetPostRoutine" ; ws2_32.dll
+"WSCDeinstallProvider" ; ws2_32.dll
+"WSCDeinstallProvider32" ; ws2_32.dll
+"WSCEnableNSProvider" ; ws2_32.dll
+"WSCEnableNSProvider32" ; ws2_32.dll
+"WSCEnumNameSpaceProviders32" ; ws2_32.dll
+"WSCEnumProtocols" ; ws2_32.dll
+"WSCEnumProtocols32" ; ws2_32.dll
+"WSCGetProviderPath" ; ws2_32.dll
+"WSCGetProviderPath32" ; ws2_32.dll
+"WSCInstallNameSpace" ; ws2_32.dll
+"WSCInstallNameSpace32" ; ws2_32.dll
+"WSCInstallProvider" ; ws2_32.dll
+"WSCInstallProvider64_32" ; ws2_32.dll
+"WSCUnInstallNameSpace" ; ws2_32.dll
+"WSCUnInstallNameSpace32" ; ws2_32.dll
+"WSCUpdateProvider" ; ws2_32.dll
+"WSCUpdateProvider32" ; ws2_32.dll
+"WSCWriteNameSpaceOrder" ; ws2_32.dll
+"WSCWriteNameSpaceOrder32" ; ws2_32.dll
+"WSCWriteProviderOrder" ; ws2_32.dll
+"WSCWriteProviderOrder32" ; ws2_32.dll
+"__WSAFDIsSet" ; ws2_32.dll
+"accept" ; ws2_32.dll
+"bind" ; ws2_32.dll
+"closesocket" ; ws2_32.dll
+"connect" ; ws2_32.dll
+"freeaddrinfo" ; ws2_32.dll
+"getaddrinfo" ; ws2_32.dll
+"gethostbyaddr" ; ws2_32.dll
+"gethostbyname" ; ws2_32.dll
+"gethostname" ; ws2_32.dll
+"getnameinfo" ; ws2_32.dll
+"getpeername" ; ws2_32.dll
+"getprotobyname" ; ws2_32.dll
+"getprotobynumber" ; ws2_32.dll
+"getservbyname" ; ws2_32.dll
+"getservbyport" ; ws2_32.dll
+"getsockname" ; ws2_32.dll
+"getsockopt" ; ws2_32.dll
+"htonl" ; ws2_32.dll
+"htons" ; ws2_32.dll
+"inet_addr" ; ws2_32.dll
+"inet_ntoa" ; ws2_32.dll
+"ioctlsocket" ; ws2_32.dll
+"listen" ; ws2_32.dll
+"ntohl" ; ws2_32.dll
+"ntohs" ; ws2_32.dll
+"recv" ; ws2_32.dll
+"recvfrom" ; ws2_32.dll
+"select" ; ws2_32.dll
+"send" ; ws2_32.dll
+"sendto" ; ws2_32.dll
+"setsockopt" ; ws2_32.dll
+"shutdown" ; ws2_32.dll
+"socket" ; ws2_32.dll
+"ws2_32_ordinal127" @127 ; ws2_32.dll
+"ws2_32_ordinal128" @128 ; ws2_32.dll
+"ws2_32_ordinal129" @129 ; ws2_32.dll
+"ws2_32_ordinal130" @130 ; ws2_32.dll
+"ws2_32_ordinal131" @131 ; ws2_32.dll
+"ws2_32_ordinal132" @132 ; ws2_32.dll
+"ws2_32_ordinal133" @133 ; ws2_32.dll
+"ws2_32_ordinal134" @134 ; ws2_32.dll
+"ws2_32_ordinal135" @135 ; ws2_32.dll
+"ws2_32_ordinal136" @136 ; ws2_32.dll
+"ws2_32_ordinal137" @137 ; ws2_32.dll
+"ws2_32_ordinal138" @138 ; ws2_32.dll
+"ws2_32_ordinal139" @139 ; ws2_32.dll
+"ws2_32_ordinal140" @140 ; ws2_32.dll
+"ws2_32_ordinal141" @141 ; ws2_32.dll
+"ws2_32_ordinal142" @142 ; ws2_32.dll
+"ws2_32_ordinal143" @143 ; ws2_32.dll
+"ws2_32_ordinal144" @144 ; ws2_32.dll
+"ws2_32_ordinal145" @145 ; ws2_32.dll
+"ws2_32_ordinal146" @146 ; ws2_32.dll
+"ws2_32_ordinal147" @147 ; ws2_32.dll
+"ws2_32_ordinal148" @148 ; ws2_32.dll
+"ws2_32_ordinal149" @149 ; ws2_32.dll
+"ws2_32_ordinal150" @150 ; ws2_32.dll
+"ws2_32_ordinal152" @152 ; ws2_32.dll
+"ws2_32_ordinal153" @153 ; ws2_32.dll
+"ws2_32_ordinal154" @154 ; ws2_32.dll
+"ws2_32_ordinal155" @155 ; ws2_32.dll
+"ws2_32_ordinal156" @156 ; ws2_32.dll
+"ws2_32_ordinal157" @157 ; ws2_32.dll
+"ws2_32_ordinal158" @158 ; ws2_32.dll
+"ws2_32_ordinal159" @159 ; ws2_32.dll
+"ws2_32_ordinal160" @160 ; ws2_32.dll
+"ws2_32_ordinal161" @161 ; ws2_32.dll
+"ws2_32_ordinal162" @162 ; ws2_32.dll
+"ws2_32_ordinal163" @163 ; ws2_32.dll
+"ws2_32_ordinal164" @164 ; ws2_32.dll
+"ws2_32_ordinal165" @165 ; ws2_32.dll
+"ws2_32_ordinal166" @166 ; ws2_32.dll
+"ws2_32_ordinal167" @167 ; ws2_32.dll
+"ws2_32_ordinal168" @168 ; ws2_32.dll
+"ws2_32_ordinal169" @169 ; ws2_32.dll
+"ws2_32_ordinal170" @170 ; ws2_32.dll
+"ws2_32_ordinal171" @171 ; ws2_32.dll
+"ws2_32_ordinal172" @172 ; ws2_32.dll
+"ws2_32_ordinal173" @173 ; ws2_32.dll
+"ws2_32_ordinal174" @174 ; ws2_32.dll
+"ws2_32_ordinal175" @175 ; ws2_32.dll
+"ws2_32_ordinal176" @176 ; ws2_32.dll
+"ws2_32_ordinal177" @177 ; ws2_32.dll
+"ws2_32_ordinal178" @178 ; ws2_32.dll
+"ws2_32_ordinal179" @179 ; ws2_32.dll
+"ws2_32_ordinal180" @180 ; ws2_32.dll
+"ws2_32_ordinal181" @181 ; ws2_32.dll
+"ws2_32_ordinal182" @182 ; ws2_32.dll
+"ws2_32_ordinal183" @183 ; ws2_32.dll
+"ws2_32_ordinal184" @184 ; ws2_32.dll
+"ws2_32_ordinal185" @185 ; ws2_32.dll
+"ws2_32_ordinal186" @186 ; ws2_32.dll
+"ws2_32_ordinal187" @187 ; ws2_32.dll
+"ws2_32_ordinal188" @188 ; ws2_32.dll
+"ws2_32_ordinal189" @189 ; ws2_32.dll
+"ws2_32_ordinal190" @190 ; ws2_32.dll
+"ws2_32_ordinal191" @191 ; ws2_32.dll
+"ws2_32_ordinal192" @192 ; ws2_32.dll
+"ws2_32_ordinal193" @193 ; ws2_32.dll
+"ws2_32_ordinal194" @194 ; ws2_32.dll
+"ws2_32_ordinal195" @195 ; ws2_32.dll
+"ws2_32_ordinal196" @196 ; ws2_32.dll
+"ws2_32_ordinal197" @197 ; ws2_32.dll
+"ws2_32_ordinal198" @198 ; ws2_32.dll
+"ws2_32_ordinal199" @199 ; ws2_32.dll
+"ws2_32_ordinal200" @200 ; ws2_32.dll
+"ws2_32_ordinal201" @201 ; ws2_32.dll
+"ws2_32_ordinal202" @202 ; ws2_32.dll
+"ws2_32_ordinal203" @203 ; ws2_32.dll
+"ws2_32_ordinal204" @204 ; ws2_32.dll
+"ws2_32_ordinal205" @205 ; ws2_32.dll
+"ws2_32_ordinal206" @206 ; ws2_32.dll
+"ws2_32_ordinal207" @207 ; ws2_32.dll
+"ws2_32_ordinal208" @208 ; ws2_32.dll
+"ws2_32_ordinal209" @209 ; ws2_32.dll
+"ws2_32_ordinal210" @210 ; ws2_32.dll
+"ws2_32_ordinal211" @211 ; ws2_32.dll
+"ws2_32_ordinal212" @212 ; ws2_32.dll
+"ws2_32_ordinal213" @213 ; ws2_32.dll
+"ws2_32_ordinal214" @214 ; ws2_32.dll
+"ws2_32_ordinal215" @215 ; ws2_32.dll
+"ws2_32_ordinal216" @216 ; ws2_32.dll
+"ws2_32_ordinal217" @217 ; ws2_32.dll
+"ws2_32_ordinal218" @218 ; ws2_32.dll
+"ws2_32_ordinal219" @219 ; ws2_32.dll
+"ws2_32_ordinal220" @220 ; ws2_32.dll
+"ws2_32_ordinal221" @221 ; ws2_32.dll
+"ws2_32_ordinal222" @222 ; ws2_32.dll
+"ws2_32_ordinal223" @223 ; ws2_32.dll
+"ws2_32_ordinal224" @224 ; ws2_32.dll
+"ws2_32_ordinal225" @225 ; ws2_32.dll
+"ws2_32_ordinal226" @226 ; ws2_32.dll
+"ws2_32_ordinal227" @227 ; ws2_32.dll
+"ws2_32_ordinal228" @228 ; ws2_32.dll
+"ws2_32_ordinal229" @229 ; ws2_32.dll
+"ws2_32_ordinal230" @230 ; ws2_32.dll
+"ws2_32_ordinal231" @231 ; ws2_32.dll
+"ws2_32_ordinal232" @232 ; ws2_32.dll
+"ws2_32_ordinal233" @233 ; ws2_32.dll
+"ws2_32_ordinal234" @234 ; ws2_32.dll
+"ws2_32_ordinal235" @235 ; ws2_32.dll
+"ws2_32_ordinal236" @236 ; ws2_32.dll
+"ws2_32_ordinal237" @237 ; ws2_32.dll
+"ws2_32_ordinal238" @238 ; ws2_32.dll
+"ws2_32_ordinal239" @239 ; ws2_32.dll
+"ws2_32_ordinal240" @240 ; ws2_32.dll
+"ws2_32_ordinal241" @241 ; ws2_32.dll
+"ws2_32_ordinal242" @242 ; ws2_32.dll
+"ws2_32_ordinal243" @243 ; ws2_32.dll
+"ws2_32_ordinal244" @244 ; ws2_32.dll
+"ws2_32_ordinal245" @245 ; ws2_32.dll
+"ws2_32_ordinal246" @246 ; ws2_32.dll
+"ws2_32_ordinal247" @247 ; ws2_32.dll
+"ws2_32_ordinal248" @248 ; ws2_32.dll
+"ws2_32_ordinal249" @249 ; ws2_32.dll
+"ws2_32_ordinal250" @250 ; ws2_32.dll
+"ws2_32_ordinal251" @251 ; ws2_32.dll
+"ws2_32_ordinal252" @252 ; ws2_32.dll
+"ws2_32_ordinal253" @253 ; ws2_32.dll
+"ws2_32_ordinal254" @254 ; ws2_32.dll
+"ws2_32_ordinal255" @255 ; ws2_32.dll
+"ws2_32_ordinal256" @256 ; ws2_32.dll
+"ws2_32_ordinal257" @257 ; ws2_32.dll
+"ws2_32_ordinal258" @258 ; ws2_32.dll
+"ws2_32_ordinal259" @259 ; ws2_32.dll
+"ws2_32_ordinal260" @260 ; ws2_32.dll
+"ws2_32_ordinal261" @261 ; ws2_32.dll
+"ws2_32_ordinal262" @262 ; ws2_32.dll
+"ws2_32_ordinal263" @263 ; ws2_32.dll
+"ws2_32_ordinal264" @264 ; ws2_32.dll
+"ws2_32_ordinal265" @265 ; ws2_32.dll
+"ws2_32_ordinal266" @266 ; ws2_32.dll
+"ws2_32_ordinal267" @267 ; ws2_32.dll
+"ws2_32_ordinal268" @268 ; ws2_32.dll
+"ws2_32_ordinal269" @269 ; ws2_32.dll
+"ws2_32_ordinal270" @270 ; ws2_32.dll
+"ws2_32_ordinal271" @271 ; ws2_32.dll
+"ws2_32_ordinal272" @272 ; ws2_32.dll
+"ws2_32_ordinal273" @273 ; ws2_32.dll
+"ws2_32_ordinal274" @274 ; ws2_32.dll
+"ws2_32_ordinal275" @275 ; ws2_32.dll
+"ws2_32_ordinal276" @276 ; ws2_32.dll
+"ws2_32_ordinal277" @277 ; ws2_32.dll
+"ws2_32_ordinal278" @278 ; ws2_32.dll
+"ws2_32_ordinal279" @279 ; ws2_32.dll
+"ws2_32_ordinal280" @280 ; ws2_32.dll
+"ws2_32_ordinal281" @281 ; ws2_32.dll
+"ws2_32_ordinal282" @282 ; ws2_32.dll
+"ws2_32_ordinal283" @283 ; ws2_32.dll
+"ws2_32_ordinal284" @284 ; ws2_32.dll
+"ws2_32_ordinal285" @285 ; ws2_32.dll
+"ws2_32_ordinal286" @286 ; ws2_32.dll
+"ws2_32_ordinal287" @287 ; ws2_32.dll
+"ws2_32_ordinal288" @288 ; ws2_32.dll
+"ws2_32_ordinal289" @289 ; ws2_32.dll
+"ws2_32_ordinal290" @290 ; ws2_32.dll
+"ws2_32_ordinal291" @291 ; ws2_32.dll
+"ws2_32_ordinal292" @292 ; ws2_32.dll
+"ws2_32_ordinal293" @293 ; ws2_32.dll
+"ws2_32_ordinal294" @294 ; ws2_32.dll
+"ws2_32_ordinal295" @295 ; ws2_32.dll
+"ws2_32_ordinal296" @296 ; ws2_32.dll
+"ws2_32_ordinal297" @297 ; ws2_32.dll
+"ws2_32_ordinal298" @298 ; ws2_32.dll
+"ws2_32_ordinal299" @299 ; ws2_32.dll
+"ws2_32_ordinal300" @300 ; ws2_32.dll
+"ws2_32_ordinal301" @301 ; ws2_32.dll
+"ws2_32_ordinal302" @302 ; ws2_32.dll
+"ws2_32_ordinal303" @303 ; ws2_32.dll
+"ws2_32_ordinal304" @304 ; ws2_32.dll
+"ws2_32_ordinal305" @305 ; ws2_32.dll
+"ws2_32_ordinal306" @306 ; ws2_32.dll
+"ws2_32_ordinal307" @307 ; ws2_32.dll
+"ws2_32_ordinal308" @308 ; ws2_32.dll
+"ws2_32_ordinal309" @309 ; ws2_32.dll
+"ws2_32_ordinal310" @310 ; ws2_32.dll
+"ws2_32_ordinal311" @311 ; ws2_32.dll
+"ws2_32_ordinal312" @312 ; ws2_32.dll
+"ws2_32_ordinal313" @313 ; ws2_32.dll
+"ws2_32_ordinal314" @314 ; ws2_32.dll
+"ws2_32_ordinal315" @315 ; ws2_32.dll
+"ws2_32_ordinal316" @316 ; ws2_32.dll
+"ws2_32_ordinal317" @317 ; ws2_32.dll
+"ws2_32_ordinal318" @318 ; ws2_32.dll
+"ws2_32_ordinal319" @319 ; ws2_32.dll
+"ws2_32_ordinal320" @320 ; ws2_32.dll
+"ws2_32_ordinal321" @321 ; ws2_32.dll
+"ws2_32_ordinal322" @322 ; ws2_32.dll
+"ws2_32_ordinal323" @323 ; ws2_32.dll
+"ws2_32_ordinal324" @324 ; ws2_32.dll
+"ws2_32_ordinal325" @325 ; ws2_32.dll
+"ws2_32_ordinal326" @326 ; ws2_32.dll
+"ws2_32_ordinal327" @327 ; ws2_32.dll
+"ws2_32_ordinal328" @328 ; ws2_32.dll
+"ws2_32_ordinal329" @329 ; ws2_32.dll
+"ws2_32_ordinal330" @330 ; ws2_32.dll
+"ws2_32_ordinal331" @331 ; ws2_32.dll
+"ws2_32_ordinal332" @332 ; ws2_32.dll
+"ws2_32_ordinal333" @333 ; ws2_32.dll
+"ws2_32_ordinal334" @334 ; ws2_32.dll
+"ws2_32_ordinal335" @335 ; ws2_32.dll
+"ws2_32_ordinal336" @336 ; ws2_32.dll
+"ws2_32_ordinal337" @337 ; ws2_32.dll
+"ws2_32_ordinal338" @338 ; ws2_32.dll
+"ws2_32_ordinal339" @339 ; ws2_32.dll
+"ws2_32_ordinal340" @340 ; ws2_32.dll
+"ws2_32_ordinal341" @341 ; ws2_32.dll
+"ws2_32_ordinal342" @342 ; ws2_32.dll
+"ws2_32_ordinal343" @343 ; ws2_32.dll
+"ws2_32_ordinal344" @344 ; ws2_32.dll
+"ws2_32_ordinal345" @345 ; ws2_32.dll
+"ws2_32_ordinal346" @346 ; ws2_32.dll
+"ws2_32_ordinal347" @347 ; ws2_32.dll
+"ws2_32_ordinal348" @348 ; ws2_32.dll
+"ws2_32_ordinal349" @349 ; ws2_32.dll
+"ws2_32_ordinal350" @350 ; ws2_32.dll
+"ws2_32_ordinal351" @351 ; ws2_32.dll
+"ws2_32_ordinal352" @352 ; ws2_32.dll
+"ws2_32_ordinal353" @353 ; ws2_32.dll
+"ws2_32_ordinal354" @354 ; ws2_32.dll
+"ws2_32_ordinal355" @355 ; ws2_32.dll
+"ws2_32_ordinal356" @356 ; ws2_32.dll
+"ws2_32_ordinal357" @357 ; ws2_32.dll
+"ws2_32_ordinal358" @358 ; ws2_32.dll
+"ws2_32_ordinal359" @359 ; ws2_32.dll
+"ws2_32_ordinal360" @360 ; ws2_32.dll
+"ws2_32_ordinal361" @361 ; ws2_32.dll
+"ws2_32_ordinal362" @362 ; ws2_32.dll
+"ws2_32_ordinal363" @363 ; ws2_32.dll
+"ws2_32_ordinal364" @364 ; ws2_32.dll
+"ws2_32_ordinal365" @365 ; ws2_32.dll
+"ws2_32_ordinal366" @366 ; ws2_32.dll
+"ws2_32_ordinal367" @367 ; ws2_32.dll
+"ws2_32_ordinal368" @368 ; ws2_32.dll
+"ws2_32_ordinal369" @369 ; ws2_32.dll
+"ws2_32_ordinal370" @370 ; ws2_32.dll
+"ws2_32_ordinal371" @371 ; ws2_32.dll
+"ws2_32_ordinal372" @372 ; ws2_32.dll
+"ws2_32_ordinal373" @373 ; ws2_32.dll
+"ws2_32_ordinal374" @374 ; ws2_32.dll
+"ws2_32_ordinal375" @375 ; ws2_32.dll
+"ws2_32_ordinal376" @376 ; ws2_32.dll
+"ws2_32_ordinal377" @377 ; ws2_32.dll
+"ws2_32_ordinal378" @378 ; ws2_32.dll
+"ws2_32_ordinal379" @379 ; ws2_32.dll
+"ws2_32_ordinal380" @380 ; ws2_32.dll
+"ws2_32_ordinal381" @381 ; ws2_32.dll
+"ws2_32_ordinal382" @382 ; ws2_32.dll
+"ws2_32_ordinal383" @383 ; ws2_32.dll
+"ws2_32_ordinal384" @384 ; ws2_32.dll
+"ws2_32_ordinal385" @385 ; ws2_32.dll
+"ws2_32_ordinal386" @386 ; ws2_32.dll
+"ws2_32_ordinal387" @387 ; ws2_32.dll
+"ws2_32_ordinal388" @388 ; ws2_32.dll
+"ws2_32_ordinal389" @389 ; ws2_32.dll
+"ws2_32_ordinal390" @390 ; ws2_32.dll
+"ws2_32_ordinal391" @391 ; ws2_32.dll
+"ws2_32_ordinal392" @392 ; ws2_32.dll
+"ws2_32_ordinal393" @393 ; ws2_32.dll
+"ws2_32_ordinal394" @394 ; ws2_32.dll
+"ws2_32_ordinal395" @395 ; ws2_32.dll
+"ws2_32_ordinal396" @396 ; ws2_32.dll
+"ws2_32_ordinal397" @397 ; ws2_32.dll
+"ws2_32_ordinal398" @398 ; ws2_32.dll
+"ws2_32_ordinal399" @399 ; ws2_32.dll
+"ws2_32_ordinal400" @400 ; ws2_32.dll
+"ws2_32_ordinal401" @401 ; ws2_32.dll
+"ws2_32_ordinal402" @402 ; ws2_32.dll
+"ws2_32_ordinal403" @403 ; ws2_32.dll
+"ws2_32_ordinal404" @404 ; ws2_32.dll
+"ws2_32_ordinal405" @405 ; ws2_32.dll
+"ws2_32_ordinal406" @406 ; ws2_32.dll
+"ws2_32_ordinal407" @407 ; ws2_32.dll
+"ws2_32_ordinal408" @408 ; ws2_32.dll
+"ws2_32_ordinal409" @409 ; ws2_32.dll
+"ws2_32_ordinal410" @410 ; ws2_32.dll
+"ws2_32_ordinal411" @411 ; ws2_32.dll
+"ws2_32_ordinal412" @412 ; ws2_32.dll
+"ws2_32_ordinal413" @413 ; ws2_32.dll
+"ws2_32_ordinal414" @414 ; ws2_32.dll
+"ws2_32_ordinal415" @415 ; ws2_32.dll
+"ws2_32_ordinal416" @416 ; ws2_32.dll
+"ws2_32_ordinal417" @417 ; ws2_32.dll
+"ws2_32_ordinal418" @418 ; ws2_32.dll
+"ws2_32_ordinal419" @419 ; ws2_32.dll
+"ws2_32_ordinal420" @420 ; ws2_32.dll
+"ws2_32_ordinal421" @421 ; ws2_32.dll
+"ws2_32_ordinal422" @422 ; ws2_32.dll
+"ws2_32_ordinal423" @423 ; ws2_32.dll
+"ws2_32_ordinal424" @424 ; ws2_32.dll
+"ws2_32_ordinal425" @425 ; ws2_32.dll
+"ws2_32_ordinal426" @426 ; ws2_32.dll
+"ws2_32_ordinal427" @427 ; ws2_32.dll
+"ws2_32_ordinal428" @428 ; ws2_32.dll
+"ws2_32_ordinal429" @429 ; ws2_32.dll
+"ws2_32_ordinal430" @430 ; ws2_32.dll
+"ws2_32_ordinal431" @431 ; ws2_32.dll
+"ws2_32_ordinal432" @432 ; ws2_32.dll
+"ws2_32_ordinal433" @433 ; ws2_32.dll
+"ws2_32_ordinal434" @434 ; ws2_32.dll
+"ws2_32_ordinal435" @435 ; ws2_32.dll
+"ws2_32_ordinal436" @436 ; ws2_32.dll
+"ws2_32_ordinal437" @437 ; ws2_32.dll
+"ws2_32_ordinal438" @438 ; ws2_32.dll
+"ws2_32_ordinal439" @439 ; ws2_32.dll
+"ws2_32_ordinal440" @440 ; ws2_32.dll
+"ws2_32_ordinal441" @441 ; ws2_32.dll
+"ws2_32_ordinal442" @442 ; ws2_32.dll
+"ws2_32_ordinal443" @443 ; ws2_32.dll
+"ws2_32_ordinal444" @444 ; ws2_32.dll
+"ws2_32_ordinal445" @445 ; ws2_32.dll
+"ws2_32_ordinal446" @446 ; ws2_32.dll
+"ws2_32_ordinal447" @447 ; ws2_32.dll
+"ws2_32_ordinal448" @448 ; ws2_32.dll
+"ws2_32_ordinal449" @449 ; ws2_32.dll
+"ws2_32_ordinal450" @450 ; ws2_32.dll
+"ws2_32_ordinal451" @451 ; ws2_32.dll
+"ws2_32_ordinal452" @452 ; ws2_32.dll
+"ws2_32_ordinal453" @453 ; ws2_32.dll
+"ws2_32_ordinal454" @454 ; ws2_32.dll
+"ws2_32_ordinal455" @455 ; ws2_32.dll
+"ws2_32_ordinal456" @456 ; ws2_32.dll
+"ws2_32_ordinal457" @457 ; ws2_32.dll
+"ws2_32_ordinal458" @458 ; ws2_32.dll
+"ws2_32_ordinal459" @459 ; ws2_32.dll
+"ws2_32_ordinal460" @460 ; ws2_32.dll
+"ws2_32_ordinal461" @461 ; ws2_32.dll
+"ws2_32_ordinal462" @462 ; ws2_32.dll
+"ws2_32_ordinal463" @463 ; ws2_32.dll
+"ws2_32_ordinal464" @464 ; ws2_32.dll
+"ws2_32_ordinal465" @465 ; ws2_32.dll
+"ws2_32_ordinal466" @466 ; ws2_32.dll
+"ws2_32_ordinal467" @467 ; ws2_32.dll
+"ws2_32_ordinal468" @468 ; ws2_32.dll
+"ws2_32_ordinal469" @469 ; ws2_32.dll
+"ws2_32_ordinal470" @470 ; ws2_32.dll
+"ws2_32_ordinal471" @471 ; ws2_32.dll
+"ws2_32_ordinal472" @472 ; ws2_32.dll
+"ws2_32_ordinal473" @473 ; ws2_32.dll
+"ws2_32_ordinal474" @474 ; ws2_32.dll
+"ws2_32_ordinal475" @475 ; ws2_32.dll
+"ws2_32_ordinal476" @476 ; ws2_32.dll
+"ws2_32_ordinal477" @477 ; ws2_32.dll
+"ws2_32_ordinal478" @478 ; ws2_32.dll
+"ws2_32_ordinal479" @479 ; ws2_32.dll
+"ws2_32_ordinal480" @480 ; ws2_32.dll
+"ws2_32_ordinal481" @481 ; ws2_32.dll
+"ws2_32_ordinal482" @482 ; ws2_32.dll
+"ws2_32_ordinal483" @483 ; ws2_32.dll
+"ws2_32_ordinal484" @484 ; ws2_32.dll
+"ws2_32_ordinal485" @485 ; ws2_32.dll
+"ws2_32_ordinal486" @486 ; ws2_32.dll
+"ws2_32_ordinal487" @487 ; ws2_32.dll
+"ws2_32_ordinal488" @488 ; ws2_32.dll
+"ws2_32_ordinal489" @489 ; ws2_32.dll
+"ws2_32_ordinal490" @490 ; ws2_32.dll
+"ws2_32_ordinal491" @491 ; ws2_32.dll
+"ws2_32_ordinal492" @492 ; ws2_32.dll
+"ws2_32_ordinal493" @493 ; ws2_32.dll
+"ws2_32_ordinal494" @494 ; ws2_32.dll
+"ws2_32_ordinal495" @495 ; ws2_32.dll
+"ws2_32_ordinal496" @496 ; ws2_32.dll
+"ws2_32_ordinal497" @497 ; ws2_32.dll
+"ws2_32_ordinal498" @498 ; ws2_32.dll
+"ws2_32_ordinal499" @499 ; ws2_32.dll

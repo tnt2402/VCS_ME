@@ -1,0 +1,16 @@
+LIBRARY "rasmontr.dll"
+EXPORTS
+"GetDiagnosticFunctions" ; rasmontr.dll
+"InitHelperDll" ; rasmontr.dll
+"RutlAlloc" ; rasmontr.dll
+"RutlAssignmentFromTokenAndDword" ; rasmontr.dll
+"RutlAssignmentFromTokens" ; rasmontr.dll
+"RutlCloseDumpFile" ; rasmontr.dll
+"RutlCreateDumpFile" ; rasmontr.dll
+"RutlDwordDup" ; rasmontr.dll
+"RutlFree" ; rasmontr.dll
+"RutlGetOsVersion" ; rasmontr.dll
+"RutlGetTagToken" ; rasmontr.dll
+"RutlIsHelpToken" ; rasmontr.dll
+"RutlParse" ; rasmontr.dll
+"RutlStrDup" ; rasmontr.dll

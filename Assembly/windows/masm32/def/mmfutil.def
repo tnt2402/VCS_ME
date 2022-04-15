@@ -1,0 +1,10 @@
+LIBRARY "mmfutil.dll"
+EXPORTS
+"?DisplayAVIBox@@YA_JPEAUHWND__@@PEBG1PEAPEAU1@@Z" ; mmfutil.dll
+"?DisplayUserMessage@@YAHPEAUHWND__@@PEAUHINSTANCE__@@IIW4ERROR_SRC@@JI@Z" ; mmfutil.dll
+"?DisplayUserMessage@@YAHPEAUHWND__@@PEBG1W4ERROR_SRC@@JI@Z" ; mmfutil.dll
+"DllCanUnloadNow" ; mmfutil.dll
+"DllGetClassObject" ; mmfutil.dll
+"DllRegisterServer" ; mmfutil.dll
+"DllUnregisterServer" ; mmfutil.dll
+"ErrorStringEx" ; mmfutil.dll

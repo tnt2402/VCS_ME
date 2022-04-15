@@ -1,0 +1,6 @@
+LIBRARY "smlogcfg.dll"
+EXPORTS
+"DllCanUnloadNow" ; smlogcfg.dll
+"DllGetClassObject" ; smlogcfg.dll
+"DllRegisterServer" ; smlogcfg.dll
+"DllUnregisterServer" ; smlogcfg.dll

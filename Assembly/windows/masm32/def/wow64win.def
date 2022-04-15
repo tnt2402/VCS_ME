@@ -1,0 +1,6 @@
+LIBRARY "wow64win.dll"
+EXPORTS
+"Win32kCallbackTable" ; wow64win.dll
+"ptcbc" ; wow64win.dll
+"sdwhcon" ; wow64win.dll
+"sdwhwin32" ; wow64win.dll

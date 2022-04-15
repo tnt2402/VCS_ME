@@ -1,0 +1,16 @@
+LIBRARY "netrap.dll"
+EXPORTS
+"RapArrayLength" ; netrap.dll
+"RapAsciiToDecimal" ; netrap.dll
+"RapAuxDataCount" ; netrap.dll
+"RapAuxDataCountOffset" ; netrap.dll
+"RapConvertSingleEntry" ; netrap.dll
+"RapConvertSingleEntryEx" ; netrap.dll
+"RapExamineDescriptor" ; netrap.dll
+"RapGetFieldSize" ; netrap.dll
+"RapIsValidDescriptorSmb" ; netrap.dll
+"RapLastPointerOffset" ; netrap.dll
+"RapParmNumDescriptor" ; netrap.dll
+"RapStructureAlignment" ; netrap.dll
+"RapStructureSize" ; netrap.dll
+"RapTotalSize" ; netrap.dll

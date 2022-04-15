@@ -1,0 +1,4 @@
+LIBRARY "w3ssl.dll"
+EXPORTS
+"HTTPFilterServiceMain" ; w3ssl.dll
+"ServiceEntry" ; w3ssl.dll

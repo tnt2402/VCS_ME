@@ -1,0 +1,4 @@
+LIBRARY "trkwks.dll"
+EXPORTS
+"ServiceEntry" ; trkwks.dll
+"ServiceMain" ; trkwks.dll

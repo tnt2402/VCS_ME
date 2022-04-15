@@ -1,0 +1,13 @@
+LIBRARY "msports.dll"
+EXPORTS
+"ComDBClaimNextFreePort" ; msports.dll
+"ComDBClaimPort" ; msports.dll
+"ComDBClose" ; msports.dll
+"ComDBGetCurrentPortUsage" ; msports.dll
+"ComDBOpen" ; msports.dll
+"ComDBReleasePort" ; msports.dll
+"ComDBResizeDatabase" ; msports.dll
+"ParallelPortPropPageProvider" ; msports.dll
+"PortsClassInstaller" ; msports.dll
+"SerialDisplayAdvancedSettings" ; msports.dll
+"SerialPortPropPageProvider" ; msports.dll

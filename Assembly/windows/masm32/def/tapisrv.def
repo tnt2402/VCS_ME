@@ -1,0 +1,3 @@
+LIBRARY "tapisrv.dll"
+EXPORTS
+"ServiceMain" ; tapisrv.dll

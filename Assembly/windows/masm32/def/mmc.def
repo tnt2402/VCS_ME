@@ -1,0 +1,3 @@
+LIBRARY "mmc.exe"
+EXPORTS
+"GetAllocCounters" ; mmc.exe

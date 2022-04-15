@@ -1,0 +1,14 @@
+LIBRARY "asmrt.dll"
+EXPORTS
+"DefaultFilePath" ; asmrt.dll
+"DlgSection" ; asmrt.dll
+"InitRegData" ; asmrt.dll
+"OFileName" ; asmrt.dll
+"OpenFileDialog" ; asmrt.dll
+"RegClass" ; asmrt.dll
+"RegClassEx" ; asmrt.dll
+"RegSection" ; asmrt.dll
+"SaveFileDialog" ; asmrt.dll
+"SetStdClass" ; asmrt.dll
+"StdClass" ; asmrt.dll
+"StdWndProc" ; asmrt.dll

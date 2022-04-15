@@ -1,0 +1,21 @@
+LIBRARY "aicext.dll"
+EXPORTS
+"??0CPattern@@QEAA@PEAD_N@Z" ; aicext.dll
+"??0bytestring@@QEAA@AEBV0@@Z" ; aicext.dll
+"??0bytestring@@QEAA@H@Z" ; aicext.dll
+"??0bytestring@@QEAA@PEBEH@Z" ; aicext.dll
+"??0bytestring@@QEAA@XZ" ; aicext.dll
+"??1CPattern@@QEAA@XZ" ; aicext.dll
+"??1bytestring@@QEAA@XZ" ; aicext.dll
+"??4CPattern@@QEAAAEAV0@AEBV0@@Z" ; aicext.dll
+"?IsMatched@CPattern@@QEAA_NPEBD@Z" ; aicext.dll
+"?clear@bytestring@@QEAAXXZ" ; aicext.dll
+"?data@bytestring@@QEAAPEAEXZ" ; aicext.dll
+"?fromasc@bytestring@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z" ; aicext.dll
+"?fromasc@bytestring@@QEAA_NAEBV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@@Z" ; aicext.dll
+"?fromasc@bytestring@@QEAA_NPEBDH@Z" ; aicext.dll
+"?random@bytestring@@QEAAXH@Z" ; aicext.dll
+"?size@bytestring@@QEAAHXZ" ; aicext.dll
+"?toasc@bytestring@@QEAA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z" ; aicext.dll
+"?toasc@bytestring@@QEAA_NAEAV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@@Z" ; aicext.dll
+"acPatternIsMatched" ; aicext.dll

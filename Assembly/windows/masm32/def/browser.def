@@ -1,0 +1,5 @@
+LIBRARY "browser.dll"
+EXPORTS
+"I_BrowserServerEnumForXactsrv" ; browser.dll
+"ServiceMain" ; browser.dll
+"SvchostPushServiceGlobals" ; browser.dll

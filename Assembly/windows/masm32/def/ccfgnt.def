@@ -1,0 +1,17 @@
+LIBRARY "ccfgnt.dll"
+EXPORTS
+"IcfgGetLastInstallErrorText" ; ccfgnt.dll
+"IcfgInstallInetComponents" ; ccfgnt.dll
+"IcfgInstallModem" ; ccfgnt.dll
+"IcfgIsFileSharingTurnedOn" ; ccfgnt.dll
+"IcfgIsGlobalDNS" ; ccfgnt.dll
+"IcfgNeedInetComponents" ; ccfgnt.dll
+"IcfgNeedModem" ; ccfgnt.dll
+"IcfgRemoveGlobalDNS" ; ccfgnt.dll
+"IcfgSetInstallSourcePath" ; ccfgnt.dll
+"IcfgStartServices" ; ccfgnt.dll
+"IcfgTurnOffFileSharing" ; ccfgnt.dll
+"InetGetAutodial" ; ccfgnt.dll
+"InetGetSupportedPlatform" ; ccfgnt.dll
+"InetSetAutodial" ; ccfgnt.dll
+"InetSetAutodialAddress" ; ccfgnt.dll

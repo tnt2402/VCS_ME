@@ -1,0 +1,4 @@
+LIBRARY "atiumd64.dll"
+EXPORTS
+"DllMain" ; atiumd64.dll
+"OpenAdapter" ; atiumd64.dll

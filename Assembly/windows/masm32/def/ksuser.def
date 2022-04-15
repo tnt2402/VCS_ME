@@ -1,0 +1,6 @@
+LIBRARY "ksuser.dll"
+EXPORTS
+"KsCreateAllocator" ; ksuser.dll
+"KsCreateClock" ; ksuser.dll
+"KsCreatePin" ; ksuser.dll
+"KsCreateTopologyNode" ; ksuser.dll

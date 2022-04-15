@@ -1,0 +1,12 @@
+LIBRARY "wshext.dll"
+EXPORTS
+"CreateIndirectData" ; wshext.dll
+"DllCanUnloadNow" ; wshext.dll
+"DllGetClassObject" ; wshext.dll
+"DllRegisterServer" ; wshext.dll
+"DllUnregisterServer" ; wshext.dll
+"GetSignedDataMsg" ; wshext.dll
+"IsFileSupportedName" ; wshext.dll
+"PutSignedDataMsg" ; wshext.dll
+"RemoveSignedDataMsg" ; wshext.dll
+"VerifyIndirectData" ; wshext.dll

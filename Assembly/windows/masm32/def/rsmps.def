@@ -1,0 +1,7 @@
+LIBRARY "rsmps.dll"
+EXPORTS
+"DllCanUnloadNow" ; rsmps.dll
+"DllGetClassObject" ; rsmps.dll
+"DllRegisterServer" ; rsmps.dll
+"DllUnregisterServer" ; rsmps.dll
+"GetProxyDllInfo" ; rsmps.dll

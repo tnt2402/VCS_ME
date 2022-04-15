@@ -1,0 +1,6 @@
+LIBRARY "racpldlg.dll"
+EXPORTS
+"DllCanUnloadNow" ; racpldlg.dll
+"DllGetClassObject" ; racpldlg.dll
+"DllRegisterServer" ; racpldlg.dll
+"DllUnregisterServer" ; racpldlg.dll

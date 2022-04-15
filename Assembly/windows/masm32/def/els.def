@@ -1,0 +1,6 @@
+LIBRARY "els.dll"
+EXPORTS
+"DllCanUnloadNow" ; els.dll
+"DllGetClassObject" ; els.dll
+"DllRegisterServer" ; els.dll
+"DllUnregisterServer" ; els.dll

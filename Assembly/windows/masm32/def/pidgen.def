@@ -1,0 +1,14 @@
+LIBRARY "pidgen.dll"
+EXPORTS
+"PIDGenA" ; pidgen.dll
+"PIDGenEx2A" ; pidgen.dll
+"PIDGenEx2W" ; pidgen.dll
+"PIDGenExA" ; pidgen.dll
+"PIDGenExW" ; pidgen.dll
+"PIDGenSimpA" ; pidgen.dll
+"PIDGenSimpW" ; pidgen.dll
+"PIDGenW" ; pidgen.dll
+"SetupPIDGenA" ; pidgen.dll
+"SetupPIDGenExA" ; pidgen.dll
+"SetupPIDGenExW" ; pidgen.dll
+"SetupPIDGenW" ; pidgen.dll

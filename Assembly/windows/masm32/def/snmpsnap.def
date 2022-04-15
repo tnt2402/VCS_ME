@@ -1,0 +1,6 @@
+LIBRARY "snmpsnap.dll"
+EXPORTS
+"DllCanUnloadNow" ; snmpsnap.dll
+"DllGetClassObject" ; snmpsnap.dll
+"DllRegisterServer" ; snmpsnap.dll
+"DllUnregisterServer" ; snmpsnap.dll

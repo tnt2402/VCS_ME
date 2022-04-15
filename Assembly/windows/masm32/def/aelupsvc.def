@@ -1,0 +1,3 @@
+LIBRARY "aelupsvc.dll"
+EXPORTS
+"ServiceMain" ; aelupsvc.dll

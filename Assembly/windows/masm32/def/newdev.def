@@ -1,0 +1,14 @@
+LIBRARY "newdev.dll"
+EXPORTS
+"ClientSideInstallW" ; newdev.dll
+"DevInstallW" ; newdev.dll
+"InstallDevInst" ; newdev.dll
+"InstallDevInstEx" ; newdev.dll
+"InstallNewDevice" ; newdev.dll
+"InstallSelectedDevice" ; newdev.dll
+"InstallSelectedDriver" ; newdev.dll
+"InstallWindowsUpdateDriver" ; newdev.dll
+"RollbackDriver" ; newdev.dll
+"UpdateDriverForPlugAndPlayDevicesA" ; newdev.dll
+"UpdateDriverForPlugAndPlayDevicesW" ; newdev.dll
+"WindowsUpdateDriverSearchingPolicyUi" ; newdev.dll

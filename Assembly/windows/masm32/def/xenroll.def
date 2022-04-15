@@ -1,0 +1,9 @@
+LIBRARY "xenroll.dll"
+EXPORTS
+"DllCanUnloadNow" ; xenroll.dll
+"DllGetClassObject" ; xenroll.dll
+"DllRegisterServer" ; xenroll.dll
+"DllUnregisterServer" ; xenroll.dll
+"PIEnroll2GetNoCOM" ; xenroll.dll
+"PIEnroll4GetNoCOM" ; xenroll.dll
+"PIEnrollGetNoCOM" ; xenroll.dll

@@ -1,0 +1,12 @@
+LIBRARY "loghours.dll"
+EXPORTS
+"ConnectionScheduleDialog" ; loghours.dll
+"ConnectionScheduleDialogEx" ; loghours.dll
+"DialinHoursDialog" ; loghours.dll
+"DialinHoursDialogEx" ; loghours.dll
+"DirSyncScheduleDialog" ; loghours.dll
+"DirSyncScheduleDialogEx" ; loghours.dll
+"LogonScheduleDialog" ; loghours.dll
+"LogonScheduleDialogEx" ; loghours.dll
+"ReplicationScheduleDialog" ; loghours.dll
+"ReplicationScheduleDialogEx" ; loghours.dll

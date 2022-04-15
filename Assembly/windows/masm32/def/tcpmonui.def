@@ -1,0 +1,16 @@
+LIBRARY "tcpmonui.dll"
+EXPORTS
+"??0CPortABC@@QEAA@AEBV0@@Z" ; tcpmonui.dll
+"??0CPortABC@@QEAA@XZ" ; tcpmonui.dll
+"??0CTcpMibABC@@QEAA@AEBV0@@Z" ; tcpmonui.dll
+"??0CTcpMibABC@@QEAA@XZ" ; tcpmonui.dll
+"??1CPortABC@@UEAA@XZ" ; tcpmonui.dll
+"??1CTcpMibABC@@UEAA@XZ" ; tcpmonui.dll
+"??4CPortABC@@QEAAAEAV0@AEBV0@@Z" ; tcpmonui.dll
+"??4CTcpMibABC@@QEAAAEAV0@AEBV0@@Z" ; tcpmonui.dll
+"??_7CPortABC@@6B@" ; tcpmonui.dll
+"??_7CTcpMibABC@@6B@" ; tcpmonui.dll
+"?Read@CPortABC@@UEAAKQEAXPEAEKPEAK@Z" ; tcpmonui.dll
+"InitializePrintMonitorUI" ; tcpmonui.dll
+"LocalAddPortUI" ; tcpmonui.dll
+"LocalConfigurePortUI" ; tcpmonui.dll

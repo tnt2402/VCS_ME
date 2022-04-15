@@ -1,0 +1,6 @@
+LIBRARY "oleprn.dll"
+EXPORTS
+"DllCanUnloadNow" ; oleprn.dll
+"DllGetClassObject" ; oleprn.dll
+"DllRegisterServer" ; oleprn.dll
+"DllUnregisterServer" ; oleprn.dll

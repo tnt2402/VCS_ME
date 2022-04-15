@@ -1,0 +1,4 @@
+LIBRARY "ativvaxx.dll"
+EXPORTS
+"GsDrvEnableDriver" ; ativvaxx.dll
+"vMMDLLInitFuncs" ; ativvaxx.dll

@@ -1,0 +1,6 @@
+LIBRARY "scrptutl.dll"
+EXPORTS
+"DllCanUnloadNow" ; scrptutl.dll
+"DllGetClassObject" ; scrptutl.dll
+"DllRegisterServer" ; scrptutl.dll
+"DllUnregisterServer" ; scrptutl.dll

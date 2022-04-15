@@ -1,0 +1,25 @@
+LIBRARY "powrprof.dll"
+EXPORTS
+"CallNtPowerInformation" ; powrprof.dll
+"CanUserWritePwrScheme" ; powrprof.dll
+"DeletePwrScheme" ; powrprof.dll
+"EnumPwrSchemes" ; powrprof.dll
+"GetActivePwrScheme" ; powrprof.dll
+"GetCurrentPowerPolicies" ; powrprof.dll
+"GetPwrCapabilities" ; powrprof.dll
+"GetPwrDiskSpindownRange" ; powrprof.dll
+"IsAdminOverrideActive" ; powrprof.dll
+"IsPwrHibernateAllowed" ; powrprof.dll
+"IsPwrShutdownAllowed" ; powrprof.dll
+"IsPwrSuspendAllowed" ; powrprof.dll
+"LoadCurrentPwrScheme" ; powrprof.dll
+"MergeLegacyPwrScheme" ; powrprof.dll
+"ReadGlobalPwrPolicy" ; powrprof.dll
+"ReadProcessorPwrScheme" ; powrprof.dll
+"ReadPwrScheme" ; powrprof.dll
+"SetActivePwrScheme" ; powrprof.dll
+"SetSuspendState" ; powrprof.dll
+"ValidatePowerPolicies" ; powrprof.dll
+"WriteGlobalPwrPolicy" ; powrprof.dll
+"WriteProcessorPwrScheme" ; powrprof.dll
+"WritePwrScheme" ; powrprof.dll

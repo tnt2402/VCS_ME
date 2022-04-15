@@ -1,0 +1,6 @@
+LIBRARY "diactfrm.dll"
+EXPORTS
+"DllCanUnloadNow" ; diactfrm.dll
+"DllGetClassObject" ; diactfrm.dll
+"DllRegisterServer" ; diactfrm.dll
+"DllUnregisterServer" ; diactfrm.dll

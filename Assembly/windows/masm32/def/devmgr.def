@@ -1,0 +1,24 @@
+LIBRARY "devmgr.dll"
+EXPORTS
+"DeviceAdvancedPropertiesA" ; devmgr.dll
+"DeviceAdvancedPropertiesW" ; devmgr.dll
+"DeviceCreateHardwarePage" ; devmgr.dll
+"DeviceCreateHardwarePageEx" ; devmgr.dll
+"DeviceManager_ExecuteA" ; devmgr.dll
+"DeviceManager_ExecuteW" ; devmgr.dll
+"DeviceProblemTextA" ; devmgr.dll
+"DeviceProblemTextW" ; devmgr.dll
+"DeviceProblemWizardA" ; devmgr.dll
+"DeviceProblemWizardW" ; devmgr.dll
+"DeviceProblenWizard_RunDLLA" ; devmgr.dll
+"DeviceProblenWizard_RunDLLW" ; devmgr.dll
+"DevicePropertiesA" ; devmgr.dll
+"DevicePropertiesExA" ; devmgr.dll
+"DevicePropertiesExW" ; devmgr.dll
+"DevicePropertiesW" ; devmgr.dll
+"DeviceProperties_RunDLLA" ; devmgr.dll
+"DeviceProperties_RunDLLW" ; devmgr.dll
+"DllCanUnloadNow" ; devmgr.dll
+"DllGetClassObject" ; devmgr.dll
+"DllRegisterServer" ; devmgr.dll
+"DllUnregisterServer" ; devmgr.dll

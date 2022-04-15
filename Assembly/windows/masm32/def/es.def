@@ -1,0 +1,12 @@
+LIBRARY "es.dll"
+EXPORTS
+"DllCanUnloadNow" ; es.dll
+"DllGetClassObject" ; es.dll
+"DllRegisterServer" ; es.dll
+"DllUnregisterServer" ; es.dll
+"LCEControlServer" ; es.dll
+"NotifyLogoffUser" ; es.dll
+"NotifyLogonUser" ; es.dll
+"RegisterTheEventServiceAfterSetup" ; es.dll
+"RegisterTheEventServiceDuringSetup" ; es.dll
+"ServiceMain" ; es.dll

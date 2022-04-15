@@ -1,0 +1,6 @@
+LIBRARY "comrepl.dll"
+EXPORTS
+"DllCanUnloadNow" ; comrepl.dll
+"DllGetClassObject" ; comrepl.dll
+"DllRegisterServer" ; comrepl.dll
+"DllUnregisterServer" ; comrepl.dll

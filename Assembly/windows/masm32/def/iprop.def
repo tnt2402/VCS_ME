@@ -1,0 +1,10 @@
+LIBRARY "iprop.dll"
+EXPORTS
+"FmtIdToPropStgName" ; iprop.dll
+"FreePropVariantArray" ; iprop.dll
+"PropStgNameToFmtId" ; iprop.dll
+"PropVariantClear" ; iprop.dll
+"PropVariantCopy" ; iprop.dll
+"StgCreatePropSetStg" ; iprop.dll
+"StgCreatePropStg" ; iprop.dll
+"StgOpenPropStg" ; iprop.dll

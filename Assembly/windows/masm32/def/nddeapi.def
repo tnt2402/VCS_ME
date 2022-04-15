@@ -1,0 +1,116 @@
+LIBRARY "nddeapi.dll"
+EXPORTS
+"NDdeGetErrorStringA" ; nddeapi.dll
+"NDdeGetErrorStringW" ; nddeapi.dll
+"NDdeGetShareSecurityA" ; nddeapi.dll
+"NDdeGetShareSecurityW" ; nddeapi.dll
+"NDdeGetTrustedShareA" ; nddeapi.dll
+"NDdeGetTrustedShareW" ; nddeapi.dll
+"NDdeIsValidAppTopicListA" ; nddeapi.dll
+"NDdeIsValidAppTopicListW" ; nddeapi.dll
+"NDdeIsValidShareNameA" ; nddeapi.dll
+"NDdeIsValidShareNameW" ; nddeapi.dll
+"NDdeSetShareSecurityA" ; nddeapi.dll
+"NDdeSetShareSecurityW" ; nddeapi.dll
+"NDdeSetTrustedShareA" ; nddeapi.dll
+"NDdeSetTrustedShareW" ; nddeapi.dll
+"NDdeShareAddA" ; nddeapi.dll
+"NDdeShareAddW" ; nddeapi.dll
+"NDdeShareDelA" ; nddeapi.dll
+"NDdeShareDelW" ; nddeapi.dll
+"NDdeShareEnumA" ; nddeapi.dll
+"NDdeShareEnumW" ; nddeapi.dll
+"NDdeShareGetInfoA" ; nddeapi.dll
+"NDdeShareGetInfoW" ; nddeapi.dll
+"NDdeShareSetInfoA" ; nddeapi.dll
+"NDdeShareSetInfoW" ; nddeapi.dll
+"NDdeSpecialCommandA" ; nddeapi.dll
+"NDdeSpecialCommandW" ; nddeapi.dll
+"NDdeTrustedShareEnumA" ; nddeapi.dll
+"NDdeTrustedShareEnumW" ; nddeapi.dll
+"nddeapi_ordinal514" @514 ; nddeapi.dll
+"nddeapi_ordinal515" @515 ; nddeapi.dll
+"nddeapi_ordinal516" @516 ; nddeapi.dll
+"nddeapi_ordinal517" @517 ; nddeapi.dll
+"nddeapi_ordinal518" @518 ; nddeapi.dll
+"nddeapi_ordinal519" @519 ; nddeapi.dll
+"nddeapi_ordinal520" @520 ; nddeapi.dll
+"nddeapi_ordinal521" @521 ; nddeapi.dll
+"nddeapi_ordinal522" @522 ; nddeapi.dll
+"nddeapi_ordinal523" @523 ; nddeapi.dll
+"nddeapi_ordinal524" @524 ; nddeapi.dll
+"nddeapi_ordinal525" @525 ; nddeapi.dll
+"nddeapi_ordinal526" @526 ; nddeapi.dll
+"nddeapi_ordinal527" @527 ; nddeapi.dll
+"nddeapi_ordinal528" @528 ; nddeapi.dll
+"nddeapi_ordinal529" @529 ; nddeapi.dll
+"nddeapi_ordinal530" @530 ; nddeapi.dll
+"nddeapi_ordinal531" @531 ; nddeapi.dll
+"nddeapi_ordinal532" @532 ; nddeapi.dll
+"nddeapi_ordinal533" @533 ; nddeapi.dll
+"nddeapi_ordinal534" @534 ; nddeapi.dll
+"nddeapi_ordinal535" @535 ; nddeapi.dll
+"nddeapi_ordinal536" @536 ; nddeapi.dll
+"nddeapi_ordinal537" @537 ; nddeapi.dll
+"nddeapi_ordinal538" @538 ; nddeapi.dll
+"nddeapi_ordinal539" @539 ; nddeapi.dll
+"nddeapi_ordinal540" @540 ; nddeapi.dll
+"nddeapi_ordinal541" @541 ; nddeapi.dll
+"nddeapi_ordinal542" @542 ; nddeapi.dll
+"nddeapi_ordinal543" @543 ; nddeapi.dll
+"nddeapi_ordinal544" @544 ; nddeapi.dll
+"nddeapi_ordinal545" @545 ; nddeapi.dll
+"nddeapi_ordinal546" @546 ; nddeapi.dll
+"nddeapi_ordinal547" @547 ; nddeapi.dll
+"nddeapi_ordinal548" @548 ; nddeapi.dll
+"nddeapi_ordinal549" @549 ; nddeapi.dll
+"nddeapi_ordinal550" @550 ; nddeapi.dll
+"nddeapi_ordinal551" @551 ; nddeapi.dll
+"nddeapi_ordinal552" @552 ; nddeapi.dll
+"nddeapi_ordinal553" @553 ; nddeapi.dll
+"nddeapi_ordinal554" @554 ; nddeapi.dll
+"nddeapi_ordinal555" @555 ; nddeapi.dll
+"nddeapi_ordinal556" @556 ; nddeapi.dll
+"nddeapi_ordinal557" @557 ; nddeapi.dll
+"nddeapi_ordinal558" @558 ; nddeapi.dll
+"nddeapi_ordinal559" @559 ; nddeapi.dll
+"nddeapi_ordinal560" @560 ; nddeapi.dll
+"nddeapi_ordinal561" @561 ; nddeapi.dll
+"nddeapi_ordinal562" @562 ; nddeapi.dll
+"nddeapi_ordinal563" @563 ; nddeapi.dll
+"nddeapi_ordinal564" @564 ; nddeapi.dll
+"nddeapi_ordinal565" @565 ; nddeapi.dll
+"nddeapi_ordinal566" @566 ; nddeapi.dll
+"nddeapi_ordinal567" @567 ; nddeapi.dll
+"nddeapi_ordinal568" @568 ; nddeapi.dll
+"nddeapi_ordinal569" @569 ; nddeapi.dll
+"nddeapi_ordinal570" @570 ; nddeapi.dll
+"nddeapi_ordinal571" @571 ; nddeapi.dll
+"nddeapi_ordinal572" @572 ; nddeapi.dll
+"nddeapi_ordinal573" @573 ; nddeapi.dll
+"nddeapi_ordinal574" @574 ; nddeapi.dll
+"nddeapi_ordinal575" @575 ; nddeapi.dll
+"nddeapi_ordinal576" @576 ; nddeapi.dll
+"nddeapi_ordinal577" @577 ; nddeapi.dll
+"nddeapi_ordinal578" @578 ; nddeapi.dll
+"nddeapi_ordinal579" @579 ; nddeapi.dll
+"nddeapi_ordinal580" @580 ; nddeapi.dll
+"nddeapi_ordinal581" @581 ; nddeapi.dll
+"nddeapi_ordinal582" @582 ; nddeapi.dll
+"nddeapi_ordinal583" @583 ; nddeapi.dll
+"nddeapi_ordinal584" @584 ; nddeapi.dll
+"nddeapi_ordinal585" @585 ; nddeapi.dll
+"nddeapi_ordinal586" @586 ; nddeapi.dll
+"nddeapi_ordinal587" @587 ; nddeapi.dll
+"nddeapi_ordinal588" @588 ; nddeapi.dll
+"nddeapi_ordinal589" @589 ; nddeapi.dll
+"nddeapi_ordinal590" @590 ; nddeapi.dll
+"nddeapi_ordinal591" @591 ; nddeapi.dll
+"nddeapi_ordinal592" @592 ; nddeapi.dll
+"nddeapi_ordinal593" @593 ; nddeapi.dll
+"nddeapi_ordinal594" @594 ; nddeapi.dll
+"nddeapi_ordinal595" @595 ; nddeapi.dll
+"nddeapi_ordinal596" @596 ; nddeapi.dll
+"nddeapi_ordinal597" @597 ; nddeapi.dll
+"nddeapi_ordinal598" @598 ; nddeapi.dll
+"nddeapi_ordinal599" @599 ; nddeapi.dll

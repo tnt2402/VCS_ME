@@ -1,0 +1,6 @@
+LIBRARY "licwmi.dll"
+EXPORTS
+"DllCanUnloadNow" ; licwmi.dll
+"DllGetClassObject" ; licwmi.dll
+"DllRegisterServer" ; licwmi.dll
+"DllUnregisterServer" ; licwmi.dll

@@ -1,0 +1,6 @@
+LIBRARY "psnppagn.dll"
+EXPORTS
+"DllCanUnloadNow" ; psnppagn.dll
+"DllGetClassObject" ; psnppagn.dll
+"DllRegisterServer" ; psnppagn.dll
+"DllUnregisterServer" ; psnppagn.dll

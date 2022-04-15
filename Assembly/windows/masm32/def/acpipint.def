@@ -1,0 +1,7 @@
+LIBRARY "acpipint.dll"
+EXPORTS
+"acPipintCall" ; acpipint.dll
+"acPipintCallEx" ; acpipint.dll
+"acPipintEnd" ; acpipint.dll
+"acPipintInitCall" ; acpipint.dll
+"acPipintStart" ; acpipint.dll

@@ -1,0 +1,10 @@
+LIBRARY "wzcdlg.dll"
+EXPORTS
+"FlashConfigCreateNetworkW" ; wzcdlg.dll
+"FlashConfigRunWizard" ; wzcdlg.dll
+"HotSpotHelpW" ; wzcdlg.dll
+"WZCCanDestroyBalloon" ; wzcdlg.dll
+"WZCCanShowBalloon" ; wzcdlg.dll
+"WZCIsVanRunning" ; wzcdlg.dll
+"WZCOnBalloonClick" ; wzcdlg.dll
+"WZCQueryConnectionStatusText" ; wzcdlg.dll

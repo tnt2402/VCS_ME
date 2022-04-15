@@ -1,0 +1,3 @@
+LIBRARY "ds32gt.dll"
+EXPORTS
+"Dispatch" ; ds32gt.dll

@@ -1,0 +1,6 @@
+LIBRARY "rend.dll"
+EXPORTS
+"DllCanUnloadNow" ; rend.dll
+"DllGetClassObject" ; rend.dll
+"DllRegisterServer" ; rend.dll
+"DllUnregisterServer" ; rend.dll

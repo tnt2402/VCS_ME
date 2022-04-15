@@ -1,0 +1,12 @@
+LIBRARY "routetab.dll"
+EXPORTS
+"AddRoute" ; routetab.dll
+"DeleteRoute" ; routetab.dll
+"FreeIPAddressTable" ; routetab.dll
+"FreeRouteTable" ; routetab.dll
+"GetIPAddressTable" ; routetab.dll
+"GetIfEntry" ; routetab.dll
+"GetRouteTable" ; routetab.dll
+"RefreshAddresses" ; routetab.dll
+"ReloadIPAddressTable" ; routetab.dll
+"SetAddrChangeNotifyEvent" ; routetab.dll

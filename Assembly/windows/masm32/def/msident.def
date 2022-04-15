@@ -1,0 +1,6 @@
+LIBRARY "msident.dll"
+EXPORTS
+"DllCanUnloadNow" ; msident.dll
+"DllGetClassObject" ; msident.dll
+"DllRegisterServer" ; msident.dll
+"DllUnregisterServer" ; msident.dll

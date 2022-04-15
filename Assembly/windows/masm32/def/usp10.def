@@ -1,0 +1,37 @@
+LIBRARY "usp10.dll"
+EXPORTS
+"LpkPresent" ; usp10.dll
+"ScriptApplyDigitSubstitution" ; usp10.dll
+"ScriptApplyLogicalWidth" ; usp10.dll
+"ScriptBreak" ; usp10.dll
+"ScriptCPtoX" ; usp10.dll
+"ScriptCacheGetHeight" ; usp10.dll
+"ScriptFreeCache" ; usp10.dll
+"ScriptGetCMap" ; usp10.dll
+"ScriptGetFontProperties" ; usp10.dll
+"ScriptGetGlyphABCWidth" ; usp10.dll
+"ScriptGetLogicalWidths" ; usp10.dll
+"ScriptGetProperties" ; usp10.dll
+"ScriptIsComplex" ; usp10.dll
+"ScriptItemize" ; usp10.dll
+"ScriptJustify" ; usp10.dll
+"ScriptLayout" ; usp10.dll
+"ScriptPlace" ; usp10.dll
+"ScriptRecordDigitSubstitution" ; usp10.dll
+"ScriptShape" ; usp10.dll
+"ScriptStringAnalyse" ; usp10.dll
+"ScriptStringCPtoX" ; usp10.dll
+"ScriptStringFree" ; usp10.dll
+"ScriptStringGetLogicalWidths" ; usp10.dll
+"ScriptStringGetOrder" ; usp10.dll
+"ScriptStringOut" ; usp10.dll
+"ScriptStringValidate" ; usp10.dll
+"ScriptStringXtoCP" ; usp10.dll
+"ScriptString_pLogAttr" ; usp10.dll
+"ScriptString_pSize" ; usp10.dll
+"ScriptString_pcOutChars" ; usp10.dll
+"ScriptTextOut" ; usp10.dll
+"ScriptXtoCP" ; usp10.dll
+"UspAllocCache" ; usp10.dll
+"UspAllocTemp" ; usp10.dll
+"UspFreeMem" ; usp10.dll

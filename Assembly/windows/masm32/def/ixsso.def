@@ -1,0 +1,6 @@
+LIBRARY "ixsso.dll"
+EXPORTS
+"DllCanUnloadNow" ; ixsso.dll
+"DllGetClassObject" ; ixsso.dll
+"DllRegisterServer" ; ixsso.dll
+"DllUnregisterServer" ; ixsso.dll

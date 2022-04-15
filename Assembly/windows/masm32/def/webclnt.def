@@ -1,0 +1,6 @@
+LIBRARY "webclnt.dll"
+EXPORTS
+"DavClose" ; webclnt.dll
+"DavInit" ; webclnt.dll
+"ServiceMain" ; webclnt.dll
+"SvchostPushServiceGlobals" ; webclnt.dll

@@ -1,0 +1,4 @@
+LIBRARY "dbgeng.dll"
+EXPORTS
+"DebugConnect" ; dbgeng.dll
+"DebugCreate" ; dbgeng.dll

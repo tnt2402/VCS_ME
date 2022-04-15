@@ -1,0 +1,7 @@
+LIBRARY "wucltui.dll"
+EXPORTS
+"DllCanUnloadNow" ; wucltui.dll
+"DllGetClassObject" ; wucltui.dll
+"DllRegisterServer" ; wucltui.dll
+"DllUnregisterServer" ; wucltui.dll
+"wucltui_ordinal5" @5 ; wucltui.dll

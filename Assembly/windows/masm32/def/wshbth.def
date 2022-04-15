@@ -1,0 +1,19 @@
+LIBRARY "wshbth.dll"
+EXPORTS
+"NSPStartup" ; wshbth.dll
+"WSHAddressToString" ; wshbth.dll
+"WSHEnumProtocols" ; wshbth.dll
+"WSHGetBroadcastSockaddr" ; wshbth.dll
+"WSHGetProviderGuid" ; wshbth.dll
+"WSHGetSockaddrType" ; wshbth.dll
+"WSHGetSocketInformation" ; wshbth.dll
+"WSHGetWSAProtocolInfo" ; wshbth.dll
+"WSHGetWildcardSockaddr" ; wshbth.dll
+"WSHGetWinsockMapping" ; wshbth.dll
+"WSHIoctl" ; wshbth.dll
+"WSHJoinLeaf" ; wshbth.dll
+"WSHNotify" ; wshbth.dll
+"WSHOpenSocket" ; wshbth.dll
+"WSHOpenSocket2" ; wshbth.dll
+"WSHSetSocketInformation" ; wshbth.dll
+"WSHStringToAddress" ; wshbth.dll

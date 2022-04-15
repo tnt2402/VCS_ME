@@ -1,0 +1,18 @@
+LIBRARY "fmifs.dll"
+EXPORTS
+"Chkdsk" ; fmifs.dll
+"ChkdskEx" ; fmifs.dll
+"ComputeFmMediaType" ; fmifs.dll
+"DiskCopy" ; fmifs.dll
+"EnableVolumeCompression" ; fmifs.dll
+"Extend" ; fmifs.dll
+"Format" ; fmifs.dll
+"FormatEx" ; fmifs.dll
+"FormatEx2" ; fmifs.dll
+"QueryAvailableFileSystemFormat" ; fmifs.dll
+"QueryDeviceInformation" ; fmifs.dll
+"QueryDeviceInformationByHandle" ; fmifs.dll
+"QueryFileSystemName" ; fmifs.dll
+"QueryLatestFileSystemVersion" ; fmifs.dll
+"QuerySupportedMedia" ; fmifs.dll
+"SetLabel" ; fmifs.dll

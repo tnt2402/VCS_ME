@@ -1,0 +1,10 @@
+LIBRARY "atitmm64.dll"
+EXPORTS
+"ATIDMM_ControllerSetConfig" ; atitmm64.dll
+"ATIDMM_ExtEscape" ; atitmm64.dll
+"ATIDMM_GetSourceID" ; atitmm64.dll
+"ATIDMM_SetDriverConfiguration" ; atitmm64.dll
+"DllCanUnloadNow" ; atitmm64.dll
+"DllGetClassObject" ; atitmm64.dll
+"DllRegisterServer" ; atitmm64.dll
+"DllUnregisterServer" ; atitmm64.dll

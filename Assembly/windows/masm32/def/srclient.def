@@ -1,0 +1,29 @@
+LIBRARY "srclient.dll"
+EXPORTS
+"CreateFirstRunRp" ; srclient.dll
+"CreateSnapshot" ; srclient.dll
+"DisableFIFO" ; srclient.dll
+"DisableSR" ; srclient.dll
+"DllCanUnloadNow" ; srclient.dll
+"DllGetClassObject" ; srclient.dll
+"DllRegisterServer" ; srclient.dll
+"DllUnregisterServer" ; srclient.dll
+"EnableFIFO" ; srclient.dll
+"EnableSR" ; srclient.dll
+"EnableSREx" ; srclient.dll
+"ResetSR" ; srclient.dll
+"RestoreSnapshot" ; srclient.dll
+"SRCompress" ; srclient.dll
+"SRFifo" ; srclient.dll
+"SRFreeze" ; srclient.dll
+"SRNotify" ; srclient.dll
+"SRPrintState" ; srclient.dll
+"SRRegisterSnapshotCallback" ; srclient.dll
+"SRRemoveRestorePoint" ; srclient.dll
+"SRSetRestorePointA" ; srclient.dll
+"SRSetRestorePointW" ; srclient.dll
+"SRSwitchLog" ; srclient.dll
+"SRUnregisterSnapshotCallback" ; srclient.dll
+"SRUpdateDSSize" ; srclient.dll
+"SRUpdateMonitoredListA" ; srclient.dll
+"SRUpdateMonitoredListW" ; srclient.dll

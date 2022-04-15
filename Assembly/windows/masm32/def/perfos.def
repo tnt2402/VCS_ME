@@ -1,0 +1,5 @@
+LIBRARY "perfos.dll"
+EXPORTS
+"CloseOSObject" ; perfos.dll
+"CollectOSObjectData" ; perfos.dll
+"OpenOSObject" ; perfos.dll

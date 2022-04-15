@@ -1,0 +1,4 @@
+LIBRARY "shfolder.dll"
+EXPORTS
+"SHGetFolderPathA" ; shfolder.dll
+"SHGetFolderPathW" ; shfolder.dll

@@ -1,0 +1,6 @@
+LIBRARY "dsdmoprp.dll"
+EXPORTS
+"DllCanUnloadNow" ; dsdmoprp.dll
+"DllGetClassObject" ; dsdmoprp.dll
+"DllRegisterServer" ; dsdmoprp.dll
+"DllUnregisterServer" ; dsdmoprp.dll

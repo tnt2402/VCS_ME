@@ -1,0 +1,6 @@
+LIBRARY "amstream.dll"
+EXPORTS
+"DllCanUnloadNow" ; amstream.dll
+"DllGetClassObject" ; amstream.dll
+"DllRegisterServer" ; amstream.dll
+"DllUnregisterServer" ; amstream.dll

@@ -1,0 +1,4 @@
+LIBRARY "deskmon.dll"
+EXPORTS
+"DllCanUnloadNow" ; deskmon.dll
+"DllGetClassObject" ; deskmon.dll

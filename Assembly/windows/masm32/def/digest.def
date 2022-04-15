@@ -1,0 +1,25 @@
+LIBRARY "digest.dll"
+EXPORTS
+"AcceptSecurityContext" ; digest.dll
+"AcquireCredentialsHandleA" ; digest.dll
+"AcquireCredentialsHandleW" ; digest.dll
+"ApplyControlToken" ; digest.dll
+"CompleteAuthToken" ; digest.dll
+"DeleteSecurityContext" ; digest.dll
+"DllInstall" ; digest.dll
+"EnumerateSecurityPackagesA" ; digest.dll
+"EnumerateSecurityPackagesW" ; digest.dll
+"FreeContextBuffer" ; digest.dll
+"FreeCredentialsHandle" ; digest.dll
+"ImpersonateSecurityContext" ; digest.dll
+"InitSecurityInterfaceA" ; digest.dll
+"InitSecurityInterfaceW" ; digest.dll
+"InitializeSecurityContextA" ; digest.dll
+"InitializeSecurityContextW" ; digest.dll
+"MakeSignature" ; digest.dll
+"QueryContextAttributesA" ; digest.dll
+"QueryContextAttributesW" ; digest.dll
+"QuerySecurityPackageInfoA" ; digest.dll
+"QuerySecurityPackageInfoW" ; digest.dll
+"RevertSecurityContext" ; digest.dll
+"VerifySignature" ; digest.dll

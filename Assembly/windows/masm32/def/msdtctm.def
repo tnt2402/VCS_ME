@@ -1,0 +1,17 @@
+LIBRARY "msdtctm.dll"
+EXPORTS
+"?Create@CUISCore@@SAJPEAPEAV1@PEAUIUnknown@@@Z" ; msdtctm.dll
+"?CreateInstance@CTm@@SAJPEAPEAV1@PEAUIUnknown@@@Z" ; msdtctm.dll
+"?CreateInstance@CXaTmCore@@SAJPEAPEAV1@PEAUIUnknown@@@Z" ; msdtctm.dll
+"?CreateThreadPool@@YAJXZ" ; msdtctm.dll
+"ASCDefer" ; msdtctm.dll
+"ASCDeliverDeferred" ; msdtctm.dll
+"ASCGetSafeReference" ; msdtctm.dll
+"ASCWrapClassFactory" ; msdtctm.dll
+"ASCWrapObject" ; msdtctm.dll
+"DllGetClassObject" ; msdtctm.dll
+"DllRegisterServer" ; msdtctm.dll
+"DllUnregisterServer" ; msdtctm.dll
+"DtcMainExt" ; msdtctm.dll
+"GetTipFunctionalityWorking" ; msdtctm.dll
+"SetTipFunctionalityWorking" ; msdtctm.dll

@@ -1,0 +1,3 @@
+LIBRARY "dmserver.dll"
+EXPORTS
+"ServiceMain" ; dmserver.dll

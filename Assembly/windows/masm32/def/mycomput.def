@@ -1,0 +1,6 @@
+LIBRARY "mycomput.dll"
+EXPORTS
+"DllCanUnloadNow" ; mycomput.dll
+"DllGetClassObject" ; mycomput.dll
+"DllRegisterServer" ; mycomput.dll
+"DllUnregisterServer" ; mycomput.dll

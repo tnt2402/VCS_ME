@@ -1,0 +1,6 @@
+LIBRARY "encapi.dll"
+EXPORTS
+"DllCanUnloadNow" ; encapi.dll
+"DllGetClassObject" ; encapi.dll
+"DllRegisterServer" ; encapi.dll
+"DllUnregisterServer" ; encapi.dll

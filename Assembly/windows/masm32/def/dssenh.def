@@ -1,0 +1,29 @@
+LIBRARY "dssenh.dll"
+EXPORTS
+"CPAcquireContext" ; dssenh.dll
+"CPCreateHash" ; dssenh.dll
+"CPDecrypt" ; dssenh.dll
+"CPDeriveKey" ; dssenh.dll
+"CPDestroyHash" ; dssenh.dll
+"CPDestroyKey" ; dssenh.dll
+"CPDuplicateHash" ; dssenh.dll
+"CPDuplicateKey" ; dssenh.dll
+"CPEncrypt" ; dssenh.dll
+"CPExportKey" ; dssenh.dll
+"CPGenKey" ; dssenh.dll
+"CPGenRandom" ; dssenh.dll
+"CPGetHashParam" ; dssenh.dll
+"CPGetKeyParam" ; dssenh.dll
+"CPGetProvParam" ; dssenh.dll
+"CPGetUserKey" ; dssenh.dll
+"CPHashData" ; dssenh.dll
+"CPHashSessionKey" ; dssenh.dll
+"CPImportKey" ; dssenh.dll
+"CPReleaseContext" ; dssenh.dll
+"CPSetHashParam" ; dssenh.dll
+"CPSetKeyParam" ; dssenh.dll
+"CPSetProvParam" ; dssenh.dll
+"CPSignHash" ; dssenh.dll
+"CPVerifySignature" ; dssenh.dll
+"DllRegisterServer" ; dssenh.dll
+"DllUnregisterServer" ; dssenh.dll

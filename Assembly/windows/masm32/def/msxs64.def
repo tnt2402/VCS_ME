@@ -1,0 +1,7 @@
+LIBRARY "msxs64.dll"
+EXPORTS
+"DllCanUnloadNow" ; msxs64.dll
+"DllGetClassObject" ; msxs64.dll
+"DllMain" ; msxs64.dll
+"DllRegisterServer" ; msxs64.dll
+"DllUnregisterServer" ; msxs64.dll

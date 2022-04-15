@@ -1,0 +1,6 @@
+LIBRARY "nlhtml.dll"
+EXPORTS
+"DllCanUnloadNow" ; nlhtml.dll
+"DllGetClassObject" ; nlhtml.dll
+"DllRegisterServer" ; nlhtml.dll
+"DllUnregisterServer" ; nlhtml.dll

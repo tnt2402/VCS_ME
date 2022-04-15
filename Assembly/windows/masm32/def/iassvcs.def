@@ -1,0 +1,24 @@
+LIBRARY "iassvcs.dll"
+EXPORTS
+"DllCanUnloadNow" ; iassvcs.dll
+"DllGetClassObject" ; iassvcs.dll
+"DllRegisterServer" ; iassvcs.dll
+"DllUnregisterServer" ; iassvcs.dll
+"IASAdler32" ; iassvcs.dll
+"IASAllocateUniqueID" ; iassvcs.dll
+"IASGetDictionary" ; iassvcs.dll
+"IASGetHostByName" ; iassvcs.dll
+"IASGetLocalDictionary" ; iassvcs.dll
+"IASGetProductLimits" ; iassvcs.dll
+"IASGlobalLock" ; iassvcs.dll
+"IASGlobalUnlock" ; iassvcs.dll
+"IASInitialize" ; iassvcs.dll
+"IASRadiusCrypt" ; iassvcs.dll
+"IASRegisterComponent" ; iassvcs.dll
+"IASReportEvent" ; iassvcs.dll
+"IASReportLicenseViolation" ; iassvcs.dll
+"IASRequestThread" ; iassvcs.dll
+"IASSetMaxNumberOfThreads" ; iassvcs.dll
+"IASSetMaxThreadIdle" ; iassvcs.dll
+"IASUninitialize" ; iassvcs.dll
+"IASVariantChangeType" ; iassvcs.dll

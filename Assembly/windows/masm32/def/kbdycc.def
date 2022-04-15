@@ -1,0 +1,3 @@
+LIBRARY "kbdycc.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdycc.dll

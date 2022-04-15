@@ -1,0 +1,3 @@
+LIBRARY "kbdhe220.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdhe220.dll

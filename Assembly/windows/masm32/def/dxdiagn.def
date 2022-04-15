@@ -1,0 +1,6 @@
+LIBRARY "dxdiagn.dll"
+EXPORTS
+"DllCanUnloadNow" ; dxdiagn.dll
+"DllGetClassObject" ; dxdiagn.dll
+"DllRegisterServer" ; dxdiagn.dll
+"DllUnregisterServer" ; dxdiagn.dll

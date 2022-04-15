@@ -1,0 +1,5 @@
+LIBRARY "netfxperf.dll"
+EXPORTS
+"ClosePerformanceData" ; netfxperf.dll
+"CollectPerformanceData" ; netfxperf.dll
+"OpenPerformanceData" ; netfxperf.dll

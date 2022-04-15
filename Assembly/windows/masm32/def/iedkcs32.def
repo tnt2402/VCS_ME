@@ -1,0 +1,20 @@
+LIBRARY "iedkcs32.dll"
+EXPORTS
+"BrandCleanInstallStubs" ; iedkcs32.dll
+"BrandExternal" ; iedkcs32.dll
+"BrandICW" ; iedkcs32.dll
+"BrandICW2" ; iedkcs32.dll
+"BrandIE4" ; iedkcs32.dll
+"BrandInfAndOutlookExpress" ; iedkcs32.dll
+"BrandInternetExplorer" ; iedkcs32.dll
+"BrandIntra" ; iedkcs32.dll
+"BrandMe" ; iedkcs32.dll
+"Clear" ; iedkcs32.dll
+"CloseRASConnections" ; iedkcs32.dll
+"DllRegisterServer" ; iedkcs32.dll
+"DllUnregisterServer" ; iedkcs32.dll
+"GenerateGroupPolicy" ; iedkcs32.dll
+"InternetInitializeAutoProxyDll" ; iedkcs32.dll
+"ProcessGroupPolicy" ; iedkcs32.dll
+"ProcessGroupPolicyEx" ; iedkcs32.dll
+"ProcessGroupPolicyForZoneMap" ; iedkcs32.dll

@@ -1,0 +1,7 @@
+LIBRARY "appmgr.dll"
+EXPORTS
+"DllCanUnloadNow" ; appmgr.dll
+"DllGetClassObject" ; appmgr.dll
+"DllRegisterServer" ; appmgr.dll
+"DllUnregisterServer" ; appmgr.dll
+"GenerateScript" ; appmgr.dll

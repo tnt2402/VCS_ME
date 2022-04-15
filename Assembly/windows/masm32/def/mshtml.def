@@ -1,0 +1,21 @@
+LIBRARY "mshtml.dll"
+EXPORTS
+"CreateHTMLPropertyPage" ; mshtml.dll
+"DllCanUnloadNow" ; mshtml.dll
+"DllEnumClassObjects" ; mshtml.dll
+"DllGetClassObject" ; mshtml.dll
+"DllInstall" ; mshtml.dll
+"DllRegisterServer" ; mshtml.dll
+"DllUnregisterServer" ; mshtml.dll
+"MatchExactGetIDsOfNames" ; mshtml.dll
+"PrintHTML" ; mshtml.dll
+"RNIGetCompatibleVersion" ; mshtml.dll
+"RunHTMLApplication" ; mshtml.dll
+"ShowHTMLDialog" ; mshtml.dll
+"ShowHTMLDialogEx" ; mshtml.dll
+"ShowModalDialog" ; mshtml.dll
+"ShowModelessHTMLDialog" ; mshtml.dll
+"com_ms_osp_ospmrshl_classInit" ; mshtml.dll
+"com_ms_osp_ospmrshl_copyToExternal64" ; mshtml.dll
+"com_ms_osp_ospmrshl_releaseByValExternal64" ; mshtml.dll
+"com_ms_osp_ospmrshl_toJava64" ; mshtml.dll

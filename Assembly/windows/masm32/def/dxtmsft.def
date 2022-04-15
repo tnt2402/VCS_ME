@@ -1,0 +1,7 @@
+LIBRARY "dxtmsft.dll"
+EXPORTS
+"DllCanUnloadNow" ; dxtmsft.dll
+"DllEnumClassObjects" ; dxtmsft.dll
+"DllGetClassObject" ; dxtmsft.dll
+"DllRegisterServer" ; dxtmsft.dll
+"DllUnregisterServer" ; dxtmsft.dll

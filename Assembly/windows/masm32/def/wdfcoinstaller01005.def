@@ -1,0 +1,7 @@
+LIBRARY "wdfcoinstaller01005.dll"
+EXPORTS
+"WdfCoInstaller" ; wdfcoinstaller01005.dll
+"WdfPostDeviceInstall" ; wdfcoinstaller01005.dll
+"WdfPostDeviceRemove" ; wdfcoinstaller01005.dll
+"WdfPreDeviceInstall" ; wdfcoinstaller01005.dll
+"WdfPreDeviceRemove" ; wdfcoinstaller01005.dll

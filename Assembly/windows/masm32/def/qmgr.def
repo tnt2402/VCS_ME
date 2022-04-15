@@ -1,0 +1,19 @@
+LIBRARY "qmgr.dll"
+EXPORTS
+"??0CNestedImpersonation@@QEAA@AEAVTokenHandle@@@Z" ; qmgr.dll
+"??0CNestedImpersonation@@QEAA@PEAX@Z" ; qmgr.dll
+"??0CNestedImpersonation@@QEAA@XZ" ; qmgr.dll
+"??0PROXY_SETTINGS_CONTAINER@@QEAA@PEBGPEBUPROXY_SETTINGS@@@Z" ; qmgr.dll
+"?BITSAlloc@@YAPEAX_K@Z" ; qmgr.dll
+"?BITSFree@@YAXPEAX@Z" ; qmgr.dll
+"?BytesRemainingInCurrentRange@CRangeCollection@@QEAA_KXZ" ; qmgr.dll
+"?CalculateBytesTotal@CRangeCollection@@IEAA_NXZ" ; qmgr.dll
+"?Find@CCredentialsContainer@@QEBAJW4__MIDL_IBackgroundCopyJob2_0001@@W4__MIDL_IBackgroundCopyJob2_0002@@PEAPEAU__MIDL_IBackgroundCopyJob2_0005@@@Z" ; qmgr.dll
+"?FindInterfaceIndex@@YAKPEBG@Z" ; qmgr.dll
+"?GetSubRanges@CRangeCollection@@QEAAJ_K00IPEAPEAV1@@Z" ; qmgr.dll
+"?HostFromProxyDescription@@YA?AV?$auto_ptr@G@std@@PEAG@Z" ; qmgr.dll
+"?s_EmptyString@?$GenericStringHandle@G@@0UStringData@1@A" ; qmgr.dll
+"BITSServiceMain" ; qmgr.dll
+"DllRegisterServer" ; qmgr.dll
+"DllUnregisterServer" ; qmgr.dll
+"ServiceMain" ; qmgr.dll

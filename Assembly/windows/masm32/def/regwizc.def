@@ -1,0 +1,6 @@
+LIBRARY "regwizc.dll"
+EXPORTS
+"DllCanUnloadNow" ; regwizc.dll
+"DllGetClassObject" ; regwizc.dll
+"DllRegisterServer" ; regwizc.dll
+"DllUnregisterServer" ; regwizc.dll

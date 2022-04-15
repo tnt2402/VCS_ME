@@ -1,0 +1,25 @@
+LIBRARY "comsvcs.dll"
+EXPORTS
+"CoCreateActivity" ; comsvcs.dll
+"CoEnterServiceDomain" ; comsvcs.dll
+"CoLeaveServiceDomain" ; comsvcs.dll
+"CoLoadServices" ; comsvcs.dll
+"ComSvcsExceptionFilter" ; comsvcs.dll
+"ComSvcsLogError" ; comsvcs.dll
+"CosGetCallContext" ; comsvcs.dll
+"DispManGetContext" ; comsvcs.dll
+"DllCanUnloadNow" ; comsvcs.dll
+"DllGetClassObject" ; comsvcs.dll
+"DllRegisterServer" ; comsvcs.dll
+"DllUnregisterServer" ; comsvcs.dll
+"GetMTAThreadPoolMetrics" ; comsvcs.dll
+"GetManagedExtensions" ; comsvcs.dll
+"GetObjectContext" ; comsvcs.dll
+"GetTrkSvrObject" ; comsvcs.dll
+"MTSCreateActivity" ; comsvcs.dll
+"MiniDumpW" ; comsvcs.dll
+"RecycleSurrogate" ; comsvcs.dll
+"RegisterComEvents" ; comsvcs.dll
+"SafeRef" ; comsvcs.dll
+"comsvcs_ordinal6" @6 ; comsvcs.dll
+"comsvcs_ordinal7" @7 ; comsvcs.dll

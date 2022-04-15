@@ -1,0 +1,6 @@
+LIBRARY "ntmssvc.dll"
+EXPORTS
+"DllInstall" ; ntmssvc.dll
+"DllRegisterServer" ; ntmssvc.dll
+"DllUnregisterServer" ; ntmssvc.dll
+"ServiceMain" ; ntmssvc.dll

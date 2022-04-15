@@ -1,0 +1,21 @@
+LIBRARY "oakley.dll"
+EXPORTS
+"IKEAddSAs" ; oakley.dll
+"IKECloseIKENegotiationHandle" ; oakley.dll
+"IKECloseIKENotifyHandle" ; oakley.dll
+"IKEDeleteAssociation" ; oakley.dll
+"IKEEnumMMs" ; oakley.dll
+"IKEGetConfigurationVariables" ; oakley.dll
+"IKEInit" ; oakley.dll
+"IKEInitiateIKENegotiation" ; oakley.dll
+"IKEInterfaceChange" ; oakley.dll
+"IKENotifyPolicyChange" ; oakley.dll
+"IKEQueryIKENegotiationStatus" ; oakley.dll
+"IKEQuerySpiChange" ; oakley.dll
+"IKEQueryStatistics" ; oakley.dll
+"IKERegisterNotifyClient" ; oakley.dll
+"IKESetConfigurationVariables" ; oakley.dll
+"IKESetSddlConfig" ; oakley.dll
+"IKEShutdown" ; oakley.dll
+"oakley_ordinal29" @29 ; oakley.dll
+"oakley_ordinal32" @32 ; oakley.dll

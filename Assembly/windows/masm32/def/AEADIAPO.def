@@ -1,0 +1,6 @@
+LIBRARY "AEADIAPO.dll"
+EXPORTS
+"DllCanUnloadNow" ; AEADIAPO.dll
+"DllGetClassObject" ; AEADIAPO.dll
+"DllRegisterServer" ; AEADIAPO.dll
+"DllUnregisterServer" ; AEADIAPO.dll

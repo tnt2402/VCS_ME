@@ -1,0 +1,136 @@
+LIBRARY "shdocvw.dll"
+EXPORTS
+"AddUrlToFavorites" ; shdocvw.dll
+"DllCanUnloadNow" ; shdocvw.dll
+"DllGetClassObject" ; shdocvw.dll
+"DllGetVersion" ; shdocvw.dll
+"DllInstall" ; shdocvw.dll
+"DllRegisterServer" ; shdocvw.dll
+"DllRegisterWindowClasses" ; shdocvw.dll
+"DllUnregisterServer" ; shdocvw.dll
+"DoAddToFavDlg" ; shdocvw.dll
+"DoAddToFavDlgW" ; shdocvw.dll
+"DoFileDownload" ; shdocvw.dll
+"DoFileDownloadEx" ; shdocvw.dll
+"DoOrganizeFavDlg" ; shdocvw.dll
+"DoOrganizeFavDlgW" ; shdocvw.dll
+"DoPrivacyDlg" ; shdocvw.dll
+"HlinkFindFrame" ; shdocvw.dll
+"HlinkFrameNavigate" ; shdocvw.dll
+"HlinkFrameNavigateNHL" ; shdocvw.dll
+"IEWriteErrorLog" ; shdocvw.dll
+"ImportPrivacySettings" ; shdocvw.dll
+"OpenURL" ; shdocvw.dll
+"SHAddSubscribeFavorite" ; shdocvw.dll
+"SHGetIDispatchForFolder" ; shdocvw.dll
+"SetQueryNetSessionCount" ; shdocvw.dll
+"SetShellOfflineState" ; shdocvw.dll
+"SoftwareUpdateMessageBox" ; shdocvw.dll
+"URLQualifyA" ; shdocvw.dll
+"URLQualifyW" ; shdocvw.dll
+"shdocvw_ordinal101" @101 ; shdocvw.dll
+"shdocvw_ordinal102" @102 ; shdocvw.dll
+"shdocvw_ordinal103" @103 ; shdocvw.dll
+"shdocvw_ordinal104" @104 ; shdocvw.dll
+"shdocvw_ordinal105" @105 ; shdocvw.dll
+"shdocvw_ordinal110" @110 ; shdocvw.dll
+"shdocvw_ordinal111" @111 ; shdocvw.dll
+"shdocvw_ordinal115" @115 ; shdocvw.dll
+"shdocvw_ordinal116" @116 ; shdocvw.dll
+"shdocvw_ordinal117" @117 ; shdocvw.dll
+"shdocvw_ordinal118" @118 ; shdocvw.dll
+"shdocvw_ordinal119" @119 ; shdocvw.dll
+"shdocvw_ordinal120" @120 ; shdocvw.dll
+"shdocvw_ordinal121" @121 ; shdocvw.dll
+"shdocvw_ordinal122" @122 ; shdocvw.dll
+"shdocvw_ordinal123" @123 ; shdocvw.dll
+"shdocvw_ordinal125" @125 ; shdocvw.dll
+"shdocvw_ordinal130" @130 ; shdocvw.dll
+"shdocvw_ordinal131" @131 ; shdocvw.dll
+"shdocvw_ordinal135" @135 ; shdocvw.dll
+"shdocvw_ordinal136" @136 ; shdocvw.dll
+"shdocvw_ordinal137" @137 ; shdocvw.dll
+"shdocvw_ordinal138" @138 ; shdocvw.dll
+"shdocvw_ordinal139" @139 ; shdocvw.dll
+"shdocvw_ordinal140" @140 ; shdocvw.dll
+"shdocvw_ordinal141" @141 ; shdocvw.dll
+"shdocvw_ordinal142" @142 ; shdocvw.dll
+"shdocvw_ordinal143" @143 ; shdocvw.dll
+"shdocvw_ordinal145" @145 ; shdocvw.dll
+"shdocvw_ordinal146" @146 ; shdocvw.dll
+"shdocvw_ordinal147" @147 ; shdocvw.dll
+"shdocvw_ordinal148" @148 ; shdocvw.dll
+"shdocvw_ordinal149" @149 ; shdocvw.dll
+"shdocvw_ordinal150" @150 ; shdocvw.dll
+"shdocvw_ordinal151" @151 ; shdocvw.dll
+"shdocvw_ordinal152" @152 ; shdocvw.dll
+"shdocvw_ordinal153" @153 ; shdocvw.dll
+"shdocvw_ordinal158" @158 ; shdocvw.dll
+"shdocvw_ordinal159" @159 ; shdocvw.dll
+"shdocvw_ordinal160" @160 ; shdocvw.dll
+"shdocvw_ordinal161" @161 ; shdocvw.dll
+"shdocvw_ordinal162" @162 ; shdocvw.dll
+"shdocvw_ordinal164" @164 ; shdocvw.dll
+"shdocvw_ordinal165" @165 ; shdocvw.dll
+"shdocvw_ordinal167" @167 ; shdocvw.dll
+"shdocvw_ordinal169" @169 ; shdocvw.dll
+"shdocvw_ordinal170" @170 ; shdocvw.dll
+"shdocvw_ordinal171" @171 ; shdocvw.dll
+"shdocvw_ordinal172" @172 ; shdocvw.dll
+"shdocvw_ordinal173" @173 ; shdocvw.dll
+"shdocvw_ordinal174" @174 ; shdocvw.dll
+"shdocvw_ordinal175" @175 ; shdocvw.dll
+"shdocvw_ordinal176" @176 ; shdocvw.dll
+"shdocvw_ordinal177" @177 ; shdocvw.dll
+"shdocvw_ordinal178" @178 ; shdocvw.dll
+"shdocvw_ordinal179" @179 ; shdocvw.dll
+"shdocvw_ordinal180" @180 ; shdocvw.dll
+"shdocvw_ordinal181" @181 ; shdocvw.dll
+"shdocvw_ordinal183" @183 ; shdocvw.dll
+"shdocvw_ordinal185" @185 ; shdocvw.dll
+"shdocvw_ordinal187" @187 ; shdocvw.dll
+"shdocvw_ordinal188" @188 ; shdocvw.dll
+"shdocvw_ordinal189" @189 ; shdocvw.dll
+"shdocvw_ordinal190" @190 ; shdocvw.dll
+"shdocvw_ordinal191" @191 ; shdocvw.dll
+"shdocvw_ordinal192" @192 ; shdocvw.dll
+"shdocvw_ordinal194" @194 ; shdocvw.dll
+"shdocvw_ordinal195" @195 ; shdocvw.dll
+"shdocvw_ordinal196" @196 ; shdocvw.dll
+"shdocvw_ordinal197" @197 ; shdocvw.dll
+"shdocvw_ordinal198" @198 ; shdocvw.dll
+"shdocvw_ordinal200" @200 ; shdocvw.dll
+"shdocvw_ordinal201" @201 ; shdocvw.dll
+"shdocvw_ordinal202" @202 ; shdocvw.dll
+"shdocvw_ordinal203" @203 ; shdocvw.dll
+"shdocvw_ordinal204" @204 ; shdocvw.dll
+"shdocvw_ordinal205" @205 ; shdocvw.dll
+"shdocvw_ordinal206" @206 ; shdocvw.dll
+"shdocvw_ordinal207" @207 ; shdocvw.dll
+"shdocvw_ordinal208" @208 ; shdocvw.dll
+"shdocvw_ordinal209" @209 ; shdocvw.dll
+"shdocvw_ordinal210" @210 ; shdocvw.dll
+"shdocvw_ordinal211" @211 ; shdocvw.dll
+"shdocvw_ordinal212" @212 ; shdocvw.dll
+"shdocvw_ordinal213" @213 ; shdocvw.dll
+"shdocvw_ordinal214" @214 ; shdocvw.dll
+"shdocvw_ordinal215" @215 ; shdocvw.dll
+"shdocvw_ordinal216" @216 ; shdocvw.dll
+"shdocvw_ordinal217" @217 ; shdocvw.dll
+"shdocvw_ordinal218" @218 ; shdocvw.dll
+"shdocvw_ordinal219" @219 ; shdocvw.dll
+"shdocvw_ordinal220" @220 ; shdocvw.dll
+"shdocvw_ordinal221" @221 ; shdocvw.dll
+"shdocvw_ordinal222" @222 ; shdocvw.dll
+"shdocvw_ordinal223" @223 ; shdocvw.dll
+"shdocvw_ordinal224" @224 ; shdocvw.dll
+"shdocvw_ordinal225" @225 ; shdocvw.dll
+"shdocvw_ordinal226" @226 ; shdocvw.dll
+"shdocvw_ordinal227" @227 ; shdocvw.dll
+"shdocvw_ordinal228" @228 ; shdocvw.dll
+"shdocvw_ordinal229" @229 ; shdocvw.dll
+"shdocvw_ordinal230" @230 ; shdocvw.dll
+"shdocvw_ordinal231" @231 ; shdocvw.dll
+"shdocvw_ordinal232" @232 ; shdocvw.dll
+"shdocvw_ordinal233" @233 ; shdocvw.dll
+"shdocvw_ordinal234" @234 ; shdocvw.dll

@@ -1,0 +1,3 @@
+LIBRARY "kbdpash.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdpash.dll

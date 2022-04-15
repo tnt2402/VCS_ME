@@ -1,0 +1,21 @@
+LIBRARY "wiadss.dll"
+EXPORTS
+"??0BUFFER@@QEAA@I@Z" ; wiadss.dll
+"??0BUFFER_CHAIN@@QEAA@XZ" ; wiadss.dll
+"??0BUFFER_CHAIN_ITEM@@QEAA@I@Z" ; wiadss.dll
+"??1BUFFER@@QEAA@XZ" ; wiadss.dll
+"??1BUFFER_CHAIN@@QEAA@XZ" ; wiadss.dll
+"??1BUFFER_CHAIN_ITEM@@QEAA@XZ" ; wiadss.dll
+"??_FBUFFER@@QEAAXXZ" ; wiadss.dll
+"??_FBUFFER_CHAIN_ITEM@@QEAAXXZ" ; wiadss.dll
+"?QueryPtr@BUFFER@@QEBAPEAXXZ" ; wiadss.dll
+"?QuerySize@BUFFER@@QEBAIXZ" ; wiadss.dll
+"?QueryUsed@BUFFER_CHAIN_ITEM@@QEBAKXZ" ; wiadss.dll
+"?SetUsed@BUFFER_CHAIN_ITEM@@QEAAXK@Z" ; wiadss.dll
+"CloseFindContext" ; wiadss.dll
+"FindFirstImportDS" ; wiadss.dll
+"FindImportDSByDeviceName" ; wiadss.dll
+"FindNextImportDS" ; wiadss.dll
+"GetLoaderStatus" ; wiadss.dll
+"LoadImportDS" ; wiadss.dll
+"UnloadImportDS" ; wiadss.dll

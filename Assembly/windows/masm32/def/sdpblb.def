@@ -1,0 +1,6 @@
+LIBRARY "sdpblb.dll"
+EXPORTS
+"DllCanUnloadNow" ; sdpblb.dll
+"DllGetClassObject" ; sdpblb.dll
+"DllRegisterServer" ; sdpblb.dll
+"DllUnregisterServer" ; sdpblb.dll

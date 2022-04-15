@@ -1,0 +1,31 @@
+LIBRARY "JNIBSI21.dll"
+EXPORTS
+"Java_gov_gsc_classes_GSCBSI_gscBsiGcDataCreate" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiGcDataDelete" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiGcGetContainerProperties" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiGcReadTagList" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiGcReadValue" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiGcUpdateValue" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiGetChallenge" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiGetCryptoProperties" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiPkiCompute" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiPkiGetCertificate" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiSkiInternalAuthenticate" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilAcquireContext" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilBeginTransaction" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilConnect" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilDisconnect" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilEndTransaction" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilGetCardProperties" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilGetCardStatus" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilGetExtendedErrorText" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilGetReaderList" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilGetVersion" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilPassthru" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscBsiUtilReleaseContext" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscXsiUtilChangePIN" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscXsiUtilGetCardATR" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscXsiUtilGetCardManagerState" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_gscXsiUtilGetCuid" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_utilGetLeftPINTries" ; JNIBSI21.dll
+"Java_gov_gsc_classes_GSCBSI_utilIsPINVerified" ; JNIBSI21.dll

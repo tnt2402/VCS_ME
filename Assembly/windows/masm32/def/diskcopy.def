@@ -1,0 +1,7 @@
+LIBRARY "diskcopy.dll"
+EXPORTS
+"DiskCopyRunDll" ; diskcopy.dll
+"DiskCopyRunDllW" ; diskcopy.dll
+"DllCanUnloadNow" ; diskcopy.dll
+"DllGetClassObject" ; diskcopy.dll
+"diskcopy_ordinal1" @1 ; diskcopy.dll

@@ -1,0 +1,7 @@
+LIBRARY "catsrvps.dll"
+EXPORTS
+"DllCanUnloadNow" ; catsrvps.dll
+"DllGetClassObject" ; catsrvps.dll
+"DllRegisterServer" ; catsrvps.dll
+"DllUnregisterServer" ; catsrvps.dll
+"GetProxyDllInfo" ; catsrvps.dll

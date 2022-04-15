@@ -1,0 +1,6 @@
+LIBRARY "sens.dll"
+EXPORTS
+"SensNotifyNetconEvent" ; sens.dll
+"SensNotifyRasEvent" ; sens.dll
+"SensNotifyWinlogonEvent" ; sens.dll
+"ServiceMain" ; sens.dll

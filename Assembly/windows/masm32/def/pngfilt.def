@@ -1,0 +1,6 @@
+LIBRARY "pngfilt.dll"
+EXPORTS
+"DllCanUnloadNow" ; pngfilt.dll
+"DllGetClassObject" ; pngfilt.dll
+"DllRegisterServer" ; pngfilt.dll
+"DllUnregisterServer" ; pngfilt.dll

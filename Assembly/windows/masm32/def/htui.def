@@ -1,0 +1,9 @@
+LIBRARY "htui.dll"
+EXPORTS
+"DllMain" ; htui.dll
+"HTUI_ColorAdjustment" ; htui.dll
+"HTUI_ColorAdjustmentA" ; htui.dll
+"HTUI_ColorAdjustmentW" ; htui.dll
+"HTUI_DeviceColorAdjustment" ; htui.dll
+"HTUI_DeviceColorAdjustmentA" ; htui.dll
+"HTUI_DeviceColorAdjustmentW" ; htui.dll

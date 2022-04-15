@@ -1,0 +1,6 @@
+LIBRARY "dpvvox.dll"
+EXPORTS
+"DllCanUnloadNow" ; dpvvox.dll
+"DllGetClassObject" ; dpvvox.dll
+"DllRegisterServer" ; dpvvox.dll
+"DllUnregisterServer" ; dpvvox.dll

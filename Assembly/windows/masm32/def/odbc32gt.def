@@ -1,0 +1,4 @@
+LIBRARY "odbc32gt.dll"
+EXPORTS
+"Dispatch" ; odbc32gt.dll
+"Dispatch2" ; odbc32gt.dll

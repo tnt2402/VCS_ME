@@ -1,0 +1,8 @@
+LIBRARY "rasadhlp.dll"
+EXPORTS
+"AcsHlpAttemptConnection" ; rasadhlp.dll
+"AcsHlpNbConnection" ; rasadhlp.dll
+"AcsHlpNoteNewConnection" ; rasadhlp.dll
+"WSAttemptAutodialAddr" ; rasadhlp.dll
+"WSAttemptAutodialName" ; rasadhlp.dll
+"WSNoteSuccessfulHostentLookup" ; rasadhlp.dll

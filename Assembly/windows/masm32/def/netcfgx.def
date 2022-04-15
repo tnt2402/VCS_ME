@@ -1,0 +1,19 @@
+LIBRARY "netcfgx.dll"
+EXPORTS
+"??4WLBS_REG_PARAMS@@QEAAAEAU0@AEBU0@@Z" ; netcfgx.dll
+"DllCanUnloadNow" ; netcfgx.dll
+"DllGetClassObject" ; netcfgx.dll
+"DllRegisterServer" ; netcfgx.dll
+"DllUnregisterServer" ; netcfgx.dll
+"HrDiAddComponentToINetCfg" ; netcfgx.dll
+"LanaCfgFromCommandArgs" ; netcfgx.dll
+"ModemClassCoInstaller" ; netcfgx.dll
+"NetCfgDiagFromCommandArgs" ; netcfgx.dll
+"NetCfgDiagRepairRegistryBindings" ; netcfgx.dll
+"NetClassInstaller" ; netcfgx.dll
+"NetPropPageProvider" ; netcfgx.dll
+"RasAddBindings" ; netcfgx.dll
+"RasCountBindings" ; netcfgx.dll
+"RasRemoveBindings" ; netcfgx.dll
+"SvchostChangeSvchostGroup" ; netcfgx.dll
+"UpdateLanaConfigUsingAnswerfile" ; netcfgx.dll

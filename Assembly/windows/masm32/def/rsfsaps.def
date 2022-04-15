@@ -1,0 +1,7 @@
+LIBRARY "rsfsaps.dll"
+EXPORTS
+"DllCanUnloadNow" ; rsfsaps.dll
+"DllGetClassObject" ; rsfsaps.dll
+"DllRegisterServer" ; rsfsaps.dll
+"DllUnregisterServer" ; rsfsaps.dll
+"GetProxyDllInfo" ; rsfsaps.dll

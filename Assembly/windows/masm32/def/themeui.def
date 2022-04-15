@@ -1,0 +1,7 @@
+LIBRARY "themeui.dll"
+EXPORTS
+"DllCanUnloadNow" ; themeui.dll
+"DllGetClassObject" ; themeui.dll
+"DllInstall" ; themeui.dll
+"DllRegisterServer" ; themeui.dll
+"DllUnregisterServer" ; themeui.dll

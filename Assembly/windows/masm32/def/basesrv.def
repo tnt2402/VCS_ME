@@ -1,0 +1,6 @@
+LIBRARY "basesrv.dll"
+EXPORTS
+"BaseSetProcessCreateNotify" ; basesrv.dll
+"BaseSrvNlsLogon" ; basesrv.dll
+"BaseSrvNlsUpdateRegistryCache" ; basesrv.dll
+"ServerDllInitialization" ; basesrv.dll

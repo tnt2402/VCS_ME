@@ -1,0 +1,4 @@
+LIBRARY "deskadp.dll"
+EXPORTS
+"DllCanUnloadNow" ; deskadp.dll
+"DllGetClassObject" ; deskadp.dll

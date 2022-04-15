@@ -1,0 +1,17 @@
+LIBRARY "wuaueng.dll"
+EXPORTS
+"DllInstall" ; wuaueng.dll
+"DllMain" ; wuaueng.dll
+"DllRegisterServer" ; wuaueng.dll
+"DllUnregisterServer" ; wuaueng.dll
+"GeneralizeForImaging" ; wuaueng.dll
+"GetAUOptionsEx" ; wuaueng.dll
+"GetEngineStatusInfo" ; wuaueng.dll
+"RegisterServiceVersion" ; wuaueng.dll
+"ServiceHandler" ; wuaueng.dll
+"ServiceMain" ; wuaueng.dll
+"WUAutoUpdateAtShutdown" ; wuaueng.dll
+"WUCheckForUpdatesAtShutdown" ; wuaueng.dll
+"WUServiceMain" ; wuaueng.dll
+"wuaueng_ordinal2" @2 ; wuaueng.dll
+"wuaueng_ordinal3" @3 ; wuaueng.dll

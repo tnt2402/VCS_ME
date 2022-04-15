@@ -1,0 +1,6 @@
+LIBRARY "dpvacm.dll"
+EXPORTS
+"DllCanUnloadNow" ; dpvacm.dll
+"DllGetClassObject" ; dpvacm.dll
+"DllRegisterServer" ; dpvacm.dll
+"DllUnregisterServer" ; dpvacm.dll

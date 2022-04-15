@@ -1,0 +1,6 @@
+LIBRARY "wpd_ci.dll"
+EXPORTS
+"DoCmd" ; wpd_ci.dll
+"MigrateMTPDevicesInstalledAsMSC" ; wpd_ci.dll
+"RescanBus" ; wpd_ci.dll
+"WpdClassInstaller" ; wpd_ci.dll

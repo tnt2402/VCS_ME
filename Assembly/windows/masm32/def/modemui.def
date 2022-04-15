@@ -1,0 +1,16 @@
+LIBRARY "modemui.dll"
+EXPORTS
+"CountryRunOnce" ; modemui.dll
+"InvokeControlPanel" ; modemui.dll
+"ModemCplDlgProc" ; modemui.dll
+"ModemPropPagesProvider" ; modemui.dll
+"QueryModemForCountrySettings" ; modemui.dll
+"UnimodemDevConfigDialog" ; modemui.dll
+"UnimodemGetDefaultCommConfig" ; modemui.dll
+"UnimodemGetExtendedCaps" ; modemui.dll
+"drvCommConfigDialogA" ; modemui.dll
+"drvCommConfigDialogW" ; modemui.dll
+"drvGetDefaultCommConfigA" ; modemui.dll
+"drvGetDefaultCommConfigW" ; modemui.dll
+"drvSetDefaultCommConfigA" ; modemui.dll
+"drvSetDefaultCommConfigW" ; modemui.dll

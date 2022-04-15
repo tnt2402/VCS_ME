@@ -1,0 +1,11 @@
+LIBRARY "mssip32.dll"
+EXPORTS
+"CryptSIPCreateIndirectData" ; mssip32.dll
+"CryptSIPGetInfo" ; mssip32.dll
+"CryptSIPGetRegWorkingFlags" ; mssip32.dll
+"CryptSIPGetSignedDataMsg" ; mssip32.dll
+"CryptSIPPutSignedDataMsg" ; mssip32.dll
+"CryptSIPRemoveSignedDataMsg" ; mssip32.dll
+"CryptSIPVerifyIndirectData" ; mssip32.dll
+"DllRegisterServer" ; mssip32.dll
+"DllUnregisterServer" ; mssip32.dll

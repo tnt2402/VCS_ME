@@ -1,0 +1,6 @@
+LIBRARY "ieaksie.dll"
+EXPORTS
+"DllCanUnloadNow" ; ieaksie.dll
+"DllGetClassObject" ; ieaksie.dll
+"DllRegisterServer" ; ieaksie.dll
+"DllUnregisterServer" ; ieaksie.dll

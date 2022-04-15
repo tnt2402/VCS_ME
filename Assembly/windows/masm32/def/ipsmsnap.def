@@ -1,0 +1,6 @@
+LIBRARY "ipsmsnap.dll"
+EXPORTS
+"DllCanUnloadNow" ; ipsmsnap.dll
+"DllGetClassObject" ; ipsmsnap.dll
+"DllRegisterServer" ; ipsmsnap.dll
+"DllUnregisterServer" ; ipsmsnap.dll

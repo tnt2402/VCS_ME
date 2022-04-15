@@ -1,0 +1,18 @@
+LIBRARY "wshqos.dll"
+EXPORTS
+"WSHAddressToString" ; wshqos.dll
+"WSHEnumProtocols" ; wshqos.dll
+"WSHGetBroadcastSockaddr" ; wshqos.dll
+"WSHGetProviderGuid" ; wshqos.dll
+"WSHGetSockaddrType" ; wshqos.dll
+"WSHGetSocketInformation" ; wshqos.dll
+"WSHGetWSAProtocolInfo" ; wshqos.dll
+"WSHGetWildcardSockaddr" ; wshqos.dll
+"WSHGetWinsockMapping" ; wshqos.dll
+"WSHIoctl" ; wshqos.dll
+"WSHJoinLeaf" ; wshqos.dll
+"WSHNotify" ; wshqos.dll
+"WSHOpenSocket" ; wshqos.dll
+"WSHOpenSocket2" ; wshqos.dll
+"WSHSetSocketInformation" ; wshqos.dll
+"WSHStringToAddress" ; wshqos.dll

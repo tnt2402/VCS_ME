@@ -1,0 +1,3 @@
+LIBRARY "KBDAL.dll"
+EXPORTS
+"KbdLayerDescriptor" ; KBDAL.dll

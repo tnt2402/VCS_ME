@@ -1,0 +1,139 @@
+LIBRARY "mstlsapi.dll"
+EXPORTS
+"EnumerateTlsServer" ; mstlsapi.dll
+"FindEnterpriseServer" ; mstlsapi.dll
+"GetAllEnterpriseServers" ; mstlsapi.dll
+"GetLicenseServersFromReg" ; mstlsapi.dll
+"LsCsp_DecryptEnvelopedData" ; mstlsapi.dll
+"LsCsp_EncryptHwid" ; mstlsapi.dll
+"LsCsp_GetServerData" ; mstlsapi.dll
+"LsCsp_RetrieveSecret" ; mstlsapi.dll
+"LsCsp_StoreSecret" ; mstlsapi.dll
+"MIDL_user_allocate" ; mstlsapi.dll
+"MIDL_user_free" ; mstlsapi.dll
+"RequestToTlsRequest" ; mstlsapi.dll
+"TLSAllocateConcurrentLicense" ; mstlsapi.dll
+"TLSAllocateInternetLicenseEx" ; mstlsapi.dll
+"TLSAnnounceLicensePack" ; mstlsapi.dll
+"TLSAnnounceServer" ; mstlsapi.dll
+"TLSChallengeServer" ; mstlsapi.dll
+"TLSCheckLicenseMark" ; mstlsapi.dll
+"TLSConnectToAnyLsServer" ; mstlsapi.dll
+"TLSConnectToAnyLsServerNoCertInstall" ; mstlsapi.dll
+"TLSConnectToLsServer" ; mstlsapi.dll
+"TLSDepositeServerSPK" ; mstlsapi.dll
+"TLSDisconnectFromServer" ; mstlsapi.dll
+"TLSFreeTSCertificate" ; mstlsapi.dll
+"TLSGetAvailableLicenses" ; mstlsapi.dll
+"TLSGetLSPKCS10CertRequest" ; mstlsapi.dll
+"TLSGetLastError" ; mstlsapi.dll
+"TLSGetLastErrorFixed" ; mstlsapi.dll
+"TLSGetServerCertificate" ; mstlsapi.dll
+"TLSGetServerName" ; mstlsapi.dll
+"TLSGetServerNameEx" ; mstlsapi.dll
+"TLSGetServerNameFixed" ; mstlsapi.dll
+"TLSGetServerPID" ; mstlsapi.dll
+"TLSGetServerSPK" ; mstlsapi.dll
+"TLSGetServerScope" ; mstlsapi.dll
+"TLSGetServerScopeFixed" ; mstlsapi.dll
+"TLSGetSupportFlags" ; mstlsapi.dll
+"TLSGetTSCertificate" ; mstlsapi.dll
+"TLSGetTlsPrivateData" ; mstlsapi.dll
+"TLSGetVersion" ; mstlsapi.dll
+"TLSInDomain" ; mstlsapi.dll
+"TLSInit" ; mstlsapi.dll
+"TLSInstallCertificate" ; mstlsapi.dll
+"TLSIsBetaNTServer" ; mstlsapi.dll
+"TLSIsLicenseEnforceEnable" ; mstlsapi.dll
+"TLSIssueNewLicense" ; mstlsapi.dll
+"TLSIssueNewLicenseEx" ; mstlsapi.dll
+"TLSIssueNewLicenseExEx" ; mstlsapi.dll
+"TLSIssuePlatformChallenge" ; mstlsapi.dll
+"TLSKeyPackAdd" ; mstlsapi.dll
+"TLSKeyPackEnumBegin" ; mstlsapi.dll
+"TLSKeyPackEnumEnd" ; mstlsapi.dll
+"TLSKeyPackEnumNext" ; mstlsapi.dll
+"TLSKeyPackSetStatus" ; mstlsapi.dll
+"TLSLicenseEnumBegin" ; mstlsapi.dll
+"TLSLicenseEnumEnd" ; mstlsapi.dll
+"TLSLicenseEnumNext" ; mstlsapi.dll
+"TLSLicenseEnumNextEx" ; mstlsapi.dll
+"TLSLookupServer" ; mstlsapi.dll
+"TLSLookupServerFixed" ; mstlsapi.dll
+"TLSMarkLicense" ; mstlsapi.dll
+"TLSRegisterLicenseKeyPack" ; mstlsapi.dll
+"TLSRequestTermServCert" ; mstlsapi.dll
+"TLSResponseServerChallenge" ; mstlsapi.dll
+"TLSRetrieveTermServCert" ; mstlsapi.dll
+"TLSReturnInternetLicenseEx" ; mstlsapi.dll
+"TLSReturnLicense" ; mstlsapi.dll
+"TLSReturnLicensedProduct" ; mstlsapi.dll
+"TLSSendServerCertificate" ; mstlsapi.dll
+"TLSShutdown" ; mstlsapi.dll
+"TLSStartDiscovery" ; mstlsapi.dll
+"TLSStopDiscovery" ; mstlsapi.dll
+"TLSTelephoneRegisterLKP" ; mstlsapi.dll
+"TLSTriggerReGenKey" ; mstlsapi.dll
+"TLSUpgradeLicense" ; mstlsapi.dll
+"TLSUpgradeLicenseEx" ; mstlsapi.dll
+"mstlsapi_ordinal100" @100 ; mstlsapi.dll
+"mstlsapi_ordinal102" @102 ; mstlsapi.dll
+"mstlsapi_ordinal111" @111 ; mstlsapi.dll
+"mstlsapi_ordinal112" @112 ; mstlsapi.dll
+"mstlsapi_ordinal122" @122 ; mstlsapi.dll
+"mstlsapi_ordinal125" @125 ; mstlsapi.dll
+"mstlsapi_ordinal128" @128 ; mstlsapi.dll
+"mstlsapi_ordinal129" @129 ; mstlsapi.dll
+"mstlsapi_ordinal137" @137 ; mstlsapi.dll
+"mstlsapi_ordinal22" @22 ; mstlsapi.dll
+"mstlsapi_ordinal23" @23 ; mstlsapi.dll
+"mstlsapi_ordinal51" @51 ; mstlsapi.dll
+"mstlsapi_ordinal52" @52 ; mstlsapi.dll
+"mstlsapi_ordinal53" @53 ; mstlsapi.dll
+"mstlsapi_ordinal54" @54 ; mstlsapi.dll
+"mstlsapi_ordinal55" @55 ; mstlsapi.dll
+"mstlsapi_ordinal56" @56 ; mstlsapi.dll
+"mstlsapi_ordinal57" @57 ; mstlsapi.dll
+"mstlsapi_ordinal58" @58 ; mstlsapi.dll
+"mstlsapi_ordinal59" @59 ; mstlsapi.dll
+"mstlsapi_ordinal60" @60 ; mstlsapi.dll
+"mstlsapi_ordinal61" @61 ; mstlsapi.dll
+"mstlsapi_ordinal62" @62 ; mstlsapi.dll
+"mstlsapi_ordinal63" @63 ; mstlsapi.dll
+"mstlsapi_ordinal64" @64 ; mstlsapi.dll
+"mstlsapi_ordinal65" @65 ; mstlsapi.dll
+"mstlsapi_ordinal66" @66 ; mstlsapi.dll
+"mstlsapi_ordinal67" @67 ; mstlsapi.dll
+"mstlsapi_ordinal68" @68 ; mstlsapi.dll
+"mstlsapi_ordinal69" @69 ; mstlsapi.dll
+"mstlsapi_ordinal70" @70 ; mstlsapi.dll
+"mstlsapi_ordinal71" @71 ; mstlsapi.dll
+"mstlsapi_ordinal72" @72 ; mstlsapi.dll
+"mstlsapi_ordinal73" @73 ; mstlsapi.dll
+"mstlsapi_ordinal74" @74 ; mstlsapi.dll
+"mstlsapi_ordinal75" @75 ; mstlsapi.dll
+"mstlsapi_ordinal76" @76 ; mstlsapi.dll
+"mstlsapi_ordinal77" @77 ; mstlsapi.dll
+"mstlsapi_ordinal78" @78 ; mstlsapi.dll
+"mstlsapi_ordinal79" @79 ; mstlsapi.dll
+"mstlsapi_ordinal80" @80 ; mstlsapi.dll
+"mstlsapi_ordinal81" @81 ; mstlsapi.dll
+"mstlsapi_ordinal82" @82 ; mstlsapi.dll
+"mstlsapi_ordinal83" @83 ; mstlsapi.dll
+"mstlsapi_ordinal84" @84 ; mstlsapi.dll
+"mstlsapi_ordinal85" @85 ; mstlsapi.dll
+"mstlsapi_ordinal86" @86 ; mstlsapi.dll
+"mstlsapi_ordinal87" @87 ; mstlsapi.dll
+"mstlsapi_ordinal88" @88 ; mstlsapi.dll
+"mstlsapi_ordinal89" @89 ; mstlsapi.dll
+"mstlsapi_ordinal9" @9 ; mstlsapi.dll
+"mstlsapi_ordinal90" @90 ; mstlsapi.dll
+"mstlsapi_ordinal91" @91 ; mstlsapi.dll
+"mstlsapi_ordinal92" @92 ; mstlsapi.dll
+"mstlsapi_ordinal93" @93 ; mstlsapi.dll
+"mstlsapi_ordinal94" @94 ; mstlsapi.dll
+"mstlsapi_ordinal95" @95 ; mstlsapi.dll
+"mstlsapi_ordinal96" @96 ; mstlsapi.dll
+"mstlsapi_ordinal97" @97 ; mstlsapi.dll
+"mstlsapi_ordinal98" @98 ; mstlsapi.dll
+"mstlsapi_ordinal99" @99 ; mstlsapi.dll

@@ -1,0 +1,9 @@
+LIBRARY "atiokax2.dll"
+EXPORTS
+"bDestroyR0ORCA" ; atiokax2.dll
+"bDisableR0ORCA" ; atiokax2.dll
+"bOriginNotifyR0ORCA" ; atiokax2.dll
+"bR0ORCACreateWndObj" ; atiokax2.dll
+"bR0ORCAInitialize" ; atiokax2.dll
+"bR0ORCASetDriverCallsEx" ; atiokax2.dll
+"ulR0ORCAEscape" ; atiokax2.dll

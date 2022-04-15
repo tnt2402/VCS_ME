@@ -1,0 +1,25 @@
+LIBRARY "cmpbk32.dll"
+EXPORTS
+"PhoneBookCopyFilter" ; cmpbk32.dll
+"PhoneBookEnumCountries" ; cmpbk32.dll
+"PhoneBookEnumNumbers" ; cmpbk32.dll
+"PhoneBookEnumNumbersWithRegionsZero" ; cmpbk32.dll
+"PhoneBookEnumRegions" ; cmpbk32.dll
+"PhoneBookFreeFilter" ; cmpbk32.dll
+"PhoneBookGetCountryId" ; cmpbk32.dll
+"PhoneBookGetCountryNameA" ; cmpbk32.dll
+"PhoneBookGetCountryNameW" ; cmpbk32.dll
+"PhoneBookGetCurrentCountryId" ; cmpbk32.dll
+"PhoneBookGetPhoneCanonicalA" ; cmpbk32.dll
+"PhoneBookGetPhoneDUNA" ; cmpbk32.dll
+"PhoneBookGetPhoneDescA" ; cmpbk32.dll
+"PhoneBookGetPhoneDispA" ; cmpbk32.dll
+"PhoneBookGetPhoneNonCanonicalA" ; cmpbk32.dll
+"PhoneBookGetPhoneType" ; cmpbk32.dll
+"PhoneBookGetRegionNameA" ; cmpbk32.dll
+"PhoneBookHasPhoneType" ; cmpbk32.dll
+"PhoneBookLoad" ; cmpbk32.dll
+"PhoneBookMatchFilter" ; cmpbk32.dll
+"PhoneBookMergeChanges" ; cmpbk32.dll
+"PhoneBookParseInfoA" ; cmpbk32.dll
+"PhoneBookUnload" ; cmpbk32.dll

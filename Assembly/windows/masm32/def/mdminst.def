@@ -1,0 +1,3 @@
+LIBRARY "mdminst.dll"
+EXPORTS
+"ClassInstall32" ; mdminst.dll

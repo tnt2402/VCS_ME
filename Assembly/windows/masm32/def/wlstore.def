@@ -1,0 +1,27 @@
+LIBRARY "wlstore.dll"
+EXPORTS
+"DllRegisterServer" ; wlstore.dll
+"DllUnregisterServer" ; wlstore.dll
+"UpdateWirelessPSData" ; wlstore.dll
+"WirelessAddPSToPolicy" ; wlstore.dll
+"WirelessAllocPolMem" ; wlstore.dll
+"WirelessAllocPolStr" ; wlstore.dll
+"WirelessClearWMIStore" ; wlstore.dll
+"WirelessClosePolicyStore" ; wlstore.dll
+"WirelessCopyPolicyData" ; wlstore.dll
+"WirelessCreatePolicyData" ; wlstore.dll
+"WirelessDeletePolicyData" ; wlstore.dll
+"WirelessEnumPolicyData" ; wlstore.dll
+"WirelessFreeMulPolicyData" ; wlstore.dll
+"WirelessFreePolMem" ; wlstore.dll
+"WirelessFreePolStr" ; wlstore.dll
+"WirelessFreePolicyData" ; wlstore.dll
+"WirelessGPOOpenPolicyStore" ; wlstore.dll
+"WirelessPolicyPSId" ; wlstore.dll
+"WirelessReallocatePolMem" ; wlstore.dll
+"WirelessReallocatePolStr" ; wlstore.dll
+"WirelessRemovePSFromPolicy" ; wlstore.dll
+"WirelessRemovePSFromPolicyId" ; wlstore.dll
+"WirelessSetPSDataInPolicy" ; wlstore.dll
+"WirelessSetPolicyData" ; wlstore.dll
+"WirelessWriteDirectoryPolicyToWMI" ; wlstore.dll

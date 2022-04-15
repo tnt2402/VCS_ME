@@ -1,0 +1,6 @@
+LIBRARY "ciadmin.dll"
+EXPORTS
+"DllCanUnloadNow" ; ciadmin.dll
+"DllGetClassObject" ; ciadmin.dll
+"DllRegisterServer" ; ciadmin.dll
+"DllUnregisterServer" ; ciadmin.dll

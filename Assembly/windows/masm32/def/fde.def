@@ -1,0 +1,6 @@
+LIBRARY "fde.dll"
+EXPORTS
+"DllCanUnloadNow" ; fde.dll
+"DllGetClassObject" ; fde.dll
+"DllRegisterServer" ; fde.dll
+"DllUnregisterServer" ; fde.dll

@@ -1,0 +1,16 @@
+LIBRARY "msswch.dll"
+EXPORTS
+"msswch_ordinal1" @1 ; msswch.dll
+"msswch_ordinal10" @10 ; msswch.dll
+"msswch_ordinal11" @11 ; msswch.dll
+"msswch_ordinal12" @12 ; msswch.dll
+"msswch_ordinal13" @13 ; msswch.dll
+"msswch_ordinal14" @14 ; msswch.dll
+"msswch_ordinal2" @2 ; msswch.dll
+"msswch_ordinal3" @3 ; msswch.dll
+"msswch_ordinal4" @4 ; msswch.dll
+"msswch_ordinal5" @5 ; msswch.dll
+"msswch_ordinal6" @6 ; msswch.dll
+"msswch_ordinal7" @7 ; msswch.dll
+"msswch_ordinal8" @8 ; msswch.dll
+"msswch_ordinal9" @9 ; msswch.dll

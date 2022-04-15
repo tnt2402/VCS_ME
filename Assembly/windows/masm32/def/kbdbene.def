@@ -1,0 +1,3 @@
+LIBRARY "kbdbene.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdbene.dll

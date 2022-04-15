@@ -1,0 +1,11 @@
+LIBRARY "wiashext.dll"
+EXPORTS
+"AddDeviceWasChosen" ; wiashext.dll
+"AddDeviceWasChosenA" ; wiashext.dll
+"AddDeviceWasChosenW" ; wiashext.dll
+"DllCanUnloadNow" ; wiashext.dll
+"DllGetClassObject" ; wiashext.dll
+"DllRegisterServer" ; wiashext.dll
+"DllUnregisterServer" ; wiashext.dll
+"DoDeleteAllItems" ; wiashext.dll
+"MakeFullPidlForDevice" ; wiashext.dll

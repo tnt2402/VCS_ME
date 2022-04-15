@@ -1,0 +1,6 @@
+LIBRARY "mqtrig.dll"
+EXPORTS
+"DllCanUnloadNow" ; mqtrig.dll
+"DllGetClassObject" ; mqtrig.dll
+"DllRegisterServer" ; mqtrig.dll
+"DllUnregisterServer" ; mqtrig.dll

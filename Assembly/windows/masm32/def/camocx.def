@@ -1,0 +1,6 @@
+LIBRARY "camocx.dll"
+EXPORTS
+"DllCanUnloadNow" ; camocx.dll
+"DllGetClassObject" ; camocx.dll
+"DllRegisterServer" ; camocx.dll
+"DllUnregisterServer" ; camocx.dll

@@ -1,0 +1,3 @@
+LIBRARY "ippromon.dll"
+EXPORTS
+"InitHelperDll" ; ippromon.dll

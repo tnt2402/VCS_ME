@@ -1,0 +1,14 @@
+LIBRARY "sclgntfy.dll"
+EXPORTS
+"DllRegisterServer" ; sclgntfy.dll
+"DllUnregisterServer" ; sclgntfy.dll
+"GenerateDefaultEFSRecoveryPolicy" ; sclgntfy.dll
+"WLEventLock" ; sclgntfy.dll
+"WLEventLogoff" ; sclgntfy.dll
+"WLEventLogon" ; sclgntfy.dll
+"WLEventShutdown" ; sclgntfy.dll
+"WLEventStartScreenSaver" ; sclgntfy.dll
+"WLEventStartShell" ; sclgntfy.dll
+"WLEventStartup" ; sclgntfy.dll
+"WLEventStopScreenSaver" ; sclgntfy.dll
+"WLEventUnlock" ; sclgntfy.dll

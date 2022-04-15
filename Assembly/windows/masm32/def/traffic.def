@@ -1,0 +1,22 @@
+LIBRARY "traffic.dll"
+EXPORTS
+"TcAddFilter" ; traffic.dll
+"TcAddFlow" ; traffic.dll
+"TcCloseInterface" ; traffic.dll
+"TcDeleteFilter" ; traffic.dll
+"TcDeleteFlow" ; traffic.dll
+"TcDeregisterClient" ; traffic.dll
+"TcEnumerateFlows" ; traffic.dll
+"TcEnumerateInterfaces" ; traffic.dll
+"TcGetFlowNameA" ; traffic.dll
+"TcGetFlowNameW" ; traffic.dll
+"TcModifyFlow" ; traffic.dll
+"TcOpenInterfaceA" ; traffic.dll
+"TcOpenInterfaceW" ; traffic.dll
+"TcQueryFlowA" ; traffic.dll
+"TcQueryFlowW" ; traffic.dll
+"TcQueryInterface" ; traffic.dll
+"TcRegisterClient" ; traffic.dll
+"TcSetFlowA" ; traffic.dll
+"TcSetFlowW" ; traffic.dll
+"TcSetInterface" ; traffic.dll

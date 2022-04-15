@@ -1,0 +1,25 @@
+LIBRARY "vdsdyndr.dll"
+EXPORTS
+"??0CPrvEnumObject@@QEAA@XZ" ; vdsdyndr.dll
+"??0CVdsCriticalSection@@QEAA@PEAU_RTL_CRITICAL_SECTION@@@Z" ; vdsdyndr.dll
+"??0CVdsPnPNotificationBase@@QEAA@XZ" ; vdsdyndr.dll
+"??0CVdsStructuredExceptionTranslator@@QEAA@XZ" ; vdsdyndr.dll
+"??0CVdsUnlockIt@@QEAA@AEAJ@Z" ; vdsdyndr.dll
+"??1CPrvEnumObject@@QEAA@XZ" ; vdsdyndr.dll
+"??1CVdsCriticalSection@@QEAA@XZ" ; vdsdyndr.dll
+"??1CVdsDebugLog@@QEAA@XZ" ; vdsdyndr.dll
+"??1CVdsPnPNotificationBase@@QEAA@XZ" ; vdsdyndr.dll
+"??1CVdsStructuredExceptionTranslator@@QEAA@XZ" ; vdsdyndr.dll
+"??1CVdsUnlockIt@@QEAA@XZ" ; vdsdyndr.dll
+"?AllowCancel@CVdsAsyncObjectBase@@QEAAXXZ" ; vdsdyndr.dll
+"?DisallowCancel@CVdsAsyncObjectBase@@QEAAXXZ" ; vdsdyndr.dll
+"?GetOutputType@CVdsAsyncObjectBase@@QEAA?AW4__MIDL___MIDL_itf_vdsswprv_0000_0002@@XZ" ; vdsdyndr.dll
+"?IsCancelRequested@CVdsAsyncObjectBase@@QEAAHXZ" ; vdsdyndr.dll
+"?SetOutputType@CVdsAsyncObjectBase@@QEAAXW4__MIDL___MIDL_itf_vdsswprv_0000_0002@@@Z" ; vdsdyndr.dll
+"?SetPositionToLast@CPrvEnumObject@@QEAAXXZ" ; vdsdyndr.dll
+"?TracingLogEnabled@CVdsDebugLog@@QEAAHXZ" ; vdsdyndr.dll
+"?ZeroAsyncOut@CVdsAsyncObjectBase@@QEAAXXZ" ; vdsdyndr.dll
+"DllCanUnloadNow" ; vdsdyndr.dll
+"DllGetClassObject" ; vdsdyndr.dll
+"DllRegisterServer" ; vdsdyndr.dll
+"DllUnregisterServer" ; vdsdyndr.dll

@@ -1,0 +1,4 @@
+LIBRARY "batt.dll"
+EXPORTS
+"BatteryClassCoInstaller" ; batt.dll
+"BatteryClassInstall" ; batt.dll

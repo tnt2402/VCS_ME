@@ -1,0 +1,6 @@
+LIBRARY "wsecedit.dll"
+EXPORTS
+"DllCanUnloadNow" ; wsecedit.dll
+"DllGetClassObject" ; wsecedit.dll
+"DllRegisterServer" ; wsecedit.dll
+"DllUnregisterServer" ; wsecedit.dll

@@ -1,0 +1,20 @@
+LIBRARY "ntshrui.dll"
+EXPORTS
+"CanShareFolderW" ; ntshrui.dll
+"DllCanUnloadNow" ; ntshrui.dll
+"DllGetClassObject" ; ntshrui.dll
+"GetLocalPathFromNetResource" ; ntshrui.dll
+"GetLocalPathFromNetResourceA" ; ntshrui.dll
+"GetLocalPathFromNetResourceW" ; ntshrui.dll
+"GetNetResourceFromLocalPath" ; ntshrui.dll
+"GetNetResourceFromLocalPathA" ; ntshrui.dll
+"GetNetResourceFromLocalPathW" ; ntshrui.dll
+"IsFolderPrivateForUser" ; ntshrui.dll
+"IsPathShared" ; ntshrui.dll
+"IsPathSharedA" ; ntshrui.dll
+"IsPathSharedW" ; ntshrui.dll
+"SetFolderPermissionsForSharing" ; ntshrui.dll
+"SharingDialog" ; ntshrui.dll
+"SharingDialogA" ; ntshrui.dll
+"SharingDialogW" ; ntshrui.dll
+"ShowShareFolderUIW" ; ntshrui.dll

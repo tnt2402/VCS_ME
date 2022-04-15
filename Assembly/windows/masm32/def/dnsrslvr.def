@@ -1,0 +1,4 @@
+LIBRARY "dnsrslvr.dll"
+EXPORTS
+"ServiceMain" ; dnsrslvr.dll
+"SvchostPushServiceGlobals" ; dnsrslvr.dll

@@ -1,0 +1,4 @@
+LIBRARY "iernonce.dll"
+EXPORTS
+"InitCallback" ; iernonce.dll
+"RunOnceExProcess" ; iernonce.dll

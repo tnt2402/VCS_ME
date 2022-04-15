@@ -1,0 +1,3 @@
+LIBRARY "mslbui.dll"
+EXPORTS
+"CTFGetLangBarAddIn" ; mslbui.dll

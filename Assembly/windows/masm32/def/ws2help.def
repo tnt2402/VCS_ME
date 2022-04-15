@@ -1,0 +1,25 @@
+LIBRARY "ws2help.dll"
+EXPORTS
+"WahCloseApcHelper" ; ws2help.dll
+"WahCloseHandleHelper" ; ws2help.dll
+"WahCloseNotificationHandleHelper" ; ws2help.dll
+"WahCloseSocketHandle" ; ws2help.dll
+"WahCloseThread" ; ws2help.dll
+"WahCompleteRequest" ; ws2help.dll
+"WahCreateHandleContextTable" ; ws2help.dll
+"WahCreateNotificationHandle" ; ws2help.dll
+"WahCreateSocketHandle" ; ws2help.dll
+"WahDestroyHandleContextTable" ; ws2help.dll
+"WahDisableNonIFSHandleSupport" ; ws2help.dll
+"WahEnableNonIFSHandleSupport" ; ws2help.dll
+"WahEnumerateHandleContexts" ; ws2help.dll
+"WahInsertHandleContext" ; ws2help.dll
+"WahNotifyAllProcesses" ; ws2help.dll
+"WahOpenApcHelper" ; ws2help.dll
+"WahOpenCurrentThread" ; ws2help.dll
+"WahOpenHandleHelper" ; ws2help.dll
+"WahOpenNotificationHandleHelper" ; ws2help.dll
+"WahQueueUserApc" ; ws2help.dll
+"WahReferenceContextByHandle" ; ws2help.dll
+"WahRemoveHandleContext" ; ws2help.dll
+"WahWaitForNotification" ; ws2help.dll

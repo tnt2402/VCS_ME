@@ -1,0 +1,6 @@
+LIBRARY "wiascr.dll"
+EXPORTS
+"DllCanUnloadNow" ; wiascr.dll
+"DllGetClassObject" ; wiascr.dll
+"DllRegisterServer" ; wiascr.dll
+"DllUnregisterServer" ; wiascr.dll

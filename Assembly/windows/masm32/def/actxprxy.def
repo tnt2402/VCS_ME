@@ -1,0 +1,7 @@
+LIBRARY "actxprxy.dll"
+EXPORTS
+"DllCanUnloadNow" ; actxprxy.dll
+"DllGetClassObject" ; actxprxy.dll
+"DllRegisterServer" ; actxprxy.dll
+"DllUnregisterServer" ; actxprxy.dll
+"GetProxyDllInfo" ; actxprxy.dll

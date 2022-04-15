@@ -1,0 +1,6 @@
+LIBRARY "termmgr.dll"
+EXPORTS
+"DllCanUnloadNow" ; termmgr.dll
+"DllGetClassObject" ; termmgr.dll
+"DllRegisterServer" ; termmgr.dll
+"DllUnregisterServer" ; termmgr.dll

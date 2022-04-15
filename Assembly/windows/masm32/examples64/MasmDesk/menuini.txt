@@ -1,0 +1,23 @@
+[Applications]
+MASM32 Editor,\masm32\qeditor.exe
+-
+Browse MASM64 Library,\masm32\qetb.exe \masm32\m64lib\
+File Manager,c:\winfile\winfile.exe
+[Tools]
+Subclass 64 Bit,\masm32\subclass64.exe
+-
+Colour Picker,\masm32\cpicker.exe
+Get Colour,\masm32\getcolor.exe
+-
+Make Character Table,\masm32\maketbl.exe
+-
+Bin2DbEx,\masm32\bin2dbex.exe
+MultiTool Conversions,\masm32\multitool.exe
+Mangle Code,\masm32\mangle.exe
+[Editors]
+Topgun Editor,\masm32\topgun.exe
+Unicode Editor,\masm32\uniedit.exe
+[Extras]
+Windows Shell,\masm32\shellex.exe \
+[Help]
+Win32 Help,\mshelp\win32.hlp

@@ -1,0 +1,226 @@
+LIBRARY "sqlsrv32.dll"
+EXPORTS
+"BCP_batch" ; sqlsrv32.dll
+"BCP_bind" ; sqlsrv32.dll
+"BCP_colfmt" ; sqlsrv32.dll
+"BCP_collen" ; sqlsrv32.dll
+"BCP_colptr" ; sqlsrv32.dll
+"BCP_columns" ; sqlsrv32.dll
+"BCP_control" ; sqlsrv32.dll
+"BCP_done" ; sqlsrv32.dll
+"BCP_exec" ; sqlsrv32.dll
+"BCP_getcolfmt" ; sqlsrv32.dll
+"BCP_init" ; sqlsrv32.dll
+"BCP_moretext" ; sqlsrv32.dll
+"BCP_readfmt" ; sqlsrv32.dll
+"BCP_sendrow" ; sqlsrv32.dll
+"BCP_setcolfmt" ; sqlsrv32.dll
+"BCP_writefmt" ; sqlsrv32.dll
+"ConfigDSNW" ; sqlsrv32.dll
+"ConfigDriverW" ; sqlsrv32.dll
+"ConnectDlgProc" ; sqlsrv32.dll
+"FinishDlgProc" ; sqlsrv32.dll
+"LibMain" ; sqlsrv32.dll
+"SQLAllocHandle" ; sqlsrv32.dll
+"SQLBindCol" ; sqlsrv32.dll
+"SQLBindParameter" ; sqlsrv32.dll
+"SQLBrowseConnectW" ; sqlsrv32.dll
+"SQLBulkOperations" ; sqlsrv32.dll
+"SQLCancel" ; sqlsrv32.dll
+"SQLCloseCursor" ; sqlsrv32.dll
+"SQLColAttributeW" ; sqlsrv32.dll
+"SQLColumnPrivilegesW" ; sqlsrv32.dll
+"SQLColumnsW" ; sqlsrv32.dll
+"SQLConnectW" ; sqlsrv32.dll
+"SQLCopyDesc" ; sqlsrv32.dll
+"SQLDebug" ; sqlsrv32.dll
+"SQLDescribeColW" ; sqlsrv32.dll
+"SQLDescribeParam" ; sqlsrv32.dll
+"SQLDisconnect" ; sqlsrv32.dll
+"SQLDriverConnectW" ; sqlsrv32.dll
+"SQLEndTran" ; sqlsrv32.dll
+"SQLExecDirectW" ; sqlsrv32.dll
+"SQLExecute" ; sqlsrv32.dll
+"SQLExtendedFetch" ; sqlsrv32.dll
+"SQLFetch" ; sqlsrv32.dll
+"SQLFetchScroll" ; sqlsrv32.dll
+"SQLForeignKeysW" ; sqlsrv32.dll
+"SQLFreeHandle" ; sqlsrv32.dll
+"SQLFreeStmt" ; sqlsrv32.dll
+"SQLGetConnectAttrW" ; sqlsrv32.dll
+"SQLGetConnectOptionW" ; sqlsrv32.dll
+"SQLGetCursorNameW" ; sqlsrv32.dll
+"SQLGetData" ; sqlsrv32.dll
+"SQLGetDescFieldW" ; sqlsrv32.dll
+"SQLGetDescRecW" ; sqlsrv32.dll
+"SQLGetDiagFieldW" ; sqlsrv32.dll
+"SQLGetDiagRecW" ; sqlsrv32.dll
+"SQLGetEnvAttr" ; sqlsrv32.dll
+"SQLGetFunctions" ; sqlsrv32.dll
+"SQLGetInfoW" ; sqlsrv32.dll
+"SQLGetStmtAttrW" ; sqlsrv32.dll
+"SQLGetTypeInfoW" ; sqlsrv32.dll
+"SQLMoreResults" ; sqlsrv32.dll
+"SQLNativeSqlW" ; sqlsrv32.dll
+"SQLNumParams" ; sqlsrv32.dll
+"SQLNumResultCols" ; sqlsrv32.dll
+"SQLParamData" ; sqlsrv32.dll
+"SQLParamOptions" ; sqlsrv32.dll
+"SQLPrepareW" ; sqlsrv32.dll
+"SQLPrimaryKeysW" ; sqlsrv32.dll
+"SQLProcedureColumnsW" ; sqlsrv32.dll
+"SQLProceduresW" ; sqlsrv32.dll
+"SQLPutData" ; sqlsrv32.dll
+"SQLRowCount" ; sqlsrv32.dll
+"SQLSetConnectAttrW" ; sqlsrv32.dll
+"SQLSetConnectOptionW" ; sqlsrv32.dll
+"SQLSetCursorNameW" ; sqlsrv32.dll
+"SQLSetDescFieldW" ; sqlsrv32.dll
+"SQLSetDescRec" ; sqlsrv32.dll
+"SQLSetEnvAttr" ; sqlsrv32.dll
+"SQLSetPos" ; sqlsrv32.dll
+"SQLSetScrollOptions" ; sqlsrv32.dll
+"SQLSetStmtAttrW" ; sqlsrv32.dll
+"SQLSpecialColumnsW" ; sqlsrv32.dll
+"SQLStatisticsW" ; sqlsrv32.dll
+"SQLTablePrivilegesW" ; sqlsrv32.dll
+"SQLTablesW" ; sqlsrv32.dll
+"TestDlgProc" ; sqlsrv32.dll
+"WizDSNDlgProc" ; sqlsrv32.dll
+"WizDatabaseDlgProc" ; sqlsrv32.dll
+"WizIntSecurityDlgProc" ; sqlsrv32.dll
+"WizLanguageDlgProc" ; sqlsrv32.dll
+"sqlsrv32_ordinal10" @10 ; sqlsrv32.dll
+"sqlsrv32_ordinal100" @100 ; sqlsrv32.dll
+"sqlsrv32_ordinal102" @102 ; sqlsrv32.dll
+"sqlsrv32_ordinal113" @113 ; sqlsrv32.dll
+"sqlsrv32_ordinal115" @115 ; sqlsrv32.dll
+"sqlsrv32_ordinal122" @122 ; sqlsrv32.dll
+"sqlsrv32_ordinal123" @123 ; sqlsrv32.dll
+"sqlsrv32_ordinal124" @124 ; sqlsrv32.dll
+"sqlsrv32_ordinal125" @125 ; sqlsrv32.dll
+"sqlsrv32_ordinal126" @126 ; sqlsrv32.dll
+"sqlsrv32_ordinal127" @127 ; sqlsrv32.dll
+"sqlsrv32_ordinal128" @128 ; sqlsrv32.dll
+"sqlsrv32_ordinal129" @129 ; sqlsrv32.dll
+"sqlsrv32_ordinal130" @130 ; sqlsrv32.dll
+"sqlsrv32_ordinal131" @131 ; sqlsrv32.dll
+"sqlsrv32_ordinal132" @132 ; sqlsrv32.dll
+"sqlsrv32_ordinal133" @133 ; sqlsrv32.dll
+"sqlsrv32_ordinal134" @134 ; sqlsrv32.dll
+"sqlsrv32_ordinal135" @135 ; sqlsrv32.dll
+"sqlsrv32_ordinal136" @136 ; sqlsrv32.dll
+"sqlsrv32_ordinal137" @137 ; sqlsrv32.dll
+"sqlsrv32_ordinal138" @138 ; sqlsrv32.dll
+"sqlsrv32_ordinal139" @139 ; sqlsrv32.dll
+"sqlsrv32_ordinal14" @14 ; sqlsrv32.dll
+"sqlsrv32_ordinal140" @140 ; sqlsrv32.dll
+"sqlsrv32_ordinal141" @141 ; sqlsrv32.dll
+"sqlsrv32_ordinal142" @142 ; sqlsrv32.dll
+"sqlsrv32_ordinal143" @143 ; sqlsrv32.dll
+"sqlsrv32_ordinal144" @144 ; sqlsrv32.dll
+"sqlsrv32_ordinal145" @145 ; sqlsrv32.dll
+"sqlsrv32_ordinal146" @146 ; sqlsrv32.dll
+"sqlsrv32_ordinal147" @147 ; sqlsrv32.dll
+"sqlsrv32_ordinal148" @148 ; sqlsrv32.dll
+"sqlsrv32_ordinal149" @149 ; sqlsrv32.dll
+"sqlsrv32_ordinal15" @15 ; sqlsrv32.dll
+"sqlsrv32_ordinal150" @150 ; sqlsrv32.dll
+"sqlsrv32_ordinal151" @151 ; sqlsrv32.dll
+"sqlsrv32_ordinal152" @152 ; sqlsrv32.dll
+"sqlsrv32_ordinal153" @153 ; sqlsrv32.dll
+"sqlsrv32_ordinal154" @154 ; sqlsrv32.dll
+"sqlsrv32_ordinal155" @155 ; sqlsrv32.dll
+"sqlsrv32_ordinal156" @156 ; sqlsrv32.dll
+"sqlsrv32_ordinal157" @157 ; sqlsrv32.dll
+"sqlsrv32_ordinal158" @158 ; sqlsrv32.dll
+"sqlsrv32_ordinal159" @159 ; sqlsrv32.dll
+"sqlsrv32_ordinal160" @160 ; sqlsrv32.dll
+"sqlsrv32_ordinal161" @161 ; sqlsrv32.dll
+"sqlsrv32_ordinal162" @162 ; sqlsrv32.dll
+"sqlsrv32_ordinal163" @163 ; sqlsrv32.dll
+"sqlsrv32_ordinal164" @164 ; sqlsrv32.dll
+"sqlsrv32_ordinal165" @165 ; sqlsrv32.dll
+"sqlsrv32_ordinal166" @166 ; sqlsrv32.dll
+"sqlsrv32_ordinal167" @167 ; sqlsrv32.dll
+"sqlsrv32_ordinal168" @168 ; sqlsrv32.dll
+"sqlsrv32_ordinal169" @169 ; sqlsrv32.dll
+"sqlsrv32_ordinal170" @170 ; sqlsrv32.dll
+"sqlsrv32_ordinal171" @171 ; sqlsrv32.dll
+"sqlsrv32_ordinal172" @172 ; sqlsrv32.dll
+"sqlsrv32_ordinal173" @173 ; sqlsrv32.dll
+"sqlsrv32_ordinal174" @174 ; sqlsrv32.dll
+"sqlsrv32_ordinal175" @175 ; sqlsrv32.dll
+"sqlsrv32_ordinal176" @176 ; sqlsrv32.dll
+"sqlsrv32_ordinal177" @177 ; sqlsrv32.dll
+"sqlsrv32_ordinal178" @178 ; sqlsrv32.dll
+"sqlsrv32_ordinal179" @179 ; sqlsrv32.dll
+"sqlsrv32_ordinal180" @180 ; sqlsrv32.dll
+"sqlsrv32_ordinal181" @181 ; sqlsrv32.dll
+"sqlsrv32_ordinal182" @182 ; sqlsrv32.dll
+"sqlsrv32_ordinal183" @183 ; sqlsrv32.dll
+"sqlsrv32_ordinal184" @184 ; sqlsrv32.dll
+"sqlsrv32_ordinal185" @185 ; sqlsrv32.dll
+"sqlsrv32_ordinal186" @186 ; sqlsrv32.dll
+"sqlsrv32_ordinal187" @187 ; sqlsrv32.dll
+"sqlsrv32_ordinal188" @188 ; sqlsrv32.dll
+"sqlsrv32_ordinal189" @189 ; sqlsrv32.dll
+"sqlsrv32_ordinal190" @190 ; sqlsrv32.dll
+"sqlsrv32_ordinal191" @191 ; sqlsrv32.dll
+"sqlsrv32_ordinal192" @192 ; sqlsrv32.dll
+"sqlsrv32_ordinal193" @193 ; sqlsrv32.dll
+"sqlsrv32_ordinal194" @194 ; sqlsrv32.dll
+"sqlsrv32_ordinal195" @195 ; sqlsrv32.dll
+"sqlsrv32_ordinal196" @196 ; sqlsrv32.dll
+"sqlsrv32_ordinal197" @197 ; sqlsrv32.dll
+"sqlsrv32_ordinal198" @198 ; sqlsrv32.dll
+"sqlsrv32_ordinal199" @199 ; sqlsrv32.dll
+"sqlsrv32_ordinal207" @207 ; sqlsrv32.dll
+"sqlsrv32_ordinal22" @22 ; sqlsrv32.dll
+"sqlsrv32_ordinal23" @23 ; sqlsrv32.dll
+"sqlsrv32_ordinal25" @25 ; sqlsrv32.dll
+"sqlsrv32_ordinal26" @26 ; sqlsrv32.dll
+"sqlsrv32_ordinal27" @27 ; sqlsrv32.dll
+"sqlsrv32_ordinal28" @28 ; sqlsrv32.dll
+"sqlsrv32_ordinal29" @29 ; sqlsrv32.dll
+"sqlsrv32_ordinal30" @30 ; sqlsrv32.dll
+"sqlsrv32_ordinal31" @31 ; sqlsrv32.dll
+"sqlsrv32_ordinal32" @32 ; sqlsrv32.dll
+"sqlsrv32_ordinal33" @33 ; sqlsrv32.dll
+"sqlsrv32_ordinal34" @34 ; sqlsrv32.dll
+"sqlsrv32_ordinal35" @35 ; sqlsrv32.dll
+"sqlsrv32_ordinal36" @36 ; sqlsrv32.dll
+"sqlsrv32_ordinal37" @37 ; sqlsrv32.dll
+"sqlsrv32_ordinal38" @38 ; sqlsrv32.dll
+"sqlsrv32_ordinal39" @39 ; sqlsrv32.dll
+"sqlsrv32_ordinal46" @46 ; sqlsrv32.dll
+"sqlsrv32_ordinal51" @51 ; sqlsrv32.dll
+"sqlsrv32_ordinal57" @57 ; sqlsrv32.dll
+"sqlsrv32_ordinal71" @71 ; sqlsrv32.dll
+"sqlsrv32_ordinal73" @73 ; sqlsrv32.dll
+"sqlsrv32_ordinal74" @74 ; sqlsrv32.dll
+"sqlsrv32_ordinal75" @75 ; sqlsrv32.dll
+"sqlsrv32_ordinal76" @76 ; sqlsrv32.dll
+"sqlsrv32_ordinal77" @77 ; sqlsrv32.dll
+"sqlsrv32_ordinal78" @78 ; sqlsrv32.dll
+"sqlsrv32_ordinal79" @79 ; sqlsrv32.dll
+"sqlsrv32_ordinal80" @80 ; sqlsrv32.dll
+"sqlsrv32_ordinal81" @81 ; sqlsrv32.dll
+"sqlsrv32_ordinal82" @82 ; sqlsrv32.dll
+"sqlsrv32_ordinal83" @83 ; sqlsrv32.dll
+"sqlsrv32_ordinal84" @84 ; sqlsrv32.dll
+"sqlsrv32_ordinal85" @85 ; sqlsrv32.dll
+"sqlsrv32_ordinal86" @86 ; sqlsrv32.dll
+"sqlsrv32_ordinal87" @87 ; sqlsrv32.dll
+"sqlsrv32_ordinal88" @88 ; sqlsrv32.dll
+"sqlsrv32_ordinal89" @89 ; sqlsrv32.dll
+"sqlsrv32_ordinal90" @90 ; sqlsrv32.dll
+"sqlsrv32_ordinal91" @91 ; sqlsrv32.dll
+"sqlsrv32_ordinal92" @92 ; sqlsrv32.dll
+"sqlsrv32_ordinal93" @93 ; sqlsrv32.dll
+"sqlsrv32_ordinal94" @94 ; sqlsrv32.dll
+"sqlsrv32_ordinal95" @95 ; sqlsrv32.dll
+"sqlsrv32_ordinal96" @96 ; sqlsrv32.dll
+"sqlsrv32_ordinal97" @97 ; sqlsrv32.dll
+"sqlsrv32_ordinal98" @98 ; sqlsrv32.dll
+"sqlsrv32_ordinal99" @99 ; sqlsrv32.dll

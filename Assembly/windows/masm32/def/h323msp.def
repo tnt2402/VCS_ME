@@ -1,0 +1,6 @@
+LIBRARY "h323msp.dll"
+EXPORTS
+"DllCanUnloadNow" ; h323msp.dll
+"DllGetClassObject" ; h323msp.dll
+"DllRegisterServer" ; h323msp.dll
+"DllUnregisterServer" ; h323msp.dll

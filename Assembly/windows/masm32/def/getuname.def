@@ -1,0 +1,3 @@
+LIBRARY "getuname.dll"
+EXPORTS
+"GetUName" ; getuname.dll

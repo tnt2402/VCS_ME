@@ -1,0 +1,11 @@
+LIBRARY "acpivapi.dll"
+EXPORTS
+"pivConnect" ; acpivapi.dll
+"pivCrypt" ; acpivapi.dll
+"pivDisconnect" ; acpivapi.dll
+"pivGenerateKeyPair" ; acpivapi.dll
+"pivGetData" ; acpivapi.dll
+"pivLogIntoCardApplication" ; acpivapi.dll
+"pivLogoutOfCardApplication" ; acpivapi.dll
+"pivPutData" ; acpivapi.dll
+"pivSelectCardApplication" ; acpivapi.dll

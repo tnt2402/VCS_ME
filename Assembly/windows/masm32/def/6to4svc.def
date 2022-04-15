@@ -1,0 +1,3 @@
+LIBRARY "6to4svc.dll"
+EXPORTS
+"ServiceMain" ; 6to4svc.dll

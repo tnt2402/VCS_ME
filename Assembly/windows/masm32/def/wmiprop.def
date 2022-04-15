@@ -1,0 +1,3 @@
+LIBRARY "wmiprop.dll"
+EXPORTS
+"WmiPropCoInstaller" ; wmiprop.dll

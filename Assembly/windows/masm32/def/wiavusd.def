@@ -1,0 +1,6 @@
+LIBRARY "wiavusd.dll"
+EXPORTS
+"DllCanUnloadNow" ; wiavusd.dll
+"DllGetClassObject" ; wiavusd.dll
+"DllRegisterServer" ; wiavusd.dll
+"DllUnregisterServer" ; wiavusd.dll

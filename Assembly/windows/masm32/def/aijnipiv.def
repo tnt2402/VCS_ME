@@ -1,0 +1,11 @@
+LIBRARY "aijnipiv.dll"
+EXPORTS
+"Java_classes_PIVAPIWrapper_pivGenerateKeyPair" ; aijnipiv.dll
+"Java_classes_PIVAPIWrapper_pivPutData" ; aijnipiv.dll
+"Java_classes_PivApiWrapper_pivConnect" ; aijnipiv.dll
+"Java_classes_PivApiWrapper_pivCrypt" ; aijnipiv.dll
+"Java_classes_PivApiWrapper_pivDisconnect" ; aijnipiv.dll
+"Java_classes_PivApiWrapper_pivGetData" ; aijnipiv.dll
+"Java_classes_PivApiWrapper_pivLogIntoCardApplication" ; aijnipiv.dll
+"Java_classes_PivApiWrapper_pivLogoutOfCardApplication" ; aijnipiv.dll
+"Java_classes_PivApiWrapper_pivSelectCardApplication" ; aijnipiv.dll

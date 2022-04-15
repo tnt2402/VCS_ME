@@ -1,0 +1,6 @@
+LIBRARY "dfsshlex.dll"
+EXPORTS
+"DllCanUnloadNow" ; dfsshlex.dll
+"DllGetClassObject" ; dfsshlex.dll
+"DllRegisterServer" ; dfsshlex.dll
+"DllUnregisterServer" ; dfsshlex.dll

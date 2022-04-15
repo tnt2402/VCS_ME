@@ -1,0 +1,21 @@
+LIBRARY "ssdpapi.dll"
+EXPORTS
+"CleanupCache" ; ssdpapi.dll
+"DHDisableDeviceHost" ; ssdpapi.dll
+"DHEnableDeviceHost" ; ssdpapi.dll
+"DHSetICSInterfaces" ; ssdpapi.dll
+"DHSetICSOff" ; ssdpapi.dll
+"DeregisterNotification" ; ssdpapi.dll
+"DeregisterService" ; ssdpapi.dll
+"DeregisterServiceByUSN" ; ssdpapi.dll
+"FindServices" ; ssdpapi.dll
+"FindServicesCallback" ; ssdpapi.dll
+"FindServicesCancel" ; ssdpapi.dll
+"FindServicesClose" ; ssdpapi.dll
+"FreeSsdpMessage" ; ssdpapi.dll
+"GetFirstService" ; ssdpapi.dll
+"GetNextService" ; ssdpapi.dll
+"RegisterNotification" ; ssdpapi.dll
+"RegisterService" ; ssdpapi.dll
+"SsdpCleanup" ; ssdpapi.dll
+"SsdpStartup" ; ssdpapi.dll

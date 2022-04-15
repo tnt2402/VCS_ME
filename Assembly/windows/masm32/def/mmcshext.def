@@ -1,0 +1,6 @@
+LIBRARY "mmcshext.dll"
+EXPORTS
+"DllCanUnloadNow" ; mmcshext.dll
+"DllGetClassObject" ; mmcshext.dll
+"DllRegisterServer" ; mmcshext.dll
+"DllUnregisterServer" ; mmcshext.dll

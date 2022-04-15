@@ -1,0 +1,6 @@
+LIBRARY "iasacct.dll"
+EXPORTS
+"DllCanUnloadNow" ; iasacct.dll
+"DllGetClassObject" ; iasacct.dll
+"DllRegisterServer" ; iasacct.dll
+"DllUnregisterServer" ; iasacct.dll

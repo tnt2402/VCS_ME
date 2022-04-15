@@ -1,0 +1,6 @@
+LIBRARY "datime.dll"
+EXPORTS
+"DllCanUnloadNow" ; datime.dll
+"DllGetClassObject" ; datime.dll
+"DllRegisterServer" ; datime.dll
+"DllUnregisterServer" ; datime.dll

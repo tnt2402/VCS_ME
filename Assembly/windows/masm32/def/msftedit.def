@@ -1,0 +1,16 @@
+LIBRARY "msftedit.dll"
+EXPORTS
+"CreateTextServices" ; msftedit.dll
+"DllGetVersion" ; msftedit.dll
+"IID_IRichEditOle" ; msftedit.dll
+"IID_IRichEditOleCallback" ; msftedit.dll
+"IID_ITextHost" ; msftedit.dll
+"IID_ITextHost2" ; msftedit.dll
+"IID_ITextServices" ; msftedit.dll
+"REExtendedRegisterClass" ; msftedit.dll
+"RichComboBoxWndProc" ; msftedit.dll
+"RichEdit10ANSIWndProc" ; msftedit.dll
+"RichEditANSIWndProc" ; msftedit.dll
+"RichEditWndProc" ; msftedit.dll
+"RichListBoxWndProc" ; msftedit.dll
+"SetCustomTextOutHandlerEx" ; msftedit.dll

@@ -1,0 +1,15 @@
+LIBRARY "iashlpr.dll"
+EXPORTS
+"AllocateAttributes" ; iashlpr.dll
+"ConfigureIas" ; iashlpr.dll
+"DllCanUnloadNow" ; iashlpr.dll
+"DllGetClassObject" ; iashlpr.dll
+"DllRegisterServer" ; iashlpr.dll
+"DllUnregisterServer" ; iashlpr.dll
+"DoRequest" ; iashlpr.dll
+"FreeAttributes" ; iashlpr.dll
+"InitializeIas" ; iashlpr.dll
+"MemAllocIas" ; iashlpr.dll
+"MemFreeIas" ; iashlpr.dll
+"MemReallocIas" ; iashlpr.dll
+"ShutdownIas" ; iashlpr.dll

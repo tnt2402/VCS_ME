@@ -1,0 +1,19 @@
+LIBRARY "dmvdsitf.dll"
+EXPORTS
+"?AddLDMObjMapEntry@CDataCache@@QEAAXPEAU_LDM_OBJ_MAP_ENTRY@@@Z" ; dmvdsitf.dll
+"?GetBottomViewStyle@CDMSnapin@@QEAAHXZ" ; dmvdsitf.dll
+"?GetDiskCount@CDataCache@@QEAAKXZ" ; dmvdsitf.dll
+"?GetDiskScaling@CDMSnapin@@QEAAHXZ" ; dmvdsitf.dll
+"?GetFilterToggle@CDMSnapin@@QEAAHXZ" ; dmvdsitf.dll
+"?GetLdmObjectId@CDMNodeObj@@QEAA_JXZ" ; dmvdsitf.dll
+"?GetListBehavior@CDMSnapin@@QEAAHXZ" ; dmvdsitf.dll
+"?GetNumMembers@CDMNodeObj@@QEAAKXZ" ; dmvdsitf.dll
+"?GetOcxFrameCWndPtr@CTaskData@@QEAAPEAVCWnd@@XZ" ; dmvdsitf.dll
+"?GetRegionColorStructPtr@CTaskData@@QEAAXPEAPEAU_REGION_COLORS@@AEAH@Z" ; dmvdsitf.dll
+"?GetRegionScaling@CDMSnapin@@QEAAHXZ" ; dmvdsitf.dll
+"?GetServerName@CDataCache@@QEAA?AVCString@@XZ" ; dmvdsitf.dll
+"?GetTopViewStyle@CDMSnapin@@QEAAHXZ" ; dmvdsitf.dll
+"?GetVolumeCount@CDataCache@@QEAAKXZ" ; dmvdsitf.dll
+"?GetWaitCursor@CDMSnapin@@QEAAHXZ" ; dmvdsitf.dll
+"CreateDataCacheZ" ; dmvdsitf.dll
+"CreateServerRequestsZ" ; dmvdsitf.dll

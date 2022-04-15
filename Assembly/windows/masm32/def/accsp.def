@@ -1,0 +1,29 @@
+LIBRARY "accsp.dll"
+EXPORTS
+"CPAcquireContext" ; accsp.dll
+"CPCreateHash" ; accsp.dll
+"CPDecrypt" ; accsp.dll
+"CPDeriveKey" ; accsp.dll
+"CPDestroyHash" ; accsp.dll
+"CPDestroyKey" ; accsp.dll
+"CPDuplicateHash" ; accsp.dll
+"CPDuplicateKey" ; accsp.dll
+"CPEncrypt" ; accsp.dll
+"CPExportKey" ; accsp.dll
+"CPGenKey" ; accsp.dll
+"CPGenRandom" ; accsp.dll
+"CPGetHashParam" ; accsp.dll
+"CPGetKeyParam" ; accsp.dll
+"CPGetProvParam" ; accsp.dll
+"CPGetUserKey" ; accsp.dll
+"CPHashData" ; accsp.dll
+"CPHashSessionKey" ; accsp.dll
+"CPImportKey" ; accsp.dll
+"CPReleaseContext" ; accsp.dll
+"CPSetHashParam" ; accsp.dll
+"CPSetKeyParam" ; accsp.dll
+"CPSetProvParam" ; accsp.dll
+"CPSignHash" ; accsp.dll
+"CPVerifySignature" ; accsp.dll
+"DllRegisterServer" ; accsp.dll
+"DllUnregisterServer" ; accsp.dll

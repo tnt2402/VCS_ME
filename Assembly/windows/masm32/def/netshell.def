@@ -1,0 +1,36 @@
+LIBRARY "netshell.dll"
+EXPORTS
+"DllCanUnloadNow" ; netshell.dll
+"DllGetClassObject" ; netshell.dll
+"DllRegisterServer" ; netshell.dll
+"DllUnregisterServer" ; netshell.dll
+"DoInitialCleanup" ; netshell.dll
+"HrCreateDesktopIcon" ; netshell.dll
+"HrGetAnswerFileParametersForNetCard" ; netshell.dll
+"HrGetExtendedStatusFromNCS" ; netshell.dll
+"HrGetIconFromMediaType" ; netshell.dll
+"HrGetIconFromMediaTypeEx" ; netshell.dll
+"HrGetInstanceGuidOfPreNT5NetCardInstance" ; netshell.dll
+"HrGetNetConExtendedStatusFromGuid" ; netshell.dll
+"HrGetNetConExtendedStatusFromINetConnection" ; netshell.dll
+"HrGetStatusStringFromNetConExtendedStatus" ; netshell.dll
+"HrIsIpStateCheckingEnabled" ; netshell.dll
+"HrLaunchConnection" ; netshell.dll
+"HrLaunchConnectionEx" ; netshell.dll
+"HrLaunchNetworkOptionalComponents" ; netshell.dll
+"HrOemUpgrade" ; netshell.dll
+"HrRenameConnection" ; netshell.dll
+"HrRunWizard" ; netshell.dll
+"InvokeDunFile" ; netshell.dll
+"NcFreeNetconProperties" ; netshell.dll
+"NcIsValidConnectionName" ; netshell.dll
+"NetSetupAddRasConnection" ; netshell.dll
+"NetSetupFinishInstall" ; netshell.dll
+"NetSetupInstallSoftware" ; netshell.dll
+"NetSetupPrepareSysPrep" ; netshell.dll
+"NetSetupRequestWizardPages" ; netshell.dll
+"NetSetupSetProgressCallback" ; netshell.dll
+"NormalizeExtendedStatus" ; netshell.dll
+"RaiseSupportDialog" ; netshell.dll
+"RepairConnection" ; netshell.dll
+"StartNCW" ; netshell.dll

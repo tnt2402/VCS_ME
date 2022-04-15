@@ -1,0 +1,6 @@
+LIBRARY "cdosys.dll"
+EXPORTS
+"DllCanUnloadNow" ; cdosys.dll
+"DllGetClassObject" ; cdosys.dll
+"DllRegisterServer" ; cdosys.dll
+"DllUnregisterServer" ; cdosys.dll

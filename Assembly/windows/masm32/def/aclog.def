@@ -1,0 +1,11 @@
+LIBRARY "aclog.dll"
+EXPORTS
+"aclogClose" ; aclog.dll
+"aclogLog" ; aclog.dll
+"aclogLogBin" ; aclog.dll
+"aclogSetDate" ; aclog.dll
+"aclogSetFile" ; aclog.dll
+"aclogSetModuleName" ; aclog.dll
+"aclogSetOutput" ; aclog.dll
+"aclogTrace" ; aclog.dll
+"aclogTraceBin" ; aclog.dll

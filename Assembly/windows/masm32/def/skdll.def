@@ -1,0 +1,3 @@
+LIBRARY "skdll.dll"
+EXPORTS
+"SKEY_SystemParametersInfo" ; skdll.dll

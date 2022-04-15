@@ -1,0 +1,4 @@
+LIBRARY "mll_hp.dll"
+EXPORTS
+"ClaimMediaLabel" ; mll_hp.dll
+"MaxMediaLabel" ; mll_hp.dll

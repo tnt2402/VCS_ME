@@ -1,0 +1,16 @@
+LIBRARY "cryptdll.dll"
+EXPORTS
+"CDBuildIntegrityVect" ; cryptdll.dll
+"CDBuildVect" ; cryptdll.dll
+"CDFindCommonCSystem" ; cryptdll.dll
+"CDFindCommonCSystemWithKey" ; cryptdll.dll
+"CDGenerateRandomBits" ; cryptdll.dll
+"CDLocateCSystem" ; cryptdll.dll
+"CDLocateCheckSum" ; cryptdll.dll
+"CDLocateRng" ; cryptdll.dll
+"CDRegisterCSystem" ; cryptdll.dll
+"CDRegisterCheckSum" ; cryptdll.dll
+"CDRegisterRng" ; cryptdll.dll
+"MD5Final" ; cryptdll.dll
+"MD5Init" ; cryptdll.dll
+"MD5Update" ; cryptdll.dll

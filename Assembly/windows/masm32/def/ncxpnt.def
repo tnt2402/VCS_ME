@@ -1,0 +1,25 @@
+LIBRARY "ncxpnt.dll"
+EXPORTS
+"DisableUserLevelAccessControl" ; ncxpnt.dll
+"EnableAutodial" ; ncxpnt.dll
+"EnumMatchingNetBindings" ; ncxpnt.dll
+"EnumNetAdapters" ; ncxpnt.dll
+"GetDefaultDialupConnection" ; ncxpnt.dll
+"HrEnableDhcp" ; ncxpnt.dll
+"HrFromLastWin32Error" ; ncxpnt.dll
+"HrWideCharToMultiByte" ; ncxpnt.dll
+"InstallMSClient" ; ncxpnt.dll
+"InstallSharing" ; ncxpnt.dll
+"InstallTCPIP" ; ncxpnt.dll
+"IsAccessControlUserLevel" ; ncxpnt.dll
+"IsAdapterDisconnected" ; ncxpnt.dll
+"IsAutodialEnabled" ; ncxpnt.dll
+"IsClientInstalled" ; ncxpnt.dll
+"IsMSClientInstalled" ; ncxpnt.dll
+"IsProtocolInstalled" ; ncxpnt.dll
+"IsSharingInstalled" ; ncxpnt.dll
+"NetConnAlloc" ; ncxpnt.dll
+"NetConnFree" ; ncxpnt.dll
+"RestartNetAdapter" ; ncxpnt.dll
+"SetDefaultDialupConnection" ; ncxpnt.dll
+"TestRunDll" ; ncxpnt.dll

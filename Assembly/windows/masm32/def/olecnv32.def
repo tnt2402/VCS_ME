@@ -1,0 +1,3 @@
+LIBRARY "olecnv32.dll"
+EXPORTS
+"QD2GDI" ; olecnv32.dll

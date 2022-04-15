@@ -1,0 +1,4 @@
+LIBRARY "dimap.dll"
+EXPORTS
+"DllCanUnloadNow" ; dimap.dll
+"DllGetClassObject" ; dimap.dll

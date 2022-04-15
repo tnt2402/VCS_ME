@@ -1,0 +1,5 @@
+LIBRARY "winrnr.dll"
+EXPORTS
+"InstallNTDSProvider" ; winrnr.dll
+"NSPStartup" ; winrnr.dll
+"RemoveNTDSProvider" ; winrnr.dll

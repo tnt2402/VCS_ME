@@ -1,0 +1,4 @@
+LIBRARY "audiosrv.dll"
+EXPORTS
+"ServiceMain" ; audiosrv.dll
+"SvchostPushServiceGlobals" ; audiosrv.dll

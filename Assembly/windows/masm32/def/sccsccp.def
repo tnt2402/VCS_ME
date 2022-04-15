@@ -1,0 +1,6 @@
+LIBRARY "sccsccp.dll"
+EXPORTS
+"SCCPDllCanUnloadNow" ; sccsccp.dll
+"SCCPDllGetClassObject" ; sccsccp.dll
+"SCCPDllRegisterServer" ; sccsccp.dll
+"SCCPDllUnregisterServer" ; sccsccp.dll

@@ -1,0 +1,3 @@
+LIBRARY "umdmxfrm.dll"
+EXPORTS
+"GetXformInfo" ; umdmxfrm.dll

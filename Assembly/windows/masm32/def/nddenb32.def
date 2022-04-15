@@ -1,0 +1,17 @@
+LIBRARY "nddenb32.dll"
+EXPORTS
+"Configure" ; nddenb32.dll
+"ConfigureDlgProc" ; nddenb32.dll
+"LogDebugInfo" ; nddenb32.dll
+"NDDEAddConnection" ; nddenb32.dll
+"NDDEDeleteConnection" ; nddenb32.dll
+"NDDEGetCAPS" ; nddenb32.dll
+"NDDEGetConnectionConfig" ; nddenb32.dll
+"NDDEGetConnectionStatus" ; nddenb32.dll
+"NDDEGetNewConnection" ; nddenb32.dll
+"NDDEInit" ; nddenb32.dll
+"NDDERcvPacket" ; nddenb32.dll
+"NDDESetConnectionConfig" ; nddenb32.dll
+"NDDEShutdown" ; nddenb32.dll
+"NDDETimeSlice" ; nddenb32.dll
+"NDDEXmtPacket" ; nddenb32.dll

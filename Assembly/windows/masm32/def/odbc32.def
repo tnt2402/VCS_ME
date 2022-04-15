@@ -1,0 +1,303 @@
+LIBRARY "odbc32.dll"
+EXPORTS
+"CloseODBCPerfData" ; odbc32.dll
+"CollectODBCPerfData" ; odbc32.dll
+"CursorLibLockDbc" ; odbc32.dll
+"CursorLibLockDesc" ; odbc32.dll
+"CursorLibLockStmt" ; odbc32.dll
+"CursorLibTransact" ; odbc32.dll
+"DllBidEntryPoint" ; odbc32.dll
+"GetODBCSharedData" ; odbc32.dll
+"LockHandle" ; odbc32.dll
+"MpHeapAlloc" ; odbc32.dll
+"MpHeapCompact" ; odbc32.dll
+"MpHeapCreate" ; odbc32.dll
+"MpHeapDestroy" ; odbc32.dll
+"MpHeapFree" ; odbc32.dll
+"MpHeapReAlloc" ; odbc32.dll
+"MpHeapSize" ; odbc32.dll
+"MpHeapValidate" ; odbc32.dll
+"ODBCGetTryWaitValue" ; odbc32.dll
+"ODBCInternalConnectW" ; odbc32.dll
+"ODBCQualifyFileDSNW" ; odbc32.dll
+"ODBCSetTryWaitValue" ; odbc32.dll
+"OpenODBCPerfData" ; odbc32.dll
+"PostComponentError" ; odbc32.dll
+"PostODBCComponentError" ; odbc32.dll
+"PostODBCError" ; odbc32.dll
+"SQLAllocConnect" ; odbc32.dll
+"SQLAllocEnv" ; odbc32.dll
+"SQLAllocHandle" ; odbc32.dll
+"SQLAllocHandleStd" ; odbc32.dll
+"SQLAllocStmt" ; odbc32.dll
+"SQLBindCol" ; odbc32.dll
+"SQLBindParam" ; odbc32.dll
+"SQLBindParameter" ; odbc32.dll
+"SQLBrowseConnect" ; odbc32.dll
+"SQLBrowseConnectA" ; odbc32.dll
+"SQLBrowseConnectW" ; odbc32.dll
+"SQLBulkOperations" ; odbc32.dll
+"SQLCancel" ; odbc32.dll
+"SQLCloseCursor" ; odbc32.dll
+"SQLColAttribute" ; odbc32.dll
+"SQLColAttributeA" ; odbc32.dll
+"SQLColAttributeW" ; odbc32.dll
+"SQLColAttributes" ; odbc32.dll
+"SQLColAttributesA" ; odbc32.dll
+"SQLColAttributesW" ; odbc32.dll
+"SQLColumnPrivileges" ; odbc32.dll
+"SQLColumnPrivilegesA" ; odbc32.dll
+"SQLColumnPrivilegesW" ; odbc32.dll
+"SQLColumns" ; odbc32.dll
+"SQLColumnsA" ; odbc32.dll
+"SQLColumnsW" ; odbc32.dll
+"SQLConnect" ; odbc32.dll
+"SQLConnectA" ; odbc32.dll
+"SQLConnectW" ; odbc32.dll
+"SQLCopyDesc" ; odbc32.dll
+"SQLDataSources" ; odbc32.dll
+"SQLDataSourcesA" ; odbc32.dll
+"SQLDataSourcesW" ; odbc32.dll
+"SQLDescribeCol" ; odbc32.dll
+"SQLDescribeColA" ; odbc32.dll
+"SQLDescribeColW" ; odbc32.dll
+"SQLDescribeParam" ; odbc32.dll
+"SQLDisconnect" ; odbc32.dll
+"SQLDriverConnect" ; odbc32.dll
+"SQLDriverConnectA" ; odbc32.dll
+"SQLDriverConnectW" ; odbc32.dll
+"SQLDrivers" ; odbc32.dll
+"SQLDriversA" ; odbc32.dll
+"SQLDriversW" ; odbc32.dll
+"SQLEndTran" ; odbc32.dll
+"SQLError" ; odbc32.dll
+"SQLErrorA" ; odbc32.dll
+"SQLErrorW" ; odbc32.dll
+"SQLExecDirect" ; odbc32.dll
+"SQLExecDirectA" ; odbc32.dll
+"SQLExecDirectW" ; odbc32.dll
+"SQLExecute" ; odbc32.dll
+"SQLExtendedFetch" ; odbc32.dll
+"SQLFetch" ; odbc32.dll
+"SQLFetchScroll" ; odbc32.dll
+"SQLForeignKeys" ; odbc32.dll
+"SQLForeignKeysA" ; odbc32.dll
+"SQLForeignKeysW" ; odbc32.dll
+"SQLFreeConnect" ; odbc32.dll
+"SQLFreeEnv" ; odbc32.dll
+"SQLFreeHandle" ; odbc32.dll
+"SQLFreeStmt" ; odbc32.dll
+"SQLGetConnectAttr" ; odbc32.dll
+"SQLGetConnectAttrA" ; odbc32.dll
+"SQLGetConnectAttrW" ; odbc32.dll
+"SQLGetConnectOption" ; odbc32.dll
+"SQLGetConnectOptionA" ; odbc32.dll
+"SQLGetConnectOptionW" ; odbc32.dll
+"SQLGetCursorName" ; odbc32.dll
+"SQLGetCursorNameA" ; odbc32.dll
+"SQLGetCursorNameW" ; odbc32.dll
+"SQLGetData" ; odbc32.dll
+"SQLGetDescField" ; odbc32.dll
+"SQLGetDescFieldA" ; odbc32.dll
+"SQLGetDescFieldW" ; odbc32.dll
+"SQLGetDescRec" ; odbc32.dll
+"SQLGetDescRecA" ; odbc32.dll
+"SQLGetDescRecW" ; odbc32.dll
+"SQLGetDiagField" ; odbc32.dll
+"SQLGetDiagFieldA" ; odbc32.dll
+"SQLGetDiagFieldW" ; odbc32.dll
+"SQLGetDiagRec" ; odbc32.dll
+"SQLGetDiagRecA" ; odbc32.dll
+"SQLGetDiagRecW" ; odbc32.dll
+"SQLGetEnvAttr" ; odbc32.dll
+"SQLGetFunctions" ; odbc32.dll
+"SQLGetInfo" ; odbc32.dll
+"SQLGetInfoA" ; odbc32.dll
+"SQLGetInfoW" ; odbc32.dll
+"SQLGetStmtAttr" ; odbc32.dll
+"SQLGetStmtAttrA" ; odbc32.dll
+"SQLGetStmtAttrW" ; odbc32.dll
+"SQLGetStmtOption" ; odbc32.dll
+"SQLGetTypeInfo" ; odbc32.dll
+"SQLGetTypeInfoA" ; odbc32.dll
+"SQLGetTypeInfoW" ; odbc32.dll
+"SQLMoreResults" ; odbc32.dll
+"SQLNativeSql" ; odbc32.dll
+"SQLNativeSqlA" ; odbc32.dll
+"SQLNativeSqlW" ; odbc32.dll
+"SQLNumParams" ; odbc32.dll
+"SQLNumResultCols" ; odbc32.dll
+"SQLParamData" ; odbc32.dll
+"SQLParamOptions" ; odbc32.dll
+"SQLPrepare" ; odbc32.dll
+"SQLPrepareA" ; odbc32.dll
+"SQLPrepareW" ; odbc32.dll
+"SQLPrimaryKeys" ; odbc32.dll
+"SQLPrimaryKeysA" ; odbc32.dll
+"SQLPrimaryKeysW" ; odbc32.dll
+"SQLProcedureColumns" ; odbc32.dll
+"SQLProcedureColumnsA" ; odbc32.dll
+"SQLProcedureColumnsW" ; odbc32.dll
+"SQLProcedures" ; odbc32.dll
+"SQLProceduresA" ; odbc32.dll
+"SQLProceduresW" ; odbc32.dll
+"SQLPutData" ; odbc32.dll
+"SQLRowCount" ; odbc32.dll
+"SQLSetConnectAttr" ; odbc32.dll
+"SQLSetConnectAttrA" ; odbc32.dll
+"SQLSetConnectAttrW" ; odbc32.dll
+"SQLSetConnectOption" ; odbc32.dll
+"SQLSetConnectOptionA" ; odbc32.dll
+"SQLSetConnectOptionW" ; odbc32.dll
+"SQLSetCursorName" ; odbc32.dll
+"SQLSetCursorNameA" ; odbc32.dll
+"SQLSetCursorNameW" ; odbc32.dll
+"SQLSetDescField" ; odbc32.dll
+"SQLSetDescFieldA" ; odbc32.dll
+"SQLSetDescFieldW" ; odbc32.dll
+"SQLSetDescRec" ; odbc32.dll
+"SQLSetEnvAttr" ; odbc32.dll
+"SQLSetParam" ; odbc32.dll
+"SQLSetPos" ; odbc32.dll
+"SQLSetScrollOptions" ; odbc32.dll
+"SQLSetStmtAttr" ; odbc32.dll
+"SQLSetStmtAttrA" ; odbc32.dll
+"SQLSetStmtAttrW" ; odbc32.dll
+"SQLSetStmtOption" ; odbc32.dll
+"SQLSpecialColumns" ; odbc32.dll
+"SQLSpecialColumnsA" ; odbc32.dll
+"SQLSpecialColumnsW" ; odbc32.dll
+"SQLStatistics" ; odbc32.dll
+"SQLStatisticsA" ; odbc32.dll
+"SQLStatisticsW" ; odbc32.dll
+"SQLTablePrivileges" ; odbc32.dll
+"SQLTablePrivilegesA" ; odbc32.dll
+"SQLTablePrivilegesW" ; odbc32.dll
+"SQLTables" ; odbc32.dll
+"SQLTablesA" ; odbc32.dll
+"SQLTablesW" ; odbc32.dll
+"SQLTransact" ; odbc32.dll
+"SearchStatusCode" ; odbc32.dll
+"VFreeErrors" ; odbc32.dll
+"VRetrieveDriverErrorsRowCol" ; odbc32.dll
+"ValidateErrorQueue" ; odbc32.dll
+"g_hHeapMalloc" ; odbc32.dll
+"odbc32_ordinal113" @113 ; odbc32.dll
+"odbc32_ordinal114" @114 ; odbc32.dll
+"odbc32_ordinal115" @115 ; odbc32.dll
+"odbc32_ordinal116" @116 ; odbc32.dll
+"odbc32_ordinal118" @118 ; odbc32.dll
+"odbc32_ordinal120" @120 ; odbc32.dll
+"odbc32_ordinal122" @122 ; odbc32.dll
+"odbc32_ordinal123" @123 ; odbc32.dll
+"odbc32_ordinal124" @124 ; odbc32.dll
+"odbc32_ordinal125" @125 ; odbc32.dll
+"odbc32_ordinal126" @126 ; odbc32.dll
+"odbc32_ordinal128" @128 ; odbc32.dll
+"odbc32_ordinal129" @129 ; odbc32.dll
+"odbc32_ordinal130" @130 ; odbc32.dll
+"odbc32_ordinal131" @131 ; odbc32.dll
+"odbc32_ordinal137" @137 ; odbc32.dll
+"odbc32_ordinal143" @143 ; odbc32.dll
+"odbc32_ordinal144" @144 ; odbc32.dll
+"odbc32_ordinal146" @146 ; odbc32.dll
+"odbc32_ordinal148" @148 ; odbc32.dll
+"odbc32_ordinal149" @149 ; odbc32.dll
+"odbc32_ordinal151" @151 ; odbc32.dll
+"odbc32_ordinal158" @158 ; odbc32.dll
+"odbc32_ordinal159" @159 ; odbc32.dll
+"odbc32_ordinal161" @161 ; odbc32.dll
+"odbc32_ordinal163" @163 ; odbc32.dll
+"odbc32_ordinal164" @164 ; odbc32.dll
+"odbc32_ordinal168" @168 ; odbc32.dll
+"odbc32_ordinal169" @169 ; odbc32.dll
+"odbc32_ordinal172" @172 ; odbc32.dll
+"odbc32_ordinal174" @174 ; odbc32.dll
+"odbc32_ordinal175" @175 ; odbc32.dll
+"odbc32_ordinal177" @177 ; odbc32.dll
+"odbc32_ordinal178" @178 ; odbc32.dll
+"odbc32_ordinal179" @179 ; odbc32.dll
+"odbc32_ordinal180" @180 ; odbc32.dll
+"odbc32_ordinal181" @181 ; odbc32.dll
+"odbc32_ordinal182" @182 ; odbc32.dll
+"odbc32_ordinal183" @183 ; odbc32.dll
+"odbc32_ordinal184" @184 ; odbc32.dll
+"odbc32_ordinal185" @185 ; odbc32.dll
+"odbc32_ordinal186" @186 ; odbc32.dll
+"odbc32_ordinal187" @187 ; odbc32.dll
+"odbc32_ordinal188" @188 ; odbc32.dll
+"odbc32_ordinal189" @189 ; odbc32.dll
+"odbc32_ordinal190" @190 ; odbc32.dll
+"odbc32_ordinal191" @191 ; odbc32.dll
+"odbc32_ordinal192" @192 ; odbc32.dll
+"odbc32_ordinal193" @193 ; odbc32.dll
+"odbc32_ordinal194" @194 ; odbc32.dll
+"odbc32_ordinal195" @195 ; odbc32.dll
+"odbc32_ordinal196" @196 ; odbc32.dll
+"odbc32_ordinal197" @197 ; odbc32.dll
+"odbc32_ordinal198" @198 ; odbc32.dll
+"odbc32_ordinal199" @199 ; odbc32.dll
+"odbc32_ordinal200" @200 ; odbc32.dll
+"odbc32_ordinal201" @201 ; odbc32.dll
+"odbc32_ordinal202" @202 ; odbc32.dll
+"odbc32_ordinal203" @203 ; odbc32.dll
+"odbc32_ordinal204" @204 ; odbc32.dll
+"odbc32_ordinal205" @205 ; odbc32.dll
+"odbc32_ordinal209" @209 ; odbc32.dll
+"odbc32_ordinal212" @212 ; odbc32.dll
+"odbc32_ordinal213" @213 ; odbc32.dll
+"odbc32_ordinal214" @214 ; odbc32.dll
+"odbc32_ordinal215" @215 ; odbc32.dll
+"odbc32_ordinal216" @216 ; odbc32.dll
+"odbc32_ordinal218" @218 ; odbc32.dll
+"odbc32_ordinal220" @220 ; odbc32.dll
+"odbc32_ordinal222" @222 ; odbc32.dll
+"odbc32_ordinal223" @223 ; odbc32.dll
+"odbc32_ordinal224" @224 ; odbc32.dll
+"odbc32_ordinal225" @225 ; odbc32.dll
+"odbc32_ordinal226" @226 ; odbc32.dll
+"odbc32_ordinal228" @228 ; odbc32.dll
+"odbc32_ordinal229" @229 ; odbc32.dll
+"odbc32_ordinal230" @230 ; odbc32.dll
+"odbc32_ordinal231" @231 ; odbc32.dll
+"odbc32_ordinal237" @237 ; odbc32.dll
+"odbc32_ordinal243" @243 ; odbc32.dll
+"odbc32_ordinal244" @244 ; odbc32.dll
+"odbc32_ordinal246" @246 ; odbc32.dll
+"odbc32_ordinal248" @248 ; odbc32.dll
+"odbc32_ordinal249" @249 ; odbc32.dll
+"odbc32_ordinal251" @251 ; odbc32.dll
+"odbc32_ordinal258" @258 ; odbc32.dll
+"odbc32_ordinal259" @259 ; odbc32.dll
+"odbc32_ordinal261" @261 ; odbc32.dll
+"odbc32_ordinal263" @263 ; odbc32.dll
+"odbc32_ordinal264" @264 ; odbc32.dll
+"odbc32_ordinal268" @268 ; odbc32.dll
+"odbc32_ordinal269" @269 ; odbc32.dll
+"odbc32_ordinal272" @272 ; odbc32.dll
+"odbc32_ordinal274" @274 ; odbc32.dll
+"odbc32_ordinal275" @275 ; odbc32.dll
+"odbc32_ordinal277" @277 ; odbc32.dll
+"odbc32_ordinal278" @278 ; odbc32.dll
+"odbc32_ordinal279" @279 ; odbc32.dll
+"odbc32_ordinal280" @280 ; odbc32.dll
+"odbc32_ordinal281" @281 ; odbc32.dll
+"odbc32_ordinal282" @282 ; odbc32.dll
+"odbc32_ordinal283" @283 ; odbc32.dll
+"odbc32_ordinal284" @284 ; odbc32.dll
+"odbc32_ordinal285" @285 ; odbc32.dll
+"odbc32_ordinal286" @286 ; odbc32.dll
+"odbc32_ordinal287" @287 ; odbc32.dll
+"odbc32_ordinal288" @288 ; odbc32.dll
+"odbc32_ordinal289" @289 ; odbc32.dll
+"odbc32_ordinal290" @290 ; odbc32.dll
+"odbc32_ordinal291" @291 ; odbc32.dll
+"odbc32_ordinal292" @292 ; odbc32.dll
+"odbc32_ordinal293" @293 ; odbc32.dll
+"odbc32_ordinal294" @294 ; odbc32.dll
+"odbc32_ordinal295" @295 ; odbc32.dll
+"odbc32_ordinal296" @296 ; odbc32.dll
+"odbc32_ordinal297" @297 ; odbc32.dll
+"odbc32_ordinal298" @298 ; odbc32.dll
+"odbc32_ordinal299" @299 ; odbc32.dll
+"odbc32_ordinal300" @300 ; odbc32.dll

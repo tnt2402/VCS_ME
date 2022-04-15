@@ -1,0 +1,6 @@
+LIBRARY "wmpshell.dll"
+EXPORTS
+"DllCanUnloadNow" ; wmpshell.dll
+"DllGetClassObject" ; wmpshell.dll
+"DllRegisterServer" ; wmpshell.dll
+"DllUnregisterServer" ; wmpshell.dll

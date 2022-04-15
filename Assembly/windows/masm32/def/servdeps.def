@@ -1,0 +1,6 @@
+LIBRARY "servdeps.dll"
+EXPORTS
+"DllCanUnloadNow" ; servdeps.dll
+"DllGetClassObject" ; servdeps.dll
+"DllRegisterServer" ; servdeps.dll
+"DllUnregisterServer" ; servdeps.dll

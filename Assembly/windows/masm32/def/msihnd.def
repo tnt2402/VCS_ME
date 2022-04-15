@@ -1,0 +1,6 @@
+LIBRARY "msihnd.dll"
+EXPORTS
+"DllCanUnloadNow" ; msihnd.dll
+"DllGetClassObject" ; msihnd.dll
+"DllRegisterServer" ; msihnd.dll
+"DllUnregisterServer" ; msihnd.dll

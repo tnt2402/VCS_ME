@@ -1,0 +1,11 @@
+LIBRARY "wshnetbs.dll"
+EXPORTS
+"WSHEnumProtocols" ; wshnetbs.dll
+"WSHGetProviderGuid" ; wshnetbs.dll
+"WSHGetSockaddrType" ; wshnetbs.dll
+"WSHGetSocketInformation" ; wshnetbs.dll
+"WSHGetWildcardSockaddr" ; wshnetbs.dll
+"WSHGetWinsockMapping" ; wshnetbs.dll
+"WSHNotify" ; wshnetbs.dll
+"WSHOpenSocket" ; wshnetbs.dll
+"WSHSetSocketInformation" ; wshnetbs.dll

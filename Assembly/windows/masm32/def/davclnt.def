@@ -1,0 +1,21 @@
+LIBRARY "davclnt.dll"
+EXPORTS
+"DavFreeUsedDiskSpace" ; davclnt.dll
+"DavGetDiskSpaceUsage" ; davclnt.dll
+"DavGetTheLockOwnerOfTheFile" ; davclnt.dll
+"DllCanUnloadNow" ; davclnt.dll
+"DllGetClassObject" ; davclnt.dll
+"DllMain" ; davclnt.dll
+"NPAddConnection" ; davclnt.dll
+"NPAddConnection3" ; davclnt.dll
+"NPCancelConnection" ; davclnt.dll
+"NPCloseEnum" ; davclnt.dll
+"NPEnumResource" ; davclnt.dll
+"NPFormatNetworkName" ; davclnt.dll
+"NPGetCaps" ; davclnt.dll
+"NPGetConnection" ; davclnt.dll
+"NPGetResourceInformation" ; davclnt.dll
+"NPGetResourceParent" ; davclnt.dll
+"NPGetUniversalName" ; davclnt.dll
+"NPGetUser" ; davclnt.dll
+"NPOpenEnum" ; davclnt.dll

@@ -1,0 +1,4 @@
+LIBRARY "pid.dll"
+EXPORTS
+"DllCanUnloadNow" ; pid.dll
+"DllGetClassObject" ; pid.dll

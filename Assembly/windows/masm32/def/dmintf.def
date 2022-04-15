@@ -1,0 +1,5 @@
+LIBRARY "dmintf.dll"
+EXPORTS
+"DllCanUnloadNow" ; dmintf.dll
+"DllGetClassObject" ; dmintf.dll
+"GetProxyDllInfo" ; dmintf.dll

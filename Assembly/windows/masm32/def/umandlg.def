@@ -1,0 +1,3 @@
+LIBRARY "umandlg.dll"
+EXPORTS
+"UManDlg" ; umandlg.dll

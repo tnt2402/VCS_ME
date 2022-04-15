@@ -1,0 +1,16 @@
+LIBRARY "mlang.dll"
+EXPORTS
+"ConvertINetMultiByteToUnicode" ; mlang.dll
+"ConvertINetReset" ; mlang.dll
+"ConvertINetString" ; mlang.dll
+"ConvertINetUnicodeToMultiByte" ; mlang.dll
+"DllCanUnloadNow" ; mlang.dll
+"DllGetClassObject" ; mlang.dll
+"DllRegisterServer" ; mlang.dll
+"DllUnregisterServer" ; mlang.dll
+"GetGlobalFontLinkObject" ; mlang.dll
+"IsConvertINetStringAvailable" ; mlang.dll
+"LcidToRfc1766A" ; mlang.dll
+"LcidToRfc1766W" ; mlang.dll
+"Rfc1766ToLcidA" ; mlang.dll
+"Rfc1766ToLcidW" ; mlang.dll

@@ -1,0 +1,24 @@
+LIBRARY "url.dll"
+EXPORTS
+"AddMIMEFileTypesPS" ; url.dll
+"AutodialHookCallback" ; url.dll
+"DllCanUnloadNow" ; url.dll
+"DllGetClassObject" ; url.dll
+"FileProtocolHandler" ; url.dll
+"FileProtocolHandlerA" ; url.dll
+"InetIsOffline" ; url.dll
+"MIMEAssociationDialogA" ; url.dll
+"MIMEAssociationDialogW" ; url.dll
+"MailToProtocolHandler" ; url.dll
+"MailToProtocolHandlerA" ; url.dll
+"NewsProtocolHandler" ; url.dll
+"NewsProtocolHandlerA" ; url.dll
+"OpenURL" ; url.dll
+"OpenURLA" ; url.dll
+"TelnetProtocolHandler" ; url.dll
+"TelnetProtocolHandlerA" ; url.dll
+"TranslateURLA" ; url.dll
+"TranslateURLW" ; url.dll
+"URLAssociationDialogA" ; url.dll
+"URLAssociationDialogW" ; url.dll
+"url_ordinal101" @101 ; url.dll

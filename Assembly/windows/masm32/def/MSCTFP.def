@@ -1,0 +1,7 @@
+LIBRARY "MSCTFP.dll"
+EXPORTS
+"DllCanUnloadNow" ; MSCTFP.dll
+"DllGetClassObject" ; MSCTFP.dll
+"DllRegisterServer" ; MSCTFP.dll
+"DllUnregisterServer" ; MSCTFP.dll
+"GetProxyDllInfo" ; MSCTFP.dll

@@ -1,0 +1,7 @@
+LIBRARY "dpnet.dll"
+EXPORTS
+"DirectPlay8Create" ; dpnet.dll
+"DllCanUnloadNow" ; dpnet.dll
+"DllGetClassObject" ; dpnet.dll
+"DllRegisterServer" ; dpnet.dll
+"DllUnregisterServer" ; dpnet.dll

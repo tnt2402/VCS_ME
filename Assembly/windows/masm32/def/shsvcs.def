@@ -1,0 +1,16 @@
+LIBRARY "shsvcs.dll"
+EXPORTS
+"CreateHardwareEventMoniker" ; shsvcs.dll
+"DllCanUnloadNow" ; shsvcs.dll
+"DllGetClassObject" ; shsvcs.dll
+"DllInstall" ; shsvcs.dll
+"DllRegisterServer" ; shsvcs.dll
+"DllUnregisterServer" ; shsvcs.dll
+"HardwareDetectionServiceMain" ; shsvcs.dll
+"ThemeServiceMain" ; shsvcs.dll
+"shsvcs_ordinal1" @1 ; shsvcs.dll
+"shsvcs_ordinal2" @2 ; shsvcs.dll
+"shsvcs_ordinal3" @3 ; shsvcs.dll
+"shsvcs_ordinal4" @4 ; shsvcs.dll
+"shsvcs_ordinal5" @5 ; shsvcs.dll
+"shsvcs_ordinal6" @6 ; shsvcs.dll

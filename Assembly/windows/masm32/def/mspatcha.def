@@ -1,0 +1,14 @@
+LIBRARY "mspatcha.dll"
+EXPORTS
+"ApplyPatchToFileA" ; mspatcha.dll
+"ApplyPatchToFileByHandles" ; mspatcha.dll
+"ApplyPatchToFileByHandlesEx" ; mspatcha.dll
+"ApplyPatchToFileExA" ; mspatcha.dll
+"ApplyPatchToFileExW" ; mspatcha.dll
+"ApplyPatchToFileW" ; mspatcha.dll
+"GetFilePatchSignatureA" ; mspatcha.dll
+"GetFilePatchSignatureByHandle" ; mspatcha.dll
+"GetFilePatchSignatureW" ; mspatcha.dll
+"TestApplyPatchToFileA" ; mspatcha.dll
+"TestApplyPatchToFileByHandles" ; mspatcha.dll
+"TestApplyPatchToFileW" ; mspatcha.dll

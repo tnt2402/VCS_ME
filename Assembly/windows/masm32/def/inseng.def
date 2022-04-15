@@ -1,0 +1,14 @@
+LIBRARY "inseng.dll"
+EXPORTS
+"CheckForVersionConflict" ; inseng.dll
+"CheckTrust" ; inseng.dll
+"CheckTrustEx" ; inseng.dll
+"DllCanUnloadNow" ; inseng.dll
+"DllGetClassObject" ; inseng.dll
+"DllInstall" ; inseng.dll
+"DllRegisterServer" ; inseng.dll
+"DllUnregisterServer" ; inseng.dll
+"DownloadFile" ; inseng.dll
+"GetICifFileFromFile" ; inseng.dll
+"GetICifRWFileFromFile" ; inseng.dll
+"PurgeDownloadDirectory" ; inseng.dll

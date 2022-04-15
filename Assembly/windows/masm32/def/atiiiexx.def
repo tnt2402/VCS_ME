@@ -1,0 +1,5 @@
+LIBRARY "atiiiexx.dll"
+EXPORTS
+"InfEngInstallINFFile" ; atiiiexx.dll
+"InfEngUnInstallINFFile" ; atiiiexx.dll
+"InfEngUnInstallINFFile_RunDLL" ; atiiiexx.dll

@@ -1,0 +1,3 @@
+LIBRARY "kbdusl.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdusl.dll

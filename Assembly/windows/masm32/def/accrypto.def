@@ -1,0 +1,26 @@
+LIBRARY "accrypto.dll"
+EXPORTS
+"??0CDecryptedData@@QEAA@KAEBV?$basic_string@EU?$char_traits@E@std@@V?$allocator@E@2@@std@@@Z" ; accrypto.dll
+"??0CEncryptedData@@QEAA@KAEBV?$basic_string@EU?$char_traits@E@std@@V?$allocator@E@2@@std@@@Z" ; accrypto.dll
+"??1CDecryptedData@@QEAA@XZ" ; accrypto.dll
+"??1CEncryptedData@@QEAA@XZ" ; accrypto.dll
+"?Decrypt@CEncryptedData@@QEAAHAEAV?$basic_string@EU?$char_traits@E@std@@V?$allocator@E@2@@std@@@Z" ; accrypto.dll
+"?Encrypt@CDecryptedData@@QEAAHAEAV?$basic_string@EU?$char_traits@E@std@@V?$allocator@E@2@@std@@@Z" ; accrypto.dll
+"ACCAPENCDecryptFile" ; accrypto.dll
+"ACCAPENCEncryptFile" ; accrypto.dll
+"PKCS5_PBES2_SHA256_AES256CBC_Decrypt" ; accrypto.dll
+"PKCS5_PBES2_SHA256_AES256CBC_Encrypt" ; accrypto.dll
+"PKCS5_PBKDF2_HMAC_SHA256" ; accrypto.dll
+"acGetEKUFromCertificate" ; accrypto.dll
+"acGetMaximumEncryptedSize" ; accrypto.dll
+"acIsCertOKForPKILogon" ; accrypto.dll
+"acProfileAddRuntimeParameter" ; accrypto.dll
+"acProfileCheckSignature" ; accrypto.dll
+"acProfileClose" ; accrypto.dll
+"acProfileExportFromHandle" ; accrypto.dll
+"acProfileFreeString" ; accrypto.dll
+"acProfileGetAttribute" ; accrypto.dll
+"acProfileGetAttributeValue" ; accrypto.dll
+"acProfileIsSectionExists" ; accrypto.dll
+"acProfileLoadFile" ; accrypto.dll
+"acProfileOpen" ; accrypto.dll

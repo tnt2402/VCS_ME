@@ -1,0 +1,10 @@
+LIBRARY "streamci.dll"
+EXPORTS
+"StreamingDeviceClassInstaller" ; streamci.dll
+"StreamingDeviceRemove" ; streamci.dll
+"StreamingDeviceRemoveA" ; streamci.dll
+"StreamingDeviceRemoveW" ; streamci.dll
+"StreamingDeviceSetup" ; streamci.dll
+"StreamingDeviceSetupA" ; streamci.dll
+"StreamingDeviceSetupW" ; streamci.dll
+"SwEnumCoInstaller" ; streamci.dll

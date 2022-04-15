@@ -1,0 +1,4 @@
+LIBRARY "hticons.dll"
+EXPORTS
+"DllCanUnloadNow" ; hticons.dll
+"DllGetClassObject" ; hticons.dll

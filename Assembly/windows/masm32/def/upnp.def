@@ -1,0 +1,8 @@
+LIBRARY "upnp.dll"
+EXPORTS
+"DllCanUnloadNow" ; upnp.dll
+"DllGetClassObject" ; upnp.dll
+"DllRegisterServer" ; upnp.dll
+"DllUnregisterServer" ; upnp.dll
+"HrRehydratorCreateServiceObject" ; upnp.dll
+"HrRehydratorInvokeServiceAction" ; upnp.dll

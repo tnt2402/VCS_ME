@@ -1,0 +1,6 @@
+LIBRARY "remotepg.dll"
+EXPORTS
+"DllCanUnloadNow" ; remotepg.dll
+"DllGetClassObject" ; remotepg.dll
+"DllRegisterServer" ; remotepg.dll
+"DllUnregisterServer" ; remotepg.dll

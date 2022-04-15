@@ -1,0 +1,5 @@
+LIBRARY "midimap.dll"
+EXPORTS
+"DriverProc" ; midimap.dll
+"modMessage" ; midimap.dll
+"modmCallback" ; midimap.dll

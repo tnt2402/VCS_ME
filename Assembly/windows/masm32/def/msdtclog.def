@@ -1,0 +1,8 @@
+LIBRARY "msdtclog.dll"
+EXPORTS
+"?CreateInstance@CLogMgr@@SAJPEAPEAV1@PEAUIUnknown@@@Z" ; msdtclog.dll
+"?DllGetDTCLOG@@YAHAEBU_GUID@@0PEAPEAX@Z" ; msdtclog.dll
+"DllGetClassObject" ; msdtclog.dll
+"DllGetDTCLOG2" ; msdtclog.dll
+"DllRegisterServer" ; msdtclog.dll
+"DllUnregisterServer" ; msdtclog.dll

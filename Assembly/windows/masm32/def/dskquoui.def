@@ -1,0 +1,6 @@
+LIBRARY "dskquoui.dll"
+EXPORTS
+"DllCanUnloadNow" ; dskquoui.dll
+"DllGetClassObject" ; dskquoui.dll
+"DllRegisterServer" ; dskquoui.dll
+"DllUnregisterServer" ; dskquoui.dll

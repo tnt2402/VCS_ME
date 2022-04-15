@@ -1,0 +1,15 @@
+LIBRARY "hotplug.dll"
+EXPORTS
+"CPlApplet" ; hotplug.dll
+"DllCanUnloadNow" ; hotplug.dll
+"DllGetClassObject" ; hotplug.dll
+"DllRegisterServer" ; hotplug.dll
+"DllUnregisterServer" ; hotplug.dll
+"HotPlugChildWithInvalidIdW" ; hotplug.dll
+"HotPlugDriverBlockedW" ; hotplug.dll
+"HotPlugEjectVetoedW" ; hotplug.dll
+"HotPlugHibernateVetoedW" ; hotplug.dll
+"HotPlugRemovalVetoedW" ; hotplug.dll
+"HotPlugSafeRemovalNotificationW" ; hotplug.dll
+"HotPlugStandbyVetoedW" ; hotplug.dll
+"HotPlugWarmEjectVetoedW" ; hotplug.dll

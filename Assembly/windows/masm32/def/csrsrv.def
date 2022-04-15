@@ -1,0 +1,37 @@
+LIBRARY "csrsrv.dll"
+EXPORTS
+"CsrAddStaticServerThread" ; csrsrv.dll
+"CsrCallServerFromServer" ; csrsrv.dll
+"CsrConnectToUser" ; csrsrv.dll
+"CsrCreateProcess" ; csrsrv.dll
+"CsrCreateRemoteThread" ; csrsrv.dll
+"CsrCreateThread" ; csrsrv.dll
+"CsrCreateWait" ; csrsrv.dll
+"CsrDebugProcess" ; csrsrv.dll
+"CsrDebugProcessStop" ; csrsrv.dll
+"CsrDereferenceProcess" ; csrsrv.dll
+"CsrDereferenceThread" ; csrsrv.dll
+"CsrDereferenceWait" ; csrsrv.dll
+"CsrDestroyProcess" ; csrsrv.dll
+"CsrDestroyThread" ; csrsrv.dll
+"CsrExecServerThread" ; csrsrv.dll
+"CsrGetProcessLuid" ; csrsrv.dll
+"CsrImpersonateClient" ; csrsrv.dll
+"CsrLockProcessByClientId" ; csrsrv.dll
+"CsrLockThreadByClientId" ; csrsrv.dll
+"CsrMoveSatisfiedWait" ; csrsrv.dll
+"CsrNotifyWait" ; csrsrv.dll
+"CsrPopulateDosDevices" ; csrsrv.dll
+"CsrQueryApiPort" ; csrsrv.dll
+"CsrReferenceThread" ; csrsrv.dll
+"CsrRevertToSelf" ; csrsrv.dll
+"CsrServerInitialization" ; csrsrv.dll
+"CsrSetBackgroundPriority" ; csrsrv.dll
+"CsrSetCallingSpooler" ; csrsrv.dll
+"CsrSetForegroundPriority" ; csrsrv.dll
+"CsrShutdownProcesses" ; csrsrv.dll
+"CsrUnhandledExceptionFilter" ; csrsrv.dll
+"CsrUnlockProcess" ; csrsrv.dll
+"CsrUnlockThread" ; csrsrv.dll
+"CsrValidateMessageBuffer" ; csrsrv.dll
+"CsrValidateMessageString" ; csrsrv.dll

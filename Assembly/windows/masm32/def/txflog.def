@@ -1,0 +1,5 @@
+LIBRARY "txflog.dll"
+EXPORTS
+"DllGetClassObject" ; txflog.dll
+"DllRegisterServer" ; txflog.dll
+"DllUnregisterServer" ; txflog.dll

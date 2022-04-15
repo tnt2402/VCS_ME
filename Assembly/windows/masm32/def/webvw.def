@@ -1,0 +1,7 @@
+LIBRARY "webvw.dll"
+EXPORTS
+"DllCanUnloadNow" ; webvw.dll
+"DllGetClassObject" ; webvw.dll
+"DllInstall" ; webvw.dll
+"DllRegisterServer" ; webvw.dll
+"DllUnregisterServer" ; webvw.dll

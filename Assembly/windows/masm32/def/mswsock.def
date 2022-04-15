@@ -1,0 +1,34 @@
+LIBRARY "mswsock.dll"
+EXPORTS
+"AcceptEx" ; mswsock.dll
+"EnumProtocolsA" ; mswsock.dll
+"EnumProtocolsW" ; mswsock.dll
+"GetAcceptExSockaddrs" ; mswsock.dll
+"GetAddressByNameA" ; mswsock.dll
+"GetAddressByNameW" ; mswsock.dll
+"GetNameByTypeA" ; mswsock.dll
+"GetNameByTypeW" ; mswsock.dll
+"GetServiceA" ; mswsock.dll
+"GetServiceW" ; mswsock.dll
+"GetTypeByNameA" ; mswsock.dll
+"GetTypeByNameW" ; mswsock.dll
+"MigrateWinsockConfiguration" ; mswsock.dll
+"NPLoadNameSpaces" ; mswsock.dll
+"NSPStartup" ; mswsock.dll
+"ServiceMain" ; mswsock.dll
+"SetServiceA" ; mswsock.dll
+"SetServiceW" ; mswsock.dll
+"StartWsdpService" ; mswsock.dll
+"StopWsdpService" ; mswsock.dll
+"SvchostPushServiceGlobals" ; mswsock.dll
+"TransmitFile" ; mswsock.dll
+"WSARecvEx" ; mswsock.dll
+"WSPStartup" ; mswsock.dll
+"dn_expand" ; mswsock.dll
+"getnetbyname" ; mswsock.dll
+"inet_network" ; mswsock.dll
+"rcmd" ; mswsock.dll
+"rexec" ; mswsock.dll
+"rresvport" ; mswsock.dll
+"s_perror" ; mswsock.dll
+"sethostname" ; mswsock.dll

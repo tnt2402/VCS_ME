@@ -1,0 +1,18 @@
+LIBRARY "WshRm.dll"
+EXPORTS
+"WSHAddressToString" ; WshRm.dll
+"WSHEnumProtocols" ; WshRm.dll
+"WSHGetBroadcastSockaddr" ; WshRm.dll
+"WSHGetProviderGuid" ; WshRm.dll
+"WSHGetSockaddrType" ; WshRm.dll
+"WSHGetSocketInformation" ; WshRm.dll
+"WSHGetWSAProtocolInfo" ; WshRm.dll
+"WSHGetWildcardSockaddr" ; WshRm.dll
+"WSHGetWinsockMapping" ; WshRm.dll
+"WSHIoctl" ; WshRm.dll
+"WSHJoinLeaf" ; WshRm.dll
+"WSHNotify" ; WshRm.dll
+"WSHOpenSocket" ; WshRm.dll
+"WSHOpenSocket2" ; WshRm.dll
+"WSHSetSocketInformation" ; WshRm.dll
+"WSHStringToAddress" ; WshRm.dll

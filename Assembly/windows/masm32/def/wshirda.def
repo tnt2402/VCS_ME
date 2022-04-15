@@ -1,0 +1,13 @@
+LIBRARY "wshirda.dll"
+EXPORTS
+"WSHEnumProtocols" ; wshirda.dll
+"WSHGetProviderGuid" ; wshirda.dll
+"WSHGetSockaddrType" ; wshirda.dll
+"WSHGetSocketInformation" ; wshirda.dll
+"WSHGetWSAProtocolInfo" ; wshirda.dll
+"WSHGetWildcardSockaddr" ; wshirda.dll
+"WSHGetWinsockMapping" ; wshirda.dll
+"WSHIoctl" ; wshirda.dll
+"WSHNotify" ; wshirda.dll
+"WSHOpenSocket" ; wshirda.dll
+"WSHSetSocketInformation" ; wshirda.dll

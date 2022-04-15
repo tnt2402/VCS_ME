@@ -1,0 +1,3 @@
+LIBRARY "mprmsg.dll"
+EXPORTS
+"GetEventIds" ; mprmsg.dll

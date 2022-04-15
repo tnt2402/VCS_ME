@@ -1,0 +1,16 @@
+LIBRARY "raschap.dll"
+EXPORTS
+"DllCanUnloadNow" ; raschap.dll
+"DllGetClassObject" ; raschap.dll
+"DllRegisterServer" ; raschap.dll
+"DllUnregisterServer" ; raschap.dll
+"RasCpEnumProtocolIds" ; raschap.dll
+"RasCpGetInfo" ; raschap.dll
+"RasEapCreateConnectionProperties" ; raschap.dll
+"RasEapCreateUserProperties" ; raschap.dll
+"RasEapFreeMemory" ; raschap.dll
+"RasEapGetCredentials" ; raschap.dll
+"RasEapGetIdentity" ; raschap.dll
+"RasEapGetInfo" ; raschap.dll
+"RasEapInvokeConfigUI" ; raschap.dll
+"RasEapInvokeInteractiveUI" ; raschap.dll

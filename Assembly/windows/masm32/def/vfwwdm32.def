@@ -1,0 +1,5 @@
+LIBRARY "vfwwdm32.dll"
+EXPORTS
+"DllMain" ; vfwwdm32.dll
+"DriverProc" ; vfwwdm32.dll
+"VfwWdm" ; vfwwdm32.dll

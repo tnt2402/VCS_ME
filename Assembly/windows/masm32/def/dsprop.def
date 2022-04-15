@@ -1,0 +1,25 @@
+LIBRARY "dsprop.dll"
+EXPORTS
+"ADsPropCheckIfWritable" ; dsprop.dll
+"ADsPropCreateNotifyObj" ; dsprop.dll
+"ADsPropGetInitInfo" ; dsprop.dll
+"ADsPropSendErrorMessage" ; dsprop.dll
+"ADsPropSetHwnd" ; dsprop.dll
+"ADsPropSetHwndWithTitle" ; dsprop.dll
+"ADsPropShowErrorDialog" ; dsprop.dll
+"BringSheetToForeground" ; dsprop.dll
+"CheckADsError" ; dsprop.dll
+"CrackName" ; dsprop.dll
+"DSPROP_GetGCSearchOnDomain" ; dsprop.dll
+"DllCanUnloadNow" ; dsprop.dll
+"DllGetClassObject" ; dsprop.dll
+"DllRegisterServer" ; dsprop.dll
+"DllUnregisterServer" ; dsprop.dll
+"ErrMsg" ; dsprop.dll
+"ErrMsgParam" ; dsprop.dll
+"FindSheet" ; dsprop.dll
+"IsSheetAlreadyUp" ; dsprop.dll
+"MsgBox" ; dsprop.dll
+"PostADsPropSheet" ; dsprop.dll
+"ReportError" ; dsprop.dll
+"Smart_PADS_ATTR_INFO__Empty" ; dsprop.dll

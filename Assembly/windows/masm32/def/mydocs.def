@@ -1,0 +1,8 @@
+LIBRARY "mydocs.dll"
+EXPORTS
+"DllCanUnloadNow" ; mydocs.dll
+"DllGetClassObject" ; mydocs.dll
+"DllInstall" ; mydocs.dll
+"DllRegisterServer" ; mydocs.dll
+"DllUnregisterServer" ; mydocs.dll
+"PerUserInit" ; mydocs.dll

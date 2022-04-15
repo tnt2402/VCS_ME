@@ -1,0 +1,17 @@
+LIBRARY "winntbbu.dll"
+EXPORTS
+"BB_Refresh" ; winntbbu.dll
+"GetBBHwnd" ; winntbbu.dll
+"GetBBMainHwnd" ; winntbbu.dll
+"GetPanelCount" ; winntbbu.dll
+"InitBillBoard" ; winntbbu.dll
+"ProgressGaugeMsg" ; winntbbu.dll
+"SetInfoText" ; winntbbu.dll
+"SetProgress" ; winntbbu.dll
+"SetProgressText" ; winntbbu.dll
+"SetStep" ; winntbbu.dll
+"SetTimeEstimate" ; winntbbu.dll
+"ShowProgressGaugeWindow" ; winntbbu.dll
+"StartBillBoard" ; winntbbu.dll
+"StopBillBoard" ; winntbbu.dll
+"TermBillBoard" ; winntbbu.dll

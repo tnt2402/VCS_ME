@@ -1,0 +1,26 @@
+LIBRARY "softpub.dll"
+EXPORTS
+"AddPersonalTrustDBPages" ; softpub.dll
+"DllRegisterServer" ; softpub.dll
+"DllUnregisterServer" ; softpub.dll
+"DriverCleanupPolicy" ; softpub.dll
+"DriverFinalPolicy" ; softpub.dll
+"DriverInitializePolicy" ; softpub.dll
+"FindCertsByIssuer" ; softpub.dll
+"GenericChainCertificateTrust" ; softpub.dll
+"GenericChainFinalProv" ; softpub.dll
+"HTTPSCertificateTrust" ; softpub.dll
+"HTTPSFinalProv" ; softpub.dll
+"OfficeCleanupPolicy" ; softpub.dll
+"OfficeInitializePolicy" ; softpub.dll
+"OpenPersonalTrustDBDialog" ; softpub.dll
+"SoftpubAuthenticode" ; softpub.dll
+"SoftpubCheckCert" ; softpub.dll
+"SoftpubCleanup" ; softpub.dll
+"SoftpubDefCertInit" ; softpub.dll
+"SoftpubDumpStructure" ; softpub.dll
+"SoftpubFreeDefUsageCallData" ; softpub.dll
+"SoftpubInitialize" ; softpub.dll
+"SoftpubLoadDefUsageCallData" ; softpub.dll
+"SoftpubLoadMessage" ; softpub.dll
+"SoftpubLoadSignature" ; softpub.dll

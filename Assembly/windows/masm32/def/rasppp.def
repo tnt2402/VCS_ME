@@ -1,0 +1,29 @@
+LIBRARY "rasppp.dll"
+EXPORTS
+"HelperResetDefaultInterfaceNet" ; rasppp.dll
+"HelperResetDefaultInterfaceNetEx" ; rasppp.dll
+"HelperSetDefaultInterfaceNet" ; rasppp.dll
+"HelperSetDefaultInterfaceNetEx" ; rasppp.dll
+"IpxCpInit" ; rasppp.dll
+"IpxcpBind" ; rasppp.dll
+"PppDdmBapCallbackResult" ; rasppp.dll
+"PppDdmCallbackDone" ; rasppp.dll
+"PppDdmChangeNotification" ; rasppp.dll
+"PppDdmDeInit" ; rasppp.dll
+"PppDdmInit" ; rasppp.dll
+"PppDdmRemoveQuarantine" ; rasppp.dll
+"PppDdmSendInterfaceInfo" ; rasppp.dll
+"PppDdmStart" ; rasppp.dll
+"PppDdmStop" ; rasppp.dll
+"PppStop" ; rasppp.dll
+"RasCpEnumProtocolIds" ; rasppp.dll
+"RasCpGetInfo" ; rasppp.dll
+"RasSrvrAcquireAddress" ; rasppp.dll
+"RasSrvrActivateIp" ; rasppp.dll
+"RasSrvrInitialize" ; rasppp.dll
+"RasSrvrQueryServerAddresses" ; rasppp.dll
+"RasSrvrReleaseAddress" ; rasppp.dll
+"RasSrvrUninitialize" ; rasppp.dll
+"SendPPPMessageToEngine" ; rasppp.dll
+"StartPPP" ; rasppp.dll
+"StopPPP" ; rasppp.dll

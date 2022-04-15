@@ -1,0 +1,19 @@
+LIBRARY "sfc.dll"
+EXPORTS
+"SRSetRestorePoint" ; sfc.dll
+"SRSetRestorePointA" ; sfc.dll
+"SRSetRestorePointW" ; sfc.dll
+"SfcGetNextProtectedFile" ; sfc.dll
+"SfcIsFileProtected" ; sfc.dll
+"SfcWLEventLogoff" ; sfc.dll
+"SfcWLEventLogon" ; sfc.dll
+"SfpVerifyFile" ; sfc.dll
+"sfc_ordinal1" @1 ; sfc.dll
+"sfc_ordinal2" @2 ; sfc.dll
+"sfc_ordinal3" @3 ; sfc.dll
+"sfc_ordinal4" @4 ; sfc.dll
+"sfc_ordinal5" @5 ; sfc.dll
+"sfc_ordinal6" @6 ; sfc.dll
+"sfc_ordinal7" @7 ; sfc.dll
+"sfc_ordinal8" @8 ; sfc.dll
+"sfc_ordinal9" @9 ; sfc.dll

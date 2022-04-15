@@ -1,0 +1,10 @@
+LIBRARY "keymgr.dll"
+EXPORTS
+"CPlApplet" ; keymgr.dll
+"DllMain" ; keymgr.dll
+"KRShowKeyMgr" ; keymgr.dll
+"PRShowRestoreFromMsginaW" ; keymgr.dll
+"PRShowRestoreWizardExW" ; keymgr.dll
+"PRShowRestoreWizardW" ; keymgr.dll
+"PRShowSaveFromMsginaW" ; keymgr.dll
+"PRShowSaveWizardExW" ; keymgr.dll

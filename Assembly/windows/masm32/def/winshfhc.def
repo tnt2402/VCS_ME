@@ -1,0 +1,3 @@
+LIBRARY "winshfhc.dll"
+EXPORTS
+"winshfhc_ordinal101" @101 ; winshfhc.dll

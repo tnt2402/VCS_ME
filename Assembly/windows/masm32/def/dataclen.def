@@ -1,0 +1,6 @@
+LIBRARY "dataclen.dll"
+EXPORTS
+"DllCanUnloadNow" ; dataclen.dll
+"DllGetClassObject" ; dataclen.dll
+"DllRegisterServer" ; dataclen.dll
+"DllUnregisterServer" ; dataclen.dll

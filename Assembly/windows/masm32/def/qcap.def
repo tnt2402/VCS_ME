@@ -1,0 +1,6 @@
+LIBRARY "qcap.dll"
+EXPORTS
+"DllCanUnloadNow" ; qcap.dll
+"DllGetClassObject" ; qcap.dll
+"DllRegisterServer" ; qcap.dll
+"DllUnregisterServer" ; qcap.dll

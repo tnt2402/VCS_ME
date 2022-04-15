@@ -1,0 +1,7 @@
+LIBRARY "acpicom.dll"
+EXPORTS
+"acPipeInterpreterCall" ; acpicom.dll
+"acPipeInterpreterCallEx" ; acpicom.dll
+"acPipeInterpreterEnd" ; acpicom.dll
+"acPipeInterpreterGetVersion" ; acpicom.dll
+"acPipeInterpreterInit" ; acpicom.dll

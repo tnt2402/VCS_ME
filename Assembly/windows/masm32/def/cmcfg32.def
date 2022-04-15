@@ -1,0 +1,5 @@
+LIBRARY "cmcfg32.dll"
+EXPORTS
+"CMConfig" ; cmcfg32.dll
+"CMConfigEx" ; cmcfg32.dll
+"CmstpExtensionProc" ; cmcfg32.dll

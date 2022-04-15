@@ -1,0 +1,5 @@
+LIBRARY "nshipsec.dll"
+EXPORTS
+"GetIpsecLastError" ; nshipsec.dll
+"GetResourceString" ; nshipsec.dll
+"InitHelperDll" ; nshipsec.dll

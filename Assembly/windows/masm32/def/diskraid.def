@@ -1,0 +1,5 @@
+LIBRARY "diskraid.exe"
+EXPORTS
+"??0CDrCallTracer@@QEAA@KQEBD0PEBJ@Z" ; diskraid.exe
+"??1CDrCallTracer@@QEAA@XZ" ; diskraid.exe
+"?LogMessage@CDrCallTracer@@QEAAXKPEADZZ" ; diskraid.exe

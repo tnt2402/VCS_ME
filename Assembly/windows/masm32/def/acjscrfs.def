@@ -1,0 +1,4 @@
+LIBRARY "acjscrfs.dll"
+EXPORTS
+"ASPCARDCacheEnd" ; acjscrfs.dll
+"ASPCARDCardEdgeIdentifier" ; acjscrfs.dll

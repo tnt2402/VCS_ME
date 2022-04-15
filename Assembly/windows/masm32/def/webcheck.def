@@ -1,0 +1,10 @@
+LIBRARY "webcheck.dll"
+EXPORTS
+"DllCanUnloadNow" ; webcheck.dll
+"DllGetClassObject" ; webcheck.dll
+"DllInstall" ; webcheck.dll
+"DllRegisterServer" ; webcheck.dll
+"DllUnregisterServer" ; webcheck.dll
+"XMLScheduleElementToTaskTrigger" ; webcheck.dll
+"webcheck_ordinal7" @7 ; webcheck.dll
+"webcheck_ordinal8" @8 ; webcheck.dll

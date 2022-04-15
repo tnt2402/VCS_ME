@@ -1,0 +1,6 @@
+LIBRARY "sendcmsg.dll"
+EXPORTS
+"DllCanUnloadNow" ; sendcmsg.dll
+"DllGetClassObject" ; sendcmsg.dll
+"DllRegisterServer" ; sendcmsg.dll
+"DllUnregisterServer" ; sendcmsg.dll

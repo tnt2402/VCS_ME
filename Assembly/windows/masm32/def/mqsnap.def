@@ -1,0 +1,6 @@
+LIBRARY "mqsnap.dll"
+EXPORTS
+"DllCanUnloadNow" ; mqsnap.dll
+"DllGetClassObject" ; mqsnap.dll
+"DllRegisterServer" ; mqsnap.dll
+"DllUnregisterServer" ; mqsnap.dll

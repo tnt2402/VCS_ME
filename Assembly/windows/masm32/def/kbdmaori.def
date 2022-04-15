@@ -1,0 +1,3 @@
+LIBRARY "kbdmaori.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdmaori.dll

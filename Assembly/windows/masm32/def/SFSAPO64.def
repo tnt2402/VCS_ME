@@ -1,0 +1,6 @@
+LIBRARY "SFSAPO64.dll"
+EXPORTS
+"DllCanUnloadNow" ; SFSAPO64.dll
+"DllGetClassObject" ; SFSAPO64.dll
+"DllRegisterServer" ; SFSAPO64.dll
+"DllUnregisterServer" ; SFSAPO64.dll

@@ -1,0 +1,16 @@
+LIBRARY "acevtsub.dll"
+EXPORTS
+"??0ACDelegateSubscriber@@QEAA@AEBV0@@Z" ; acevtsub.dll
+"??0ACDelegateSubscriber@@QEAA@XZ" ; acevtsub.dll
+"??1ACDelegateSubscriber@@UEAA@XZ" ; acevtsub.dll
+"??4ACDelegateSubscriber@@QEAAAEAV0@AEBV0@@Z" ; acevtsub.dll
+"??_7ACDelegateSubscriber@@6B@" ; acevtsub.dll
+"?GetEvent@ACDelegateSubscriber@@QEAAHXZ" ; acevtsub.dll
+"?GetEventHandle@ACDelegateSubscriber@@QEAAPEAXXZ" ; acevtsub.dll
+"?GetEventTable@ACDelegateSubscriber@@QEAAPEAPEAXXZ" ; acevtsub.dll
+"?Subscribe@ACDelegateSubscriber@@IEAAHH@Z" ; acevtsub.dll
+"?UnSubscribe@ACDelegateSubscriber@@IEAAHXZ" ; acevtsub.dll
+"DllCanUnloadNow" ; acevtsub.dll
+"DllGetClassObject" ; acevtsub.dll
+"DllRegisterServer" ; acevtsub.dll
+"DllUnregisterServer" ; acevtsub.dll

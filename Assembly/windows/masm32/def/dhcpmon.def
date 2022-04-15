@@ -1,0 +1,3 @@
+LIBRARY "dhcpmon.dll"
+EXPORTS
+"InitHelperDll" ; dhcpmon.dll

@@ -1,0 +1,31 @@
+LIBRARY "tsappcmp.dll"
+EXPORTS
+"GetTermsrCompatFlags" ; tsappcmp.dll
+"GetTermsrCompatFlagsEx" ; tsappcmp.dll
+"TermServPrepareAppInstallDueMSI" ; tsappcmp.dll
+"TermServProcessAppInstallDueMSI" ; tsappcmp.dll
+"TermsrvAdjustPhyMemLimits" ; tsappcmp.dll
+"TermsrvBuildIniFileName" ; tsappcmp.dll
+"TermsrvBuildSysIniPath" ; tsappcmp.dll
+"TermsrvCORIniFile" ; tsappcmp.dll
+"TermsrvCheckNewIniFiles" ; tsappcmp.dll
+"TermsrvConvertSysRootToUserDir" ; tsappcmp.dll
+"TermsrvCopyIniFile" ; tsappcmp.dll
+"TermsrvCreateRegEntry" ; tsappcmp.dll
+"TermsrvDeleteKey" ; tsappcmp.dll
+"TermsrvDeleteValue" ; tsappcmp.dll
+"TermsrvFormatObjectName" ; tsappcmp.dll
+"TermsrvGetComputerName" ; tsappcmp.dll
+"TermsrvGetPreSetValue" ; tsappcmp.dll
+"TermsrvGetString" ; tsappcmp.dll
+"TermsrvGetWindowsDirectoryA" ; tsappcmp.dll
+"TermsrvGetWindowsDirectoryW" ; tsappcmp.dll
+"TermsrvLogInstallIniFile" ; tsappcmp.dll
+"TermsrvLogInstallIniFileEx" ; tsappcmp.dll
+"TermsrvOpenRegEntry" ; tsappcmp.dll
+"TermsrvOpenUserClasses" ; tsappcmp.dll
+"TermsrvRemoveClassesKey" ; tsappcmp.dll
+"TermsrvRestoreKey" ; tsappcmp.dll
+"TermsrvSetKeySecurity" ; tsappcmp.dll
+"TermsrvSetValueKey" ; tsappcmp.dll
+"TermsrvUpdateAllUserMenu" ; tsappcmp.dll

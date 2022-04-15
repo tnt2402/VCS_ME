@@ -1,0 +1,14 @@
+LIBRARY "loadperf.dll"
+EXPORTS
+"BackupPerfRegistryToFileW" ; loadperf.dll
+"InstallPerfDllA" ; loadperf.dll
+"InstallPerfDllW" ; loadperf.dll
+"LoadPerfCounterTextStringsA" ; loadperf.dll
+"LoadPerfCounterTextStringsW" ; loadperf.dll
+"RestorePerfRegistryFromFileW" ; loadperf.dll
+"SetServiceAsTrustedA" ; loadperf.dll
+"SetServiceAsTrustedW" ; loadperf.dll
+"UnloadPerfCounterTextStringsA" ; loadperf.dll
+"UnloadPerfCounterTextStringsW" ; loadperf.dll
+"UpdatePerfNameFilesA" ; loadperf.dll
+"UpdatePerfNameFilesW" ; loadperf.dll

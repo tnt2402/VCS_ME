@@ -1,0 +1,17 @@
+LIBRARY "ati2evxx.dll"
+EXPORTS
+"AtiDisConnectEvent" ; ati2evxx.dll
+"AtiLockEvent" ; ati2evxx.dll
+"AtiLogoffEvent" ; ati2evxx.dll
+"AtiLogonEvent" ; ati2evxx.dll
+"AtiLowLevelKeyboardProc" ; ati2evxx.dll
+"AtiReConnectEvent" ; ati2evxx.dll
+"AtiReleaseKeyboardHook" ; ati2evxx.dll
+"AtiSetKeyboardHook" ; ati2evxx.dll
+"AtiShutdownEvent" ; ati2evxx.dll
+"AtiStartScreenSaverEvent" ; ati2evxx.dll
+"AtiStartShellEvent" ; ati2evxx.dll
+"AtiStartupEvent" ; ati2evxx.dll
+"AtiStopScreenSaverEvent" ; ati2evxx.dll
+"AtiUnLockEvent" ; ati2evxx.dll
+"ChangeDesktopSetting" ; ati2evxx.dll

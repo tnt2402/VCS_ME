@@ -1,0 +1,5 @@
+LIBRARY "localsec.dll"
+EXPORTS
+"DllCanUnloadNow" ; localsec.dll
+"DllGetClassObject" ; localsec.dll
+"DllRegisterServer" ; localsec.dll

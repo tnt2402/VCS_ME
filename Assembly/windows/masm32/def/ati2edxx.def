@@ -1,0 +1,22 @@
+LIBRARY "ati2edxx.dll"
+EXPORTS
+"AtiEDUCloseAdapterHandle" ; ati2edxx.dll
+"AtiEDUEnumApiSupportedDevices" ; ati2edxx.dll
+"AtiEDUEnumSupportedExternalDevices" ; ati2edxx.dll
+"AtiEDUGetAdapterTemperatureOffset" ; ati2edxx.dll
+"AtiEDUGetExtDeviceInfo" ; ati2edxx.dll
+"AtiEDUGetThermalApiVersion" ; ati2edxx.dll
+"AtiEDUGetThermalRemoteTemperature" ; ati2edxx.dll
+"AtiEDUGetThermalRemoteTemperatureCriticalSetPoint" ; ati2edxx.dll
+"AtiEDUGetThermalRemoteTemperatureFP" ; ati2edxx.dll
+"AtiEDUGetThermalRemoteTemperatureHighSetPoint" ; ati2edxx.dll
+"AtiEDUGetThermalRemoteTemperatureLowSetPoint" ; ati2edxx.dll
+"AtiEDUGetThermalRemoteTemperatureOffset" ; ati2edxx.dll
+"AtiEDUInitializeThermal" ; ati2edxx.dll
+"AtiEDUOpenAdapterHandle" ; ati2edxx.dll
+"AtiEDUSetThermalRemoteTemperatureCriticalSetPoint" ; ati2edxx.dll
+"AtiEDUSetThermalRemoteTemperatureHighSetPoint" ; ati2edxx.dll
+"AtiEDUSetThermalRemoteTemperatureLowSetPoint" ; ati2edxx.dll
+"AtiEDUSetThermalRemoteTemperatureOffset" ; ati2edxx.dll
+"AtiEDUThermalDisableInterrupt" ; ati2edxx.dll
+"AtiEDUThermalEnableInterrupt" ; ati2edxx.dll

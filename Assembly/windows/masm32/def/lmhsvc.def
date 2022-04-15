@@ -1,0 +1,3 @@
+LIBRARY "lmhsvc.dll"
+EXPORTS
+"ServiceMain" ; lmhsvc.dll

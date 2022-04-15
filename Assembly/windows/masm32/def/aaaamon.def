@@ -1,0 +1,3 @@
+LIBRARY "aaaamon.dll"
+EXPORTS
+"InitHelperDll" ; aaaamon.dll

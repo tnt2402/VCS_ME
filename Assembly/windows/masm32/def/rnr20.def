@@ -1,0 +1,3 @@
+LIBRARY "rnr20.dll"
+EXPORTS
+"NSPStartup" ; rnr20.dll

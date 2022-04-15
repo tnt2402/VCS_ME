@@ -1,0 +1,3 @@
+LIBRARY "kbdmac.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdmac.dll

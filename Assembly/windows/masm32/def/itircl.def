@@ -1,0 +1,6 @@
+LIBRARY "itircl.dll"
+EXPORTS
+"DllCanUnloadNow" ; itircl.dll
+"DllGetClassObject" ; itircl.dll
+"DllRegisterServer" ; itircl.dll
+"DllUnregisterServer" ; itircl.dll

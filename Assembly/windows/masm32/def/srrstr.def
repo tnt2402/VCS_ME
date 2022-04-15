@@ -1,0 +1,12 @@
+LIBRARY "srrstr.dll"
+EXPORTS
+"CheckPrivilegesForRestore" ; srrstr.dll
+"DllMain" ; srrstr.dll
+"InitializeChangeNotify" ; srrstr.dll
+"InitiateRestore" ; srrstr.dll
+"InvokeDiskCleanup" ; srrstr.dll
+"IsSRFrozen" ; srrstr.dll
+"PasswordChangeNotify" ; srrstr.dll
+"PrepareRestore" ; srrstr.dll
+"ResumeRestore" ; srrstr.dll
+"SRGetCplPropPage" ; srrstr.dll

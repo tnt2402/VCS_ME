@@ -1,0 +1,24 @@
+LIBRARY "ddraw.dll"
+EXPORTS
+"AcquireDDThreadLock" ; ddraw.dll
+"CheckFullscreen" ; ddraw.dll
+"CompleteCreateSysmemSurface" ; ddraw.dll
+"D3DParseUnknownCommand" ; ddraw.dll
+"DDGetAttachedSurfaceLcl" ; ddraw.dll
+"DDInternalLock" ; ddraw.dll
+"DDInternalUnlock" ; ddraw.dll
+"DSoundHelp" ; ddraw.dll
+"DirectDrawCreate" ; ddraw.dll
+"DirectDrawCreateClipper" ; ddraw.dll
+"DirectDrawCreateEx" ; ddraw.dll
+"DirectDrawEnumerateA" ; ddraw.dll
+"DirectDrawEnumerateExA" ; ddraw.dll
+"DirectDrawEnumerateExW" ; ddraw.dll
+"DirectDrawEnumerateW" ; ddraw.dll
+"DllCanUnloadNow" ; ddraw.dll
+"DllGetClassObject" ; ddraw.dll
+"GetDDSurfaceLocal" ; ddraw.dll
+"GetOLEThunkData" ; ddraw.dll
+"GetSurfaceFromDC" ; ddraw.dll
+"RegisterSpecialCase" ; ddraw.dll
+"ReleaseDDThreadLock" ; ddraw.dll

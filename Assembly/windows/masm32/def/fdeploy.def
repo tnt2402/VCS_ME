@@ -1,0 +1,6 @@
+LIBRARY "fdeploy.dll"
+EXPORTS
+"DllRegisterServer" ; fdeploy.dll
+"DllUnregisterServer" ; fdeploy.dll
+"GenerateGroupPolicy" ; fdeploy.dll
+"ProcessGroupPolicyEx" ; fdeploy.dll

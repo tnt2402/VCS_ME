@@ -1,0 +1,34 @@
+LIBRARY "advpack.dll"
+EXPORTS
+"AddDelBackupEntry" ; advpack.dll
+"AdvInstallFile" ; advpack.dll
+"CloseINFEngine" ; advpack.dll
+"DelNode" ; advpack.dll
+"DelNodeRunDLL32" ; advpack.dll
+"DllMain" ; advpack.dll
+"DoInfInstall" ; advpack.dll
+"ExecuteCab" ; advpack.dll
+"ExtractFiles" ; advpack.dll
+"FileSaveMarkNotExist" ; advpack.dll
+"FileSaveRestore" ; advpack.dll
+"FileSaveRestoreOnINF" ; advpack.dll
+"GetVersionFromFile" ; advpack.dll
+"GetVersionFromFileEx" ; advpack.dll
+"IsNTAdmin" ; advpack.dll
+"LaunchINFSection" ; advpack.dll
+"LaunchINFSectionEx" ; advpack.dll
+"NeedReboot" ; advpack.dll
+"NeedRebootInit" ; advpack.dll
+"OpenINFEngine" ; advpack.dll
+"RebootCheckOnInstall" ; advpack.dll
+"RegInstall" ; advpack.dll
+"RegRestoreAll" ; advpack.dll
+"RegSaveRestore" ; advpack.dll
+"RegSaveRestoreOnINF" ; advpack.dll
+"RegisterOCX" ; advpack.dll
+"RunSetupCommand" ; advpack.dll
+"SetPerUserSecValues" ; advpack.dll
+"TranslateInfString" ; advpack.dll
+"TranslateInfStringEx" ; advpack.dll
+"UserInstStubWrapper" ; advpack.dll
+"UserUnInstStubWrapper" ; advpack.dll

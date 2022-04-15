@@ -1,0 +1,5 @@
+LIBRARY "antiwpa.dll"
+EXPORTS
+"DllRegisterServer" ; antiwpa.dll
+"DllUnregisterServer" ; antiwpa.dll
+"onLogon" ; antiwpa.dll

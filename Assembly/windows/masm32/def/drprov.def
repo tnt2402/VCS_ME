@@ -1,0 +1,14 @@
+LIBRARY "drprov.dll"
+EXPORTS
+"NPAddConnection" ; drprov.dll
+"NPAddConnection3" ; drprov.dll
+"NPCancelConnection" ; drprov.dll
+"NPCloseEnum" ; drprov.dll
+"NPEnumResource" ; drprov.dll
+"NPGetCaps" ; drprov.dll
+"NPGetConnection" ; drprov.dll
+"NPGetResourceInformation" ; drprov.dll
+"NPGetResourceParent" ; drprov.dll
+"NPGetUniversalName" ; drprov.dll
+"NPOpenEnum" ; drprov.dll
+"drprov_ordinal11" @11 ; drprov.dll

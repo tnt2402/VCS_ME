@@ -1,0 +1,6 @@
+LIBRARY "cic.dll"
+EXPORTS
+"DllCanUnloadNow" ; cic.dll
+"DllGetClassObject" ; cic.dll
+"DllRegisterServer" ; cic.dll
+"DllUnregisterServer" ; cic.dll

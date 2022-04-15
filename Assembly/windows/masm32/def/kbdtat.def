@@ -1,0 +1,3 @@
+LIBRARY "kbdtat.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdtat.dll

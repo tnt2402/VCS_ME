@@ -1,0 +1,18 @@
+LIBRARY "wshtcpip.dll"
+EXPORTS
+"WSHAddressToString" ; wshtcpip.dll
+"WSHEnumProtocols" ; wshtcpip.dll
+"WSHGetBroadcastSockaddr" ; wshtcpip.dll
+"WSHGetProviderGuid" ; wshtcpip.dll
+"WSHGetSockaddrType" ; wshtcpip.dll
+"WSHGetSocketInformation" ; wshtcpip.dll
+"WSHGetWSAProtocolInfo" ; wshtcpip.dll
+"WSHGetWildcardSockaddr" ; wshtcpip.dll
+"WSHGetWinsockMapping" ; wshtcpip.dll
+"WSHIoctl" ; wshtcpip.dll
+"WSHJoinLeaf" ; wshtcpip.dll
+"WSHNotify" ; wshtcpip.dll
+"WSHOpenSocket" ; wshtcpip.dll
+"WSHOpenSocket2" ; wshtcpip.dll
+"WSHSetSocketInformation" ; wshtcpip.dll
+"WSHStringToAddress" ; wshtcpip.dll

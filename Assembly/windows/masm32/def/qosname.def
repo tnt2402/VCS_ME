@@ -1,0 +1,5 @@
+LIBRARY "qosname.dll"
+EXPORTS
+"WPUGetQOSTemplate" ; qosname.dll
+"WSCInstallQOSTemplate" ; qosname.dll
+"WSCRemoveQOSTemplate" ; qosname.dll

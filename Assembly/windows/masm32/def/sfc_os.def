@@ -1,0 +1,13 @@
+LIBRARY "sfc_os.dll"
+EXPORTS
+"SfcGetNextProtectedFile" ; sfc_os.dll
+"SfcIsFileProtected" ; sfc_os.dll
+"SfcWLEventLogoff" ; sfc_os.dll
+"SfcWLEventLogon" ; sfc_os.dll
+"sfc_os_ordinal1" @1 ; sfc_os.dll
+"sfc_os_ordinal2" @2 ; sfc_os.dll
+"sfc_os_ordinal3" @3 ; sfc_os.dll
+"sfc_os_ordinal4" @4 ; sfc_os.dll
+"sfc_os_ordinal5" @5 ; sfc_os.dll
+"sfc_os_ordinal6" @6 ; sfc_os.dll
+"sfc_os_ordinal7" @7 ; sfc_os.dll

@@ -1,0 +1,10 @@
+LIBRARY "cfgbkend.dll"
+EXPORTS
+"CLSID_CfgComp" ; cfgbkend.dll
+"DllCanUnloadNow" ; cfgbkend.dll
+"DllGetClassObject" ; cfgbkend.dll
+"DllRegisterServer" ; cfgbkend.dll
+"DllUnregisterServer" ; cfgbkend.dll
+"IID_ICfgComp" ; cfgbkend.dll
+"IID_ISettingsComp" ; cfgbkend.dll
+"IID_ISettingsComp2" ; cfgbkend.dll

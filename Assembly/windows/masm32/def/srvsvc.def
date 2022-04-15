@@ -1,0 +1,4 @@
+LIBRARY "srvsvc.dll"
+EXPORTS
+"ServiceMain" ; srvsvc.dll
+"SvchostPushServiceGlobals" ; srvsvc.dll

@@ -1,0 +1,6 @@
+LIBRARY "safrdm.dll"
+EXPORTS
+"DllCanUnloadNow" ; safrdm.dll
+"DllGetClassObject" ; safrdm.dll
+"DllRegisterServer" ; safrdm.dll
+"DllUnregisterServer" ; safrdm.dll

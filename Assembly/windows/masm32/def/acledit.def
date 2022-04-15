@@ -1,0 +1,10 @@
+LIBRARY "acledit.dll"
+EXPORTS
+"DllMain" ; acledit.dll
+"EditAuditInfo" ; acledit.dll
+"EditOwnerInfo" ; acledit.dll
+"EditPermissionInfo" ; acledit.dll
+"FMExtensionProcW" ; acledit.dll
+"SedDiscretionaryAclEditor" ; acledit.dll
+"SedSystemAclEditor" ; acledit.dll
+"SedTakeOwnership" ; acledit.dll

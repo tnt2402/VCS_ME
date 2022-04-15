@@ -1,0 +1,8 @@
+LIBRARY "msidle.dll"
+EXPORTS
+"msidle_ordinal3" @3 ; msidle.dll
+"msidle_ordinal4" @4 ; msidle.dll
+"msidle_ordinal5" @5 ; msidle.dll
+"msidle_ordinal6" @6 ; msidle.dll
+"msidle_ordinal7" @7 ; msidle.dll
+"msidle_ordinal8" @8 ; msidle.dll

@@ -1,0 +1,16 @@
+LIBRARY "t2embed.dll"
+EXPORTS
+"TTCharToUnicode" ; t2embed.dll
+"TTDeleteEmbeddedFont" ; t2embed.dll
+"TTEmbedFont" ; t2embed.dll
+"TTEmbedFontEx" ; t2embed.dll
+"TTEmbedFontFromFileA" ; t2embed.dll
+"TTEnableEmbeddingForFacename" ; t2embed.dll
+"TTGetEmbeddedFontInfo" ; t2embed.dll
+"TTGetEmbeddingType" ; t2embed.dll
+"TTGetNewFontName" ; t2embed.dll
+"TTIsEmbeddingEnabled" ; t2embed.dll
+"TTIsEmbeddingEnabledForFacename" ; t2embed.dll
+"TTLoadEmbeddedFont" ; t2embed.dll
+"TTRunValidationTests" ; t2embed.dll
+"TTRunValidationTestsEx" ; t2embed.dll

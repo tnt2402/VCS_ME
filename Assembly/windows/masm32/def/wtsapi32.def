@@ -1,0 +1,37 @@
+LIBRARY "wtsapi32.dll"
+EXPORTS
+"WTSCloseServer" ; wtsapi32.dll
+"WTSDisconnectSession" ; wtsapi32.dll
+"WTSEnumerateProcessesA" ; wtsapi32.dll
+"WTSEnumerateProcessesW" ; wtsapi32.dll
+"WTSEnumerateServersA" ; wtsapi32.dll
+"WTSEnumerateServersW" ; wtsapi32.dll
+"WTSEnumerateSessionsA" ; wtsapi32.dll
+"WTSEnumerateSessionsW" ; wtsapi32.dll
+"WTSFreeMemory" ; wtsapi32.dll
+"WTSLogoffSession" ; wtsapi32.dll
+"WTSOpenServerA" ; wtsapi32.dll
+"WTSOpenServerW" ; wtsapi32.dll
+"WTSQuerySessionInformationA" ; wtsapi32.dll
+"WTSQuerySessionInformationW" ; wtsapi32.dll
+"WTSQueryUserConfigA" ; wtsapi32.dll
+"WTSQueryUserConfigW" ; wtsapi32.dll
+"WTSQueryUserToken" ; wtsapi32.dll
+"WTSRegisterSessionNotification" ; wtsapi32.dll
+"WTSSendMessageA" ; wtsapi32.dll
+"WTSSendMessageW" ; wtsapi32.dll
+"WTSSetSessionInformationA" ; wtsapi32.dll
+"WTSSetSessionInformationW" ; wtsapi32.dll
+"WTSSetUserConfigA" ; wtsapi32.dll
+"WTSSetUserConfigW" ; wtsapi32.dll
+"WTSShutdownSystem" ; wtsapi32.dll
+"WTSTerminateProcess" ; wtsapi32.dll
+"WTSUnRegisterSessionNotification" ; wtsapi32.dll
+"WTSVirtualChannelClose" ; wtsapi32.dll
+"WTSVirtualChannelOpen" ; wtsapi32.dll
+"WTSVirtualChannelPurgeInput" ; wtsapi32.dll
+"WTSVirtualChannelPurgeOutput" ; wtsapi32.dll
+"WTSVirtualChannelQuery" ; wtsapi32.dll
+"WTSVirtualChannelRead" ; wtsapi32.dll
+"WTSVirtualChannelWrite" ; wtsapi32.dll
+"WTSWaitSystemEvent" ; wtsapi32.dll

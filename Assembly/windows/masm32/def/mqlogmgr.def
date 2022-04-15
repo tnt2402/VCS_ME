@@ -1,0 +1,8 @@
+LIBRARY "mqlogmgr.dll"
+EXPORTS
+"?CreateInstance@CLogMgr@@SAJPEAPEAV1@PEAUIUnknown@@@Z" ; mqlogmgr.dll
+"?DllGetDTCLOG@@YAHAEBU_GUID@@0PEAPEAX@Z" ; mqlogmgr.dll
+"DllGetClassObject" ; mqlogmgr.dll
+"DllGetDTCLOG2" ; mqlogmgr.dll
+"DllRegisterServer" ; mqlogmgr.dll
+"DllUnregisterServer" ; mqlogmgr.dll

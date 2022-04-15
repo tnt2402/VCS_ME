@@ -1,0 +1,6 @@
+LIBRARY "qmgrprxy.dll"
+EXPORTS
+"DllCanUnloadNow" ; qmgrprxy.dll
+"DllGetClassObject" ; qmgrprxy.dll
+"DllRegisterServer" ; qmgrprxy.dll
+"DllUnregisterServer" ; qmgrprxy.dll

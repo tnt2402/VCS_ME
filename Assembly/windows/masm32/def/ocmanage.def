@@ -1,0 +1,10 @@
+LIBRARY "ocmanage.dll"
+EXPORTS
+"OcComponentState" ; ocmanage.dll
+"OcCreateOcPage" ; ocmanage.dll
+"OcCreateSetupPage" ; ocmanage.dll
+"OcGetWizardPages" ; ocmanage.dll
+"OcInitialize" ; ocmanage.dll
+"OcRememberWizardDialogHandle" ; ocmanage.dll
+"OcSubComponentsPresent" ; ocmanage.dll
+"OcTerminate" ; ocmanage.dll

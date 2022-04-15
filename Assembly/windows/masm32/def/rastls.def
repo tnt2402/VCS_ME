@@ -1,0 +1,16 @@
+LIBRARY "rastls.dll"
+EXPORTS
+"DllCanUnloadNow" ; rastls.dll
+"DllGetClassObject" ; rastls.dll
+"DllRegisterServer" ; rastls.dll
+"DllUnregisterServer" ; rastls.dll
+"PeapUpdateStateToTLV" ; rastls.dll
+"RasEapCreateConnectionProperties" ; rastls.dll
+"RasEapCreateUserProperties" ; rastls.dll
+"RasEapFreeMemory" ; rastls.dll
+"RasEapGetCredentials" ; rastls.dll
+"RasEapGetIdentity" ; rastls.dll
+"RasEapGetInfo" ; rastls.dll
+"RasEapInvokeConfigUI" ; rastls.dll
+"RasEapInvokeInteractiveUI" ; rastls.dll
+"RasEapUpdateServerConfig" ; rastls.dll

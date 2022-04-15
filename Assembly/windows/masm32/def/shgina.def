@@ -1,0 +1,8 @@
+LIBRARY "shgina.dll"
+EXPORTS
+"DllCanUnloadNow" ; shgina.dll
+"DllGetClassObject" ; shgina.dll
+"DllInstall" ; shgina.dll
+"DllRegisterServer" ; shgina.dll
+"DllUnregisterServer" ; shgina.dll
+"shgina_ordinal6" @6 ; shgina.dll

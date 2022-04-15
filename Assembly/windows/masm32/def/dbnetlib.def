@@ -1,0 +1,30 @@
+LIBRARY "dbnetlib.dll"
+EXPORTS
+"CloseEnumServers" ; dbnetlib.dll
+"ConnectionCheckForData" ; dbnetlib.dll
+"ConnectionClose" ; dbnetlib.dll
+"ConnectionError" ; dbnetlib.dll
+"ConnectionErrorW" ; dbnetlib.dll
+"ConnectionFlushCache" ; dbnetlib.dll
+"ConnectionGetSvrUser" ; dbnetlib.dll
+"ConnectionMode" ; dbnetlib.dll
+"ConnectionObjectSize" ; dbnetlib.dll
+"ConnectionOpen" ; dbnetlib.dll
+"ConnectionOpenW" ; dbnetlib.dll
+"ConnectionOption" ; dbnetlib.dll
+"ConnectionRead" ; dbnetlib.dll
+"ConnectionServerEnum" ; dbnetlib.dll
+"ConnectionServerEnumW" ; dbnetlib.dll
+"ConnectionSqlVer" ; dbnetlib.dll
+"ConnectionStatus" ; dbnetlib.dll
+"ConnectionTransact" ; dbnetlib.dll
+"ConnectionVer" ; dbnetlib.dll
+"ConnectionWrite" ; dbnetlib.dll
+"ConnectionWriteOOB" ; dbnetlib.dll
+"GenClientContext" ; dbnetlib.dll
+"GetNextEnumeration" ; dbnetlib.dll
+"InitEnumServers" ; dbnetlib.dll
+"InitSSPIPackage" ; dbnetlib.dll
+"InitSession" ; dbnetlib.dll
+"TermSSPIPackage" ; dbnetlib.dll
+"TermSession" ; dbnetlib.dll

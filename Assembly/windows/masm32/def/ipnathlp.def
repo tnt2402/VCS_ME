@@ -1,0 +1,33 @@
+LIBRARY "ipnathlp.dll"
+EXPORTS
+"NatAcquirePortReservation" ; ipnathlp.dll
+"NatCancelDynamicRedirect" ; ipnathlp.dll
+"NatCancelRedirect" ; ipnathlp.dll
+"NatCreateDynamicFullRedirect" ; ipnathlp.dll
+"NatCreateDynamicRedirect" ; ipnathlp.dll
+"NatCreateDynamicRedirectEx" ; ipnathlp.dll
+"NatCreateRedirect" ; ipnathlp.dll
+"NatCreateRedirectEx" ; ipnathlp.dll
+"NatInitializePortReservation" ; ipnathlp.dll
+"NatInitializeTranslator" ; ipnathlp.dll
+"NatLookupAndQueryInformationSessionMapping" ; ipnathlp.dll
+"NatQueryInformationRedirect" ; ipnathlp.dll
+"NatQueryInformationRedirectHandle" ; ipnathlp.dll
+"NatReleasePortReservation" ; ipnathlp.dll
+"NatShutdownPortReservation" ; ipnathlp.dll
+"NatShutdownTranslator" ; ipnathlp.dll
+"NhAcceptStreamSocket" ; ipnathlp.dll
+"NhAcquireFixedLengthBuffer" ; ipnathlp.dll
+"NhAcquireVariableLengthBuffer" ; ipnathlp.dll
+"NhCreateDatagramSocket" ; ipnathlp.dll
+"NhCreateStreamSocket" ; ipnathlp.dll
+"NhDeleteSocket" ; ipnathlp.dll
+"NhInitializeBufferManagement" ; ipnathlp.dll
+"NhInitializeTraceManagement" ; ipnathlp.dll
+"NhReadDatagramSocket" ; ipnathlp.dll
+"NhReadStreamSocket" ; ipnathlp.dll
+"NhReleaseBuffer" ; ipnathlp.dll
+"NhWriteDatagramSocket" ; ipnathlp.dll
+"NhWriteStreamSocket" ; ipnathlp.dll
+"RegisterProtocol" ; ipnathlp.dll
+"ServiceMain" ; ipnathlp.dll

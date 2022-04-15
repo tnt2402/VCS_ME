@@ -1,0 +1,6 @@
+LIBRARY "iyuv_32.dll"
+EXPORTS
+"AboutDialogProc" ; iyuv_32.dll
+"DllMain" ; iyuv_32.dll
+"DriverDialogProc" ; iyuv_32.dll
+"DriverProc" ; iyuv_32.dll

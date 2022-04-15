@@ -1,0 +1,21 @@
+LIBRARY "dmivcitf.dll"
+EXPORTS
+"?AddLDMObjMapEntry@CDataCache@@QEAAXPEAU_LDM_OBJ_MAP_ENTRY@@@Z" ; dmivcitf.dll
+"?GetBottomViewStyle@CDMSnapin@@QEAAHXZ" ; dmivcitf.dll
+"?GetDiskCount@CDataCache@@QEAAKXZ" ; dmivcitf.dll
+"?GetDiskScaling@CDMSnapin@@QEAAHXZ" ; dmivcitf.dll
+"?GetFilterToggle@CDMSnapin@@QEAAHXZ" ; dmivcitf.dll
+"?GetLdmObjectId@CDMNodeObj@@QEAA_JXZ" ; dmivcitf.dll
+"?GetListBehavior@CDMSnapin@@QEAAHXZ" ; dmivcitf.dll
+"?GetNumMembers@CDMNodeObj@@QEAAKXZ" ; dmivcitf.dll
+"?GetOcxFrameCWndPtr@CTaskData@@QEAAPEAVCWnd@@XZ" ; dmivcitf.dll
+"?GetRegionColorStructPtr@CTaskData@@QEAAXPEAPEAU_REGION_COLORS@@AEAH@Z" ; dmivcitf.dll
+"?GetRegionScaling@CDMSnapin@@QEAAHXZ" ; dmivcitf.dll
+"?GetServerName@CDataCache@@QEAA?AVCString@@XZ" ; dmivcitf.dll
+"?GetTopViewStyle@CDMSnapin@@QEAAHXZ" ; dmivcitf.dll
+"?GetVolumeCount@CDataCache@@QEAAKXZ" ; dmivcitf.dll
+"?GetWaitCursor@CDMSnapin@@QEAAHXZ" ; dmivcitf.dll
+"CreateDataCacheX" ; dmivcitf.dll
+"CreateServerRequestsX" ; dmivcitf.dll
+"HrGetErrorData" ; dmivcitf.dll
+"LoadPropertyPageData" ; dmivcitf.dll

@@ -1,0 +1,24 @@
+LIBRARY "atio6axx.dll"
+EXPORTS
+"DllMain" ; atio6axx.dll
+"DrvCopyContext" ; atio6axx.dll
+"DrvCreateContext" ; atio6axx.dll
+"DrvCreateLayerContext" ; atio6axx.dll
+"DrvDeleteContext" ; atio6axx.dll
+"DrvDescribeLayerPlane" ; atio6axx.dll
+"DrvDescribePixelFormat" ; atio6axx.dll
+"DrvGetLayerPaletteEntries" ; atio6axx.dll
+"DrvGetProcAddress" ; atio6axx.dll
+"DrvRealizeLayerPalette" ; atio6axx.dll
+"DrvReleaseContext" ; atio6axx.dll
+"DrvSetContext" ; atio6axx.dll
+"DrvSetLayerPaletteEntries" ; atio6axx.dll
+"DrvSetPixelFormat" ; atio6axx.dll
+"DrvShareLists" ; atio6axx.dll
+"DrvSwapBuffers" ; atio6axx.dll
+"DrvSwapLayerBuffers" ; atio6axx.dll
+"DrvValidateVersion" ; atio6axx.dll
+"atiPPHSN" ; atio6axx.dll
+"atiPS" ; atio6axx.dll
+"atiQD" ; atio6axx.dll
+"atiQDS" ; atio6axx.dll

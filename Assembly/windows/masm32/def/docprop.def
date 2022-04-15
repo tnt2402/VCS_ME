@@ -1,0 +1,4 @@
+LIBRARY "docprop.dll"
+EXPORTS
+"DllCanUnloadNow" ; docprop.dll
+"DllGetClassObject" ; docprop.dll

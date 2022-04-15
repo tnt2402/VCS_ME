@@ -1,0 +1,5 @@
+LIBRARY "win32spl.dll"
+EXPORTS
+"DllMain" ; win32spl.dll
+"InitializePrintMonitor" ; win32spl.dll
+"InitializePrintProvidor" ; win32spl.dll

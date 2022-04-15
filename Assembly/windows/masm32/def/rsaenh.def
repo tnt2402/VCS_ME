@@ -1,0 +1,29 @@
+LIBRARY "rsaenh.dll"
+EXPORTS
+"CPAcquireContext" ; rsaenh.dll
+"CPCreateHash" ; rsaenh.dll
+"CPDecrypt" ; rsaenh.dll
+"CPDeriveKey" ; rsaenh.dll
+"CPDestroyHash" ; rsaenh.dll
+"CPDestroyKey" ; rsaenh.dll
+"CPDuplicateHash" ; rsaenh.dll
+"CPDuplicateKey" ; rsaenh.dll
+"CPEncrypt" ; rsaenh.dll
+"CPExportKey" ; rsaenh.dll
+"CPGenKey" ; rsaenh.dll
+"CPGenRandom" ; rsaenh.dll
+"CPGetHashParam" ; rsaenh.dll
+"CPGetKeyParam" ; rsaenh.dll
+"CPGetProvParam" ; rsaenh.dll
+"CPGetUserKey" ; rsaenh.dll
+"CPHashData" ; rsaenh.dll
+"CPHashSessionKey" ; rsaenh.dll
+"CPImportKey" ; rsaenh.dll
+"CPReleaseContext" ; rsaenh.dll
+"CPSetHashParam" ; rsaenh.dll
+"CPSetKeyParam" ; rsaenh.dll
+"CPSetProvParam" ; rsaenh.dll
+"CPSignHash" ; rsaenh.dll
+"CPVerifySignature" ; rsaenh.dll
+"DllRegisterServer" ; rsaenh.dll
+"DllUnregisterServer" ; rsaenh.dll

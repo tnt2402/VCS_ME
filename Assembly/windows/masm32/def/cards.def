@@ -1,0 +1,8 @@
+LIBRARY "cards.dll"
+EXPORTS
+"WEP" ; cards.dll
+"cdtAnimate" ; cards.dll
+"cdtDraw" ; cards.dll
+"cdtDrawExt" ; cards.dll
+"cdtInit" ; cards.dll
+"cdtTerm" ; cards.dll

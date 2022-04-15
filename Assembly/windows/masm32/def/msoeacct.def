@@ -1,0 +1,11 @@
+LIBRARY "msoeacct.dll"
+EXPORTS
+"CreateAccountsFromFile" ; msoeacct.dll
+"CreateAccountsFromFileEx" ; msoeacct.dll
+"DllCanUnloadNow" ; msoeacct.dll
+"DllGetClassObject" ; msoeacct.dll
+"DllRegisterServer" ; msoeacct.dll
+"DllUnregisterServer" ; msoeacct.dll
+"GetDllMajorVersion" ; msoeacct.dll
+"HrCreateAccountManager" ; msoeacct.dll
+"ValidEmailAddress" ; msoeacct.dll

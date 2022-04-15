@@ -1,0 +1,6 @@
+LIBRARY "comcat.dll"
+EXPORTS
+"DllCanUnloadNow" ; comcat.dll
+"DllGetClassObject" ; comcat.dll
+"DllRegisterServer" ; comcat.dll
+"DllUnregisterServer" ; comcat.dll

@@ -1,0 +1,4 @@
+LIBRARY "atimpc64.dll"
+EXPORTS
+"atimpc64_ordinal2007" @2007 ; atimpc64.dll
+"atimpc64_ordinal2008" @2008 ; atimpc64.dll

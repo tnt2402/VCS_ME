@@ -1,0 +1,28 @@
+LIBRARY "mqdscli.dll"
+EXPORTS
+"DSBeginDeleteNotification" ; mqdscli.dll
+"DSClientInit" ; mqdscli.dll
+"DSCreateObject" ; mqdscli.dll
+"DSCreateServersCache" ; mqdscli.dll
+"DSDeleteObject" ; mqdscli.dll
+"DSDeleteObjectGuid" ; mqdscli.dll
+"DSEndDeleteNotification" ; mqdscli.dll
+"DSFreeMemory" ; mqdscli.dll
+"DSGetComputerSites" ; mqdscli.dll
+"DSGetObjectProperties" ; mqdscli.dll
+"DSGetObjectPropertiesEx" ; mqdscli.dll
+"DSGetObjectPropertiesGuid" ; mqdscli.dll
+"DSGetObjectPropertiesGuidEx" ; mqdscli.dll
+"DSGetObjectSecurity" ; mqdscli.dll
+"DSGetObjectSecurityGuid" ; mqdscli.dll
+"DSGetUserParams" ; mqdscli.dll
+"DSLookupBegin" ; mqdscli.dll
+"DSLookupEnd" ; mqdscli.dll
+"DSLookupNext" ; mqdscli.dll
+"DSNotifyDelete" ; mqdscli.dll
+"DSQMGetObjectSecurity" ; mqdscli.dll
+"DSSetObjectProperties" ; mqdscli.dll
+"DSSetObjectPropertiesGuid" ; mqdscli.dll
+"DSSetObjectSecurity" ; mqdscli.dll
+"DSSetObjectSecurityGuid" ; mqdscli.dll
+"DSTerminate" ; mqdscli.dll

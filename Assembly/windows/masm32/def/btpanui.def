@@ -1,0 +1,6 @@
+LIBRARY "btpanui.dll"
+EXPORTS
+"DllCanUnloadNow" ; btpanui.dll
+"DllGetClassObject" ; btpanui.dll
+"DllRegisterServer" ; btpanui.dll
+"DllUnregisterServer" ; btpanui.dll

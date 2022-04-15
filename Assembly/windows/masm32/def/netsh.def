@@ -1,0 +1,28 @@
+LIBRARY "netsh.exe"
+EXPORTS
+"ConvertGuidToString" ; netsh.exe
+"ConvertStringToGuid" ; netsh.exe
+"DisplayMessageM" ; netsh.exe
+"DisplayMessageToConsole" ; netsh.exe
+"FreeQuotedString" ; netsh.exe
+"FreeString" ; netsh.exe
+"GenericMonitor" ; netsh.exe
+"GetEnumString" ; netsh.exe
+"GetHostMachineInfo" ; netsh.exe
+"InitializeConsole" ; netsh.exe
+"MakeQuotedString" ; netsh.exe
+"MakeString" ; netsh.exe
+"MatchCmdLine" ; netsh.exe
+"MatchEnumTag" ; netsh.exe
+"MatchTagsInCmdLine" ; netsh.exe
+"MatchToken" ; netsh.exe
+"NsGetFriendlyNameFromIfName" ; netsh.exe
+"NsGetIfNameFromFriendlyName" ; netsh.exe
+"PreprocessCommand" ; netsh.exe
+"PrintError" ; netsh.exe
+"PrintMessage" ; netsh.exe
+"PrintMessageFromModule" ; netsh.exe
+"ProcessCommand" ; netsh.exe
+"RefreshConsole" ; netsh.exe
+"RegisterContext" ; netsh.exe
+"RegisterHelper" ; netsh.exe

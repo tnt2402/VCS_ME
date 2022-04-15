@@ -1,0 +1,8 @@
+LIBRARY "wups.dll"
+EXPORTS
+"DllCanUnloadNow" ; wups.dll
+"DllGetClassObject" ; wups.dll
+"DllMain" ; wups.dll
+"DllRegisterServer" ; wups.dll
+"DllUnregisterServer" ; wups.dll
+"wups_ordinal10" @10 ; wups.dll

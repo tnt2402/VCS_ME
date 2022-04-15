@@ -1,0 +1,865 @@
+LIBRARY "shlwapi.dll"
+EXPORTS
+"AssocCreate" ; shlwapi.dll
+"AssocGetPerceivedType" ; shlwapi.dll
+"AssocIsDangerous" ; shlwapi.dll
+"AssocQueryKeyA" ; shlwapi.dll
+"AssocQueryKeyW" ; shlwapi.dll
+"AssocQueryStringA" ; shlwapi.dll
+"AssocQueryStringByKeyA" ; shlwapi.dll
+"AssocQueryStringByKeyW" ; shlwapi.dll
+"AssocQueryStringW" ; shlwapi.dll
+"ChrCmpIA" ; shlwapi.dll
+"ChrCmpIW" ; shlwapi.dll
+"ColorAdjustLuma" ; shlwapi.dll
+"ColorHLSToRGB" ; shlwapi.dll
+"ColorRGBToHLS" ; shlwapi.dll
+"DelayLoadFailureHook" ; shlwapi.dll
+"DllGetVersion" ; shlwapi.dll
+"GetAcceptLanguagesA" ; shlwapi.dll
+"GetAcceptLanguagesW" ; shlwapi.dll
+"GetMenuPosFromID" ; shlwapi.dll
+"HashData" ; shlwapi.dll
+"IntlStrEqWorkerA" ; shlwapi.dll
+"IntlStrEqWorkerW" ; shlwapi.dll
+"IsCharSpaceA" ; shlwapi.dll
+"IsCharSpaceW" ; shlwapi.dll
+"IsInternetESCEnabled" ; shlwapi.dll
+"PathAddBackslashA" ; shlwapi.dll
+"PathAddBackslashW" ; shlwapi.dll
+"PathAddExtensionA" ; shlwapi.dll
+"PathAddExtensionW" ; shlwapi.dll
+"PathAppendA" ; shlwapi.dll
+"PathAppendW" ; shlwapi.dll
+"PathBuildRootA" ; shlwapi.dll
+"PathBuildRootW" ; shlwapi.dll
+"PathCanonicalizeA" ; shlwapi.dll
+"PathCanonicalizeW" ; shlwapi.dll
+"PathCombineA" ; shlwapi.dll
+"PathCombineW" ; shlwapi.dll
+"PathCommonPrefixA" ; shlwapi.dll
+"PathCommonPrefixW" ; shlwapi.dll
+"PathCompactPathA" ; shlwapi.dll
+"PathCompactPathExA" ; shlwapi.dll
+"PathCompactPathExW" ; shlwapi.dll
+"PathCompactPathW" ; shlwapi.dll
+"PathCreateFromUrlA" ; shlwapi.dll
+"PathCreateFromUrlW" ; shlwapi.dll
+"PathFileExistsA" ; shlwapi.dll
+"PathFileExistsW" ; shlwapi.dll
+"PathFindExtensionA" ; shlwapi.dll
+"PathFindExtensionW" ; shlwapi.dll
+"PathFindFileNameA" ; shlwapi.dll
+"PathFindFileNameW" ; shlwapi.dll
+"PathFindNextComponentA" ; shlwapi.dll
+"PathFindNextComponentW" ; shlwapi.dll
+"PathFindOnPathA" ; shlwapi.dll
+"PathFindOnPathW" ; shlwapi.dll
+"PathFindSuffixArrayA" ; shlwapi.dll
+"PathFindSuffixArrayW" ; shlwapi.dll
+"PathGetArgsA" ; shlwapi.dll
+"PathGetArgsW" ; shlwapi.dll
+"PathGetCharTypeA" ; shlwapi.dll
+"PathGetCharTypeW" ; shlwapi.dll
+"PathGetDriveNumberA" ; shlwapi.dll
+"PathGetDriveNumberW" ; shlwapi.dll
+"PathIsContentTypeA" ; shlwapi.dll
+"PathIsContentTypeW" ; shlwapi.dll
+"PathIsDirectoryA" ; shlwapi.dll
+"PathIsDirectoryEmptyA" ; shlwapi.dll
+"PathIsDirectoryEmptyW" ; shlwapi.dll
+"PathIsDirectoryW" ; shlwapi.dll
+"PathIsFileSpecA" ; shlwapi.dll
+"PathIsFileSpecW" ; shlwapi.dll
+"PathIsLFNFileSpecA" ; shlwapi.dll
+"PathIsLFNFileSpecW" ; shlwapi.dll
+"PathIsNetworkPathA" ; shlwapi.dll
+"PathIsNetworkPathW" ; shlwapi.dll
+"PathIsPrefixA" ; shlwapi.dll
+"PathIsPrefixW" ; shlwapi.dll
+"PathIsRelativeA" ; shlwapi.dll
+"PathIsRelativeW" ; shlwapi.dll
+"PathIsRootA" ; shlwapi.dll
+"PathIsRootW" ; shlwapi.dll
+"PathIsSameRootA" ; shlwapi.dll
+"PathIsSameRootW" ; shlwapi.dll
+"PathIsSystemFolderA" ; shlwapi.dll
+"PathIsSystemFolderW" ; shlwapi.dll
+"PathIsUNCA" ; shlwapi.dll
+"PathIsUNCServerA" ; shlwapi.dll
+"PathIsUNCServerShareA" ; shlwapi.dll
+"PathIsUNCServerShareW" ; shlwapi.dll
+"PathIsUNCServerW" ; shlwapi.dll
+"PathIsUNCW" ; shlwapi.dll
+"PathIsURLA" ; shlwapi.dll
+"PathIsURLW" ; shlwapi.dll
+"PathMakePrettyA" ; shlwapi.dll
+"PathMakePrettyW" ; shlwapi.dll
+"PathMakeSystemFolderA" ; shlwapi.dll
+"PathMakeSystemFolderW" ; shlwapi.dll
+"PathMatchSpecA" ; shlwapi.dll
+"PathMatchSpecW" ; shlwapi.dll
+"PathParseIconLocationA" ; shlwapi.dll
+"PathParseIconLocationW" ; shlwapi.dll
+"PathQuoteSpacesA" ; shlwapi.dll
+"PathQuoteSpacesW" ; shlwapi.dll
+"PathRelativePathToA" ; shlwapi.dll
+"PathRelativePathToW" ; shlwapi.dll
+"PathRemoveArgsA" ; shlwapi.dll
+"PathRemoveArgsW" ; shlwapi.dll
+"PathRemoveBackslashA" ; shlwapi.dll
+"PathRemoveBackslashW" ; shlwapi.dll
+"PathRemoveBlanksA" ; shlwapi.dll
+"PathRemoveBlanksW" ; shlwapi.dll
+"PathRemoveExtensionA" ; shlwapi.dll
+"PathRemoveExtensionW" ; shlwapi.dll
+"PathRemoveFileSpecA" ; shlwapi.dll
+"PathRemoveFileSpecW" ; shlwapi.dll
+"PathRenameExtensionA" ; shlwapi.dll
+"PathRenameExtensionW" ; shlwapi.dll
+"PathSearchAndQualifyA" ; shlwapi.dll
+"PathSearchAndQualifyW" ; shlwapi.dll
+"PathSetDlgItemPathA" ; shlwapi.dll
+"PathSetDlgItemPathW" ; shlwapi.dll
+"PathSkipRootA" ; shlwapi.dll
+"PathSkipRootW" ; shlwapi.dll
+"PathStripPathA" ; shlwapi.dll
+"PathStripPathW" ; shlwapi.dll
+"PathStripToRootA" ; shlwapi.dll
+"PathStripToRootW" ; shlwapi.dll
+"PathUnExpandEnvStringsA" ; shlwapi.dll
+"PathUnExpandEnvStringsW" ; shlwapi.dll
+"PathUndecorateA" ; shlwapi.dll
+"PathUndecorateW" ; shlwapi.dll
+"PathUnmakeSystemFolderA" ; shlwapi.dll
+"PathUnmakeSystemFolderW" ; shlwapi.dll
+"PathUnquoteSpacesA" ; shlwapi.dll
+"PathUnquoteSpacesW" ; shlwapi.dll
+"SHAllocShared" ; shlwapi.dll
+"SHAutoComplete" ; shlwapi.dll
+"SHCopyKeyA" ; shlwapi.dll
+"SHCopyKeyW" ; shlwapi.dll
+"SHCreateShellPalette" ; shlwapi.dll
+"SHCreateStreamOnFileA" ; shlwapi.dll
+"SHCreateStreamOnFileEx" ; shlwapi.dll
+"SHCreateStreamOnFileW" ; shlwapi.dll
+"SHCreateStreamWrapper" ; shlwapi.dll
+"SHCreateThread" ; shlwapi.dll
+"SHCreateThreadRef" ; shlwapi.dll
+"SHDeleteEmptyKeyA" ; shlwapi.dll
+"SHDeleteEmptyKeyW" ; shlwapi.dll
+"SHDeleteKeyA" ; shlwapi.dll
+"SHDeleteKeyW" ; shlwapi.dll
+"SHDeleteOrphanKeyA" ; shlwapi.dll
+"SHDeleteOrphanKeyW" ; shlwapi.dll
+"SHDeleteValueA" ; shlwapi.dll
+"SHDeleteValueW" ; shlwapi.dll
+"SHEnumKeyExA" ; shlwapi.dll
+"SHEnumKeyExW" ; shlwapi.dll
+"SHEnumValueA" ; shlwapi.dll
+"SHEnumValueW" ; shlwapi.dll
+"SHFreeShared" ; shlwapi.dll
+"SHGetInverseCMAP" ; shlwapi.dll
+"SHGetThreadRef" ; shlwapi.dll
+"SHGetValueA" ; shlwapi.dll
+"SHGetValueW" ; shlwapi.dll
+"SHGetViewStatePropertyBag" ; shlwapi.dll
+"SHIsLowMemoryMachine" ; shlwapi.dll
+"SHLoadIndirectString" ; shlwapi.dll
+"SHLockShared" ; shlwapi.dll
+"SHOpenRegStream2A" ; shlwapi.dll
+"SHOpenRegStream2W" ; shlwapi.dll
+"SHOpenRegStreamA" ; shlwapi.dll
+"SHOpenRegStreamW" ; shlwapi.dll
+"SHQueryInfoKeyA" ; shlwapi.dll
+"SHQueryInfoKeyW" ; shlwapi.dll
+"SHQueryValueExA" ; shlwapi.dll
+"SHQueryValueExW" ; shlwapi.dll
+"SHRegCloseUSKey" ; shlwapi.dll
+"SHRegCreateUSKeyA" ; shlwapi.dll
+"SHRegCreateUSKeyW" ; shlwapi.dll
+"SHRegDeleteEmptyUSKeyA" ; shlwapi.dll
+"SHRegDeleteEmptyUSKeyW" ; shlwapi.dll
+"SHRegDeleteUSValueA" ; shlwapi.dll
+"SHRegDeleteUSValueW" ; shlwapi.dll
+"SHRegDuplicateHKey" ; shlwapi.dll
+"SHRegEnumUSKeyA" ; shlwapi.dll
+"SHRegEnumUSKeyW" ; shlwapi.dll
+"SHRegEnumUSValueA" ; shlwapi.dll
+"SHRegEnumUSValueW" ; shlwapi.dll
+"SHRegGetBoolUSValueA" ; shlwapi.dll
+"SHRegGetBoolUSValueW" ; shlwapi.dll
+"SHRegGetPathA" ; shlwapi.dll
+"SHRegGetPathW" ; shlwapi.dll
+"SHRegGetUSValueA" ; shlwapi.dll
+"SHRegGetUSValueW" ; shlwapi.dll
+"SHRegGetValueA" ; shlwapi.dll
+"SHRegGetValueW" ; shlwapi.dll
+"SHRegOpenUSKeyA" ; shlwapi.dll
+"SHRegOpenUSKeyW" ; shlwapi.dll
+"SHRegQueryInfoUSKeyA" ; shlwapi.dll
+"SHRegQueryInfoUSKeyW" ; shlwapi.dll
+"SHRegQueryUSValueA" ; shlwapi.dll
+"SHRegQueryUSValueW" ; shlwapi.dll
+"SHRegSetPathA" ; shlwapi.dll
+"SHRegSetPathW" ; shlwapi.dll
+"SHRegSetUSValueA" ; shlwapi.dll
+"SHRegSetUSValueW" ; shlwapi.dll
+"SHRegWriteUSValueA" ; shlwapi.dll
+"SHRegWriteUSValueW" ; shlwapi.dll
+"SHRegisterValidateTemplate" ; shlwapi.dll
+"SHReleaseThreadRef" ; shlwapi.dll
+"SHSetThreadRef" ; shlwapi.dll
+"SHSetValueA" ; shlwapi.dll
+"SHSetValueW" ; shlwapi.dll
+"SHSkipJunction" ; shlwapi.dll
+"SHStrDupA" ; shlwapi.dll
+"SHStrDupW" ; shlwapi.dll
+"SHUnlockShared" ; shlwapi.dll
+"StrCSpnA" ; shlwapi.dll
+"StrCSpnIA" ; shlwapi.dll
+"StrCSpnIW" ; shlwapi.dll
+"StrCSpnW" ; shlwapi.dll
+"StrCatBuffA" ; shlwapi.dll
+"StrCatBuffW" ; shlwapi.dll
+"StrCatChainW" ; shlwapi.dll
+"StrCatW" ; shlwapi.dll
+"StrChrA" ; shlwapi.dll
+"StrChrIA" ; shlwapi.dll
+"StrChrIW" ; shlwapi.dll
+"StrChrNIW" ; shlwapi.dll
+"StrChrNW" ; shlwapi.dll
+"StrChrW" ; shlwapi.dll
+"StrCmpCA" ; shlwapi.dll
+"StrCmpCW" ; shlwapi.dll
+"StrCmpICA" ; shlwapi.dll
+"StrCmpICW" ; shlwapi.dll
+"StrCmpIW" ; shlwapi.dll
+"StrCmpLogicalW" ; shlwapi.dll
+"StrCmpNA" ; shlwapi.dll
+"StrCmpNIA" ; shlwapi.dll
+"StrCmpNIW" ; shlwapi.dll
+"StrCmpNW" ; shlwapi.dll
+"StrCmpW" ; shlwapi.dll
+"StrCpyNW" ; shlwapi.dll
+"StrCpyW" ; shlwapi.dll
+"StrDupA" ; shlwapi.dll
+"StrDupW" ; shlwapi.dll
+"StrFormatByteSize64A" ; shlwapi.dll
+"StrFormatByteSizeA" ; shlwapi.dll
+"StrFormatByteSizeW" ; shlwapi.dll
+"StrFormatKBSizeA" ; shlwapi.dll
+"StrFormatKBSizeW" ; shlwapi.dll
+"StrFromTimeIntervalA" ; shlwapi.dll
+"StrFromTimeIntervalW" ; shlwapi.dll
+"StrIsIntlEqualA" ; shlwapi.dll
+"StrIsIntlEqualW" ; shlwapi.dll
+"StrNCatA" ; shlwapi.dll
+"StrNCatW" ; shlwapi.dll
+"StrPBrkA" ; shlwapi.dll
+"StrPBrkW" ; shlwapi.dll
+"StrRChrA" ; shlwapi.dll
+"StrRChrIA" ; shlwapi.dll
+"StrRChrIW" ; shlwapi.dll
+"StrRChrW" ; shlwapi.dll
+"StrRStrIA" ; shlwapi.dll
+"StrRStrIW" ; shlwapi.dll
+"StrRetToBSTR" ; shlwapi.dll
+"StrRetToBufA" ; shlwapi.dll
+"StrRetToBufW" ; shlwapi.dll
+"StrRetToStrA" ; shlwapi.dll
+"StrRetToStrW" ; shlwapi.dll
+"StrSpnA" ; shlwapi.dll
+"StrSpnW" ; shlwapi.dll
+"StrStrA" ; shlwapi.dll
+"StrStrIA" ; shlwapi.dll
+"StrStrIW" ; shlwapi.dll
+"StrStrNIW" ; shlwapi.dll
+"StrStrNW" ; shlwapi.dll
+"StrStrW" ; shlwapi.dll
+"StrToInt64ExA" ; shlwapi.dll
+"StrToInt64ExW" ; shlwapi.dll
+"StrToIntA" ; shlwapi.dll
+"StrToIntExA" ; shlwapi.dll
+"StrToIntExW" ; shlwapi.dll
+"StrToIntW" ; shlwapi.dll
+"StrTrimA" ; shlwapi.dll
+"StrTrimW" ; shlwapi.dll
+"UrlApplySchemeA" ; shlwapi.dll
+"UrlApplySchemeW" ; shlwapi.dll
+"UrlCanonicalizeA" ; shlwapi.dll
+"UrlCanonicalizeW" ; shlwapi.dll
+"UrlCombineA" ; shlwapi.dll
+"UrlCombineW" ; shlwapi.dll
+"UrlCompareA" ; shlwapi.dll
+"UrlCompareW" ; shlwapi.dll
+"UrlCreateFromPathA" ; shlwapi.dll
+"UrlCreateFromPathW" ; shlwapi.dll
+"UrlEscapeA" ; shlwapi.dll
+"UrlEscapeW" ; shlwapi.dll
+"UrlGetLocationA" ; shlwapi.dll
+"UrlGetLocationW" ; shlwapi.dll
+"UrlGetPartA" ; shlwapi.dll
+"UrlGetPartW" ; shlwapi.dll
+"UrlHashA" ; shlwapi.dll
+"UrlHashW" ; shlwapi.dll
+"UrlIsA" ; shlwapi.dll
+"UrlIsNoHistoryA" ; shlwapi.dll
+"UrlIsNoHistoryW" ; shlwapi.dll
+"UrlIsOpaqueA" ; shlwapi.dll
+"UrlIsOpaqueW" ; shlwapi.dll
+"UrlIsW" ; shlwapi.dll
+"UrlUnescapeA" ; shlwapi.dll
+"UrlUnescapeW" ; shlwapi.dll
+"shlwapi_ordinal1" @1 ; shlwapi.dll
+"shlwapi_ordinal100" @100 ; shlwapi.dll
+"shlwapi_ordinal101" @101 ; shlwapi.dll
+"shlwapi_ordinal102" @102 ; shlwapi.dll
+"shlwapi_ordinal103" @103 ; shlwapi.dll
+"shlwapi_ordinal104" @104 ; shlwapi.dll
+"shlwapi_ordinal105" @105 ; shlwapi.dll
+"shlwapi_ordinal106" @106 ; shlwapi.dll
+"shlwapi_ordinal107" @107 ; shlwapi.dll
+"shlwapi_ordinal108" @108 ; shlwapi.dll
+"shlwapi_ordinal109" @109 ; shlwapi.dll
+"shlwapi_ordinal11" @11 ; shlwapi.dll
+"shlwapi_ordinal110" @110 ; shlwapi.dll
+"shlwapi_ordinal111" @111 ; shlwapi.dll
+"shlwapi_ordinal112" @112 ; shlwapi.dll
+"shlwapi_ordinal113" @113 ; shlwapi.dll
+"shlwapi_ordinal114" @114 ; shlwapi.dll
+"shlwapi_ordinal115" @115 ; shlwapi.dll
+"shlwapi_ordinal116" @116 ; shlwapi.dll
+"shlwapi_ordinal117" @117 ; shlwapi.dll
+"shlwapi_ordinal118" @118 ; shlwapi.dll
+"shlwapi_ordinal119" @119 ; shlwapi.dll
+"shlwapi_ordinal12" @12 ; shlwapi.dll
+"shlwapi_ordinal120" @120 ; shlwapi.dll
+"shlwapi_ordinal121" @121 ; shlwapi.dll
+"shlwapi_ordinal122" @122 ; shlwapi.dll
+"shlwapi_ordinal123" @123 ; shlwapi.dll
+"shlwapi_ordinal124" @124 ; shlwapi.dll
+"shlwapi_ordinal125" @125 ; shlwapi.dll
+"shlwapi_ordinal126" @126 ; shlwapi.dll
+"shlwapi_ordinal127" @127 ; shlwapi.dll
+"shlwapi_ordinal128" @128 ; shlwapi.dll
+"shlwapi_ordinal129" @129 ; shlwapi.dll
+"shlwapi_ordinal13" @13 ; shlwapi.dll
+"shlwapi_ordinal130" @130 ; shlwapi.dll
+"shlwapi_ordinal131" @131 ; shlwapi.dll
+"shlwapi_ordinal132" @132 ; shlwapi.dll
+"shlwapi_ordinal133" @133 ; shlwapi.dll
+"shlwapi_ordinal134" @134 ; shlwapi.dll
+"shlwapi_ordinal135" @135 ; shlwapi.dll
+"shlwapi_ordinal136" @136 ; shlwapi.dll
+"shlwapi_ordinal137" @137 ; shlwapi.dll
+"shlwapi_ordinal138" @138 ; shlwapi.dll
+"shlwapi_ordinal139" @139 ; shlwapi.dll
+"shlwapi_ordinal140" @140 ; shlwapi.dll
+"shlwapi_ordinal141" @141 ; shlwapi.dll
+"shlwapi_ordinal142" @142 ; shlwapi.dll
+"shlwapi_ordinal143" @143 ; shlwapi.dll
+"shlwapi_ordinal144" @144 ; shlwapi.dll
+"shlwapi_ordinal145" @145 ; shlwapi.dll
+"shlwapi_ordinal146" @146 ; shlwapi.dll
+"shlwapi_ordinal147" @147 ; shlwapi.dll
+"shlwapi_ordinal148" @148 ; shlwapi.dll
+"shlwapi_ordinal149" @149 ; shlwapi.dll
+"shlwapi_ordinal150" @150 ; shlwapi.dll
+"shlwapi_ordinal151" @151 ; shlwapi.dll
+"shlwapi_ordinal152" @152 ; shlwapi.dll
+"shlwapi_ordinal153" @153 ; shlwapi.dll
+"shlwapi_ordinal154" @154 ; shlwapi.dll
+"shlwapi_ordinal159" @159 ; shlwapi.dll
+"shlwapi_ordinal160" @160 ; shlwapi.dll
+"shlwapi_ordinal161" @161 ; shlwapi.dll
+"shlwapi_ordinal162" @162 ; shlwapi.dll
+"shlwapi_ordinal163" @163 ; shlwapi.dll
+"shlwapi_ordinal164" @164 ; shlwapi.dll
+"shlwapi_ordinal165" @165 ; shlwapi.dll
+"shlwapi_ordinal166" @166 ; shlwapi.dll
+"shlwapi_ordinal167" @167 ; shlwapi.dll
+"shlwapi_ordinal168" @168 ; shlwapi.dll
+"shlwapi_ordinal169" @169 ; shlwapi.dll
+"shlwapi_ordinal17" @17 ; shlwapi.dll
+"shlwapi_ordinal170" @170 ; shlwapi.dll
+"shlwapi_ordinal171" @171 ; shlwapi.dll
+"shlwapi_ordinal172" @172 ; shlwapi.dll
+"shlwapi_ordinal173" @173 ; shlwapi.dll
+"shlwapi_ordinal174" @174 ; shlwapi.dll
+"shlwapi_ordinal175" @175 ; shlwapi.dll
+"shlwapi_ordinal176" @176 ; shlwapi.dll
+"shlwapi_ordinal177" @177 ; shlwapi.dll
+"shlwapi_ordinal178" @178 ; shlwapi.dll
+"shlwapi_ordinal179" @179 ; shlwapi.dll
+"shlwapi_ordinal18" @18 ; shlwapi.dll
+"shlwapi_ordinal180" @180 ; shlwapi.dll
+"shlwapi_ordinal181" @181 ; shlwapi.dll
+"shlwapi_ordinal182" @182 ; shlwapi.dll
+"shlwapi_ordinal183" @183 ; shlwapi.dll
+"shlwapi_ordinal184" @184 ; shlwapi.dll
+"shlwapi_ordinal185" @185 ; shlwapi.dll
+"shlwapi_ordinal186" @186 ; shlwapi.dll
+"shlwapi_ordinal187" @187 ; shlwapi.dll
+"shlwapi_ordinal188" @188 ; shlwapi.dll
+"shlwapi_ordinal189" @189 ; shlwapi.dll
+"shlwapi_ordinal19" @19 ; shlwapi.dll
+"shlwapi_ordinal190" @190 ; shlwapi.dll
+"shlwapi_ordinal191" @191 ; shlwapi.dll
+"shlwapi_ordinal192" @192 ; shlwapi.dll
+"shlwapi_ordinal193" @193 ; shlwapi.dll
+"shlwapi_ordinal194" @194 ; shlwapi.dll
+"shlwapi_ordinal195" @195 ; shlwapi.dll
+"shlwapi_ordinal196" @196 ; shlwapi.dll
+"shlwapi_ordinal197" @197 ; shlwapi.dll
+"shlwapi_ordinal198" @198 ; shlwapi.dll
+"shlwapi_ordinal199" @199 ; shlwapi.dll
+"shlwapi_ordinal2" @2 ; shlwapi.dll
+"shlwapi_ordinal20" @20 ; shlwapi.dll
+"shlwapi_ordinal200" @200 ; shlwapi.dll
+"shlwapi_ordinal201" @201 ; shlwapi.dll
+"shlwapi_ordinal202" @202 ; shlwapi.dll
+"shlwapi_ordinal203" @203 ; shlwapi.dll
+"shlwapi_ordinal204" @204 ; shlwapi.dll
+"shlwapi_ordinal205" @205 ; shlwapi.dll
+"shlwapi_ordinal206" @206 ; shlwapi.dll
+"shlwapi_ordinal207" @207 ; shlwapi.dll
+"shlwapi_ordinal208" @208 ; shlwapi.dll
+"shlwapi_ordinal209" @209 ; shlwapi.dll
+"shlwapi_ordinal21" @21 ; shlwapi.dll
+"shlwapi_ordinal210" @210 ; shlwapi.dll
+"shlwapi_ordinal211" @211 ; shlwapi.dll
+"shlwapi_ordinal212" @212 ; shlwapi.dll
+"shlwapi_ordinal213" @213 ; shlwapi.dll
+"shlwapi_ordinal214" @214 ; shlwapi.dll
+"shlwapi_ordinal215" @215 ; shlwapi.dll
+"shlwapi_ordinal216" @216 ; shlwapi.dll
+"shlwapi_ordinal217" @217 ; shlwapi.dll
+"shlwapi_ordinal218" @218 ; shlwapi.dll
+"shlwapi_ordinal219" @219 ; shlwapi.dll
+"shlwapi_ordinal22" @22 ; shlwapi.dll
+"shlwapi_ordinal220" @220 ; shlwapi.dll
+"shlwapi_ordinal221" @221 ; shlwapi.dll
+"shlwapi_ordinal222" @222 ; shlwapi.dll
+"shlwapi_ordinal223" @223 ; shlwapi.dll
+"shlwapi_ordinal224" @224 ; shlwapi.dll
+"shlwapi_ordinal225" @225 ; shlwapi.dll
+"shlwapi_ordinal226" @226 ; shlwapi.dll
+"shlwapi_ordinal227" @227 ; shlwapi.dll
+"shlwapi_ordinal228" @228 ; shlwapi.dll
+"shlwapi_ordinal229" @229 ; shlwapi.dll
+"shlwapi_ordinal23" @23 ; shlwapi.dll
+"shlwapi_ordinal230" @230 ; shlwapi.dll
+"shlwapi_ordinal231" @231 ; shlwapi.dll
+"shlwapi_ordinal232" @232 ; shlwapi.dll
+"shlwapi_ordinal233" @233 ; shlwapi.dll
+"shlwapi_ordinal234" @234 ; shlwapi.dll
+"shlwapi_ordinal235" @235 ; shlwapi.dll
+"shlwapi_ordinal236" @236 ; shlwapi.dll
+"shlwapi_ordinal237" @237 ; shlwapi.dll
+"shlwapi_ordinal238" @238 ; shlwapi.dll
+"shlwapi_ordinal239" @239 ; shlwapi.dll
+"shlwapi_ordinal24" @24 ; shlwapi.dll
+"shlwapi_ordinal240" @240 ; shlwapi.dll
+"shlwapi_ordinal241" @241 ; shlwapi.dll
+"shlwapi_ordinal242" @242 ; shlwapi.dll
+"shlwapi_ordinal243" @243 ; shlwapi.dll
+"shlwapi_ordinal244" @244 ; shlwapi.dll
+"shlwapi_ordinal245" @245 ; shlwapi.dll
+"shlwapi_ordinal246" @246 ; shlwapi.dll
+"shlwapi_ordinal247" @247 ; shlwapi.dll
+"shlwapi_ordinal248" @248 ; shlwapi.dll
+"shlwapi_ordinal249" @249 ; shlwapi.dll
+"shlwapi_ordinal25" @25 ; shlwapi.dll
+"shlwapi_ordinal250" @250 ; shlwapi.dll
+"shlwapi_ordinal251" @251 ; shlwapi.dll
+"shlwapi_ordinal252" @252 ; shlwapi.dll
+"shlwapi_ordinal253" @253 ; shlwapi.dll
+"shlwapi_ordinal254" @254 ; shlwapi.dll
+"shlwapi_ordinal255" @255 ; shlwapi.dll
+"shlwapi_ordinal256" @256 ; shlwapi.dll
+"shlwapi_ordinal257" @257 ; shlwapi.dll
+"shlwapi_ordinal258" @258 ; shlwapi.dll
+"shlwapi_ordinal259" @259 ; shlwapi.dll
+"shlwapi_ordinal26" @26 ; shlwapi.dll
+"shlwapi_ordinal260" @260 ; shlwapi.dll
+"shlwapi_ordinal261" @261 ; shlwapi.dll
+"shlwapi_ordinal262" @262 ; shlwapi.dll
+"shlwapi_ordinal263" @263 ; shlwapi.dll
+"shlwapi_ordinal264" @264 ; shlwapi.dll
+"shlwapi_ordinal265" @265 ; shlwapi.dll
+"shlwapi_ordinal266" @266 ; shlwapi.dll
+"shlwapi_ordinal267" @267 ; shlwapi.dll
+"shlwapi_ordinal268" @268 ; shlwapi.dll
+"shlwapi_ordinal269" @269 ; shlwapi.dll
+"shlwapi_ordinal27" @27 ; shlwapi.dll
+"shlwapi_ordinal270" @270 ; shlwapi.dll
+"shlwapi_ordinal271" @271 ; shlwapi.dll
+"shlwapi_ordinal272" @272 ; shlwapi.dll
+"shlwapi_ordinal273" @273 ; shlwapi.dll
+"shlwapi_ordinal274" @274 ; shlwapi.dll
+"shlwapi_ordinal275" @275 ; shlwapi.dll
+"shlwapi_ordinal276" @276 ; shlwapi.dll
+"shlwapi_ordinal277" @277 ; shlwapi.dll
+"shlwapi_ordinal278" @278 ; shlwapi.dll
+"shlwapi_ordinal279" @279 ; shlwapi.dll
+"shlwapi_ordinal28" @28 ; shlwapi.dll
+"shlwapi_ordinal280" @280 ; shlwapi.dll
+"shlwapi_ordinal281" @281 ; shlwapi.dll
+"shlwapi_ordinal282" @282 ; shlwapi.dll
+"shlwapi_ordinal283" @283 ; shlwapi.dll
+"shlwapi_ordinal284" @284 ; shlwapi.dll
+"shlwapi_ordinal285" @285 ; shlwapi.dll
+"shlwapi_ordinal286" @286 ; shlwapi.dll
+"shlwapi_ordinal287" @287 ; shlwapi.dll
+"shlwapi_ordinal288" @288 ; shlwapi.dll
+"shlwapi_ordinal289" @289 ; shlwapi.dll
+"shlwapi_ordinal290" @290 ; shlwapi.dll
+"shlwapi_ordinal291" @291 ; shlwapi.dll
+"shlwapi_ordinal292" @292 ; shlwapi.dll
+"shlwapi_ordinal293" @293 ; shlwapi.dll
+"shlwapi_ordinal294" @294 ; shlwapi.dll
+"shlwapi_ordinal295" @295 ; shlwapi.dll
+"shlwapi_ordinal296" @296 ; shlwapi.dll
+"shlwapi_ordinal297" @297 ; shlwapi.dll
+"shlwapi_ordinal298" @298 ; shlwapi.dll
+"shlwapi_ordinal299" @299 ; shlwapi.dll
+"shlwapi_ordinal3" @3 ; shlwapi.dll
+"shlwapi_ordinal30" @30 ; shlwapi.dll
+"shlwapi_ordinal300" @300 ; shlwapi.dll
+"shlwapi_ordinal301" @301 ; shlwapi.dll
+"shlwapi_ordinal302" @302 ; shlwapi.dll
+"shlwapi_ordinal303" @303 ; shlwapi.dll
+"shlwapi_ordinal304" @304 ; shlwapi.dll
+"shlwapi_ordinal305" @305 ; shlwapi.dll
+"shlwapi_ordinal306" @306 ; shlwapi.dll
+"shlwapi_ordinal307" @307 ; shlwapi.dll
+"shlwapi_ordinal308" @308 ; shlwapi.dll
+"shlwapi_ordinal309" @309 ; shlwapi.dll
+"shlwapi_ordinal31" @31 ; shlwapi.dll
+"shlwapi_ordinal310" @310 ; shlwapi.dll
+"shlwapi_ordinal311" @311 ; shlwapi.dll
+"shlwapi_ordinal312" @312 ; shlwapi.dll
+"shlwapi_ordinal313" @313 ; shlwapi.dll
+"shlwapi_ordinal314" @314 ; shlwapi.dll
+"shlwapi_ordinal315" @315 ; shlwapi.dll
+"shlwapi_ordinal316" @316 ; shlwapi.dll
+"shlwapi_ordinal317" @317 ; shlwapi.dll
+"shlwapi_ordinal318" @318 ; shlwapi.dll
+"shlwapi_ordinal319" @319 ; shlwapi.dll
+"shlwapi_ordinal32" @32 ; shlwapi.dll
+"shlwapi_ordinal320" @320 ; shlwapi.dll
+"shlwapi_ordinal321" @321 ; shlwapi.dll
+"shlwapi_ordinal322" @322 ; shlwapi.dll
+"shlwapi_ordinal323" @323 ; shlwapi.dll
+"shlwapi_ordinal324" @324 ; shlwapi.dll
+"shlwapi_ordinal325" @325 ; shlwapi.dll
+"shlwapi_ordinal326" @326 ; shlwapi.dll
+"shlwapi_ordinal327" @327 ; shlwapi.dll
+"shlwapi_ordinal328" @328 ; shlwapi.dll
+"shlwapi_ordinal329" @329 ; shlwapi.dll
+"shlwapi_ordinal33" @33 ; shlwapi.dll
+"shlwapi_ordinal330" @330 ; shlwapi.dll
+"shlwapi_ordinal331" @331 ; shlwapi.dll
+"shlwapi_ordinal332" @332 ; shlwapi.dll
+"shlwapi_ordinal333" @333 ; shlwapi.dll
+"shlwapi_ordinal334" @334 ; shlwapi.dll
+"shlwapi_ordinal335" @335 ; shlwapi.dll
+"shlwapi_ordinal336" @336 ; shlwapi.dll
+"shlwapi_ordinal337" @337 ; shlwapi.dll
+"shlwapi_ordinal338" @338 ; shlwapi.dll
+"shlwapi_ordinal339" @339 ; shlwapi.dll
+"shlwapi_ordinal34" @34 ; shlwapi.dll
+"shlwapi_ordinal340" @340 ; shlwapi.dll
+"shlwapi_ordinal341" @341 ; shlwapi.dll
+"shlwapi_ordinal342" @342 ; shlwapi.dll
+"shlwapi_ordinal343" @343 ; shlwapi.dll
+"shlwapi_ordinal344" @344 ; shlwapi.dll
+"shlwapi_ordinal345" @345 ; shlwapi.dll
+"shlwapi_ordinal346" @346 ; shlwapi.dll
+"shlwapi_ordinal347" @347 ; shlwapi.dll
+"shlwapi_ordinal348" @348 ; shlwapi.dll
+"shlwapi_ordinal349" @349 ; shlwapi.dll
+"shlwapi_ordinal35" @35 ; shlwapi.dll
+"shlwapi_ordinal350" @350 ; shlwapi.dll
+"shlwapi_ordinal351" @351 ; shlwapi.dll
+"shlwapi_ordinal352" @352 ; shlwapi.dll
+"shlwapi_ordinal353" @353 ; shlwapi.dll
+"shlwapi_ordinal354" @354 ; shlwapi.dll
+"shlwapi_ordinal355" @355 ; shlwapi.dll
+"shlwapi_ordinal357" @357 ; shlwapi.dll
+"shlwapi_ordinal358" @358 ; shlwapi.dll
+"shlwapi_ordinal359" @359 ; shlwapi.dll
+"shlwapi_ordinal36" @36 ; shlwapi.dll
+"shlwapi_ordinal360" @360 ; shlwapi.dll
+"shlwapi_ordinal361" @361 ; shlwapi.dll
+"shlwapi_ordinal362" @362 ; shlwapi.dll
+"shlwapi_ordinal363" @363 ; shlwapi.dll
+"shlwapi_ordinal364" @364 ; shlwapi.dll
+"shlwapi_ordinal365" @365 ; shlwapi.dll
+"shlwapi_ordinal366" @366 ; shlwapi.dll
+"shlwapi_ordinal367" @367 ; shlwapi.dll
+"shlwapi_ordinal368" @368 ; shlwapi.dll
+"shlwapi_ordinal369" @369 ; shlwapi.dll
+"shlwapi_ordinal37" @37 ; shlwapi.dll
+"shlwapi_ordinal370" @370 ; shlwapi.dll
+"shlwapi_ordinal371" @371 ; shlwapi.dll
+"shlwapi_ordinal372" @372 ; shlwapi.dll
+"shlwapi_ordinal373" @373 ; shlwapi.dll
+"shlwapi_ordinal374" @374 ; shlwapi.dll
+"shlwapi_ordinal375" @375 ; shlwapi.dll
+"shlwapi_ordinal376" @376 ; shlwapi.dll
+"shlwapi_ordinal377" @377 ; shlwapi.dll
+"shlwapi_ordinal378" @378 ; shlwapi.dll
+"shlwapi_ordinal379" @379 ; shlwapi.dll
+"shlwapi_ordinal38" @38 ; shlwapi.dll
+"shlwapi_ordinal380" @380 ; shlwapi.dll
+"shlwapi_ordinal381" @381 ; shlwapi.dll
+"shlwapi_ordinal382" @382 ; shlwapi.dll
+"shlwapi_ordinal383" @383 ; shlwapi.dll
+"shlwapi_ordinal384" @384 ; shlwapi.dll
+"shlwapi_ordinal385" @385 ; shlwapi.dll
+"shlwapi_ordinal386" @386 ; shlwapi.dll
+"shlwapi_ordinal387" @387 ; shlwapi.dll
+"shlwapi_ordinal388" @388 ; shlwapi.dll
+"shlwapi_ordinal389" @389 ; shlwapi.dll
+"shlwapi_ordinal39" @39 ; shlwapi.dll
+"shlwapi_ordinal390" @390 ; shlwapi.dll
+"shlwapi_ordinal391" @391 ; shlwapi.dll
+"shlwapi_ordinal392" @392 ; shlwapi.dll
+"shlwapi_ordinal393" @393 ; shlwapi.dll
+"shlwapi_ordinal394" @394 ; shlwapi.dll
+"shlwapi_ordinal395" @395 ; shlwapi.dll
+"shlwapi_ordinal396" @396 ; shlwapi.dll
+"shlwapi_ordinal397" @397 ; shlwapi.dll
+"shlwapi_ordinal398" @398 ; shlwapi.dll
+"shlwapi_ordinal399" @399 ; shlwapi.dll
+"shlwapi_ordinal4" @4 ; shlwapi.dll
+"shlwapi_ordinal40" @40 ; shlwapi.dll
+"shlwapi_ordinal400" @400 ; shlwapi.dll
+"shlwapi_ordinal401" @401 ; shlwapi.dll
+"shlwapi_ordinal402" @402 ; shlwapi.dll
+"shlwapi_ordinal403" @403 ; shlwapi.dll
+"shlwapi_ordinal404" @404 ; shlwapi.dll
+"shlwapi_ordinal405" @405 ; shlwapi.dll
+"shlwapi_ordinal406" @406 ; shlwapi.dll
+"shlwapi_ordinal407" @407 ; shlwapi.dll
+"shlwapi_ordinal408" @408 ; shlwapi.dll
+"shlwapi_ordinal409" @409 ; shlwapi.dll
+"shlwapi_ordinal41" @41 ; shlwapi.dll
+"shlwapi_ordinal410" @410 ; shlwapi.dll
+"shlwapi_ordinal411" @411 ; shlwapi.dll
+"shlwapi_ordinal412" @412 ; shlwapi.dll
+"shlwapi_ordinal413" @413 ; shlwapi.dll
+"shlwapi_ordinal414" @414 ; shlwapi.dll
+"shlwapi_ordinal415" @415 ; shlwapi.dll
+"shlwapi_ordinal416" @416 ; shlwapi.dll
+"shlwapi_ordinal417" @417 ; shlwapi.dll
+"shlwapi_ordinal418" @418 ; shlwapi.dll
+"shlwapi_ordinal419" @419 ; shlwapi.dll
+"shlwapi_ordinal42" @42 ; shlwapi.dll
+"shlwapi_ordinal420" @420 ; shlwapi.dll
+"shlwapi_ordinal421" @421 ; shlwapi.dll
+"shlwapi_ordinal422" @422 ; shlwapi.dll
+"shlwapi_ordinal423" @423 ; shlwapi.dll
+"shlwapi_ordinal424" @424 ; shlwapi.dll
+"shlwapi_ordinal425" @425 ; shlwapi.dll
+"shlwapi_ordinal426" @426 ; shlwapi.dll
+"shlwapi_ordinal427" @427 ; shlwapi.dll
+"shlwapi_ordinal428" @428 ; shlwapi.dll
+"shlwapi_ordinal429" @429 ; shlwapi.dll
+"shlwapi_ordinal43" @43 ; shlwapi.dll
+"shlwapi_ordinal430" @430 ; shlwapi.dll
+"shlwapi_ordinal431" @431 ; shlwapi.dll
+"shlwapi_ordinal432" @432 ; shlwapi.dll
+"shlwapi_ordinal433" @433 ; shlwapi.dll
+"shlwapi_ordinal434" @434 ; shlwapi.dll
+"shlwapi_ordinal435" @435 ; shlwapi.dll
+"shlwapi_ordinal436" @436 ; shlwapi.dll
+"shlwapi_ordinal437" @437 ; shlwapi.dll
+"shlwapi_ordinal438" @438 ; shlwapi.dll
+"shlwapi_ordinal439" @439 ; shlwapi.dll
+"shlwapi_ordinal44" @44 ; shlwapi.dll
+"shlwapi_ordinal440" @440 ; shlwapi.dll
+"shlwapi_ordinal441" @441 ; shlwapi.dll
+"shlwapi_ordinal442" @442 ; shlwapi.dll
+"shlwapi_ordinal443" @443 ; shlwapi.dll
+"shlwapi_ordinal444" @444 ; shlwapi.dll
+"shlwapi_ordinal445" @445 ; shlwapi.dll
+"shlwapi_ordinal446" @446 ; shlwapi.dll
+"shlwapi_ordinal447" @447 ; shlwapi.dll
+"shlwapi_ordinal448" @448 ; shlwapi.dll
+"shlwapi_ordinal449" @449 ; shlwapi.dll
+"shlwapi_ordinal45" @45 ; shlwapi.dll
+"shlwapi_ordinal450" @450 ; shlwapi.dll
+"shlwapi_ordinal451" @451 ; shlwapi.dll
+"shlwapi_ordinal452" @452 ; shlwapi.dll
+"shlwapi_ordinal453" @453 ; shlwapi.dll
+"shlwapi_ordinal454" @454 ; shlwapi.dll
+"shlwapi_ordinal455" @455 ; shlwapi.dll
+"shlwapi_ordinal456" @456 ; shlwapi.dll
+"shlwapi_ordinal457" @457 ; shlwapi.dll
+"shlwapi_ordinal458" @458 ; shlwapi.dll
+"shlwapi_ordinal459" @459 ; shlwapi.dll
+"shlwapi_ordinal46" @46 ; shlwapi.dll
+"shlwapi_ordinal460" @460 ; shlwapi.dll
+"shlwapi_ordinal461" @461 ; shlwapi.dll
+"shlwapi_ordinal462" @462 ; shlwapi.dll
+"shlwapi_ordinal463" @463 ; shlwapi.dll
+"shlwapi_ordinal464" @464 ; shlwapi.dll
+"shlwapi_ordinal465" @465 ; shlwapi.dll
+"shlwapi_ordinal466" @466 ; shlwapi.dll
+"shlwapi_ordinal467" @467 ; shlwapi.dll
+"shlwapi_ordinal468" @468 ; shlwapi.dll
+"shlwapi_ordinal469" @469 ; shlwapi.dll
+"shlwapi_ordinal47" @47 ; shlwapi.dll
+"shlwapi_ordinal470" @470 ; shlwapi.dll
+"shlwapi_ordinal471" @471 ; shlwapi.dll
+"shlwapi_ordinal472" @472 ; shlwapi.dll
+"shlwapi_ordinal473" @473 ; shlwapi.dll
+"shlwapi_ordinal474" @474 ; shlwapi.dll
+"shlwapi_ordinal475" @475 ; shlwapi.dll
+"shlwapi_ordinal476" @476 ; shlwapi.dll
+"shlwapi_ordinal477" @477 ; shlwapi.dll
+"shlwapi_ordinal478" @478 ; shlwapi.dll
+"shlwapi_ordinal479" @479 ; shlwapi.dll
+"shlwapi_ordinal48" @48 ; shlwapi.dll
+"shlwapi_ordinal480" @480 ; shlwapi.dll
+"shlwapi_ordinal481" @481 ; shlwapi.dll
+"shlwapi_ordinal482" @482 ; shlwapi.dll
+"shlwapi_ordinal483" @483 ; shlwapi.dll
+"shlwapi_ordinal484" @484 ; shlwapi.dll
+"shlwapi_ordinal485" @485 ; shlwapi.dll
+"shlwapi_ordinal486" @486 ; shlwapi.dll
+"shlwapi_ordinal488" @488 ; shlwapi.dll
+"shlwapi_ordinal489" @489 ; shlwapi.dll
+"shlwapi_ordinal49" @49 ; shlwapi.dll
+"shlwapi_ordinal490" @490 ; shlwapi.dll
+"shlwapi_ordinal491" @491 ; shlwapi.dll
+"shlwapi_ordinal492" @492 ; shlwapi.dll
+"shlwapi_ordinal493" @493 ; shlwapi.dll
+"shlwapi_ordinal494" @494 ; shlwapi.dll
+"shlwapi_ordinal495" @495 ; shlwapi.dll
+"shlwapi_ordinal496" @496 ; shlwapi.dll
+"shlwapi_ordinal497" @497 ; shlwapi.dll
+"shlwapi_ordinal498" @498 ; shlwapi.dll
+"shlwapi_ordinal499" @499 ; shlwapi.dll
+"shlwapi_ordinal5" @5 ; shlwapi.dll
+"shlwapi_ordinal50" @50 ; shlwapi.dll
+"shlwapi_ordinal500" @500 ; shlwapi.dll
+"shlwapi_ordinal501" @501 ; shlwapi.dll
+"shlwapi_ordinal502" @502 ; shlwapi.dll
+"shlwapi_ordinal503" @503 ; shlwapi.dll
+"shlwapi_ordinal504" @504 ; shlwapi.dll
+"shlwapi_ordinal505" @505 ; shlwapi.dll
+"shlwapi_ordinal506" @506 ; shlwapi.dll
+"shlwapi_ordinal507" @507 ; shlwapi.dll
+"shlwapi_ordinal508" @508 ; shlwapi.dll
+"shlwapi_ordinal509" @509 ; shlwapi.dll
+"shlwapi_ordinal51" @51 ; shlwapi.dll
+"shlwapi_ordinal510" @510 ; shlwapi.dll
+"shlwapi_ordinal511" @511 ; shlwapi.dll
+"shlwapi_ordinal512" @512 ; shlwapi.dll
+"shlwapi_ordinal513" @513 ; shlwapi.dll
+"shlwapi_ordinal514" @514 ; shlwapi.dll
+"shlwapi_ordinal516" @516 ; shlwapi.dll
+"shlwapi_ordinal517" @517 ; shlwapi.dll
+"shlwapi_ordinal518" @518 ; shlwapi.dll
+"shlwapi_ordinal519" @519 ; shlwapi.dll
+"shlwapi_ordinal52" @52 ; shlwapi.dll
+"shlwapi_ordinal520" @520 ; shlwapi.dll
+"shlwapi_ordinal521" @521 ; shlwapi.dll
+"shlwapi_ordinal522" @522 ; shlwapi.dll
+"shlwapi_ordinal523" @523 ; shlwapi.dll
+"shlwapi_ordinal524" @524 ; shlwapi.dll
+"shlwapi_ordinal525" @525 ; shlwapi.dll
+"shlwapi_ordinal526" @526 ; shlwapi.dll
+"shlwapi_ordinal527" @527 ; shlwapi.dll
+"shlwapi_ordinal528" @528 ; shlwapi.dll
+"shlwapi_ordinal529" @529 ; shlwapi.dll
+"shlwapi_ordinal53" @53 ; shlwapi.dll
+"shlwapi_ordinal530" @530 ; shlwapi.dll
+"shlwapi_ordinal531" @531 ; shlwapi.dll
+"shlwapi_ordinal532" @532 ; shlwapi.dll
+"shlwapi_ordinal533" @533 ; shlwapi.dll
+"shlwapi_ordinal534" @534 ; shlwapi.dll
+"shlwapi_ordinal535" @535 ; shlwapi.dll
+"shlwapi_ordinal536" @536 ; shlwapi.dll
+"shlwapi_ordinal537" @537 ; shlwapi.dll
+"shlwapi_ordinal538" @538 ; shlwapi.dll
+"shlwapi_ordinal539" @539 ; shlwapi.dll
+"shlwapi_ordinal54" @54 ; shlwapi.dll
+"shlwapi_ordinal540" @540 ; shlwapi.dll
+"shlwapi_ordinal541" @541 ; shlwapi.dll
+"shlwapi_ordinal542" @542 ; shlwapi.dll
+"shlwapi_ordinal543" @543 ; shlwapi.dll
+"shlwapi_ordinal544" @544 ; shlwapi.dll
+"shlwapi_ordinal545" @545 ; shlwapi.dll
+"shlwapi_ordinal546" @546 ; shlwapi.dll
+"shlwapi_ordinal548" @548 ; shlwapi.dll
+"shlwapi_ordinal549" @549 ; shlwapi.dll
+"shlwapi_ordinal55" @55 ; shlwapi.dll
+"shlwapi_ordinal550" @550 ; shlwapi.dll
+"shlwapi_ordinal551" @551 ; shlwapi.dll
+"shlwapi_ordinal552" @552 ; shlwapi.dll
+"shlwapi_ordinal554" @554 ; shlwapi.dll
+"shlwapi_ordinal556" @556 ; shlwapi.dll
+"shlwapi_ordinal557" @557 ; shlwapi.dll
+"shlwapi_ordinal558" @558 ; shlwapi.dll
+"shlwapi_ordinal559" @559 ; shlwapi.dll
+"shlwapi_ordinal56" @56 ; shlwapi.dll
+"shlwapi_ordinal560" @560 ; shlwapi.dll
+"shlwapi_ordinal561" @561 ; shlwapi.dll
+"shlwapi_ordinal562" @562 ; shlwapi.dll
+"shlwapi_ordinal563" @563 ; shlwapi.dll
+"shlwapi_ordinal564" @564 ; shlwapi.dll
+"shlwapi_ordinal565" @565 ; shlwapi.dll
+"shlwapi_ordinal566" @566 ; shlwapi.dll
+"shlwapi_ordinal57" @57 ; shlwapi.dll
+"shlwapi_ordinal58" @58 ; shlwapi.dll
+"shlwapi_ordinal59" @59 ; shlwapi.dll
+"shlwapi_ordinal6" @6 ; shlwapi.dll
+"shlwapi_ordinal60" @60 ; shlwapi.dll
+"shlwapi_ordinal61" @61 ; shlwapi.dll
+"shlwapi_ordinal62" @62 ; shlwapi.dll
+"shlwapi_ordinal63" @63 ; shlwapi.dll
+"shlwapi_ordinal64" @64 ; shlwapi.dll
+"shlwapi_ordinal65" @65 ; shlwapi.dll
+"shlwapi_ordinal66" @66 ; shlwapi.dll
+"shlwapi_ordinal67" @67 ; shlwapi.dll
+"shlwapi_ordinal68" @68 ; shlwapi.dll
+"shlwapi_ordinal69" @69 ; shlwapi.dll
+"shlwapi_ordinal70" @70 ; shlwapi.dll
+"shlwapi_ordinal71" @71 ; shlwapi.dll
+"shlwapi_ordinal72" @72 ; shlwapi.dll
+"shlwapi_ordinal73" @73 ; shlwapi.dll
+"shlwapi_ordinal74" @74 ; shlwapi.dll
+"shlwapi_ordinal75" @75 ; shlwapi.dll
+"shlwapi_ordinal76" @76 ; shlwapi.dll
+"shlwapi_ordinal77" @77 ; shlwapi.dll
+"shlwapi_ordinal78" @78 ; shlwapi.dll
+"shlwapi_ordinal79" @79 ; shlwapi.dll
+"shlwapi_ordinal80" @80 ; shlwapi.dll
+"shlwapi_ordinal81" @81 ; shlwapi.dll
+"shlwapi_ordinal82" @82 ; shlwapi.dll
+"shlwapi_ordinal83" @83 ; shlwapi.dll
+"shlwapi_ordinal84" @84 ; shlwapi.dll
+"shlwapi_ordinal85" @85 ; shlwapi.dll
+"shlwapi_ordinal86" @86 ; shlwapi.dll
+"shlwapi_ordinal87" @87 ; shlwapi.dll
+"shlwapi_ordinal88" @88 ; shlwapi.dll
+"shlwapi_ordinal89" @89 ; shlwapi.dll
+"shlwapi_ordinal90" @90 ; shlwapi.dll
+"shlwapi_ordinal91" @91 ; shlwapi.dll
+"shlwapi_ordinal92" @92 ; shlwapi.dll
+"shlwapi_ordinal93" @93 ; shlwapi.dll
+"shlwapi_ordinal94" @94 ; shlwapi.dll
+"shlwapi_ordinal95" @95 ; shlwapi.dll
+"shlwapi_ordinal96" @96 ; shlwapi.dll
+"shlwapi_ordinal97" @97 ; shlwapi.dll
+"shlwapi_ordinal98" @98 ; shlwapi.dll
+"shlwapi_ordinal99" @99 ; shlwapi.dll
+"wnsprintfA" ; shlwapi.dll
+"wnsprintfW" ; shlwapi.dll
+"wvnsprintfA" ; shlwapi.dll
+"wvnsprintfW" ; shlwapi.dll

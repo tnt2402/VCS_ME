@@ -1,0 +1,4 @@
+LIBRARY "cmsetACL.dll"
+EXPORTS
+"DllRegisterServer" ; cmsetACL.dll
+"DllUnregisterServer" ; cmsetACL.dll

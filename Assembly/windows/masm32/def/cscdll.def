@@ -1,0 +1,209 @@
+LIBRARY "cscdll.dll"
+EXPORTS
+"BreakConnections" ; cscdll.dll
+"CSCBeginSynchronizationW" ; cscdll.dll
+"CSCCheckShareOnlineA" ; cscdll.dll
+"CSCCheckShareOnlineExW" ; cscdll.dll
+"CSCCheckShareOnlineW" ; cscdll.dll
+"CSCCopyReplicaA" ; cscdll.dll
+"CSCCopyReplicaW" ; cscdll.dll
+"CSCDeleteA" ; cscdll.dll
+"CSCDeleteW" ; cscdll.dll
+"CSCDoEnableDisable" ; cscdll.dll
+"CSCDoLocalRenameA" ; cscdll.dll
+"CSCDoLocalRenameExW" ; cscdll.dll
+"CSCDoLocalRenameW" ; cscdll.dll
+"CSCEncryptDecryptDatabase" ; cscdll.dll
+"CSCEndSynchronizationW" ; cscdll.dll
+"CSCEnumForStatsA" ; cscdll.dll
+"CSCEnumForStatsExA" ; cscdll.dll
+"CSCEnumForStatsExW" ; cscdll.dll
+"CSCEnumForStatsW" ; cscdll.dll
+"CSCFillSparseFilesA" ; cscdll.dll
+"CSCFillSparseFilesW" ; cscdll.dll
+"CSCFindClose" ; cscdll.dll
+"CSCFindFirstFileA" ; cscdll.dll
+"CSCFindFirstFileForSidA" ; cscdll.dll
+"CSCFindFirstFileForSidW" ; cscdll.dll
+"CSCFindFirstFileW" ; cscdll.dll
+"CSCFindNextFileA" ; cscdll.dll
+"CSCFindNextFileW" ; cscdll.dll
+"CSCFreeSpace" ; cscdll.dll
+"CSCGetSpaceUsageA" ; cscdll.dll
+"CSCGetSpaceUsageW" ; cscdll.dll
+"CSCIsCSCEnabled" ; cscdll.dll
+"CSCIsServerOfflineA" ; cscdll.dll
+"CSCIsServerOfflineW" ; cscdll.dll
+"CSCMergeShareA" ; cscdll.dll
+"CSCMergeShareW" ; cscdll.dll
+"CSCPinFileA" ; cscdll.dll
+"CSCPinFileW" ; cscdll.dll
+"CSCPurgeUnpinnedFiles" ; cscdll.dll
+"CSCQueryDatabaseStatus" ; cscdll.dll
+"CSCQueryFileStatusA" ; cscdll.dll
+"CSCQueryFileStatusExA" ; cscdll.dll
+"CSCQueryFileStatusExW" ; cscdll.dll
+"CSCQueryFileStatusW" ; cscdll.dll
+"CSCQueryShareStatusA" ; cscdll.dll
+"CSCQueryShareStatusW" ; cscdll.dll
+"CSCSetMaxSpace" ; cscdll.dll
+"CSCShareIdToShareName" ; cscdll.dll
+"CSCTransitionServerOnlineA" ; cscdll.dll
+"CSCTransitionServerOnlineW" ; cscdll.dll
+"CSCUnpinFileA" ; cscdll.dll
+"CSCUnpinFileW" ; cscdll.dll
+"CheckCSC" ; cscdll.dll
+"CheckCSCEx" ; cscdll.dll
+"LogoffHappened" ; cscdll.dll
+"LogonHappened" ; cscdll.dll
+"MprServiceProc" ; cscdll.dll
+"ReInt_WndProc" ; cscdll.dll
+"RefreshConnections" ; cscdll.dll
+"Update" ; cscdll.dll
+"WinlogonLockEvent" ; cscdll.dll
+"WinlogonLogoffEvent" ; cscdll.dll
+"WinlogonLogonEvent" ; cscdll.dll
+"WinlogonScreenSaverEvent" ; cscdll.dll
+"WinlogonShutdownEvent" ; cscdll.dll
+"WinlogonStartShellEvent" ; cscdll.dll
+"WinlogonStartupEvent" ; cscdll.dll
+"WinlogonUnlockEvent" ; cscdll.dll
+"cscdll_ordinal100" @100 ; cscdll.dll
+"cscdll_ordinal101" @101 ; cscdll.dll
+"cscdll_ordinal102" @102 ; cscdll.dll
+"cscdll_ordinal103" @103 ; cscdll.dll
+"cscdll_ordinal104" @104 ; cscdll.dll
+"cscdll_ordinal105" @105 ; cscdll.dll
+"cscdll_ordinal106" @106 ; cscdll.dll
+"cscdll_ordinal107" @107 ; cscdll.dll
+"cscdll_ordinal108" @108 ; cscdll.dll
+"cscdll_ordinal109" @109 ; cscdll.dll
+"cscdll_ordinal110" @110 ; cscdll.dll
+"cscdll_ordinal111" @111 ; cscdll.dll
+"cscdll_ordinal112" @112 ; cscdll.dll
+"cscdll_ordinal113" @113 ; cscdll.dll
+"cscdll_ordinal114" @114 ; cscdll.dll
+"cscdll_ordinal115" @115 ; cscdll.dll
+"cscdll_ordinal116" @116 ; cscdll.dll
+"cscdll_ordinal117" @117 ; cscdll.dll
+"cscdll_ordinal118" @118 ; cscdll.dll
+"cscdll_ordinal119" @119 ; cscdll.dll
+"cscdll_ordinal120" @120 ; cscdll.dll
+"cscdll_ordinal121" @121 ; cscdll.dll
+"cscdll_ordinal122" @122 ; cscdll.dll
+"cscdll_ordinal123" @123 ; cscdll.dll
+"cscdll_ordinal124" @124 ; cscdll.dll
+"cscdll_ordinal125" @125 ; cscdll.dll
+"cscdll_ordinal126" @126 ; cscdll.dll
+"cscdll_ordinal127" @127 ; cscdll.dll
+"cscdll_ordinal128" @128 ; cscdll.dll
+"cscdll_ordinal129" @129 ; cscdll.dll
+"cscdll_ordinal130" @130 ; cscdll.dll
+"cscdll_ordinal131" @131 ; cscdll.dll
+"cscdll_ordinal132" @132 ; cscdll.dll
+"cscdll_ordinal133" @133 ; cscdll.dll
+"cscdll_ordinal134" @134 ; cscdll.dll
+"cscdll_ordinal135" @135 ; cscdll.dll
+"cscdll_ordinal136" @136 ; cscdll.dll
+"cscdll_ordinal137" @137 ; cscdll.dll
+"cscdll_ordinal138" @138 ; cscdll.dll
+"cscdll_ordinal139" @139 ; cscdll.dll
+"cscdll_ordinal140" @140 ; cscdll.dll
+"cscdll_ordinal141" @141 ; cscdll.dll
+"cscdll_ordinal142" @142 ; cscdll.dll
+"cscdll_ordinal143" @143 ; cscdll.dll
+"cscdll_ordinal144" @144 ; cscdll.dll
+"cscdll_ordinal145" @145 ; cscdll.dll
+"cscdll_ordinal146" @146 ; cscdll.dll
+"cscdll_ordinal147" @147 ; cscdll.dll
+"cscdll_ordinal148" @148 ; cscdll.dll
+"cscdll_ordinal149" @149 ; cscdll.dll
+"cscdll_ordinal15" @15 ; cscdll.dll
+"cscdll_ordinal150" @150 ; cscdll.dll
+"cscdll_ordinal151" @151 ; cscdll.dll
+"cscdll_ordinal152" @152 ; cscdll.dll
+"cscdll_ordinal153" @153 ; cscdll.dll
+"cscdll_ordinal154" @154 ; cscdll.dll
+"cscdll_ordinal155" @155 ; cscdll.dll
+"cscdll_ordinal156" @156 ; cscdll.dll
+"cscdll_ordinal157" @157 ; cscdll.dll
+"cscdll_ordinal158" @158 ; cscdll.dll
+"cscdll_ordinal159" @159 ; cscdll.dll
+"cscdll_ordinal16" @16 ; cscdll.dll
+"cscdll_ordinal160" @160 ; cscdll.dll
+"cscdll_ordinal161" @161 ; cscdll.dll
+"cscdll_ordinal162" @162 ; cscdll.dll
+"cscdll_ordinal163" @163 ; cscdll.dll
+"cscdll_ordinal164" @164 ; cscdll.dll
+"cscdll_ordinal165" @165 ; cscdll.dll
+"cscdll_ordinal166" @166 ; cscdll.dll
+"cscdll_ordinal167" @167 ; cscdll.dll
+"cscdll_ordinal168" @168 ; cscdll.dll
+"cscdll_ordinal169" @169 ; cscdll.dll
+"cscdll_ordinal17" @17 ; cscdll.dll
+"cscdll_ordinal170" @170 ; cscdll.dll
+"cscdll_ordinal171" @171 ; cscdll.dll
+"cscdll_ordinal172" @172 ; cscdll.dll
+"cscdll_ordinal173" @173 ; cscdll.dll
+"cscdll_ordinal174" @174 ; cscdll.dll
+"cscdll_ordinal175" @175 ; cscdll.dll
+"cscdll_ordinal176" @176 ; cscdll.dll
+"cscdll_ordinal177" @177 ; cscdll.dll
+"cscdll_ordinal178" @178 ; cscdll.dll
+"cscdll_ordinal179" @179 ; cscdll.dll
+"cscdll_ordinal18" @18 ; cscdll.dll
+"cscdll_ordinal180" @180 ; cscdll.dll
+"cscdll_ordinal181" @181 ; cscdll.dll
+"cscdll_ordinal182" @182 ; cscdll.dll
+"cscdll_ordinal183" @183 ; cscdll.dll
+"cscdll_ordinal184" @184 ; cscdll.dll
+"cscdll_ordinal185" @185 ; cscdll.dll
+"cscdll_ordinal186" @186 ; cscdll.dll
+"cscdll_ordinal187" @187 ; cscdll.dll
+"cscdll_ordinal188" @188 ; cscdll.dll
+"cscdll_ordinal189" @189 ; cscdll.dll
+"cscdll_ordinal19" @19 ; cscdll.dll
+"cscdll_ordinal190" @190 ; cscdll.dll
+"cscdll_ordinal191" @191 ; cscdll.dll
+"cscdll_ordinal192" @192 ; cscdll.dll
+"cscdll_ordinal193" @193 ; cscdll.dll
+"cscdll_ordinal194" @194 ; cscdll.dll
+"cscdll_ordinal195" @195 ; cscdll.dll
+"cscdll_ordinal196" @196 ; cscdll.dll
+"cscdll_ordinal197" @197 ; cscdll.dll
+"cscdll_ordinal198" @198 ; cscdll.dll
+"cscdll_ordinal199" @199 ; cscdll.dll
+"cscdll_ordinal61" @61 ; cscdll.dll
+"cscdll_ordinal67" @67 ; cscdll.dll
+"cscdll_ordinal68" @68 ; cscdll.dll
+"cscdll_ordinal69" @69 ; cscdll.dll
+"cscdll_ordinal70" @70 ; cscdll.dll
+"cscdll_ordinal71" @71 ; cscdll.dll
+"cscdll_ordinal72" @72 ; cscdll.dll
+"cscdll_ordinal73" @73 ; cscdll.dll
+"cscdll_ordinal74" @74 ; cscdll.dll
+"cscdll_ordinal75" @75 ; cscdll.dll
+"cscdll_ordinal76" @76 ; cscdll.dll
+"cscdll_ordinal77" @77 ; cscdll.dll
+"cscdll_ordinal78" @78 ; cscdll.dll
+"cscdll_ordinal79" @79 ; cscdll.dll
+"cscdll_ordinal80" @80 ; cscdll.dll
+"cscdll_ordinal81" @81 ; cscdll.dll
+"cscdll_ordinal82" @82 ; cscdll.dll
+"cscdll_ordinal83" @83 ; cscdll.dll
+"cscdll_ordinal84" @84 ; cscdll.dll
+"cscdll_ordinal85" @85 ; cscdll.dll
+"cscdll_ordinal86" @86 ; cscdll.dll
+"cscdll_ordinal87" @87 ; cscdll.dll
+"cscdll_ordinal88" @88 ; cscdll.dll
+"cscdll_ordinal89" @89 ; cscdll.dll
+"cscdll_ordinal90" @90 ; cscdll.dll
+"cscdll_ordinal91" @91 ; cscdll.dll
+"cscdll_ordinal92" @92 ; cscdll.dll
+"cscdll_ordinal93" @93 ; cscdll.dll
+"cscdll_ordinal94" @94 ; cscdll.dll
+"cscdll_ordinal95" @95 ; cscdll.dll
+"cscdll_ordinal96" @96 ; cscdll.dll
+"cscdll_ordinal97" @97 ; cscdll.dll
+"cscdll_ordinal98" @98 ; cscdll.dll
+"cscdll_ordinal99" @99 ; cscdll.dll

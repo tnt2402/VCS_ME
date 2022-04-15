@@ -1,0 +1,6 @@
+LIBRARY "dmocx.dll"
+EXPORTS
+"DllCanUnloadNow" ; dmocx.dll
+"DllGetClassObject" ; dmocx.dll
+"DllRegisterServer" ; dmocx.dll
+"DllUnregisterServer" ; dmocx.dll

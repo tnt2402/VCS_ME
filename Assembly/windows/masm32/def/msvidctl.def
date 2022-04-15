@@ -1,0 +1,7 @@
+LIBRARY "msvidctl.dll"
+EXPORTS
+"DllCanUnloadNow" ; msvidctl.dll
+"DllGetClassObject" ; msvidctl.dll
+"DllRegisterServer" ; msvidctl.dll
+"DllUnregisterServer" ; msvidctl.dll
+"GetProxyDllInfo" ; msvidctl.dll

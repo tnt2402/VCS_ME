@@ -1,0 +1,4 @@
+LIBRARY "mscories.dll"
+EXPORTS
+"Install" ; mscories.dll
+"Uninstall" ; mscories.dll

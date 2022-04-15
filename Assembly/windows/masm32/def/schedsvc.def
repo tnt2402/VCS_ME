@@ -1,0 +1,9 @@
+LIBRARY "schedsvc.dll"
+EXPORTS
+"CloseProc" ; schedsvc.dll
+"SPUninstall" ; schedsvc.dll
+"SPUninstallCallback" ; schedsvc.dll
+"SchedServiceMain" ; schedsvc.dll
+"SysPrepBackup" ; schedsvc.dll
+"SysPrepCallback" ; schedsvc.dll
+"SysPrepRestore" ; schedsvc.dll

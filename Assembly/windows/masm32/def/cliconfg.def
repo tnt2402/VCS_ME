@@ -1,0 +1,5 @@
+LIBRARY "cliconfg.dll"
+EXPORTS
+"CPlApplet" ; cliconfg.dll
+"ClientConfigureAddEdit" ; cliconfg.dll
+"OnInitDialogMain" ; cliconfg.dll

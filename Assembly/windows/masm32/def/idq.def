@@ -1,0 +1,5 @@
+LIBRARY "idq.dll"
+EXPORTS
+"GetExtensionVersion" ; idq.dll
+"HttpExtensionProc" ; idq.dll
+"TerminateExtension" ; idq.dll

@@ -1,0 +1,3 @@
+LIBRARY "cryptsvc.dll"
+EXPORTS
+"CryptServiceMain" ; cryptsvc.dll

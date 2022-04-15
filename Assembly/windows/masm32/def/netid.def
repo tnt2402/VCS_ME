@@ -1,0 +1,4 @@
+LIBRARY "netid.dll"
+EXPORTS
+"CreateNetIDPropertyPage" ; netid.dll
+"ShowDcNotFoundErrorDialog" ; netid.dll

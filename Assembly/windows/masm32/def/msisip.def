@@ -1,0 +1,10 @@
+LIBRARY "msisip.dll"
+EXPORTS
+"DllRegisterServer" ; msisip.dll
+"DllUnregisterServer" ; msisip.dll
+"MsiSIPCreateIndirectData" ; msisip.dll
+"MsiSIPGetSignedDataMsg" ; msisip.dll
+"MsiSIPIsMyTypeOfFile" ; msisip.dll
+"MsiSIPPutSignedDataMsg" ; msisip.dll
+"MsiSIPRemoveSignedDataMsg" ; msisip.dll
+"MsiSIPVerifyIndirectData" ; msisip.dll

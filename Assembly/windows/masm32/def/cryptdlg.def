@@ -1,0 +1,23 @@
+LIBRARY "cryptdlg.dll"
+EXPORTS
+"CertConfigureTrustA" ; cryptdlg.dll
+"CertConfigureTrustW" ; cryptdlg.dll
+"CertModifyCertificatesToTrust" ; cryptdlg.dll
+"CertSelectCertificateA" ; cryptdlg.dll
+"CertSelectCertificateW" ; cryptdlg.dll
+"CertTrustCertPolicy" ; cryptdlg.dll
+"CertTrustCleanup" ; cryptdlg.dll
+"CertTrustFinalPolicy" ; cryptdlg.dll
+"CertTrustInit" ; cryptdlg.dll
+"CertViewPropertiesA" ; cryptdlg.dll
+"CertViewPropertiesW" ; cryptdlg.dll
+"DecodeAttrSequence" ; cryptdlg.dll
+"DecodeRecipientID" ; cryptdlg.dll
+"DllRegisterServer" ; cryptdlg.dll
+"DllUnregisterServer" ; cryptdlg.dll
+"EncodeAttrSequence" ; cryptdlg.dll
+"EncodeRecipientID" ; cryptdlg.dll
+"FormatPKIXEmailProtection" ; cryptdlg.dll
+"FormatVerisignExtension" ; cryptdlg.dll
+"GetFriendlyNameOfCertA" ; cryptdlg.dll
+"GetFriendlyNameOfCertW" ; cryptdlg.dll

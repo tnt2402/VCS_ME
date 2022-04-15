@@ -1,0 +1,22 @@
+LIBRARY "atiedu64.dll"
+EXPORTS
+"AtiEDUCloseAdapterHandle" ; atiedu64.dll
+"AtiEDUEnumApiSupportedDevices" ; atiedu64.dll
+"AtiEDUEnumSupportedExternalDevices" ; atiedu64.dll
+"AtiEDUGetAdapterTemperatureOffset" ; atiedu64.dll
+"AtiEDUGetExtDeviceInfo" ; atiedu64.dll
+"AtiEDUGetThermalApiVersion" ; atiedu64.dll
+"AtiEDUGetThermalRemoteTemperature" ; atiedu64.dll
+"AtiEDUGetThermalRemoteTemperatureCriticalSetPoint" ; atiedu64.dll
+"AtiEDUGetThermalRemoteTemperatureFP" ; atiedu64.dll
+"AtiEDUGetThermalRemoteTemperatureHighSetPoint" ; atiedu64.dll
+"AtiEDUGetThermalRemoteTemperatureLowSetPoint" ; atiedu64.dll
+"AtiEDUGetThermalRemoteTemperatureOffset" ; atiedu64.dll
+"AtiEDUInitializeThermal" ; atiedu64.dll
+"AtiEDUOpenAdapterHandle" ; atiedu64.dll
+"AtiEDUSetThermalRemoteTemperatureCriticalSetPoint" ; atiedu64.dll
+"AtiEDUSetThermalRemoteTemperatureHighSetPoint" ; atiedu64.dll
+"AtiEDUSetThermalRemoteTemperatureLowSetPoint" ; atiedu64.dll
+"AtiEDUSetThermalRemoteTemperatureOffset" ; atiedu64.dll
+"AtiEDUThermalDisableInterrupt" ; atiedu64.dll
+"AtiEDUThermalEnableInterrupt" ; atiedu64.dll

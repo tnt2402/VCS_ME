@@ -1,0 +1,14 @@
+LIBRARY "imgutil.dll"
+EXPORTS
+"ComputeInvCMAP" ; imgutil.dll
+"CreateDDrawSurfaceOnDIB" ; imgutil.dll
+"CreateMIMEMap" ; imgutil.dll
+"DecodeImage" ; imgutil.dll
+"DitherTo8" ; imgutil.dll
+"DllCanUnloadNow" ; imgutil.dll
+"DllGetClassObject" ; imgutil.dll
+"DllRegisterServer" ; imgutil.dll
+"DllUnregisterServer" ; imgutil.dll
+"GetMaxMIMEIDBytes" ; imgutil.dll
+"IdentifyMIMEType" ; imgutil.dll
+"SniffStream" ; imgutil.dll

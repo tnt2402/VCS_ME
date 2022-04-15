@@ -1,0 +1,46 @@
+LIBRARY "ntprint.dll"
+EXPORTS
+"ClassInstall32" ; ntprint.dll
+"IppOcEntry" ; ntprint.dll
+"PSetupAssociateICMProfiles" ; ntprint.dll
+"PSetupBuildDriversFromPath" ; ntprint.dll
+"PSetupCreateDrvSetupPage" ; ntprint.dll
+"PSetupCreateMonitorInfo" ; ntprint.dll
+"PSetupCreatePrinterDeviceInfoList" ; ntprint.dll
+"PSetupDestroyDriverInfo3" ; ntprint.dll
+"PSetupDestroyMonitorInfo" ; ntprint.dll
+"PSetupDestroyPrinterDeviceInfoList" ; ntprint.dll
+"PSetupDestroySelectedDriverInfo" ; ntprint.dll
+"PSetupDriverInfoFromName" ; ntprint.dll
+"PSetupEnumMonitor" ; ntprint.dll
+"PSetupFindMappedDriver" ; ntprint.dll
+"PSetupFreeDrvField" ; ntprint.dll
+"PSetupFreeMem" ; ntprint.dll
+"PSetupGetActualInstallSection" ; ntprint.dll
+"PSetupGetDriverInfForPrinter" ; ntprint.dll
+"PSetupGetDriverInfForPrinterEx" ; ntprint.dll
+"PSetupGetDriverInfo3" ; ntprint.dll
+"PSetupGetLocalDataField" ; ntprint.dll
+"PSetupGetPathToSearch" ; ntprint.dll
+"PSetupGetSelectedDriverInfo" ; ntprint.dll
+"PSetupInstallICMProfiles" ; ntprint.dll
+"PSetupInstallInboxDriverSilently" ; ntprint.dll
+"PSetupInstallMonitor" ; ntprint.dll
+"PSetupInstallPrinterDriver" ; ntprint.dll
+"PSetupInstallPrinterDriverFromTheWeb" ; ntprint.dll
+"PSetupIsCompatibleDriver" ; ntprint.dll
+"PSetupIsDriverInstalled" ; ntprint.dll
+"PSetupIsTheDriverFoundInInfInstalled" ; ntprint.dll
+"PSetupKillBadUserConnections" ; ntprint.dll
+"PSetupPreSelectDriver" ; ntprint.dll
+"PSetupProcessPrinterAdded" ; ntprint.dll
+"PSetupSelectDeviceButtons" ; ntprint.dll
+"PSetupSelectDriver" ; ntprint.dll
+"PSetupSetDriverPlatform" ; ntprint.dll
+"PSetupSetSelectDevTitleAndInstructions" ; ntprint.dll
+"PSetupShowBlockedDriverUI" ; ntprint.dll
+"PSetupThisPlatform" ; ntprint.dll
+"PSetupUpgradeClusterDriversW" ; ntprint.dll
+"ServerInstallW" ; ntprint.dll
+"SetupInetPrint" ; ntprint.dll
+"ntprint_ordinal1" @1 ; ntprint.dll

@@ -1,0 +1,6 @@
+LIBRARY "wlanmon.dll"
+EXPORTS
+"DllCanUnloadNow" ; wlanmon.dll
+"DllGetClassObject" ; wlanmon.dll
+"DllRegisterServer" ; wlanmon.dll
+"DllUnregisterServer" ; wlanmon.dll

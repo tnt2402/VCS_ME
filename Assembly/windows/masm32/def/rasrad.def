@@ -1,0 +1,17 @@
+LIBRARY "rasrad.dll"
+EXPORTS
+"Close" ; rasrad.dll
+"Collect" ; rasrad.dll
+"Open" ; rasrad.dll
+"RasAcctConfigChangeNotification" ; rasrad.dll
+"RasAcctProviderFreeAttributes" ; rasrad.dll
+"RasAcctProviderInitialize" ; rasrad.dll
+"RasAcctProviderInterimAccounting" ; rasrad.dll
+"RasAcctProviderStartAccounting" ; rasrad.dll
+"RasAcctProviderStopAccounting" ; rasrad.dll
+"RasAcctProviderTerminate" ; rasrad.dll
+"RasAuthConfigChangeNotification" ; rasrad.dll
+"RasAuthProviderAuthenticateUser" ; rasrad.dll
+"RasAuthProviderFreeAttributes" ; rasrad.dll
+"RasAuthProviderInitialize" ; rasrad.dll
+"RasAuthProviderTerminate" ; rasrad.dll

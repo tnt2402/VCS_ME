@@ -1,0 +1,7 @@
+LIBRARY "wow64mib.dll"
+EXPORTS
+"SnmpExtensionClose" ; wow64mib.dll
+"SnmpExtensionInit" ; wow64mib.dll
+"SnmpExtensionInitEx" ; wow64mib.dll
+"SnmpExtensionQuery" ; wow64mib.dll
+"SnmpExtensionTrap" ; wow64mib.dll

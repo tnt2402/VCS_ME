@@ -1,0 +1,9 @@
+LIBRARY "acwpipint.dll"
+EXPORTS
+"JNI_OnLoad" ; acwpipint.dll
+"Java_com_activcard_pipint_jni_JNIPipint_CallEx" ; acwpipint.dll
+"Java_com_activcard_pipint_jni_JNIPipint_Call__Ljava_lang_String_2" ; acwpipint.dll
+"Java_com_activcard_pipint_jni_JNIPipint_Call__Ljava_lang_String_2Ljava_lang_Object_2Ljava_lang_String_2" ; acwpipint.dll
+"Java_com_activcard_pipint_jni_JNIPipint_End" ; acwpipint.dll
+"Java_com_activcard_pipint_jni_JNIPipint_InitCall" ; acwpipint.dll
+"Java_com_activcard_pipint_jni_JNIPipint_Start" ; acwpipint.dll

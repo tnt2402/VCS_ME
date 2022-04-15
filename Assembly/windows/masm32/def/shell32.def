@@ -1,0 +1,757 @@
+LIBRARY "shell32.dll"
+EXPORTS
+"Activate_RunDLL" ; shell32.dll
+"AppCompat_RunDLLW" ; shell32.dll
+"CDefFolderMenu_Create" ; shell32.dll
+"CDefFolderMenu_Create2" ; shell32.dll
+"CallCPLEntry16" ; shell32.dll
+"CheckEscapesA" ; shell32.dll
+"CheckEscapesW" ; shell32.dll
+"CommandLineToArgvW" ; shell32.dll
+"Control_FillCache_RunDLL" ; shell32.dll
+"Control_FillCache_RunDLLA" ; shell32.dll
+"Control_FillCache_RunDLLW" ; shell32.dll
+"Control_RunDLL" ; shell32.dll
+"Control_RunDLLA" ; shell32.dll
+"Control_RunDLLAsUserW" ; shell32.dll
+"Control_RunDLLW" ; shell32.dll
+"DAD_AutoScroll" ; shell32.dll
+"DAD_DragEnterEx" ; shell32.dll
+"DAD_DragEnterEx2" ; shell32.dll
+"DAD_DragLeave" ; shell32.dll
+"DAD_DragMove" ; shell32.dll
+"DAD_SetDragImage" ; shell32.dll
+"DAD_ShowDragImage" ; shell32.dll
+"DllCanUnloadNow" ; shell32.dll
+"DllGetClassObject" ; shell32.dll
+"DllGetVersion" ; shell32.dll
+"DllInstall" ; shell32.dll
+"DllRegisterServer" ; shell32.dll
+"DllUnregisterServer" ; shell32.dll
+"DoEnvironmentSubstA" ; shell32.dll
+"DoEnvironmentSubstW" ; shell32.dll
+"DragAcceptFiles" ; shell32.dll
+"DragFinish" ; shell32.dll
+"DragQueryFile" ; shell32.dll
+"DragQueryFileA" ; shell32.dll
+"DragQueryFileAorW" ; shell32.dll
+"DragQueryFileW" ; shell32.dll
+"DragQueryPoint" ; shell32.dll
+"DriveType" ; shell32.dll
+"DuplicateIcon" ; shell32.dll
+"ExtractAssociatedIconA" ; shell32.dll
+"ExtractAssociatedIconExA" ; shell32.dll
+"ExtractAssociatedIconExW" ; shell32.dll
+"ExtractAssociatedIconW" ; shell32.dll
+"ExtractIconA" ; shell32.dll
+"ExtractIconEx" ; shell32.dll
+"ExtractIconExA" ; shell32.dll
+"ExtractIconExW" ; shell32.dll
+"ExtractIconResInfoA" ; shell32.dll
+"ExtractIconResInfoW" ; shell32.dll
+"ExtractIconW" ; shell32.dll
+"ExtractVersionResource16W" ; shell32.dll
+"FindExeDlgProc" ; shell32.dll
+"FindExecutableA" ; shell32.dll
+"FindExecutableW" ; shell32.dll
+"FreeIconList" ; shell32.dll
+"GetFileNameFromBrowse" ; shell32.dll
+"ILAppendID" ; shell32.dll
+"ILClone" ; shell32.dll
+"ILCloneFirst" ; shell32.dll
+"ILCombine" ; shell32.dll
+"ILCreateFromPath" ; shell32.dll
+"ILCreateFromPathA" ; shell32.dll
+"ILCreateFromPathW" ; shell32.dll
+"ILFindChild" ; shell32.dll
+"ILFindLastID" ; shell32.dll
+"ILFree" ; shell32.dll
+"ILGetNext" ; shell32.dll
+"ILGetSize" ; shell32.dll
+"ILIsEqual" ; shell32.dll
+"ILIsParent" ; shell32.dll
+"ILLoadFromStream" ; shell32.dll
+"ILRemoveLastID" ; shell32.dll
+"ILSaveToStream" ; shell32.dll
+"InternalExtractIconListA" ; shell32.dll
+"InternalExtractIconListW" ; shell32.dll
+"IsLFNDrive" ; shell32.dll
+"IsLFNDriveA" ; shell32.dll
+"IsLFNDriveW" ; shell32.dll
+"IsNetDrive" ; shell32.dll
+"IsUserAnAdmin" ; shell32.dll
+"OpenAs_RunDLL" ; shell32.dll
+"OpenAs_RunDLLA" ; shell32.dll
+"OpenAs_RunDLLW" ; shell32.dll
+"OpenRegStream" ; shell32.dll
+"Options_RunDLL" ; shell32.dll
+"Options_RunDLLA" ; shell32.dll
+"Options_RunDLLW" ; shell32.dll
+"PathCleanupSpec" ; shell32.dll
+"PathGetShortPath" ; shell32.dll
+"PathIsExe" ; shell32.dll
+"PathIsSlowA" ; shell32.dll
+"PathIsSlowW" ; shell32.dll
+"PathMakeUniqueName" ; shell32.dll
+"PathProcessCommand" ; shell32.dll
+"PathQualify" ; shell32.dll
+"PathResolve" ; shell32.dll
+"PathYetAnotherMakeUniqueName" ; shell32.dll
+"PickIconDlg" ; shell32.dll
+"PifMgr_CloseProperties" ; shell32.dll
+"PifMgr_GetProperties" ; shell32.dll
+"PifMgr_OpenProperties" ; shell32.dll
+"PifMgr_SetProperties" ; shell32.dll
+"PrintersGetCommand_RunDLL" ; shell32.dll
+"PrintersGetCommand_RunDLLA" ; shell32.dll
+"PrintersGetCommand_RunDLLW" ; shell32.dll
+"ReadCabinetState" ; shell32.dll
+"RealDriveType" ; shell32.dll
+"RealShellExecuteA" ; shell32.dll
+"RealShellExecuteExA" ; shell32.dll
+"RealShellExecuteExW" ; shell32.dll
+"RealShellExecuteW" ; shell32.dll
+"RegenerateUserEnvironment" ; shell32.dll
+"RestartDialog" ; shell32.dll
+"RestartDialogEx" ; shell32.dll
+"SHAddFromPropSheetExtArray" ; shell32.dll
+"SHAddToRecentDocs" ; shell32.dll
+"SHAlloc" ; shell32.dll
+"SHAllocShared" ; shell32.dll
+"SHAppBarMessage" ; shell32.dll
+"SHBindToParent" ; shell32.dll
+"SHBrowseForFolder" ; shell32.dll
+"SHBrowseForFolderA" ; shell32.dll
+"SHBrowseForFolderW" ; shell32.dll
+"SHCLSIDFromString" ; shell32.dll
+"SHChangeNotification_Lock" ; shell32.dll
+"SHChangeNotification_Unlock" ; shell32.dll
+"SHChangeNotify" ; shell32.dll
+"SHChangeNotifyDeregister" ; shell32.dll
+"SHChangeNotifyRegister" ; shell32.dll
+"SHChangeNotifySuspendResume" ; shell32.dll
+"SHCloneSpecialIDList" ; shell32.dll
+"SHCoCreateInstance" ; shell32.dll
+"SHCreateDirectory" ; shell32.dll
+"SHCreateDirectoryExA" ; shell32.dll
+"SHCreateDirectoryExW" ; shell32.dll
+"SHCreateFileExtractIconW" ; shell32.dll
+"SHCreateLocalServerRunDll" ; shell32.dll
+"SHCreateProcessAsUserW" ; shell32.dll
+"SHCreatePropSheetExtArray" ; shell32.dll
+"SHCreateQueryCancelAutoPlayMoniker" ; shell32.dll
+"SHCreateShellFolderView" ; shell32.dll
+"SHCreateShellFolderViewEx" ; shell32.dll
+"SHCreateShellItem" ; shell32.dll
+"SHCreateStdEnumFmtEtc" ; shell32.dll
+"SHDefExtractIconA" ; shell32.dll
+"SHDefExtractIconW" ; shell32.dll
+"SHDestroyPropSheetExtArray" ; shell32.dll
+"SHDoDragDrop" ; shell32.dll
+"SHEmptyRecycleBinA" ; shell32.dll
+"SHEmptyRecycleBinW" ; shell32.dll
+"SHEnableServiceObject" ; shell32.dll
+"SHEnumerateUnreadMailAccountsW" ; shell32.dll
+"SHExtractIconsW" ; shell32.dll
+"SHFileOperation" ; shell32.dll
+"SHFileOperationA" ; shell32.dll
+"SHFileOperationW" ; shell32.dll
+"SHFindFiles" ; shell32.dll
+"SHFind_InitMenuPopup" ; shell32.dll
+"SHFlushClipboard" ; shell32.dll
+"SHFlushSFCache" ; shell32.dll
+"SHFormatDrive" ; shell32.dll
+"SHFree" ; shell32.dll
+"SHFreeNameMappings" ; shell32.dll
+"SHFreeShared" ; shell32.dll
+"SHGetAttributesFromDataObject" ; shell32.dll
+"SHGetDataFromIDListA" ; shell32.dll
+"SHGetDataFromIDListW" ; shell32.dll
+"SHGetDesktopFolder" ; shell32.dll
+"SHGetDiskFreeSpaceA" ; shell32.dll
+"SHGetDiskFreeSpaceExA" ; shell32.dll
+"SHGetDiskFreeSpaceExW" ; shell32.dll
+"SHGetFileInfo" ; shell32.dll
+"SHGetFileInfoA" ; shell32.dll
+"SHGetFileInfoW" ; shell32.dll
+"SHGetFolderLocation" ; shell32.dll
+"SHGetFolderPathA" ; shell32.dll
+"SHGetFolderPathAndSubDirA" ; shell32.dll
+"SHGetFolderPathAndSubDirW" ; shell32.dll
+"SHGetFolderPathW" ; shell32.dll
+"SHGetIconOverlayIndexA" ; shell32.dll
+"SHGetIconOverlayIndexW" ; shell32.dll
+"SHGetImageList" ; shell32.dll
+"SHGetInstanceExplorer" ; shell32.dll
+"SHGetMalloc" ; shell32.dll
+"SHGetNewLinkInfo" ; shell32.dll
+"SHGetNewLinkInfoA" ; shell32.dll
+"SHGetNewLinkInfoW" ; shell32.dll
+"SHGetPathFromIDList" ; shell32.dll
+"SHGetPathFromIDListA" ; shell32.dll
+"SHGetPathFromIDListW" ; shell32.dll
+"SHGetRealIDL" ; shell32.dll
+"SHGetSetFolderCustomSettingsW" ; shell32.dll
+"SHGetSetSettings" ; shell32.dll
+"SHGetSettings" ; shell32.dll
+"SHGetShellStyleHInstance" ; shell32.dll
+"SHGetSpecialFolderLocation" ; shell32.dll
+"SHGetSpecialFolderPathA" ; shell32.dll
+"SHGetSpecialFolderPathW" ; shell32.dll
+"SHGetUnreadMailCountW" ; shell32.dll
+"SHHandleUpdateImage" ; shell32.dll
+"SHHelpShortcuts_RunDLL" ; shell32.dll
+"SHHelpShortcuts_RunDLLA" ; shell32.dll
+"SHHelpShortcuts_RunDLLW" ; shell32.dll
+"SHILCreateFromPath" ; shell32.dll
+"SHInvokePrinterCommandA" ; shell32.dll
+"SHInvokePrinterCommandW" ; shell32.dll
+"SHIsFileAvailableOffline" ; shell32.dll
+"SHLimitInputEdit" ; shell32.dll
+"SHLoadInProc" ; shell32.dll
+"SHLoadNonloadedIconOverlayIdentifiers" ; shell32.dll
+"SHLoadOLE" ; shell32.dll
+"SHLockShared" ; shell32.dll
+"SHMapIDListToImageListIndexAsync" ; shell32.dll
+"SHMapPIDLToSystemImageListIndex" ; shell32.dll
+"SHMultiFileProperties" ; shell32.dll
+"SHObjectProperties" ; shell32.dll
+"SHOpenFolderAndSelectItems" ; shell32.dll
+"SHOpenPropSheetW" ; shell32.dll
+"SHParseDisplayName" ; shell32.dll
+"SHPathPrepareForWriteA" ; shell32.dll
+"SHPathPrepareForWriteW" ; shell32.dll
+"SHPropStgCreate" ; shell32.dll
+"SHPropStgReadMultiple" ; shell32.dll
+"SHPropStgWriteMultiple" ; shell32.dll
+"SHQueryRecycleBinA" ; shell32.dll
+"SHQueryRecycleBinW" ; shell32.dll
+"SHReplaceFromPropSheetExtArray" ; shell32.dll
+"SHRestricted" ; shell32.dll
+"SHRunControlPanel" ; shell32.dll
+"SHSetInstanceExplorer" ; shell32.dll
+"SHSetLocalizedName" ; shell32.dll
+"SHSetUnreadMailCountW" ; shell32.dll
+"SHShellFolderView_Message" ; shell32.dll
+"SHSimpleIDListFromPath" ; shell32.dll
+"SHStartNetConnectionDialogW" ; shell32.dll
+"SHTestTokenMembership" ; shell32.dll
+"SHUnlockShared" ; shell32.dll
+"SHUpdateImageA" ; shell32.dll
+"SHUpdateImageW" ; shell32.dll
+"SHUpdateRecycleBinIcon" ; shell32.dll
+"SHValidateUNC" ; shell32.dll
+"SheChangeDirA" ; shell32.dll
+"SheChangeDirExA" ; shell32.dll
+"SheChangeDirExW" ; shell32.dll
+"SheChangeDirW" ; shell32.dll
+"SheConvertPathW" ; shell32.dll
+"SheFullPathA" ; shell32.dll
+"SheFullPathW" ; shell32.dll
+"SheGetCurDrive" ; shell32.dll
+"SheGetDirA" ; shell32.dll
+"SheGetDirExW" ; shell32.dll
+"SheGetDirW" ; shell32.dll
+"SheGetPathOffsetW" ; shell32.dll
+"SheRemoveQuotesA" ; shell32.dll
+"SheRemoveQuotesW" ; shell32.dll
+"SheSetCurDrive" ; shell32.dll
+"SheShortenPathA" ; shell32.dll
+"SheShortenPathW" ; shell32.dll
+"ShellAboutA" ; shell32.dll
+"ShellAboutW" ; shell32.dll
+"ShellExec_RunDLL" ; shell32.dll
+"ShellExec_RunDLLA" ; shell32.dll
+"ShellExec_RunDLLW" ; shell32.dll
+"ShellExecuteA" ; shell32.dll
+"ShellExecuteEx" ; shell32.dll
+"ShellExecuteExA" ; shell32.dll
+"ShellExecuteExW" ; shell32.dll
+"ShellExecuteW" ; shell32.dll
+"ShellHookProc" ; shell32.dll
+"ShellMessageBoxA" ; shell32.dll
+"ShellMessageBoxW" ; shell32.dll
+"Shell_GetCachedImageIndex" ; shell32.dll
+"Shell_GetImageLists" ; shell32.dll
+"Shell_MergeMenus" ; shell32.dll
+"Shell_NotifyIcon" ; shell32.dll
+"Shell_NotifyIconA" ; shell32.dll
+"Shell_NotifyIconW" ; shell32.dll
+"SignalFileOpen" ; shell32.dll
+"StrChrA" ; shell32.dll
+"StrChrIA" ; shell32.dll
+"StrChrIW" ; shell32.dll
+"StrChrW" ; shell32.dll
+"StrCmpNA" ; shell32.dll
+"StrCmpNIA" ; shell32.dll
+"StrCmpNIW" ; shell32.dll
+"StrCmpNW" ; shell32.dll
+"StrCpyNA" ; shell32.dll
+"StrCpyNW" ; shell32.dll
+"StrNCmpA" ; shell32.dll
+"StrNCmpIA" ; shell32.dll
+"StrNCmpIW" ; shell32.dll
+"StrNCmpW" ; shell32.dll
+"StrNCpyA" ; shell32.dll
+"StrNCpyW" ; shell32.dll
+"StrRChrA" ; shell32.dll
+"StrRChrIA" ; shell32.dll
+"StrRChrIW" ; shell32.dll
+"StrRChrW" ; shell32.dll
+"StrRStrA" ; shell32.dll
+"StrRStrIA" ; shell32.dll
+"StrRStrIW" ; shell32.dll
+"StrRStrW" ; shell32.dll
+"StrStrA" ; shell32.dll
+"StrStrIA" ; shell32.dll
+"StrStrIW" ; shell32.dll
+"StrStrW" ; shell32.dll
+"WOWShellExecute" ; shell32.dll
+"Win32DeleteFile" ; shell32.dll
+"WriteCabinetState" ; shell32.dll
+"shell32_ordinal12" @12 ; shell32.dll
+"shell32_ordinal122" @122 ; shell32.dll
+"shell32_ordinal123" @123 ; shell32.dll
+"shell32_ordinal126" @126 ; shell32.dll
+"shell32_ordinal127" @127 ; shell32.dll
+"shell32_ordinal128" @128 ; shell32.dll
+"shell32_ordinal130" @130 ; shell32.dll
+"shell32_ordinal145" @145 ; shell32.dll
+"shell32_ordinal146" @146 ; shell32.dll
+"shell32_ordinal15" @15 ; shell32.dll
+"shell32_ordinal156" @156 ; shell32.dll
+"shell32_ordinal158" @158 ; shell32.dll
+"shell32_ordinal159" @159 ; shell32.dll
+"shell32_ordinal160" @160 ; shell32.dll
+"shell32_ordinal163" @163 ; shell32.dll
+"shell32_ordinal172" @172 ; shell32.dll
+"shell32_ordinal175" @175 ; shell32.dll
+"shell32_ordinal177" @177 ; shell32.dll
+"shell32_ordinal181" @181 ; shell32.dll
+"shell32_ordinal184" @184 ; shell32.dll
+"shell32_ordinal185" @185 ; shell32.dll
+"shell32_ordinal186" @186 ; shell32.dll
+"shell32_ordinal187" @187 ; shell32.dll
+"shell32_ordinal188" @188 ; shell32.dll
+"shell32_ordinal194" @194 ; shell32.dll
+"shell32_ordinal197" @197 ; shell32.dll
+"shell32_ordinal198" @198 ; shell32.dll
+"shell32_ordinal20" @20 ; shell32.dll
+"shell32_ordinal200" @200 ; shell32.dll
+"shell32_ordinal201" @201 ; shell32.dll
+"shell32_ordinal202" @202 ; shell32.dll
+"shell32_ordinal203" @203 ; shell32.dll
+"shell32_ordinal204" @204 ; shell32.dll
+"shell32_ordinal205" @205 ; shell32.dll
+"shell32_ordinal209" @209 ; shell32.dll
+"shell32_ordinal210" @210 ; shell32.dll
+"shell32_ordinal211" @211 ; shell32.dll
+"shell32_ordinal212" @212 ; shell32.dll
+"shell32_ordinal213" @213 ; shell32.dll
+"shell32_ordinal214" @214 ; shell32.dll
+"shell32_ordinal215" @215 ; shell32.dll
+"shell32_ordinal230" @230 ; shell32.dll
+"shell32_ordinal231" @231 ; shell32.dll
+"shell32_ordinal232" @232 ; shell32.dll
+"shell32_ordinal233" @233 ; shell32.dll
+"shell32_ordinal234" @234 ; shell32.dll
+"shell32_ordinal235" @235 ; shell32.dll
+"shell32_ordinal236" @236 ; shell32.dll
+"shell32_ordinal237" @237 ; shell32.dll
+"shell32_ordinal241" @241 ; shell32.dll
+"shell32_ordinal242" @242 ; shell32.dll
+"shell32_ordinal243" @243 ; shell32.dll
+"shell32_ordinal244" @244 ; shell32.dll
+"shell32_ordinal246" @246 ; shell32.dll
+"shell32_ordinal247" @247 ; shell32.dll
+"shell32_ordinal248" @248 ; shell32.dll
+"shell32_ordinal249" @249 ; shell32.dll
+"shell32_ordinal250" @250 ; shell32.dll
+"shell32_ordinal251" @251 ; shell32.dll
+"shell32_ordinal252" @252 ; shell32.dll
+"shell32_ordinal253" @253 ; shell32.dll
+"shell32_ordinal254" @254 ; shell32.dll
+"shell32_ordinal257" @257 ; shell32.dll
+"shell32_ordinal258" @258 ; shell32.dll
+"shell32_ordinal259" @259 ; shell32.dll
+"shell32_ordinal29" @29 ; shell32.dll
+"shell32_ordinal30" @30 ; shell32.dll
+"shell32_ordinal31" @31 ; shell32.dll
+"shell32_ordinal32" @32 ; shell32.dll
+"shell32_ordinal33" @33 ; shell32.dll
+"shell32_ordinal34" @34 ; shell32.dll
+"shell32_ordinal35" @35 ; shell32.dll
+"shell32_ordinal36" @36 ; shell32.dll
+"shell32_ordinal37" @37 ; shell32.dll
+"shell32_ordinal38" @38 ; shell32.dll
+"shell32_ordinal39" @39 ; shell32.dll
+"shell32_ordinal398" @398 ; shell32.dll
+"shell32_ordinal399" @399 ; shell32.dll
+"shell32_ordinal40" @40 ; shell32.dll
+"shell32_ordinal400" @400 ; shell32.dll
+"shell32_ordinal401" @401 ; shell32.dll
+"shell32_ordinal402" @402 ; shell32.dll
+"shell32_ordinal403" @403 ; shell32.dll
+"shell32_ordinal404" @404 ; shell32.dll
+"shell32_ordinal405" @405 ; shell32.dll
+"shell32_ordinal406" @406 ; shell32.dll
+"shell32_ordinal407" @407 ; shell32.dll
+"shell32_ordinal408" @408 ; shell32.dll
+"shell32_ordinal409" @409 ; shell32.dll
+"shell32_ordinal410" @410 ; shell32.dll
+"shell32_ordinal411" @411 ; shell32.dll
+"shell32_ordinal412" @412 ; shell32.dll
+"shell32_ordinal413" @413 ; shell32.dll
+"shell32_ordinal414" @414 ; shell32.dll
+"shell32_ordinal415" @415 ; shell32.dll
+"shell32_ordinal416" @416 ; shell32.dll
+"shell32_ordinal417" @417 ; shell32.dll
+"shell32_ordinal418" @418 ; shell32.dll
+"shell32_ordinal419" @419 ; shell32.dll
+"shell32_ordinal420" @420 ; shell32.dll
+"shell32_ordinal421" @421 ; shell32.dll
+"shell32_ordinal422" @422 ; shell32.dll
+"shell32_ordinal423" @423 ; shell32.dll
+"shell32_ordinal424" @424 ; shell32.dll
+"shell32_ordinal425" @425 ; shell32.dll
+"shell32_ordinal426" @426 ; shell32.dll
+"shell32_ordinal427" @427 ; shell32.dll
+"shell32_ordinal428" @428 ; shell32.dll
+"shell32_ordinal429" @429 ; shell32.dll
+"shell32_ordinal430" @430 ; shell32.dll
+"shell32_ordinal431" @431 ; shell32.dll
+"shell32_ordinal432" @432 ; shell32.dll
+"shell32_ordinal433" @433 ; shell32.dll
+"shell32_ordinal434" @434 ; shell32.dll
+"shell32_ordinal435" @435 ; shell32.dll
+"shell32_ordinal436" @436 ; shell32.dll
+"shell32_ordinal437" @437 ; shell32.dll
+"shell32_ordinal438" @438 ; shell32.dll
+"shell32_ordinal439" @439 ; shell32.dll
+"shell32_ordinal44" @44 ; shell32.dll
+"shell32_ordinal440" @440 ; shell32.dll
+"shell32_ordinal441" @441 ; shell32.dll
+"shell32_ordinal442" @442 ; shell32.dll
+"shell32_ordinal443" @443 ; shell32.dll
+"shell32_ordinal444" @444 ; shell32.dll
+"shell32_ordinal445" @445 ; shell32.dll
+"shell32_ordinal446" @446 ; shell32.dll
+"shell32_ordinal447" @447 ; shell32.dll
+"shell32_ordinal448" @448 ; shell32.dll
+"shell32_ordinal449" @449 ; shell32.dll
+"shell32_ordinal45" @45 ; shell32.dll
+"shell32_ordinal450" @450 ; shell32.dll
+"shell32_ordinal451" @451 ; shell32.dll
+"shell32_ordinal452" @452 ; shell32.dll
+"shell32_ordinal453" @453 ; shell32.dll
+"shell32_ordinal454" @454 ; shell32.dll
+"shell32_ordinal455" @455 ; shell32.dll
+"shell32_ordinal456" @456 ; shell32.dll
+"shell32_ordinal457" @457 ; shell32.dll
+"shell32_ordinal458" @458 ; shell32.dll
+"shell32_ordinal459" @459 ; shell32.dll
+"shell32_ordinal46" @46 ; shell32.dll
+"shell32_ordinal460" @460 ; shell32.dll
+"shell32_ordinal461" @461 ; shell32.dll
+"shell32_ordinal462" @462 ; shell32.dll
+"shell32_ordinal463" @463 ; shell32.dll
+"shell32_ordinal464" @464 ; shell32.dll
+"shell32_ordinal465" @465 ; shell32.dll
+"shell32_ordinal466" @466 ; shell32.dll
+"shell32_ordinal467" @467 ; shell32.dll
+"shell32_ordinal468" @468 ; shell32.dll
+"shell32_ordinal469" @469 ; shell32.dll
+"shell32_ordinal470" @470 ; shell32.dll
+"shell32_ordinal471" @471 ; shell32.dll
+"shell32_ordinal472" @472 ; shell32.dll
+"shell32_ordinal473" @473 ; shell32.dll
+"shell32_ordinal474" @474 ; shell32.dll
+"shell32_ordinal475" @475 ; shell32.dll
+"shell32_ordinal476" @476 ; shell32.dll
+"shell32_ordinal477" @477 ; shell32.dll
+"shell32_ordinal478" @478 ; shell32.dll
+"shell32_ordinal479" @479 ; shell32.dll
+"shell32_ordinal48" @48 ; shell32.dll
+"shell32_ordinal480" @480 ; shell32.dll
+"shell32_ordinal481" @481 ; shell32.dll
+"shell32_ordinal482" @482 ; shell32.dll
+"shell32_ordinal483" @483 ; shell32.dll
+"shell32_ordinal484" @484 ; shell32.dll
+"shell32_ordinal485" @485 ; shell32.dll
+"shell32_ordinal486" @486 ; shell32.dll
+"shell32_ordinal487" @487 ; shell32.dll
+"shell32_ordinal488" @488 ; shell32.dll
+"shell32_ordinal489" @489 ; shell32.dll
+"shell32_ordinal490" @490 ; shell32.dll
+"shell32_ordinal491" @491 ; shell32.dll
+"shell32_ordinal492" @492 ; shell32.dll
+"shell32_ordinal493" @493 ; shell32.dll
+"shell32_ordinal494" @494 ; shell32.dll
+"shell32_ordinal495" @495 ; shell32.dll
+"shell32_ordinal496" @496 ; shell32.dll
+"shell32_ordinal497" @497 ; shell32.dll
+"shell32_ordinal498" @498 ; shell32.dll
+"shell32_ordinal499" @499 ; shell32.dll
+"shell32_ordinal5" @5 ; shell32.dll
+"shell32_ordinal50" @50 ; shell32.dll
+"shell32_ordinal500" @500 ; shell32.dll
+"shell32_ordinal501" @501 ; shell32.dll
+"shell32_ordinal502" @502 ; shell32.dll
+"shell32_ordinal503" @503 ; shell32.dll
+"shell32_ordinal504" @504 ; shell32.dll
+"shell32_ordinal505" @505 ; shell32.dll
+"shell32_ordinal506" @506 ; shell32.dll
+"shell32_ordinal507" @507 ; shell32.dll
+"shell32_ordinal508" @508 ; shell32.dll
+"shell32_ordinal509" @509 ; shell32.dll
+"shell32_ordinal510" @510 ; shell32.dll
+"shell32_ordinal511" @511 ; shell32.dll
+"shell32_ordinal512" @512 ; shell32.dll
+"shell32_ordinal513" @513 ; shell32.dll
+"shell32_ordinal514" @514 ; shell32.dll
+"shell32_ordinal515" @515 ; shell32.dll
+"shell32_ordinal516" @516 ; shell32.dll
+"shell32_ordinal517" @517 ; shell32.dll
+"shell32_ordinal518" @518 ; shell32.dll
+"shell32_ordinal519" @519 ; shell32.dll
+"shell32_ordinal52" @52 ; shell32.dll
+"shell32_ordinal525" @525 ; shell32.dll
+"shell32_ordinal527" @527 ; shell32.dll
+"shell32_ordinal528" @528 ; shell32.dll
+"shell32_ordinal529" @529 ; shell32.dll
+"shell32_ordinal53" @53 ; shell32.dll
+"shell32_ordinal530" @530 ; shell32.dll
+"shell32_ordinal531" @531 ; shell32.dll
+"shell32_ordinal532" @532 ; shell32.dll
+"shell32_ordinal533" @533 ; shell32.dll
+"shell32_ordinal534" @534 ; shell32.dll
+"shell32_ordinal535" @535 ; shell32.dll
+"shell32_ordinal536" @536 ; shell32.dll
+"shell32_ordinal537" @537 ; shell32.dll
+"shell32_ordinal538" @538 ; shell32.dll
+"shell32_ordinal539" @539 ; shell32.dll
+"shell32_ordinal54" @54 ; shell32.dll
+"shell32_ordinal540" @540 ; shell32.dll
+"shell32_ordinal541" @541 ; shell32.dll
+"shell32_ordinal542" @542 ; shell32.dll
+"shell32_ordinal543" @543 ; shell32.dll
+"shell32_ordinal544" @544 ; shell32.dll
+"shell32_ordinal545" @545 ; shell32.dll
+"shell32_ordinal546" @546 ; shell32.dll
+"shell32_ordinal547" @547 ; shell32.dll
+"shell32_ordinal548" @548 ; shell32.dll
+"shell32_ordinal549" @549 ; shell32.dll
+"shell32_ordinal55" @55 ; shell32.dll
+"shell32_ordinal550" @550 ; shell32.dll
+"shell32_ordinal551" @551 ; shell32.dll
+"shell32_ordinal552" @552 ; shell32.dll
+"shell32_ordinal553" @553 ; shell32.dll
+"shell32_ordinal554" @554 ; shell32.dll
+"shell32_ordinal555" @555 ; shell32.dll
+"shell32_ordinal556" @556 ; shell32.dll
+"shell32_ordinal557" @557 ; shell32.dll
+"shell32_ordinal558" @558 ; shell32.dll
+"shell32_ordinal559" @559 ; shell32.dll
+"shell32_ordinal56" @56 ; shell32.dll
+"shell32_ordinal560" @560 ; shell32.dll
+"shell32_ordinal561" @561 ; shell32.dll
+"shell32_ordinal562" @562 ; shell32.dll
+"shell32_ordinal563" @563 ; shell32.dll
+"shell32_ordinal564" @564 ; shell32.dll
+"shell32_ordinal565" @565 ; shell32.dll
+"shell32_ordinal566" @566 ; shell32.dll
+"shell32_ordinal567" @567 ; shell32.dll
+"shell32_ordinal568" @568 ; shell32.dll
+"shell32_ordinal569" @569 ; shell32.dll
+"shell32_ordinal57" @57 ; shell32.dll
+"shell32_ordinal570" @570 ; shell32.dll
+"shell32_ordinal571" @571 ; shell32.dll
+"shell32_ordinal572" @572 ; shell32.dll
+"shell32_ordinal573" @573 ; shell32.dll
+"shell32_ordinal574" @574 ; shell32.dll
+"shell32_ordinal575" @575 ; shell32.dll
+"shell32_ordinal576" @576 ; shell32.dll
+"shell32_ordinal577" @577 ; shell32.dll
+"shell32_ordinal578" @578 ; shell32.dll
+"shell32_ordinal579" @579 ; shell32.dll
+"shell32_ordinal58" @58 ; shell32.dll
+"shell32_ordinal580" @580 ; shell32.dll
+"shell32_ordinal581" @581 ; shell32.dll
+"shell32_ordinal582" @582 ; shell32.dll
+"shell32_ordinal583" @583 ; shell32.dll
+"shell32_ordinal584" @584 ; shell32.dll
+"shell32_ordinal585" @585 ; shell32.dll
+"shell32_ordinal586" @586 ; shell32.dll
+"shell32_ordinal587" @587 ; shell32.dll
+"shell32_ordinal588" @588 ; shell32.dll
+"shell32_ordinal589" @589 ; shell32.dll
+"shell32_ordinal590" @590 ; shell32.dll
+"shell32_ordinal591" @591 ; shell32.dll
+"shell32_ordinal592" @592 ; shell32.dll
+"shell32_ordinal593" @593 ; shell32.dll
+"shell32_ordinal594" @594 ; shell32.dll
+"shell32_ordinal595" @595 ; shell32.dll
+"shell32_ordinal596" @596 ; shell32.dll
+"shell32_ordinal597" @597 ; shell32.dll
+"shell32_ordinal598" @598 ; shell32.dll
+"shell32_ordinal599" @599 ; shell32.dll
+"shell32_ordinal60" @60 ; shell32.dll
+"shell32_ordinal600" @600 ; shell32.dll
+"shell32_ordinal601" @601 ; shell32.dll
+"shell32_ordinal602" @602 ; shell32.dll
+"shell32_ordinal603" @603 ; shell32.dll
+"shell32_ordinal604" @604 ; shell32.dll
+"shell32_ordinal605" @605 ; shell32.dll
+"shell32_ordinal606" @606 ; shell32.dll
+"shell32_ordinal607" @607 ; shell32.dll
+"shell32_ordinal608" @608 ; shell32.dll
+"shell32_ordinal609" @609 ; shell32.dll
+"shell32_ordinal61" @61 ; shell32.dll
+"shell32_ordinal610" @610 ; shell32.dll
+"shell32_ordinal611" @611 ; shell32.dll
+"shell32_ordinal612" @612 ; shell32.dll
+"shell32_ordinal613" @613 ; shell32.dll
+"shell32_ordinal614" @614 ; shell32.dll
+"shell32_ordinal615" @615 ; shell32.dll
+"shell32_ordinal616" @616 ; shell32.dll
+"shell32_ordinal617" @617 ; shell32.dll
+"shell32_ordinal618" @618 ; shell32.dll
+"shell32_ordinal619" @619 ; shell32.dll
+"shell32_ordinal620" @620 ; shell32.dll
+"shell32_ordinal621" @621 ; shell32.dll
+"shell32_ordinal622" @622 ; shell32.dll
+"shell32_ordinal623" @623 ; shell32.dll
+"shell32_ordinal624" @624 ; shell32.dll
+"shell32_ordinal625" @625 ; shell32.dll
+"shell32_ordinal626" @626 ; shell32.dll
+"shell32_ordinal627" @627 ; shell32.dll
+"shell32_ordinal628" @628 ; shell32.dll
+"shell32_ordinal629" @629 ; shell32.dll
+"shell32_ordinal630" @630 ; shell32.dll
+"shell32_ordinal631" @631 ; shell32.dll
+"shell32_ordinal632" @632 ; shell32.dll
+"shell32_ordinal633" @633 ; shell32.dll
+"shell32_ordinal634" @634 ; shell32.dll
+"shell32_ordinal635" @635 ; shell32.dll
+"shell32_ordinal636" @636 ; shell32.dll
+"shell32_ordinal637" @637 ; shell32.dll
+"shell32_ordinal638" @638 ; shell32.dll
+"shell32_ordinal639" @639 ; shell32.dll
+"shell32_ordinal640" @640 ; shell32.dll
+"shell32_ordinal641" @641 ; shell32.dll
+"shell32_ordinal642" @642 ; shell32.dll
+"shell32_ordinal643" @643 ; shell32.dll
+"shell32_ordinal646" @646 ; shell32.dll
+"shell32_ordinal647" @647 ; shell32.dll
+"shell32_ordinal648" @648 ; shell32.dll
+"shell32_ordinal649" @649 ; shell32.dll
+"shell32_ordinal65" @65 ; shell32.dll
+"shell32_ordinal650" @650 ; shell32.dll
+"shell32_ordinal651" @651 ; shell32.dll
+"shell32_ordinal655" @655 ; shell32.dll
+"shell32_ordinal656" @656 ; shell32.dll
+"shell32_ordinal657" @657 ; shell32.dll
+"shell32_ordinal658" @658 ; shell32.dll
+"shell32_ordinal659" @659 ; shell32.dll
+"shell32_ordinal660" @660 ; shell32.dll
+"shell32_ordinal661" @661 ; shell32.dll
+"shell32_ordinal662" @662 ; shell32.dll
+"shell32_ordinal663" @663 ; shell32.dll
+"shell32_ordinal664" @664 ; shell32.dll
+"shell32_ordinal665" @665 ; shell32.dll
+"shell32_ordinal666" @666 ; shell32.dll
+"shell32_ordinal667" @667 ; shell32.dll
+"shell32_ordinal668" @668 ; shell32.dll
+"shell32_ordinal669" @669 ; shell32.dll
+"shell32_ordinal670" @670 ; shell32.dll
+"shell32_ordinal671" @671 ; shell32.dll
+"shell32_ordinal672" @672 ; shell32.dll
+"shell32_ordinal673" @673 ; shell32.dll
+"shell32_ordinal674" @674 ; shell32.dll
+"shell32_ordinal675" @675 ; shell32.dll
+"shell32_ordinal676" @676 ; shell32.dll
+"shell32_ordinal677" @677 ; shell32.dll
+"shell32_ordinal678" @678 ; shell32.dll
+"shell32_ordinal679" @679 ; shell32.dll
+"shell32_ordinal681" @681 ; shell32.dll
+"shell32_ordinal682" @682 ; shell32.dll
+"shell32_ordinal683" @683 ; shell32.dll
+"shell32_ordinal684" @684 ; shell32.dll
+"shell32_ordinal686" @686 ; shell32.dll
+"shell32_ordinal687" @687 ; shell32.dll
+"shell32_ordinal69" @69 ; shell32.dll
+"shell32_ordinal690" @690 ; shell32.dll
+"shell32_ordinal691" @691 ; shell32.dll
+"shell32_ordinal692" @692 ; shell32.dll
+"shell32_ordinal693" @693 ; shell32.dll
+"shell32_ordinal694" @694 ; shell32.dll
+"shell32_ordinal695" @695 ; shell32.dll
+"shell32_ordinal696" @696 ; shell32.dll
+"shell32_ordinal697" @697 ; shell32.dll
+"shell32_ordinal698" @698 ; shell32.dll
+"shell32_ordinal699" @699 ; shell32.dll
+"shell32_ordinal7" @7 ; shell32.dll
+"shell32_ordinal70" @70 ; shell32.dll
+"shell32_ordinal702" @702 ; shell32.dll
+"shell32_ordinal703" @703 ; shell32.dll
+"shell32_ordinal704" @704 ; shell32.dll
+"shell32_ordinal705" @705 ; shell32.dll
+"shell32_ordinal706" @706 ; shell32.dll
+"shell32_ordinal707" @707 ; shell32.dll
+"shell32_ordinal708" @708 ; shell32.dll
+"shell32_ordinal710" @710 ; shell32.dll
+"shell32_ordinal711" @711 ; shell32.dll
+"shell32_ordinal712" @712 ; shell32.dll
+"shell32_ordinal713" @713 ; shell32.dll
+"shell32_ordinal714" @714 ; shell32.dll
+"shell32_ordinal715" @715 ; shell32.dll
+"shell32_ordinal717" @717 ; shell32.dll
+"shell32_ordinal718" @718 ; shell32.dll
+"shell32_ordinal719" @719 ; shell32.dll
+"shell32_ordinal720" @720 ; shell32.dll
+"shell32_ordinal721" @721 ; shell32.dll
+"shell32_ordinal722" @722 ; shell32.dll
+"shell32_ordinal723" @723 ; shell32.dll
+"shell32_ordinal724" @724 ; shell32.dll
+"shell32_ordinal725" @725 ; shell32.dll
+"shell32_ordinal726" @726 ; shell32.dll
+"shell32_ordinal728" @728 ; shell32.dll
+"shell32_ordinal729" @729 ; shell32.dll
+"shell32_ordinal731" @731 ; shell32.dll
+"shell32_ordinal732" @732 ; shell32.dll
+"shell32_ordinal733" @733 ; shell32.dll
+"shell32_ordinal734" @734 ; shell32.dll
+"shell32_ordinal735" @735 ; shell32.dll
+"shell32_ordinal736" @736 ; shell32.dll
+"shell32_ordinal737" @737 ; shell32.dll
+"shell32_ordinal738" @738 ; shell32.dll
+"shell32_ordinal739" @739 ; shell32.dll
+"shell32_ordinal740" @740 ; shell32.dll
+"shell32_ordinal741" @741 ; shell32.dll
+"shell32_ordinal742" @742 ; shell32.dll
+"shell32_ordinal744" @744 ; shell32.dll
+"shell32_ordinal745" @745 ; shell32.dll
+"shell32_ordinal746" @746 ; shell32.dll
+"shell32_ordinal748" @748 ; shell32.dll
+"shell32_ordinal751" @751 ; shell32.dll
+"shell32_ordinal752" @752 ; shell32.dll
+"shell32_ordinal753" @753 ; shell32.dll
+"shell32_ordinal754" @754 ; shell32.dll
+"shell32_ordinal755" @755 ; shell32.dll
+"shell32_ordinal756" @756 ; shell32.dll
+"shell32_ordinal76" @76 ; shell32.dll
+"shell32_ordinal78" @78 ; shell32.dll
+"shell32_ordinal79" @79 ; shell32.dll
+"shell32_ordinal8" @8 ; shell32.dll
+"shell32_ordinal82" @82 ; shell32.dll
+"shell32_ordinal83" @83 ; shell32.dll
+"shell32_ordinal84" @84 ; shell32.dll
+"shell32_ordinal86" @86 ; shell32.dll
+"shell32_ordinal87" @87 ; shell32.dll
+"shell32_ordinal91" @91 ; shell32.dll
+"shell32_ordinal93" @93 ; shell32.dll
+"shell32_ordinal94" @94 ; shell32.dll
+"shell32_ordinal95" @95 ; shell32.dll
+"shell32_ordinal96" @96 ; shell32.dll
+"shell32_ordinal97" @97 ; shell32.dll
+"shell32_ordinal99" @99 ; shell32.dll

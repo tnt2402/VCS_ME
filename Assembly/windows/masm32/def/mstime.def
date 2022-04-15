@@ -1,0 +1,7 @@
+LIBRARY "mstime.dll"
+EXPORTS
+"DllCanUnloadNow" ; mstime.dll
+"DllEnumClassObjects" ; mstime.dll
+"DllGetClassObject" ; mstime.dll
+"DllRegisterServer" ; mstime.dll
+"DllUnregisterServer" ; mstime.dll

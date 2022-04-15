@@ -1,0 +1,29 @@
+LIBRARY "msrating.dll"
+EXPORTS
+"ChangeSupervisorPassword" ; msrating.dll
+"ClickedOnPRF" ; msrating.dll
+"ClickedOnRAT" ; msrating.dll
+"DllCanUnloadNow" ; msrating.dll
+"DllGetClassObject" ; msrating.dll
+"DllRegisterServer" ; msrating.dll
+"DllUnregisterServer" ; msrating.dll
+"RatingAccessDeniedDialog" ; msrating.dll
+"RatingAccessDeniedDialog2" ; msrating.dll
+"RatingAddPropertyPages" ; msrating.dll
+"RatingCheckUserAccess" ; msrating.dll
+"RatingCustomAddRatingHelper" ; msrating.dll
+"RatingCustomAddRatingSystem" ; msrating.dll
+"RatingCustomCrackData" ; msrating.dll
+"RatingCustomDeleteCrackedData" ; msrating.dll
+"RatingCustomInit" ; msrating.dll
+"RatingCustomRemoveRatingHelper" ; msrating.dll
+"RatingCustomSetDefaultBureau" ; msrating.dll
+"RatingCustomSetUserOptions" ; msrating.dll
+"RatingEnable" ; msrating.dll
+"RatingEnabledQuery" ; msrating.dll
+"RatingFreeDetails" ; msrating.dll
+"RatingInit" ; msrating.dll
+"RatingObtainCancel" ; msrating.dll
+"RatingObtainQuery" ; msrating.dll
+"RatingSetupUI" ; msrating.dll
+"VerifySupervisorPassword" ; msrating.dll

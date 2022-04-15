@@ -1,0 +1,7 @@
+LIBRARY "certmgr.dll"
+EXPORTS
+"DllCanUnloadNow" ; certmgr.dll
+"DllGetClassObject" ; certmgr.dll
+"DllInstall" ; certmgr.dll
+"DllRegisterServer" ; certmgr.dll
+"DllUnregisterServer" ; certmgr.dll

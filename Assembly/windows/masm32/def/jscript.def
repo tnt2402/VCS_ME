@@ -1,0 +1,6 @@
+LIBRARY "jscript.dll"
+EXPORTS
+"DllCanUnloadNow" ; jscript.dll
+"DllGetClassObject" ; jscript.dll
+"DllRegisterServer" ; jscript.dll
+"DllUnregisterServer" ; jscript.dll

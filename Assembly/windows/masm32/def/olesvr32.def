@@ -1,0 +1,33 @@
+LIBRARY "olesvr32.dll"
+EXPORTS
+"DeleteClientInfo" ; olesvr32.dll
+"DocWndProc" ; olesvr32.dll
+"EnumForTerminate" ; olesvr32.dll
+"FindItemWnd" ; olesvr32.dll
+"ItemCallBack" ; olesvr32.dll
+"ItemWndProc" ; olesvr32.dll
+"OleBlockServer" ; olesvr32.dll
+"OleQueryServerVersion" ; olesvr32.dll
+"OleRegisterServer" ; olesvr32.dll
+"OleRegisterServerDoc" ; olesvr32.dll
+"OleRenameServerDoc" ; olesvr32.dll
+"OleRevertServerDoc" ; olesvr32.dll
+"OleRevokeObject" ; olesvr32.dll
+"OleRevokeServer" ; olesvr32.dll
+"OleRevokeServerDoc" ; olesvr32.dll
+"OleSavedServerDoc" ; olesvr32.dll
+"OleUnblockServer" ; olesvr32.dll
+"SendDataMsg" ; olesvr32.dll
+"SendRenameMsg" ; olesvr32.dll
+"SrvrWndProc" ; olesvr32.dll
+"TerminateClients" ; olesvr32.dll
+"TerminateDocClients" ; olesvr32.dll
+"WEP" ; olesvr32.dll
+"olesvr32_ordinal13" @13 ; olesvr32.dll
+"olesvr32_ordinal14" @14 ; olesvr32.dll
+"olesvr32_ordinal15" @15 ; olesvr32.dll
+"olesvr32_ordinal16" @16 ; olesvr32.dll
+"olesvr32_ordinal17" @17 ; olesvr32.dll
+"olesvr32_ordinal18" @18 ; olesvr32.dll
+"olesvr32_ordinal19" @19 ; olesvr32.dll
+"olesvr32_ordinal20" @20 ; olesvr32.dll

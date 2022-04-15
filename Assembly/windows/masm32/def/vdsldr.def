@@ -1,0 +1,6 @@
+LIBRARY "vdsldr.exe"
+EXPORTS
+"??0CVdsStructuredExceptionTranslator@@QEAA@XZ" ; vdsldr.exe
+"??1CVdsDebugLog@@QEAA@XZ" ; vdsldr.exe
+"??1CVdsStructuredExceptionTranslator@@QEAA@XZ" ; vdsldr.exe
+"?TracingLogEnabled@CVdsDebugLog@@QEAAHXZ" ; vdsldr.exe

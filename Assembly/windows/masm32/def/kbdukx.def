@@ -1,0 +1,3 @@
+LIBRARY "kbdukx.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdukx.dll

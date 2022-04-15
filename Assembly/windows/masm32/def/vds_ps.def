@@ -1,0 +1,7 @@
+LIBRARY "vds_ps.dll"
+EXPORTS
+"DllCanUnloadNow" ; vds_ps.dll
+"DllGetClassObject" ; vds_ps.dll
+"DllRegisterServer" ; vds_ps.dll
+"DllUnregisterServer" ; vds_ps.dll
+"GetProxyDllInfo" ; vds_ps.dll

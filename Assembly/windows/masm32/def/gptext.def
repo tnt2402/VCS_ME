@@ -1,0 +1,15 @@
+LIBRARY "gptext.dll"
+EXPORTS
+"DllCanUnloadNow" ; gptext.dll
+"DllGetClassObject" ; gptext.dll
+"DllRegisterServer" ; gptext.dll
+"DllUnregisterServer" ; gptext.dll
+"GenerateIPSECPolicy" ; gptext.dll
+"GenerateScriptsGroupPolicy" ; gptext.dll
+"GenerateWIRELESSPolicy" ; gptext.dll
+"ProcessIPSECPolicyEx" ; gptext.dll
+"ProcessPSCHEDPolicy" ; gptext.dll
+"ProcessScriptsGroupPolicy" ; gptext.dll
+"ProcessScriptsGroupPolicyEx" ; gptext.dll
+"ProcessWIRELESSPolicyEx" ; gptext.dll
+"ScrRegGPOListToWbem" ; gptext.dll

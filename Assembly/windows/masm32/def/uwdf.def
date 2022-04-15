@@ -1,0 +1,22 @@
+LIBRARY "uwdf.exe"
+EXPORTS
+"WdfDeviceCreate" ; uwdf.exe
+"WdfDeviceGetDeviceName" ; uwdf.exe
+"WdfDeviceGetIoTarget" ; uwdf.exe
+"WdfDeviceInitSetFileEventCallbacks" ; uwdf.exe
+"WdfDeviceRegisterIoCallbacks" ; uwdf.exe
+"WdfDriverCreate" ; uwdf.exe
+"WdfFdoInitSetEventCallbacks" ; uwdf.exe
+"WdfFdoInitSetFilter" ; uwdf.exe
+"WdfIoQueueGetDevice" ; uwdf.exe
+"WdfIoTargetFormatIoctlRequest" ; uwdf.exe
+"WdfMemoryBufferCreate" ; uwdf.exe
+"WdfObjectDereferenceActual" ; uwdf.exe
+"WdfObjectReferenceActual" ; uwdf.exe
+"WdfRequestComplete" ; uwdf.exe
+"WdfRequestCompleteWithInformation" ; uwdf.exe
+"WdfRequestCreate" ; uwdf.exe
+"WdfRequestGetParameters" ; uwdf.exe
+"WdfRequestRetrieveBuffer" ; uwdf.exe
+"WdfRequestSend" ; uwdf.exe
+"WdfRequestSetCompletionRoutine" ; uwdf.exe

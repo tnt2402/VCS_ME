@@ -1,0 +1,10 @@
+LIBRARY "kd1394.dll"
+EXPORTS
+"KdD0Transition" ; kd1394.dll
+"KdD3Transition" ; kd1394.dll
+"KdDebuggerInitialize0" ; kd1394.dll
+"KdDebuggerInitialize1" ; kd1394.dll
+"KdReceivePacket" ; kd1394.dll
+"KdRestore" ; kd1394.dll
+"KdSave" ; kd1394.dll
+"KdSendPacket" ; kd1394.dll

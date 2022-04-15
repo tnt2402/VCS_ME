@@ -1,0 +1,4 @@
+LIBRARY "irmon.dll"
+EXPORTS
+"ServiceHandler" ; irmon.dll
+"ServiceMain" ; irmon.dll

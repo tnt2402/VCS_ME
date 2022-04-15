@@ -1,0 +1,20 @@
+LIBRARY "cryptnet.dll"
+EXPORTS
+"CertDllVerifyCTLUsage" ; cryptnet.dll
+"CertDllVerifyRevocation" ; cryptnet.dll
+"CryptCancelAsyncRetrieval" ; cryptnet.dll
+"CryptFlushTimeValidObject" ; cryptnet.dll
+"CryptGetObjectUrl" ; cryptnet.dll
+"CryptGetTimeValidObject" ; cryptnet.dll
+"CryptInstallCancelRetrieval" ; cryptnet.dll
+"CryptRetrieveObjectByUrlA" ; cryptnet.dll
+"CryptRetrieveObjectByUrlW" ; cryptnet.dll
+"CryptUninstallCancelRetrieval" ; cryptnet.dll
+"CryptnetWlxLogoffEvent" ; cryptnet.dll
+"DllRegisterServer" ; cryptnet.dll
+"DllUnregisterServer" ; cryptnet.dll
+"I_CryptNetEnumUrlCacheEntry" ; cryptnet.dll
+"I_CryptNetGetHostNameFromUrl" ; cryptnet.dll
+"I_CryptNetGetUserDsStoreUrl" ; cryptnet.dll
+"I_CryptNetIsConnected" ; cryptnet.dll
+"LdapProvOpenStore" ; cryptnet.dll

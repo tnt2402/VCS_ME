@@ -1,0 +1,8 @@
+LIBRARY "profmap.dll"
+EXPORTS
+"DllMain" ; profmap.dll
+"InitializeProfileMappingApi" ; profmap.dll
+"RemapAndMoveUserA" ; profmap.dll
+"RemapAndMoveUserW" ; profmap.dll
+"RemapUserProfileA" ; profmap.dll
+"RemapUserProfileW" ; profmap.dll

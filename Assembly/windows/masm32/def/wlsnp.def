@@ -1,0 +1,6 @@
+LIBRARY "wlsnp.dll"
+EXPORTS
+"DllCanUnloadNow" ; wlsnp.dll
+"DllGetClassObject" ; wlsnp.dll
+"DllRegisterServer" ; wlsnp.dll
+"DllUnregisterServer" ; wlsnp.dll

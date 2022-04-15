@@ -1,0 +1,31 @@
+LIBRARY "odbcbcp.dll"
+EXPORTS
+"LibMain" ; odbcbcp.dll
+"SQLCloseEnumServers" ; odbcbcp.dll
+"SQLGetNextEnumeration" ; odbcbcp.dll
+"SQLInitEnumServers" ; odbcbcp.dll
+"SQLLinkedCatalogsA" ; odbcbcp.dll
+"SQLLinkedCatalogsW" ; odbcbcp.dll
+"SQLLinkedServers" ; odbcbcp.dll
+"bcp_batch" ; odbcbcp.dll
+"bcp_bind" ; odbcbcp.dll
+"bcp_colfmt" ; odbcbcp.dll
+"bcp_collen" ; odbcbcp.dll
+"bcp_colptr" ; odbcbcp.dll
+"bcp_columns" ; odbcbcp.dll
+"bcp_control" ; odbcbcp.dll
+"bcp_done" ; odbcbcp.dll
+"bcp_exec" ; odbcbcp.dll
+"bcp_getcolfmt" ; odbcbcp.dll
+"bcp_initA" ; odbcbcp.dll
+"bcp_initW" ; odbcbcp.dll
+"bcp_moretext" ; odbcbcp.dll
+"bcp_readfmtA" ; odbcbcp.dll
+"bcp_readfmtW" ; odbcbcp.dll
+"bcp_sendrow" ; odbcbcp.dll
+"bcp_setcolfmt" ; odbcbcp.dll
+"bcp_writefmtA" ; odbcbcp.dll
+"bcp_writefmtW" ; odbcbcp.dll
+"dbprtypeA" ; odbcbcp.dll
+"dbprtypeW" ; odbcbcp.dll
+"odbcbcp_ordinal7" @7 ; odbcbcp.dll

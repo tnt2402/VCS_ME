@@ -1,0 +1,5 @@
+LIBRARY "perfnet.dll"
+EXPORTS
+"CloseNetSvcsObject" ; perfnet.dll
+"CollectNetSvcsObjectData" ; perfnet.dll
+"OpenNetSvcsObject" ; perfnet.dll

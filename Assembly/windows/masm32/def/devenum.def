@@ -1,0 +1,6 @@
+LIBRARY "devenum.dll"
+EXPORTS
+"DllCanUnloadNow" ; devenum.dll
+"DllGetClassObject" ; devenum.dll
+"DllRegisterServer" ; devenum.dll
+"DllUnregisterServer" ; devenum.dll

@@ -1,0 +1,3 @@
+LIBRARY "svcpack.dll"
+EXPORTS
+"SvcPackCallbackRoutine" ; svcpack.dll

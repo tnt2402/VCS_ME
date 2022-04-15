@@ -1,0 +1,9 @@
+LIBRARY "scarddlg.dll"
+EXPORTS
+"GetOpenCardNameA" ; scarddlg.dll
+"GetOpenCardNameW" ; scarddlg.dll
+"SCardDlgExtendedError" ; scarddlg.dll
+"SCardUIDlgChangePINA" ; scarddlg.dll
+"SCardUIDlgGetPINA" ; scarddlg.dll
+"SCardUIDlgSelectCardA" ; scarddlg.dll
+"SCardUIDlgSelectCardW" ; scarddlg.dll

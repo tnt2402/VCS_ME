@@ -1,0 +1,25 @@
+LIBRARY "oledlg.dll"
+EXPORTS
+"OleUIAddVerbMenuA" ; oledlg.dll
+"OleUIAddVerbMenuW" ; oledlg.dll
+"OleUIBusyA" ; oledlg.dll
+"OleUIBusyW" ; oledlg.dll
+"OleUICanConvertOrActivateAs" ; oledlg.dll
+"OleUIChangeIconA" ; oledlg.dll
+"OleUIChangeIconW" ; oledlg.dll
+"OleUIChangeSourceA" ; oledlg.dll
+"OleUIChangeSourceW" ; oledlg.dll
+"OleUIConvertA" ; oledlg.dll
+"OleUIConvertW" ; oledlg.dll
+"OleUIEditLinksA" ; oledlg.dll
+"OleUIEditLinksW" ; oledlg.dll
+"OleUIInsertObjectA" ; oledlg.dll
+"OleUIInsertObjectW" ; oledlg.dll
+"OleUIObjectPropertiesA" ; oledlg.dll
+"OleUIObjectPropertiesW" ; oledlg.dll
+"OleUIPasteSpecialA" ; oledlg.dll
+"OleUIPasteSpecialW" ; oledlg.dll
+"OleUIPromptUserA" ; oledlg.dll
+"OleUIPromptUserW" ; oledlg.dll
+"OleUIUpdateLinksA" ; oledlg.dll
+"OleUIUpdateLinksW" ; oledlg.dll

@@ -1,0 +1,12 @@
+LIBRARY "ncobjapi.dll"
+EXPORTS
+"WmiAddObjectProp" ; ncobjapi.dll
+"WmiCommitObject" ; ncobjapi.dll
+"WmiCreateObject" ; ncobjapi.dll
+"WmiCreateObjectWithFormat" ; ncobjapi.dll
+"WmiCreateObjectWithProps" ; ncobjapi.dll
+"WmiDestroyObject" ; ncobjapi.dll
+"WmiEventSourceConnect" ; ncobjapi.dll
+"WmiEventSourceDisconnect" ; ncobjapi.dll
+"WmiIsObjectActive" ; ncobjapi.dll
+"WmiSetAndCommitObject" ; ncobjapi.dll

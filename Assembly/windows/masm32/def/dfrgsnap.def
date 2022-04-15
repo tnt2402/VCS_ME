@@ -1,0 +1,6 @@
+LIBRARY "dfrgsnap.dll"
+EXPORTS
+"DllCanUnloadNow" ; dfrgsnap.dll
+"DllGetClassObject" ; dfrgsnap.dll
+"DllRegisterServer" ; dfrgsnap.dll
+"DllUnregisterServer" ; dfrgsnap.dll

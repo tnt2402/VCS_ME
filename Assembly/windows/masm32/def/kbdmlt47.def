@@ -1,0 +1,3 @@
+LIBRARY "kbdmlt47.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdmlt47.dll

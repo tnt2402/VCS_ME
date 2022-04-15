@@ -1,0 +1,13 @@
+LIBRARY "cmdial32.dll"
+EXPORTS
+"AutoDialFunc" ; cmdial32.dll
+"CmCustomDialDlg" ; cmdial32.dll
+"CmCustomHangUp" ; cmdial32.dll
+"CmReConnect" ; cmdial32.dll
+"GetCustomProperty" ; cmdial32.dll
+"InetDialHandler" ; cmdial32.dll
+"RasCustomDeleteEntryNotify" ; cmdial32.dll
+"RasCustomDial" ; cmdial32.dll
+"RasCustomDialDlg" ; cmdial32.dll
+"RasCustomEntryDlg" ; cmdial32.dll
+"RasCustomHangUp" ; cmdial32.dll

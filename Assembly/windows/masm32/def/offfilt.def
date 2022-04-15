@@ -1,0 +1,6 @@
+LIBRARY "offfilt.dll"
+EXPORTS
+"DllCanUnloadNow" ; offfilt.dll
+"DllGetClassObject" ; offfilt.dll
+"DllRegisterServer" ; offfilt.dll
+"DllUnregisterServer" ; offfilt.dll

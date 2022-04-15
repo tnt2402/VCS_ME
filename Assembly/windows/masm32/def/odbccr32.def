@@ -1,0 +1,77 @@
+LIBRARY "odbccr32.dll"
+EXPORTS
+"ReleaseCLStmtResources" ; odbccr32.dll
+"SQLBindCol" ; odbccr32.dll
+"SQLBindParameter" ; odbccr32.dll
+"SQLBulkOperations" ; odbccr32.dll
+"SQLCancel" ; odbccr32.dll
+"SQLCloseCursor" ; odbccr32.dll
+"SQLEndTran" ; odbccr32.dll
+"SQLExecDirect" ; odbccr32.dll
+"SQLExecute" ; odbccr32.dll
+"SQLExtendedFetch" ; odbccr32.dll
+"SQLFetch" ; odbccr32.dll
+"SQLFetchScroll" ; odbccr32.dll
+"SQLFreeHandle" ; odbccr32.dll
+"SQLFreeStmt" ; odbccr32.dll
+"SQLGetData" ; odbccr32.dll
+"SQLGetDescField" ; odbccr32.dll
+"SQLGetDescRec" ; odbccr32.dll
+"SQLGetInfo" ; odbccr32.dll
+"SQLGetStmtAttr" ; odbccr32.dll
+"SQLGetStmtOption" ; odbccr32.dll
+"SQLMoreResults" ; odbccr32.dll
+"SQLNativeSql" ; odbccr32.dll
+"SQLNumParams" ; odbccr32.dll
+"SQLParamData" ; odbccr32.dll
+"SQLParamOptions" ; odbccr32.dll
+"SQLPrepare" ; odbccr32.dll
+"SQLPutData" ; odbccr32.dll
+"SQLRowCount" ; odbccr32.dll
+"SQLSetConnectAttr" ; odbccr32.dll
+"SQLSetConnectOption" ; odbccr32.dll
+"SQLSetDescField" ; odbccr32.dll
+"SQLSetDescRec" ; odbccr32.dll
+"SQLSetPos" ; odbccr32.dll
+"SQLSetScrollOptions" ; odbccr32.dll
+"SQLSetStmtAttr" ; odbccr32.dll
+"SQLSetStmtOption" ; odbccr32.dll
+"SQLTransact" ; odbccr32.dll
+"odbccr32_ordinal10" @10 ; odbccr32.dll
+"odbccr32_ordinal14" @14 ; odbccr32.dll
+"odbccr32_ordinal15" @15 ; odbccr32.dll
+"odbccr32_ordinal17" @17 ; odbccr32.dll
+"odbccr32_ordinal18" @18 ; odbccr32.dll
+"odbccr32_ordinal21" @21 ; odbccr32.dll
+"odbccr32_ordinal22" @22 ; odbccr32.dll
+"odbccr32_ordinal24" @24 ; odbccr32.dll
+"odbccr32_ordinal25" @25 ; odbccr32.dll
+"odbccr32_ordinal27" @27 ; odbccr32.dll
+"odbccr32_ordinal28" @28 ; odbccr32.dll
+"odbccr32_ordinal32" @32 ; odbccr32.dll
+"odbccr32_ordinal35" @35 ; odbccr32.dll
+"odbccr32_ordinal36" @36 ; odbccr32.dll
+"odbccr32_ordinal37" @37 ; odbccr32.dll
+"odbccr32_ordinal40" @40 ; odbccr32.dll
+"odbccr32_ordinal41" @41 ; odbccr32.dll
+"odbccr32_ordinal42" @42 ; odbccr32.dll
+"odbccr32_ordinal44" @44 ; odbccr32.dll
+"odbccr32_ordinal47" @47 ; odbccr32.dll
+"odbccr32_ordinal52" @52 ; odbccr32.dll
+"odbccr32_ordinal53" @53 ; odbccr32.dll
+"odbccr32_ordinal54" @54 ; odbccr32.dll
+"odbccr32_ordinal55" @55 ; odbccr32.dll
+"odbccr32_ordinal56" @56 ; odbccr32.dll
+"odbccr32_ordinal57" @57 ; odbccr32.dll
+"odbccr32_ordinal58" @58 ; odbccr32.dll
+"odbccr32_ordinal60" @60 ; odbccr32.dll
+"odbccr32_ordinal65" @65 ; odbccr32.dll
+"odbccr32_ordinal66" @66 ; odbccr32.dll
+"odbccr32_ordinal67" @67 ; odbccr32.dll
+"odbccr32_ordinal7" @7 ; odbccr32.dll
+"odbccr32_ordinal70" @70 ; odbccr32.dll
+"odbccr32_ordinal71" @71 ; odbccr32.dll
+"odbccr32_ordinal75" @75 ; odbccr32.dll
+"odbccr32_ordinal77" @77 ; odbccr32.dll
+"odbccr32_ordinal8" @8 ; odbccr32.dll
+"odbccr32_ordinal9" @9 ; odbccr32.dll

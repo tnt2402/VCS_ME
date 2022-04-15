@@ -1,0 +1,6 @@
+LIBRARY "mqcertui.dll"
+EXPORTS
+"SelectPersonalCertificateForRegister" ; mqcertui.dll
+"SelectPersonalCertificateForRemoval" ; mqcertui.dll
+"ShowCertificate" ; mqcertui.dll
+"ShowPersonalCertificates" ; mqcertui.dll

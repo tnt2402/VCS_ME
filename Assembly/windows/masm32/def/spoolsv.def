@@ -1,0 +1,14 @@
+LIBRARY "spoolsv.exe"
+EXPORTS
+"YDriverUnloadComplete" ; spoolsv.exe
+"YEndDocPrinter" ; spoolsv.exe
+"YFlushPrinter" ; spoolsv.exe
+"YGetPrinter" ; spoolsv.exe
+"YGetPrinterDriver2" ; spoolsv.exe
+"YGetPrinterDriverDirectory" ; spoolsv.exe
+"YReadPrinter" ; spoolsv.exe
+"YSeekPrinter" ; spoolsv.exe
+"YSetJob" ; spoolsv.exe
+"YSetPort" ; spoolsv.exe
+"YSplReadPrinter" ; spoolsv.exe
+"YWritePrinter" ; spoolsv.exe

@@ -1,0 +1,11 @@
+LIBRARY "iasrad.dll"
+EXPORTS
+"?initialize@VSAFilter@@QEAAJXZ" ; iasrad.dll
+"?radiusFromIAS@VSAFilter@@QEBAJPEAUIAttributesRaw@@@Z" ; iasrad.dll
+"?radiusToIAS@VSAFilter@@QEBAJPEAEKAEAVIASAttributeVector@IASTL@@@Z" ; iasrad.dll
+"?radiusToIAS@VSAFilter@@QEBAJPEAUIAttributesRaw@@@Z" ; iasrad.dll
+"?shutdown@VSAFilter@@QEAAJXZ" ; iasrad.dll
+"DllCanUnloadNow" ; iasrad.dll
+"DllGetClassObject" ; iasrad.dll
+"DllRegisterServer" ; iasrad.dll
+"DllUnregisterServer" ; iasrad.dll

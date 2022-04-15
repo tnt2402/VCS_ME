@@ -1,0 +1,10 @@
+LIBRARY "usbui.dll"
+EXPORTS
+"CPlApplet" ; usbui.dll
+"USBControllerBandwidthPage" ; usbui.dll
+"USBControllerPropPageProvider" ; usbui.dll
+"USBDevicePropPageProvider" ; usbui.dll
+"USBErrorHandler" ; usbui.dll
+"USBHubPowerPage" ; usbui.dll
+"USBHubPropPageProvider" ; usbui.dll
+"UsbControlPanelApplet" ; usbui.dll

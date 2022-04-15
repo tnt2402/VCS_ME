@@ -1,0 +1,16 @@
+LIBRARY "lz32.dll"
+EXPORTS
+"CopyLZFile" ; lz32.dll
+"GetExpandedNameA" ; lz32.dll
+"GetExpandedNameW" ; lz32.dll
+"LZClose" ; lz32.dll
+"LZCloseFile" ; lz32.dll
+"LZCopy" ; lz32.dll
+"LZCreateFileW" ; lz32.dll
+"LZDone" ; lz32.dll
+"LZInit" ; lz32.dll
+"LZOpenFileA" ; lz32.dll
+"LZOpenFileW" ; lz32.dll
+"LZRead" ; lz32.dll
+"LZSeek" ; lz32.dll
+"LZStart" ; lz32.dll

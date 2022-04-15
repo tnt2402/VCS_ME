@@ -1,0 +1,21 @@
+LIBRARY "rdpwsx.dll"
+EXPORTS
+"WsxBrokenConnection" ; rdpwsx.dll
+"WsxCanLogonProceed" ; rdpwsx.dll
+"WsxClearContext" ; rdpwsx.dll
+"WsxConnect" ; rdpwsx.dll
+"WsxConvertPublishedApp" ; rdpwsx.dll
+"WsxCopyContext" ; rdpwsx.dll
+"WsxDisconnect" ; rdpwsx.dll
+"WsxDuplicateContext" ; rdpwsx.dll
+"WsxEscape" ; rdpwsx.dll
+"WsxIcaStackIoControl" ; rdpwsx.dll
+"WsxInitialize" ; rdpwsx.dll
+"WsxInitializeClientData" ; rdpwsx.dll
+"WsxLogonNotify" ; rdpwsx.dll
+"WsxSendAutoReconnectStatus" ; rdpwsx.dll
+"WsxSetErrorInfo" ; rdpwsx.dll
+"WsxVirtualChannelSecurity" ; rdpwsx.dll
+"WsxWinStationInitialize" ; rdpwsx.dll
+"WsxWinStationReInitialize" ; rdpwsx.dll
+"WsxWinStationRundown" ; rdpwsx.dll

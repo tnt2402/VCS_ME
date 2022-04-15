@@ -1,0 +1,6 @@
+LIBRARY "qedit.dll"
+EXPORTS
+"DllCanUnloadNow" ; qedit.dll
+"DllGetClassObject" ; qedit.dll
+"DllRegisterServer" ; qedit.dll
+"DllUnregisterServer" ; qedit.dll

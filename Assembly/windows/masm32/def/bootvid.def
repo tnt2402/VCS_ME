@@ -1,0 +1,13 @@
+LIBRARY "bootvid.dll"
+EXPORTS
+"VidBitBlt" ; bootvid.dll
+"VidBufferToScreenBlt" ; bootvid.dll
+"VidCleanUp" ; bootvid.dll
+"VidDisplayString" ; bootvid.dll
+"VidDisplayStringXY" ; bootvid.dll
+"VidInitialize" ; bootvid.dll
+"VidResetDisplay" ; bootvid.dll
+"VidScreenToBufferBlt" ; bootvid.dll
+"VidSetScrollRegion" ; bootvid.dll
+"VidSetTextColor" ; bootvid.dll
+"VidSolidColorFill" ; bootvid.dll

@@ -1,0 +1,7 @@
+LIBRARY "dgnet.dll"
+EXPORTS
+"DllCanUnloadNow" ; dgnet.dll
+"DllGetClassObject" ; dgnet.dll
+"DllRegisterServer" ; dgnet.dll
+"DllUnregisterServer" ; dgnet.dll
+"InitHelperDll" ; dgnet.dll

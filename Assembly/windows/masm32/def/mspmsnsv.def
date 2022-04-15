@@ -1,0 +1,6 @@
+LIBRARY "mspmsnsv.dll"
+EXPORTS
+"DllMain" ; mspmsnsv.dll
+"DllRegisterServer" ; mspmsnsv.dll
+"DllUnregisterServer" ; mspmsnsv.dll
+"ServiceMain" ; mspmsnsv.dll

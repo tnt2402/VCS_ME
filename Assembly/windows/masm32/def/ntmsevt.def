@@ -1,0 +1,4 @@
+LIBRARY "ntmsevt.dll"
+EXPORTS
+"DllRegisterServer" ; ntmsevt.dll
+"DllUnregisterServer" ; ntmsevt.dll

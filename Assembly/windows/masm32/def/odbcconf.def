@@ -1,0 +1,210 @@
+LIBRARY "odbcconf.dll"
+EXPORTS
+"AddFilterRunOnceExRegistrationToRegistry" ; odbcconf.dll
+"AddInfToList" ; odbcconf.dll
+"AppRegEnum" ; odbcconf.dll
+"ApplyMillenCat" ; odbcconf.dll
+"ApplyW2KXPak" ; odbcconf.dll
+"BackupCatalog" ; odbcconf.dll
+"BackupRegKey" ; odbcconf.dll
+"CalculateRequiredDriveSpace" ; odbcconf.dll
+"CloseAppRegEnum" ; odbcconf.dll
+"CloseDriveSpaceList" ; odbcconf.dll
+"ClosePendingRenameList" ; odbcconf.dll
+"CloseProcessDisplayNames" ; odbcconf.dll
+"CloseProcessInfo" ; odbcconf.dll
+"CloseProcessList" ; odbcconf.dll
+"CompareVersionData" ; odbcconf.dll
+"CompareVersionDataEx" ; odbcconf.dll
+"CreateInfList" ; odbcconf.dll
+"CreateRegKeyBackupList" ; odbcconf.dll
+"DLListAddNode" ; odbcconf.dll
+"DLListCreate" ; odbcconf.dll
+"DLListDestroy" ; odbcconf.dll
+"DLListGetData" ; odbcconf.dll
+"DLListGetHead" ; odbcconf.dll
+"DLListGetNext" ; odbcconf.dll
+"DLListGetPrev" ; odbcconf.dll
+"DLListRemoveNode" ; odbcconf.dll
+"DLListSetData" ; odbcconf.dll
+"DestroyInfList" ; odbcconf.dll
+"DestroyRegKeyBackupList" ; odbcconf.dll
+"DisableDebugPrivileges" ; odbcconf.dll
+"DisableNTPrivilege" ; odbcconf.dll
+"DllCanUnloadNow" ; odbcconf.dll
+"DllGetClassObject" ; odbcconf.dll
+"DllRegisterServer" ; odbcconf.dll
+"DllUnregisterServer" ; odbcconf.dll
+"DoesFileExist" ; odbcconf.dll
+"EnableDebugPrivileges" ; odbcconf.dll
+"EnableNTPrivilege" ; odbcconf.dll
+"EnumerateProcesses" ; odbcconf.dll
+"ExecuteAction" ; odbcconf.dll
+"ExpandPath" ; odbcconf.dll
+"FilterRunOnceExRegistration" ; odbcconf.dll
+"GetPathFromID" ; odbcconf.dll
+"GetProcessListFromFileList" ; odbcconf.dll
+"GetProgramFilesCommonFilesDirectory" ; odbcconf.dll
+"GetProgramFilesDirectory" ; odbcconf.dll
+"IsExceptionInf" ; odbcconf.dll
+"IsExceptionInfEx" ; odbcconf.dll
+"IsFileLocked" ; odbcconf.dll
+"IsModuleLoadedByProcess" ; odbcconf.dll
+"IsModuleLoadedByProcessEx" ; odbcconf.dll
+"LoadRegKeyBackupFromFile" ; odbcconf.dll
+"LoadRegVersion" ; odbcconf.dll
+"LoadRegVersionEx" ; odbcconf.dll
+"LookupAppFriendlyName" ; odbcconf.dll
+"OpenAppRegEnum" ; odbcconf.dll
+"OpenDriveSpaceList" ; odbcconf.dll
+"OpenDriveSpaceListFromInfList" ; odbcconf.dll
+"OpenPendingRenameList" ; odbcconf.dll
+"OpenProcessDisplayNames" ; odbcconf.dll
+"OpenProcessInfo" ; odbcconf.dll
+"OpenProcessList" ; odbcconf.dll
+"ParseVersionDataFromString" ; odbcconf.dll
+"ParseVersionDataFromStringEx" ; odbcconf.dll
+"PopulateInfFileList" ; odbcconf.dll
+"QueryApplication" ; odbcconf.dll
+"RefreshAppRegEnum" ; odbcconf.dll
+"RegKeyBackup" ; odbcconf.dll
+"RegKeyRestore" ; odbcconf.dll
+"RegVersion" ; odbcconf.dll
+"RegVersionEx" ; odbcconf.dll
+"RegisterApplication" ; odbcconf.dll
+"RemoveFilterRunOnceExRegistrationFromRegistry" ; odbcconf.dll
+"RestoreCatalog" ; odbcconf.dll
+"RestoreRegKey" ; odbcconf.dll
+"RunDLL32_FilterRunOnceExRegistration" ; odbcconf.dll
+"RunDLL32_RegisterApplication" ; odbcconf.dll
+"RunDLL32_UnregisterApplication" ; odbcconf.dll
+"SLListAddNode" ; odbcconf.dll
+"SLListCreate" ; odbcconf.dll
+"SLListDestroy" ; odbcconf.dll
+"SLListGetData" ; odbcconf.dll
+"SLListGetHead" ; odbcconf.dll
+"SLListGetNext" ; odbcconf.dll
+"SLListRemoveNode" ; odbcconf.dll
+"SLListSetData" ; odbcconf.dll
+"SaveRegKeyBackupToFile" ; odbcconf.dll
+"SetActionEnum" ; odbcconf.dll
+"SetActionLogFile" ; odbcconf.dll
+"SetActionLogMode" ; odbcconf.dll
+"SetActionLogModeSz" ; odbcconf.dll
+"SetActionName" ; odbcconf.dll
+"SetSilent" ; odbcconf.dll
+"ShutdownProcess" ; odbcconf.dll
+"UnregW2KXPak" ; odbcconf.dll
+"UnregisterApplication" ; odbcconf.dll
+"odbcconf_ordinal102" @102 ; odbcconf.dll
+"odbcconf_ordinal103" @103 ; odbcconf.dll
+"odbcconf_ordinal104" @104 ; odbcconf.dll
+"odbcconf_ordinal106" @106 ; odbcconf.dll
+"odbcconf_ordinal107" @107 ; odbcconf.dll
+"odbcconf_ordinal108" @108 ; odbcconf.dll
+"odbcconf_ordinal109" @109 ; odbcconf.dll
+"odbcconf_ordinal112" @112 ; odbcconf.dll
+"odbcconf_ordinal113" @113 ; odbcconf.dll
+"odbcconf_ordinal114" @114 ; odbcconf.dll
+"odbcconf_ordinal116" @116 ; odbcconf.dll
+"odbcconf_ordinal117" @117 ; odbcconf.dll
+"odbcconf_ordinal118" @118 ; odbcconf.dll
+"odbcconf_ordinal119" @119 ; odbcconf.dll
+"odbcconf_ordinal127" @127 ; odbcconf.dll
+"odbcconf_ordinal128" @128 ; odbcconf.dll
+"odbcconf_ordinal129" @129 ; odbcconf.dll
+"odbcconf_ordinal134" @134 ; odbcconf.dll
+"odbcconf_ordinal135" @135 ; odbcconf.dll
+"odbcconf_ordinal136" @136 ; odbcconf.dll
+"odbcconf_ordinal137" @137 ; odbcconf.dll
+"odbcconf_ordinal138" @138 ; odbcconf.dll
+"odbcconf_ordinal139" @139 ; odbcconf.dll
+"odbcconf_ordinal144" @144 ; odbcconf.dll
+"odbcconf_ordinal145" @145 ; odbcconf.dll
+"odbcconf_ordinal146" @146 ; odbcconf.dll
+"odbcconf_ordinal147" @147 ; odbcconf.dll
+"odbcconf_ordinal148" @148 ; odbcconf.dll
+"odbcconf_ordinal149" @149 ; odbcconf.dll
+"odbcconf_ordinal156" @156 ; odbcconf.dll
+"odbcconf_ordinal157" @157 ; odbcconf.dll
+"odbcconf_ordinal158" @158 ; odbcconf.dll
+"odbcconf_ordinal159" @159 ; odbcconf.dll
+"odbcconf_ordinal162" @162 ; odbcconf.dll
+"odbcconf_ordinal163" @163 ; odbcconf.dll
+"odbcconf_ordinal164" @164 ; odbcconf.dll
+"odbcconf_ordinal165" @165 ; odbcconf.dll
+"odbcconf_ordinal166" @166 ; odbcconf.dll
+"odbcconf_ordinal167" @167 ; odbcconf.dll
+"odbcconf_ordinal168" @168 ; odbcconf.dll
+"odbcconf_ordinal169" @169 ; odbcconf.dll
+"odbcconf_ordinal172" @172 ; odbcconf.dll
+"odbcconf_ordinal173" @173 ; odbcconf.dll
+"odbcconf_ordinal174" @174 ; odbcconf.dll
+"odbcconf_ordinal179" @179 ; odbcconf.dll
+"odbcconf_ordinal180" @180 ; odbcconf.dll
+"odbcconf_ordinal181" @181 ; odbcconf.dll
+"odbcconf_ordinal182" @182 ; odbcconf.dll
+"odbcconf_ordinal183" @183 ; odbcconf.dll
+"odbcconf_ordinal184" @184 ; odbcconf.dll
+"odbcconf_ordinal185" @185 ; odbcconf.dll
+"odbcconf_ordinal186" @186 ; odbcconf.dll
+"odbcconf_ordinal187" @187 ; odbcconf.dll
+"odbcconf_ordinal188" @188 ; odbcconf.dll
+"odbcconf_ordinal189" @189 ; odbcconf.dll
+"odbcconf_ordinal190" @190 ; odbcconf.dll
+"odbcconf_ordinal191" @191 ; odbcconf.dll
+"odbcconf_ordinal192" @192 ; odbcconf.dll
+"odbcconf_ordinal193" @193 ; odbcconf.dll
+"odbcconf_ordinal194" @194 ; odbcconf.dll
+"odbcconf_ordinal195" @195 ; odbcconf.dll
+"odbcconf_ordinal196" @196 ; odbcconf.dll
+"odbcconf_ordinal197" @197 ; odbcconf.dll
+"odbcconf_ordinal198" @198 ; odbcconf.dll
+"odbcconf_ordinal199" @199 ; odbcconf.dll
+"odbcconf_ordinal202" @202 ; odbcconf.dll
+"odbcconf_ordinal203" @203 ; odbcconf.dll
+"odbcconf_ordinal204" @204 ; odbcconf.dll
+"odbcconf_ordinal39" @39 ; odbcconf.dll
+"odbcconf_ordinal49" @49 ; odbcconf.dll
+"odbcconf_ordinal50" @50 ; odbcconf.dll
+"odbcconf_ordinal51" @51 ; odbcconf.dll
+"odbcconf_ordinal52" @52 ; odbcconf.dll
+"odbcconf_ordinal53" @53 ; odbcconf.dll
+"odbcconf_ordinal54" @54 ; odbcconf.dll
+"odbcconf_ordinal55" @55 ; odbcconf.dll
+"odbcconf_ordinal56" @56 ; odbcconf.dll
+"odbcconf_ordinal57" @57 ; odbcconf.dll
+"odbcconf_ordinal58" @58 ; odbcconf.dll
+"odbcconf_ordinal59" @59 ; odbcconf.dll
+"odbcconf_ordinal60" @60 ; odbcconf.dll
+"odbcconf_ordinal61" @61 ; odbcconf.dll
+"odbcconf_ordinal62" @62 ; odbcconf.dll
+"odbcconf_ordinal63" @63 ; odbcconf.dll
+"odbcconf_ordinal64" @64 ; odbcconf.dll
+"odbcconf_ordinal65" @65 ; odbcconf.dll
+"odbcconf_ordinal66" @66 ; odbcconf.dll
+"odbcconf_ordinal67" @67 ; odbcconf.dll
+"odbcconf_ordinal68" @68 ; odbcconf.dll
+"odbcconf_ordinal69" @69 ; odbcconf.dll
+"odbcconf_ordinal72" @72 ; odbcconf.dll
+"odbcconf_ordinal73" @73 ; odbcconf.dll
+"odbcconf_ordinal74" @74 ; odbcconf.dll
+"odbcconf_ordinal75" @75 ; odbcconf.dll
+"odbcconf_ordinal76" @76 ; odbcconf.dll
+"odbcconf_ordinal77" @77 ; odbcconf.dll
+"odbcconf_ordinal78" @78 ; odbcconf.dll
+"odbcconf_ordinal79" @79 ; odbcconf.dll
+"odbcconf_ordinal81" @81 ; odbcconf.dll
+"odbcconf_ordinal82" @82 ; odbcconf.dll
+"odbcconf_ordinal83" @83 ; odbcconf.dll
+"odbcconf_ordinal84" @84 ; odbcconf.dll
+"odbcconf_ordinal87" @87 ; odbcconf.dll
+"odbcconf_ordinal88" @88 ; odbcconf.dll
+"odbcconf_ordinal89" @89 ; odbcconf.dll
+"odbcconf_ordinal92" @92 ; odbcconf.dll
+"odbcconf_ordinal93" @93 ; odbcconf.dll
+"odbcconf_ordinal94" @94 ; odbcconf.dll
+"odbcconf_ordinal96" @96 ; odbcconf.dll
+"odbcconf_ordinal97" @97 ; odbcconf.dll
+"odbcconf_ordinal98" @98 ; odbcconf.dll
+"odbcconf_ordinal99" @99 ; odbcconf.dll

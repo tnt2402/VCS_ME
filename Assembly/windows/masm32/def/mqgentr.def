@@ -1,0 +1,6 @@
+LIBRARY "mqgentr.dll"
+EXPORTS
+"DllCanUnloadNow" ; mqgentr.dll
+"DllGetClassObject" ; mqgentr.dll
+"DllRegisterServer" ; mqgentr.dll
+"DllUnregisterServer" ; mqgentr.dll

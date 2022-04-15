@@ -1,0 +1,19 @@
+LIBRARY "dfshim.dll"
+EXPORTS
+"CleanOnlineAppCache" ; dfshim.dll
+"CreateActContext" ; dfshim.dll
+"CreateCMSFromXml" ; dfshim.dll
+"DllCanUnloadNow" ; dfshim.dll
+"DllGetClassObject" ; dfshim.dll
+"GetCurrentActContext" ; dfshim.dll
+"GetDeploymentDataFromManifest" ; dfshim.dll
+"GetUserStateManager" ; dfshim.dll
+"GetUserStore" ; dfshim.dll
+"KillService" ; dfshim.dll
+"ParseManifest" ; dfshim.dll
+"ShArpMaintain" ; dfshim.dll
+"ShArpMaintainW" ; dfshim.dll
+"ShOpenVerbApplication" ; dfshim.dll
+"ShOpenVerbApplicationW" ; dfshim.dll
+"ShOpenVerbShortcut" ; dfshim.dll
+"ShOpenVerbShortcutW" ; dfshim.dll

@@ -1,0 +1,6 @@
+LIBRARY "iprtrmgr.dll"
+EXPORTS
+"MapAddressToAdapter" ; iprtrmgr.dll
+"MapInterfaceToAdapter" ; iprtrmgr.dll
+"MapInterfaceToRouterIfType" ; iprtrmgr.dll
+"StartRouter" ; iprtrmgr.dll

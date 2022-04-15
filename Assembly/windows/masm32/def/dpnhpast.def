@@ -1,0 +1,6 @@
+LIBRARY "dpnhpast.dll"
+EXPORTS
+"DllCanUnloadNow" ; dpnhpast.dll
+"DllGetClassObject" ; dpnhpast.dll
+"DllRegisterServer" ; dpnhpast.dll
+"DllUnregisterServer" ; dpnhpast.dll

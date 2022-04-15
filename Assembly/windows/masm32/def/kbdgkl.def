@@ -1,0 +1,3 @@
+LIBRARY "kbdgkl.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdgkl.dll

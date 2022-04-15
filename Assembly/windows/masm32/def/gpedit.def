@@ -1,0 +1,17 @@
+LIBRARY "gpedit.dll"
+EXPORTS
+"BrowseForGPO" ; gpedit.dll
+"CreateGPOLink" ; gpedit.dll
+"DeleteAllGPOLinks" ; gpedit.dll
+"DeleteGPOLink" ; gpedit.dll
+"DllCanUnloadNow" ; gpedit.dll
+"DllGetClassObject" ; gpedit.dll
+"DllRegisterServer" ; gpedit.dll
+"DllUnregisterServer" ; gpedit.dll
+"ExportRSoPData" ; gpedit.dll
+"ImportRSoPData" ; gpedit.dll
+"gpedit_ordinal100" @100 ; gpedit.dll
+"gpedit_ordinal101" @101 ; gpedit.dll
+"gpedit_ordinal102" @102 ; gpedit.dll
+"gpedit_ordinal103" @103 ; gpedit.dll
+"gpedit_ordinal104" @104 ; gpedit.dll

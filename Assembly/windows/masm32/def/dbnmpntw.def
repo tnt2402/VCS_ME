@@ -1,0 +1,18 @@
+LIBRARY "dbnmpntw.dll"
+EXPORTS
+"ConnectionCheckForData" ; dbnmpntw.dll
+"ConnectionClose" ; dbnmpntw.dll
+"ConnectionError" ; dbnmpntw.dll
+"ConnectionErrorW" ; dbnmpntw.dll
+"ConnectionMode" ; dbnmpntw.dll
+"ConnectionObjectSize" ; dbnmpntw.dll
+"ConnectionOpen" ; dbnmpntw.dll
+"ConnectionOpenW" ; dbnmpntw.dll
+"ConnectionRead" ; dbnmpntw.dll
+"ConnectionServerEnum" ; dbnmpntw.dll
+"ConnectionServerEnumW" ; dbnmpntw.dll
+"ConnectionStatus" ; dbnmpntw.dll
+"ConnectionTransact" ; dbnmpntw.dll
+"ConnectionVer" ; dbnmpntw.dll
+"ConnectionWrite" ; dbnmpntw.dll
+"ConnectionWriteOOB" ; dbnmpntw.dll

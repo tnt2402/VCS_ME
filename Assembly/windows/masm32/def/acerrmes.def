@@ -1,0 +1,9 @@
+LIBRARY "acerrmes.dll"
+EXPORTS
+"ACErrMesDisplay" ; acerrmes.dll
+"ACErrMesDisplayEx" ; acerrmes.dll
+"ACErrMesDisplayExWithParam" ; acerrmes.dll
+"ACErrMesDisplayExWithParent" ; acerrmes.dll
+"ACErrMesDisplayExWithParentParamAndReader" ; acerrmes.dll
+"ACErrMesDisplayWithParent" ; acerrmes.dll
+"ACMessageBox" ; acerrmes.dll

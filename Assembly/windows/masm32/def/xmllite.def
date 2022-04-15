@@ -1,0 +1,8 @@
+LIBRARY "xmllite.dll"
+EXPORTS
+"CreateXmlReader" ; xmllite.dll
+"CreateXmlReaderInputWithEncodingCodePage" ; xmllite.dll
+"CreateXmlReaderInputWithEncodingName" ; xmllite.dll
+"CreateXmlWriter" ; xmllite.dll
+"CreateXmlWriterOutputWithEncodingCodePage" ; xmllite.dll
+"CreateXmlWriterOutputWithEncodingName" ; xmllite.dll

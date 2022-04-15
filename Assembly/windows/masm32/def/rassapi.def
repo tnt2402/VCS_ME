@@ -1,0 +1,16 @@
+LIBRARY "rassapi.dll"
+EXPORTS
+"RasAdminCompressPhoneNumber" ; rassapi.dll
+"RasAdminDLLInit" ; rassapi.dll
+"RasAdminFreeBuffer" ; rassapi.dll
+"RasAdminGetErrorString" ; rassapi.dll
+"RasAdminGetUserAccountServer" ; rassapi.dll
+"RasAdminGetUserParms" ; rassapi.dll
+"RasAdminPortClearStatistics" ; rassapi.dll
+"RasAdminPortDisconnect" ; rassapi.dll
+"RasAdminPortEnum" ; rassapi.dll
+"RasAdminPortGetInfo" ; rassapi.dll
+"RasAdminServerGetInfo" ; rassapi.dll
+"RasAdminSetUserParms" ; rassapi.dll
+"RasAdminUserGetInfo" ; rassapi.dll
+"RasAdminUserSetInfo" ; rassapi.dll

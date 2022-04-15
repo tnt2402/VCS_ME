@@ -1,0 +1,6 @@
+LIBRARY "ciodm.dll"
+EXPORTS
+"DllCanUnloadNow" ; ciodm.dll
+"DllGetClassObject" ; ciodm.dll
+"DllRegisterServer" ; ciodm.dll
+"DllUnregisterServer" ; ciodm.dll

@@ -1,0 +1,4 @@
+LIBRARY "wuauserv.dll"
+EXPORTS
+"DllMain" ; wuauserv.dll
+"ServiceMain" ; wuauserv.dll

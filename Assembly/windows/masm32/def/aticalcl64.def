@@ -1,0 +1,15 @@
+LIBRARY "aticalcl64.dll"
+EXPORTS
+"calclAssembleObject" ; aticalcl64.dll
+"calclCompile" ; aticalcl64.dll
+"calclDisassembleImage" ; aticalcl64.dll
+"calclDisassembleObject" ; aticalcl64.dll
+"calclExtGetProc" ; aticalcl64.dll
+"calclExtSupported" ; aticalcl64.dll
+"calclFreeImage" ; aticalcl64.dll
+"calclFreeObject" ; aticalcl64.dll
+"calclGetErrorString" ; aticalcl64.dll
+"calclGetVersion" ; aticalcl64.dll
+"calclImageGetSize" ; aticalcl64.dll
+"calclImageWrite" ; aticalcl64.dll
+"calclLink" ; aticalcl64.dll

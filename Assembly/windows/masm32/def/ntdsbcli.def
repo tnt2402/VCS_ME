@@ -1,0 +1,30 @@
+LIBRARY "ntdsbcli.dll"
+EXPORTS
+"DsBackupClose" ; ntdsbcli.dll
+"DsBackupEnd" ; ntdsbcli.dll
+"DsBackupFree" ; ntdsbcli.dll
+"DsBackupGetBackupLogsA" ; ntdsbcli.dll
+"DsBackupGetBackupLogsW" ; ntdsbcli.dll
+"DsBackupGetDatabaseNamesA" ; ntdsbcli.dll
+"DsBackupGetDatabaseNamesW" ; ntdsbcli.dll
+"DsBackupOpenFileA" ; ntdsbcli.dll
+"DsBackupOpenFileW" ; ntdsbcli.dll
+"DsBackupPrepareA" ; ntdsbcli.dll
+"DsBackupPrepareW" ; ntdsbcli.dll
+"DsBackupRead" ; ntdsbcli.dll
+"DsBackupTruncateLogs" ; ntdsbcli.dll
+"DsIsNTDSOnlineA" ; ntdsbcli.dll
+"DsIsNTDSOnlineW" ; ntdsbcli.dll
+"DsRestoreCheckExpiryToken" ; ntdsbcli.dll
+"DsRestoreEnd" ; ntdsbcli.dll
+"DsRestoreGetDatabaseLocationsA" ; ntdsbcli.dll
+"DsRestoreGetDatabaseLocationsW" ; ntdsbcli.dll
+"DsRestorePrepareA" ; ntdsbcli.dll
+"DsRestorePrepareW" ; ntdsbcli.dll
+"DsRestoreRegisterA" ; ntdsbcli.dll
+"DsRestoreRegisterComplete" ; ntdsbcli.dll
+"DsRestoreRegisterW" ; ntdsbcli.dll
+"DsSetAuthIdentityA" ; ntdsbcli.dll
+"DsSetAuthIdentityW" ; ntdsbcli.dll
+"DsSetCurrentBackupLogA" ; ntdsbcli.dll
+"DsSetCurrentBackupLogW" ; ntdsbcli.dll

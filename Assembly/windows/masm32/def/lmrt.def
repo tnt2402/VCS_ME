@@ -1,0 +1,6 @@
+LIBRARY "lmrt.dll"
+EXPORTS
+"DllCanUnloadNow" ; lmrt.dll
+"DllGetClassObject" ; lmrt.dll
+"DllRegisterServer" ; lmrt.dll
+"DllUnregisterServer" ; lmrt.dll

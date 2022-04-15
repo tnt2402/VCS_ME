@@ -1,0 +1,6 @@
+LIBRARY "scriptpw.dll"
+EXPORTS
+"DllCanUnloadNow" ; scriptpw.dll
+"DllGetClassObject" ; scriptpw.dll
+"DllRegisterServer" ; scriptpw.dll
+"DllUnregisterServer" ; scriptpw.dll

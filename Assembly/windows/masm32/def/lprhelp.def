@@ -1,0 +1,13 @@
+LIBRARY "lprhelp.dll"
+EXPORTS
+"CancelJob" ; lprhelp.dll
+"CloseLPR" ; lprhelp.dll
+"EndJob" ; lprhelp.dll
+"GetLongQueue" ; lprhelp.dll
+"GetShortQueue" ; lprhelp.dll
+"InitiateConnection" ; lprhelp.dll
+"OpenLPR" ; lprhelp.dll
+"PrintWaitingJobs" ; lprhelp.dll
+"SetLPRTimeouts" ; lprhelp.dll
+"StartJob" ; lprhelp.dll
+"WriteJobData" ; lprhelp.dll

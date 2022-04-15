@@ -1,0 +1,3 @@
+LIBRARY "kbdhela2.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdhela2.dll

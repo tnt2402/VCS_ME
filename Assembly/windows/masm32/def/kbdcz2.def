@@ -1,0 +1,3 @@
+LIBRARY "kbdcz2.dll"
+EXPORTS
+"KbdLayerDescriptor" ; kbdcz2.dll

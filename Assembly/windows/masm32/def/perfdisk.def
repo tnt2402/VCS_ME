@@ -1,0 +1,5 @@
+LIBRARY "perfdisk.dll"
+EXPORTS
+"CloseDiskObject" ; perfdisk.dll
+"CollectDiskObjectData" ; perfdisk.dll
+"OpenDiskObject" ; perfdisk.dll

@@ -1,0 +1,6 @@
+LIBRARY "clbcatex.dll"
+EXPORTS
+"DllCanUnloadNow" ; clbcatex.dll
+"DllGetClassObject" ; clbcatex.dll
+"DllRegisterServer" ; clbcatex.dll
+"DllUnregisterServer" ; clbcatex.dll

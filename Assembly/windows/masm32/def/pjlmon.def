@@ -1,0 +1,3 @@
+LIBRARY "pjlmon.dll"
+EXPORTS
+"InitializePrintMonitor" ; pjlmon.dll
